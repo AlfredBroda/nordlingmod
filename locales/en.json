@@ -21,12 +21,45 @@
 			}
 },
 	"gizmos": {
-         "nordlings_camp_standard": {
+		"nordlings_camp_standard": {
             "nordlings_camp_standard_ghost": {
                "display_name": "Camp Standard",
                "description": "Use to mark territory, civilizedly."
             }
-			}
+			},
+		"town_banner_guardian": {
+            "town_banner_guardian_ghost": {
+               "display_name": "Banner of Cunning",
+               "description": "How you know you've come home.",
+               "town_bonus_description": "<i>This settlement will be a bustling hub of trade.</i><ul><li>Roads give 3x their normal speed boost</li><li>Your items sell for 50% more</li><li>Traders will bring 2x the goods and Gold</li></ul>"
+            },
+            "town_banner_guardian_token_iconic": {
+               "display_name": "Banner of Cunning Shred",
+               "description": "A shred from the Banner of Cunning, carrying along its magic."
+            }
+         },
+		"town_banner_might": {
+            "town_banner_might_ghost": {
+               "display_name": "Banner of Strength",
+               "description": "How you know you've come home",
+               "town_bonus_description": "<i>This settlement will grow strong through earth and steel.</i><ul><li>Mining gives 50% more Ore, Stone, and Clay</li><li>Hearthlings no longer mind cramped spaces</li></ul>"
+            },
+            "town_banner_might_token_iconic": {
+               "display_name": "Banner of Strength Shred",
+               "description": "A shred from the Banner of Strength, carrying along its magic."
+            }
+         },
+		"town_banner_nature": {
+            "town_banner_nature_ghost": {
+               "display_name": "Banner of Vitality",
+               "description": "How you know you've come home",
+               "town_bonus_description": "<i>This settlement shall be at one with the environment.</i><ul><li>Trees produce 25% more Wood</li><li>Both Plants and Crops grow 25% faster</li><li>Plants have 2x their normal Appeal</li></ul>"
+            },
+            "town_banner_nature_token_iconic": {
+               "display_name": "Banner of Vitality Shred",
+               "description": "A shred from the Banner of Vitality, carrying along its magic."
+            }
+         }
 			},
    "weapons" : {
 		"stone_axe": {
