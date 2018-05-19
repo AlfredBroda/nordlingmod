@@ -1,0 +1,10 @@
+{
+    "resources" : {
+        "RESOURCE resource" : {
+            "name" : "mythril_ore",
+            "icon" : "Vikingmod/entities/resources/mythril/mythril.png",
+            "stacks" : 80,
+            "default_resource": "Vikingmod:resources:mythril"
+        }       
+    }
+}

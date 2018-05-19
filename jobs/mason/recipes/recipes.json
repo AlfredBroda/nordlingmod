@@ -1,0 +1,25 @@
+{
+	"mixins": "/stonehearth/jobs/mason/recipes/recipes.json",
+	"craftable_recipes" : {
+      "signage_decoration" : {
+         "recipes" : {
+            "rune_stone" : {
+               "recipe" : "file(rune_stone_recipe.json)"
+            },
+			"fireplace" : {
+               "recipe" : "file(fireplace_recipe.json)"
+            }
+      }
+   },
+      "weapons" : {
+	     "recipes" : {
+		    "stone_axe" : {
+               "recipe" : "file(stone_axe_recipe.json)"
+            },
+			"mixintypes": {
+				"stone_maul": "remove"
+            }
+	    }
+    }
+}
+}

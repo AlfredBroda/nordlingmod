@@ -1,0 +1,10 @@
+{
+   "block_types" :
+   {
+      "RESOURCE" :       { "tag" : 707, "kind" : "mythril_ore" }
+   },
+   "selectable_kinds" :
+   {
+       "RESOURCE_KIND" : "nordlingmod:terrain:ui:mythril_ore"
+   }
+}

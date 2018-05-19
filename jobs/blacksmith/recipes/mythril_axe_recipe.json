@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "work_units": 4,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.mythril_axe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.mythril_axe.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.mythril_axe.flavor)",
+   "portrait": "/nordlingmod/entities/weapons/mythril_axe/mythril_axe.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "uri": "nordlingmod:mythril_ingot",
+         "count": 1
+      },
+	  {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:mythril_axe"
+      }
+   ]
+}

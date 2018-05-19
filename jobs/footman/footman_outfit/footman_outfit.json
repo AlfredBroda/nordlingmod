@@ -1,0 +1,24 @@
+{
+   "mixins": "stonehearth:footman:outfit",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(footman_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(footman_outfit_female.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(footman_outfit.png)"
+      }
+   }
+}

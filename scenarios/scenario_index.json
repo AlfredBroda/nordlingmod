@@ -1,0 +1,9 @@
+{
+   "static" :
+   {
+      "scenarios" :
+      [
+          "file(static/terrain/mythril_vein/mythril_vein.json)"
+      ]
+   }
+}

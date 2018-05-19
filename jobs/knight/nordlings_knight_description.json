@@ -1,0 +1,75 @@
+{
+   "mixins": "stonehearth:jobs:knight",
+	  "display_name": "i18n(nordlingmod:jobs.knight.knight_description.display_name)",
+	  "description": "i18n(nordlingmod:jobs.knight.knight_description.description)",
+	  "equipment": {
+		"torso": "file(knight_outfit)",
+		"helmet": "file(knight_helm)"
+		},
+	  "requirements": "i18n(nordlingmod:jobs.knight.knight_description.requirements)",
+	  "talisman_uri": "stonehearth:knight:talisman",
+		"level_data": {
+      "1": {
+         "perks": [
+            {
+               "name": "i18n(nordlingmod:jobs.knight.knight_description.level_1_data.perk_000_name)",
+               "buff_name": "nordlingmod:buffs:knight:health_1",
+               "description": "i18n(nordlingmod:jobs.knight.knight_description.level_1_data.perk_000_description)",
+            },
+            {
+               "name": "i18n(nordlingmod:jobs.knight.knight_description.level_1_data.perk_001_name)",
+               "buff_name": "nordlingmod:buffs:knight:defense_1",
+               "description": "i18n(nordlingmod:jobs.knight.knight_description.level_1_data.perk_001_description)",
+            }
+         ]
+      },
+      "2": {
+         "perks": [
+            {
+               "name": "i18n(nordlingmod:jobs.knight.knight_description.level_2_data.perk_000_name)",
+               "equipment": "nordlingmod:knight:aggro_shout_1",
+               "description": "i18n(stonehearth:jobs.knight.knight_description.level_2_data.perk_000_description)"
+            }
+         ]
+      },
+      "3": {
+         "perks": [
+            {
+               "name": "i18n(nordlingmod:jobs.knight.knight_description.level_3_data.perk_000_name)",
+               "buff_name": "nordlingmod:buffs:knight:health_2",
+               "last_buff": "nordlingmod:buffs:knight:health_1",
+               "description": "i18n(nordlingmod:jobs.knight.knight_description.level_3_data.perk_000_description)"
+            }
+         ]
+      },
+      "4": {
+         "perks": [
+            {
+               "name": "i18n(nordlingmod:jobs.knight.knight_description.level_4_data.perk_000_name)",
+               "buff_name": "nordlingmod:buffs:knight:defense_2",
+               "last_buff": "nordlingmod:buffs:knight:defense_1",
+               "description": "i18n(nordlingmod:jobs.knight.knight_description.level_4_data.perk_000_description)"
+            }
+         ]
+      },
+      "5": {
+         "perks": [
+            {
+               "name": "i18n(nordlingmod:jobs.knight.knight_description.level_5_data.perk_000_name)",
+               "buff_name": "nordlingmod:buffs:knight:courage_aura",
+               "description": "i18n(nordlingmod:jobs.knight.knight_description.level_5_data.perk_000_description)"
+            }
+         ]
+      },
+      "6": {
+         "perks": [
+            {
+               "name": "i18n(nordlingmod:jobs.knight.knight_description.level_6_data.perk_000_name)",
+               "equipment": "nordlingmod:knight:aggro_shout_2",
+               "last_equipment": "nordlingmod:knight:aggro_shout_1",
+               "description": "i18n(nordlingmod:jobs.knight.knight_description.level_6_data.perk_000_description)"
+            }
+         ]
+      }
+   }
+}

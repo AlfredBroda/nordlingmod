@@ -1,0 +1,9 @@
+{
+   "mixins": "stonehearth/entities/terrain/ui/ore_block",
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "mythril vein",
+         "description": "Provides mythril when mined."
+      }
+   }
+}

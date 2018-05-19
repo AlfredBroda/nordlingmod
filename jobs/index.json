@@ -1,0 +1,23 @@
+{
+   "mixins": "stonehearth:jobs:index",
+   "jobs": {
+      "stonehearth:jobs:worker": {
+         "description": "nordlingmod:jobs:worker"
+      },
+	  "stonehearth:jobs:blacksmith": {
+         "description": "nordlingmod:jobs:blacksmith"
+      },
+	  "stonehearth:jobs:carpenter": {
+         "description": "nordlingmod:jobs:carpenter"
+      },
+	  "stonehearth:jobs:mason": {
+         "description": "nordlingmod:jobs:mason"
+		 },
+	  "stonehearth:jobs:footman": {
+         "description": "nordlingmod:jobs:footman"
+      },
+	  "stonehearth:jobs:knight": {
+         "description": "nordlingmod:jobs:knight"
+      }
+   }
+}
