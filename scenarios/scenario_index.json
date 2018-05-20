@@ -1,9 +1,7 @@
 {
-   "static" :
-   {
-      "scenarios" :
-      [
-          "file(static/terrain/mythril_vein/mythril_vein.json)"
+    "static": {
+        "scenarios": [
+         "file(static/ore/mythril_ore_vein)"
       ]
-   }
+    }
 }

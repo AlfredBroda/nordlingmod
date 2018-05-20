@@ -33,8 +33,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(rayyas_children:entities.gizmos.nordlings_town_banner_nature.nordlings_town_banner_nature_token_iconic.display_name)",
-         "description": "i18n(rayyas_children:entities.gizmos.nordlings_town_banner_nature.nordlings_town_banner_nature_token_iconic.description)",
+         "display_name": "i18n(nordlingmod:entities.gizmos.nordlings_town_banner_nature.nordlings_town_banner_nature_token_iconic.display_name)",
+         "description": "i18n(nordlingmod:entities.gizmos.nordlings_town_banner_nature.nordlings_town_banner_nature_token_iconic.description)",
          "icon": "file(nordlings_town_banner_nature.png)",
          "category": "trophy",
          "material_tags": "wood cloth decoration stockpile_decoration"

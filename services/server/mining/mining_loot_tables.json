@@ -1,27 +1,50 @@
 {
-   "mineable_blocks" :
-   {
-      "rock" :
-      {
-         "entries": {
-            "default": {
-               "items": {
-                 "mythril_ore": { "uri" : "nordlingmod:resources:mythril:mythril_ore", "weight" : 15 }
-               }
-            }
-         }
+  "mineable_blocks": {
+      "dirt": {
+          "entries": {
+              "default": {
+                  "num_rolls": 1,
+                  "items": {
+                      "hunk_of_stone": {
+                          "uri": "stonehearth:resources:stone:hunk_of_stone",
+                          "weight": 15
+                      },
+                      "clay_mound": {
+                          "uri": "stonehearth:resources:clay:clay_mound",
+                          "weight": 15
+                      }
+                  }
+              }
+          }
       },
-      "mythril_ore" :
-      {
-         "entries": {
-            "default": {
-               "num_rolls": 1,
-               "items": {
-                  "none": { "uri": "", "weight": 3 },
-                  "mythril_ore": { "uri": "nordlingmod:resources:mythril:mythril_ore", "weight": 1 }
-               }
-            }
-         }
+      "rock": {
+          "entries": {
+              "default": {
+                  "items": {
+                      "mythril_ore": {
+                          "uri": "nordlingmod:resources:mythril:mythril_ore",
+                          "weight": 10
+                      }
+                  }
+              }
+          }
+      },
+      "mythril_ore": {
+          "entries": {
+              "default": {
+                  "num_rolls": 1,
+                  "items": {
+                      "none": {
+                          "uri": "",
+                          "weight": 100
+                      },
+                      "mythril_ore": {
+                          "uri": "nordlingmod:resources:mythril:mythril_ore",
+                          "weight": 60
+                      }
+                  }
+              }
+          }
       }
-   }
+  }
 }

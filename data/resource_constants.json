@@ -1,10 +1,10 @@
 {
     "resources" : {
-        "RESOURCE resource" : {
+        "mythril resource" : {
             "name" : "mythril_ore",
-            "icon" : "Vikingmod/entities/resources/mythril/mythril.png",
+            "icon" : "nordlingmod/entities/resources/mythril/mythril_ore/mythril_ore.png",
             "stacks" : 80,
-            "default_resource": "Vikingmod:resources:mythril"
+            "default_resource": "nordlingmod:resources:mythril:mythril_ore"
         }       
     }
 }
