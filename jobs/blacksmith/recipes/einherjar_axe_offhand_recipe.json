@@ -4,7 +4,7 @@
    "work_units": 10,
    "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.einherjar_axe_offhand_talisman.recipe_name)",
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.einherjar_axe_offhand_talisman.description)",
-   "flavor": "(nordlingmod:jobs.blacksmith.recipes.einherjar_axe_offhand_talisman.flavor)",
+   "flavor"     : "i18n(nordlingmod:jobs.blacksmith.recipes.einherjar_axe_offhand_talisman.flavor)",
    "portrait": "/nordlingmod/entities/armor/einherjar_axe_offhand/einherjar_axe_offhand.png",
    "workshop": "stonehearth:blacksmith:workbench",
    "level_requirement": 2,
