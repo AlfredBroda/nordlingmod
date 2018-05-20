@@ -63,6 +63,8 @@
       "steel_axe"                 		: "file(entities/weapons/steel_axe/steel_axe.json)",
 	  "mythril_axe"               		: "file(entities/weapons/steel_axe/steel_axe.json)",
 	  "einherjar_axe"					: "file(entities/weapons/einherjar_axe/einherjar_axe.json)",
+	  "einherjar_axe_offhand"			: "file(entities/armor/einherjar_axe_offhand/einherjar_axe_offhand.json)",
+	  "einherjar_axe_offhand_talisman"	: "file(entities/armor/einherjar_axe_offhand/einherjar_axe_offhand_talisman.json)",	  
 	  "bronze_sword_viking"       		: "file(entities/weapons/bronze_sword_viking/bronze_sword_viking.json)",
 	  "iron_sword_viking"         		: "file(entities/weapons/iron_sword_viking/iron_sword_viking.json)",
 	  "steel_sword_viking"        		: "file(entities/weapons/steel_sword_viking/steel_sword_viking.json)",

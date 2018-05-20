@@ -98,8 +98,16 @@
 			"display_name" : "Mythril Axe",
 			"description" : "A one handed Mythril axe.",
 			"mythril_axe_iconic": {
-				"display_name": "Mythril axe Axe",
+				"display_name": "Mythril Axe",
 				"description": "An extremely light, extremely sharp Mythril axe."
+							}
+				},
+		"einherjar_axe": {
+			"display_name" : "Einherjar Axe",
+			"description" : "A double headed axe, used by Einherjar.",
+			"mythril_axe_iconic": {
+				"display_name": "Einherjar Axe",
+				"description": "A double headed axe, used by Einherjar."
 							}
 				},
 		"bronze_sword_viking": {
@@ -448,6 +456,11 @@
 			"description": "A Linnen covered roundshield, with an iron band",
             "flavor": "Proudly decorated by your hearthling!",
             "recipe_name": "Iron-banded Roundshield"
+			},
+			"einherjar_axe_offhand_talisman" : {
+			"description": "A large double headed axe, usable by Einherjar",
+            "flavor": "And with one might stroke, Narfi took two heads and one",
+            "recipe_name": "Einherjar Axe"
 			}
 		}
 },

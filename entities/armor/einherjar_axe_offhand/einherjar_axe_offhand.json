@@ -1,0 +1,58 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(einherjar_axe_offhand.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(einherjar_axe_offhand_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "leftArm",
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol",
+            "stonehearth:have_shield"
+         ],
+         "no_drop": true,
+         "ilevel": 3.1,
+         "roles": "knight_job",
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 4
+      },
+      "stonehearth:combat:melee_defenses": [
+         {
+            "name": "knight_shield_block",
+            "effect": "combat_1h_shield_block",
+            "active_frame": 4,
+            "cooldown": 1000,
+            "priority": 0,
+            "chance_of_success": 0.5
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 0,
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:entities.weapons.einherjar_axe.display_name)",
+         "description": "i18n(stonehearth:entities.weapons.einherjar_axe.description)",
+         "icon": "file(einherjar_axe_offhand.png)",
+         "category": "armor",
+         "material_tags": "metal armor heavy_armor"
+      }
+   }
+}
