@@ -1,109 +1,109 @@
 {
-	"mixins": "/stonehearth/jobs/blacksmith/recipes/recipes.json",
-	"craftable_recipes": {
-		"tools": {
-			"recipes": {
-			"einherjar_axe_offhand": {
-				"recipe": "file(einherjar_axe_offhand_recipe.json)"
+  "mixins": "/stonehearth/jobs/blacksmith/recipes/recipes.json",
+   "craftable_recipes" : {
+      "weapons" : {
+         "recipes" : {
+            "bronze_axe" : {
+               "recipe" : "file(bronze_axe_recipe.json)"
 
-			},
+            },  
+			"iron_axe" : {
+               "recipe" : "file(iron_axe_recipe.json)"
+
+            },  
+			"steel_axe" : {
+               "recipe" : "file(steel_axe_recipe.json)"
+
+            },
+			"mythril_axe" : {
+               "recipe" : "file(mythril_axe_recipe.json)"
+
+            },
+			"bronze_sword_viking" : {
+               "recipe" : "file(bronze_sword_viking_recipe.json)"
+
+            }, 	
+			"iron_sword_viking" : {
+               "recipe" : "file(iron_sword_viking_recipe.json)"
+
+            }, 				
+			"steel_sword_viking" : {
+               "recipe" : "file(steel_sword_viking_recipe.json)"
+
+            }, 				
+			"mythril_sword_viking" : {
+               "recipe" : "file(mythril_sword_viking_recipe.json)"
+
+            },
+			"mixintypes": {
+				"bronze_mace": "remove"
+              }			
+         }
+      },
+	  "armor" : {
+			"recipes" : {
+				"einherjar_axe_offhand" : {
+				"recipe" : "file(einherjar_axe_offhand_recipe.json)"
+			               
+				},
+			"chain_mail_bronze" : {
+			   "recipe" : "file(chain_mail_bronze_recipe.json)"
+			   
+			   },
+	        "chain_mail_iron" : {
+			   "recipe" : "file(chain_mail_iron_recipe.json)"
+			
+			   },
+			"chain_mail_steel" : {
+			   "recipe" : "file(chain_mail_steel_recipe.json)"
+			   
+			   },
+			 "chain_mail_mythril" : {
+			   "recipe" : "file(chain_mail_mythril_recipe.json)"
+			   },
+			"runic_bronze_comb" : {
+			   "recipe" : "file(runic_bronze_comb_recipe.json)"
+			   
+			   },
+			"runic_iron_comb" : {
+			   "recipe" : "file(runic_iron_comb_recipe.json)"
+			   
+			   },
+			"runic_steel_comb" : {
+			   "recipe" : "file(runic_steel_comb_recipe.json)"
+			   
+			   },
+			"runic_mythril_comb" : {
+			   "recipe" : "file(runic_mythril_comb_recipe.json)"
+			   
+			   },
+			 "iron_round_shield" : {
+			   "recipe" : "file(iron_round_shield_recipe.json)"
+			   
+			   },
+			   "mixintypes" : {
+			     "bronze_shield": "remove",
+				 "bronze_helm": "remove",
+				 "bronze_breastplate": "remove",
+				 "iron_shield": "remove",
+				 "iron_helm": "remove",
+				 "iron_mail": "remove"
+			   }
+            }
+	    },
+	   "smelt": {
+		  "recipes": {
+			"mythril_ingot": {
+               "recipe": "file(mythril_ingot_recipe.json)"
+								}
+						}
+				},
+	   "tools" : {
+			"recipes" : {
 			"mixintypes": {
 				"knights_shield": "remove"
-			  }
+            }
 			}
-		},
-		"weapons": {
-			"recipes": {
-				"bronze_axe": {
-					"recipe": "file(bronze_axe_recipe.json)"
-
-				},
-				"iron_axe": {
-					"recipe": "file(iron_axe_recipe.json)"
-
-				},
-				"steel_axe": {
-					"recipe": "file(steel_axe_recipe.json)"
-
-				},
-				"mythril_axe": {
-					"recipe": "file(mythril_axe_recipe.json)"
-
-				},
-				"bronze_sword_viking": {
-					"recipe": "file(bronze_sword_viking_recipe.json)"
-
-				},
-				"iron_sword_viking": {
-					"recipe": "file(iron_sword_viking_recipe.json)"
-
-				},
-				"steel_sword_viking": {
-					"recipe": "file(steel_sword_viking_recipe.json)"
-
-				},
-				"mythril_sword_viking": {
-					"recipe": "file(mythril_sword_viking_recipe.json)"
-
-				},
-				"mixintypes": {
-					"bronze_mace": "remove"
-				}
-			}
-		},
-		"armor": {
-			"recipes": {
-				"chain_mail_bronze": {
-					"recipe": "file(chain_mail_bronze_recipe.json)"
-
-				},
-				"chain_mail_iron": {
-					"recipe": "file(chain_mail_iron_recipe.json)"
-
-				},
-				"chain_mail_steel": {
-					"recipe": "file(chain_mail_steel_recipe.json)"
-
-				},
-				"chain_mail_mythril": {
-					"recipe": "file(chain_mail_mythril_recipe.json)"
-				},
-				"runic_bronze_comb": {
-					"recipe": "file(runic_bronze_comb_recipe.json)"
-
-				},
-				"runic_iron_comb": {
-					"recipe": "file(runic_iron_comb_recipe.json)"
-
-				},
-				"runic_steel_comb": {
-					"recipe": "file(runic_steel_comb_recipe.json)"
-
-				},
-				"runic_mythril_comb": {
-					"recipe": "file(runic_mythril_comb_recipe.json)"
-
-				},
-				"iron_round_shield": {
-					"recipe": "file(iron_round_shield_recipe.json)"
-
-				},
-				"mixintypes": {
-					"bronze_shield": "remove",
-					"bronze_helm": "remove",
-					"bronze_breastplate": "remove",
-					"iron_shield": "remove",
-					"iron_helm": "remove",
-					"iron_mail": "remove"
-				}
-			}
-		},
-		"smelt": {
-			"recipes": {
-				"mythril_ingot": {
-					"recipe": "file(mythril_ingot_recipe.json)"
-				}
-			}
-		}
-	}
+}
+}
 }
