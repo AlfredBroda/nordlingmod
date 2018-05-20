@@ -46,9 +46,6 @@
 				"recipe" : "file(einherjar_axe_offhand_recipe.json)"
 			               
 				},
-			"mixintypes": {
-				"knights_shield": "remove"
-              },
 			"chain_mail_bronze" : {
 			   "recipe" : "file(chain_mail_bronze_recipe.json)"
 			   
@@ -100,6 +97,13 @@
                "recipe": "file(mythril_ingot_recipe.json)"
 								}
 						}
-				}
+				},
+	   "tools" : {
+			"recipes" : {
+			"mixintypes": {
+				"knights_shield": "remove"
+            }
+			}
+}
 }
 }
