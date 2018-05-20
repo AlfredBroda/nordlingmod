@@ -1,7 +1,7 @@
 {
 "kingdom": {
       "kingdom_name": "Nordlings",
-      "quote": "The Old ways will see us through!",
+      "quote": "The Old Ways will see us through!",
       "long_description": "With a strong tradition of telling the stories of those that came before, the Nordlings look forward to making stories of their own!",
       "post_selection_description": ", a society of Tough, brave Nordlings.",
       "initial_town_name": "Oxcart [str(town_number)]"
