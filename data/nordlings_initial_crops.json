@@ -1,6 +1,6 @@
 {
    "crops_by_kingdom": {
-      "nordlingmod:kingdoms_nordlings": {
+      "nordlingmod:kingdoms:nordlings": {
          "fallow": true,
          "turnip": true,
          "carrot": true,

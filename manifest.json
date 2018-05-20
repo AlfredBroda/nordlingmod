@@ -6,8 +6,9 @@
 		"steam_file_id" : "1384858026"
 	},
 	"default_locale" : "en",
+	"client_init_script": "file(nordlingmod_client)",
    "aliases" : {
-	  "kingdoms_nordlings"		  		: "file(data/nordlings_population.json)",
+	  "kingdoms:nordlings"		  		: "file(data/nordlings_population.json)",
 	  "resources:mythril:mythril_ore" 	: "file(entities/resources/mythril/mythril_ore/mythril_ore.json)",
       "terrain:ui:mythril_ore"    		: "file(entities/terrain/ui/mythril_ore/mythril_ore.json)",
 	  "male_1"							: "file(entities/humans/male/male_1.json)",
@@ -76,9 +77,8 @@
       "stonehearth/data/biome/desert_generation_data.json" 			: "file(data/biome/desert_generation_data.json)",
       "stonehearth/data/biome/temperate_generation_data.json" 		: "file(data/biome/temperate_generation_data.json)",
       "stonehearth/data/terrain/terrain_blocks.json" 				: "file(data/terrain/terrain_blocks.json)",
-      "stonehearth/services/server/mining/mining_loot_tables.json" 	: "file(services/server/mining/mining_loot_tables.json)",
-      "stonehearth/data/biome/desert_mining_loot_table.json" 		: "file(data/biome/desert_mining_loot_table.json)",
-      "stonehearth/scenarios/scenario_index.json" 					: "file(scenarios/scenario_index.json)",
+      "stonehearth:mining:base_loot_table" 							: "file(services/server/mining/mining_loot_tables.json)",
+      "stonehearth:scenarios:scenario_index" 						: "file(scenarios/scenario_index.json)",
       "stonehearth/data/resource_constants.json" 					: "file(data/resource_constants.json)",
 	  "stonehearth/data/gm/gm_index.json"							: "nordlingmod:gm_index"
    },

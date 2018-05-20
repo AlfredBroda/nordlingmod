@@ -1,10 +1,8 @@
 {
-   "__comment" : "determines the color palette for terrain blocks. all blocks defined in terrain_blocks.json must also be specified within this palette",
-   "palettes" :
-   {
-      "spring" :
-      {
-         "RESOURCE" :               "#DEDEDE"
-      }
-   }
+    "__comment": "determines the color palette for terrain blocks. all blocks defined in terrain_blocks.json must also be specified within this palette",
+    "palettes": {
+        "spring": {
+            "mythril_ore": "#DEDEDE"
+        }
+    }
 }
