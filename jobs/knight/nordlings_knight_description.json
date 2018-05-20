@@ -4,6 +4,8 @@
 	  "description": "i18n(nordlingmod:jobs.knight.knight_description.description)",
 	  "equipment": {
 		"torso": "file(knight_outfit)",
+		"offhand": "stonehearth:armor:knights_shield",
+		"mainhand": "nordlingmod:einherjar_axe",
 		"helmet": "file(knight_helm)"
 		},
 	  "requirements": "i18n(nordlingmod:jobs.knight.knight_description.requirements)",

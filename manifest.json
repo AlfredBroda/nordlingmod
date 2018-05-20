@@ -62,6 +62,7 @@
       "iron_axe"                  		: "file(entities/weapons/iron_axe/iron_axe.json)",
       "steel_axe"                 		: "file(entities/weapons/steel_axe/steel_axe.json)",
 	  "mythril_axe"               		: "file(entities/weapons/steel_axe/steel_axe.json)",
+	  "einherjar_axe"					: "file(entities/weapons/einherjar_axe/einherjar_axe.json)",
 	  "bronze_sword_viking"       		: "file(entities/weapons/bronze_sword_viking/bronze_sword_viking.json)",
 	  "iron_sword_viking"         		: "file(entities/weapons/iron_sword_viking/iron_sword_viking.json)",
 	  "steel_sword_viking"        		: "file(entities/weapons/steel_sword_viking/steel_sword_viking.json)",
