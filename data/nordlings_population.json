@@ -9,7 +9,7 @@
    "story_board_image": "/nordlingmod/data/images/story_board_image.png",
    "starting_talisman": "stonehearth:carpenter:talisman",
    "starting_resource": "stonehearth:resources:wood:oak_log",
-   "initial_town_name": "i18n(nordlingmod:data.kingdom.initial_town_name)",
+   "initial_town_name": "i18n(nordlingmod:kingdom.initial_town_name)",
    "camp_standard": "nordlingmod:camp_standard",
    "job_index": "nordlingmod:jobs:index",
    "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",

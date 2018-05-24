@@ -304,9 +304,26 @@
                "description": "Tiny. Bitter."
 								}
 					}
-				}
-			},
+				},
+	"food" : {
+		"beer" : {
+			"display_name" : "Beer",
+			"description" : "A barrel of Beer",
+				"beer_serving" : {
+					"display_name" : "A Mug of Beer"}
+			}
+		}
+	},
 "jobs" : {
+	"cook" : {
+		"recipes" : {
+			"beer_recipe" : {
+				"description": "Beer",
+				"flavor": "Another! *smashes mug*",
+				"recipe_name": "Barrel of Beer"
+			}
+		}
+	},
 	"footman": {
        "footman_description": {
             "display_name": "Huskarl",
