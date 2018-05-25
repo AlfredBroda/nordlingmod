@@ -306,21 +306,32 @@
 					}
 				},
 	"food" : {
-		"beer" : {
-			"display_name" : "Beer",
-			"description" : "A barrel of Beer",
+		"ale" : {
+			"display_name" : "Ale",
+			"description" : "A Barrel of Ale",
 				"beer_serving" : {
-					"display_name" : "A Mug of Beer"}
+					"display_name" : "Ale"}
+			},
+		"mead" : {
+			"display_name" : "Mead",
+			"description" : "A Bottle of Mead",
+				"beer_serving" : {
+					"display_name" : "Mead"}
 			}
 		}
 	},
 "jobs" : {
-	"cook" : {
+	"herbalist" : {
 		"recipes" : {
-			"beer_recipe" : {
-				"description": "Beer",
+			"ale_recipe" : {
+				"description": "Ale",
 				"flavor": "Another! *smashes mug*",
-				"recipe_name": "Barrel of Beer"
+				"recipe_name": "Barrel of Ale"
+			},
+			"mead_recipe" : {
+				"description": "Mead",
+				"flavor": "Drink of the gods!",
+				"recipe_name": "Bottle of Mead"
 			}
 		}
 	},

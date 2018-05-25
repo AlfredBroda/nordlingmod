@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 1,
+   "recipe_name": "i18n(nordlingmod:jobs.herbalist.recipes.ale_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.herbalist.recipes.ale_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.herbalist.recipes.ale_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/food/ale/ale/ale.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:wheat:wheat_bale",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:food:ale:ale"
+      }
+   ]
+}

@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(onion_serving.qb)"
+               "file(ale_serving.qb)"
             ]
          }
       }
@@ -17,18 +17,18 @@
       },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
-            "satisfaction": 20
+            "satisfaction": 34
          },
          "default": {
-            "satisfaction": 15
+            "satisfaction": 30
          },
-         "quality": 1
+         "quality": 4
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(nordlingmod:entities.plants.onion.onion_serving.display_name)",
-         "description": "i18n(nordlingmod:entities.plants.onion.onion_serving.description)",
+         "display_name": "i18n(nordlingmod:entities.food.ale.ale_serving.display_name)",
+         "description": "",
          "material_tags": "food vegetarian",
-         "subject_override": "nordlingmod:crops:onion_crop"
+         "subject_override": "nordlingmod:food:ale"
       }
    }
 }

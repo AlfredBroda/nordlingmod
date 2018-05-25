@@ -8,7 +8,7 @@
 		"model_variants": {
          "default": {
             "models": [
-               "file(beer.qb)"
+               "file(ale.qb)"
             ]
          }
       },
@@ -22,12 +22,12 @@
    "entity_data": {
 		"stonehearth:drink_container": {
 			"effect": "fiddle",
-			"drink": "nordlingmod:food:beer:beer_serving",
+			"drink": "nordlingmod:food:ale:ale_serving",
 			"stacks_per_serving": 1
 		 },
 		"stonehearth:food_container": {
 			"effect": "fiddle",
-			"food": "nordlingmod:food:beer:beer_serving",
+			"food": "nordlingmod:food:ale:ale_serving",
 			"stacks_per_serving": 1
       },
       "stonehearth:net_worth": {
@@ -41,12 +41,12 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(nordlingmod:entities.food.beer.beer.display_name)",
-         "description": "i18n(nordlingmod:entities.food.beer.beer.description)",
-         "icon": "file(beer.png)",
+         "display_name": "i18n(nordlingmod:entities.food.ale.ale.display_name)",
+         "description": "i18n(nordlingmod:entities.food.ale.ale.description)",
+         "icon": "file(ale.png)",
          "is_item": true,
          "category": "food",
-         "material_tags": "food_container prepared_food beer vegetarian stockpile_prepared_food drink_container beer drink_refined"
+         "material_tags": "food_container prepared_food beer vegetarian stockpile_prepared_food drink_container drink_refined"
       },
       "stonehearth:appeal": {
          "appeal": 2

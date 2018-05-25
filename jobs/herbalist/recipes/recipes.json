@@ -1,0 +1,13 @@
+{
+	"mixins": "/stonehearth/jobs/herbalist/recipes/recipes.json",
+	"craftable_recipes": {
+		"food" : {
+			"recipes" : {
+				"ale" : { 
+					"recipe" : "file(ale_recipe.json)",
+				"mead" : { 
+					"recipe" : "file(mead_recipe.json)" 
+				}
+			}
+	}	}
+}
