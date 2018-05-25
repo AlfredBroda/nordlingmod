@@ -4,7 +4,8 @@
 		"food" : {
 			"recipes" : {
 				"ale" : { 
-					"recipe" : "file(ale_recipe.json)",
+					"recipe" : "file(ale_recipe.json)"
+				},
 				"mead" : { 
 					"recipe" : "file(mead_recipe.json)" 
 				}

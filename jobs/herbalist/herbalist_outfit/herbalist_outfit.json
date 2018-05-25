@@ -1,0 +1,24 @@
+{
+   "mixins": "stonehearth:mixins:herbalist_outfit",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(herbalist_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(herbalist_outfit_female.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(herbalist_outfit.png)"
+      }
+   }
+}
