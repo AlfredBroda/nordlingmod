@@ -1,13 +1,6 @@
 {
    "mixins": "/stonehearth/jobs/carpenter/recipes/recipes.json",
    "craftable_recipes" : {
-	"storage" : {
-		"recipes" : {
-			"large_crate_stack": {
-               "recipe": "file(large_crate_stack_recipe.json)"
-            }
-			}
-},
       "armor" : {
          "recipes" : {
 			"runic_wooden_comb" : {

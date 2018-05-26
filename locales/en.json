@@ -27,8 +27,8 @@
                "description": "Use to mark territory, civilizedly."
             }
 			},
-		"town_banner_guardian": {
-            "town_banner_guardian_ghost": {
+		"nordlings_town_banner_guardian": {
+            "nordlings_town_banner_guardian_ghost": {
                "display_name": "Banner of Cunning",
                "description": "How you know you've come home.",
                "town_bonus_description": "<i>This settlement will be a bustling hub of trade.</i><ul><li>Roads give 3x their normal speed boost</li><li>Your items sell for 50% more</li><li>Traders will bring 2x the goods and Gold</li></ul>"
@@ -38,24 +38,24 @@
                "description": "A shred from the Banner of Cunning, carrying along its magic."
             }
          },
-		"town_banner_might": {
-            "town_banner_might_ghost": {
+		"nordlings_town_banner_might": {
+            "nordlings_town_banner_might_ghost": {
                "display_name": "Banner of Strength",
                "description": "How you know you've come home",
                "town_bonus_description": "<i>This settlement will grow strong through earth and steel.</i><ul><li>Mining gives 50% more Ore, Stone, and Clay</li><li>Hearthlings no longer mind cramped spaces</li></ul>"
             },
-            "town_banner_might_token_iconic": {
+            "nordlings_town_banner_might_token_iconic": {
                "display_name": "Banner of Strength Shred",
                "description": "A shred from the Banner of Strength, carrying along its magic."
             }
          },
-		"town_banner_nature": {
-            "town_banner_nature_ghost": {
+		"nordlings_town_banner_nature": {
+            "nordlings_town_banner_nature_ghost": {
                "display_name": "Banner of Vitality",
                "description": "How you know you've come home",
                "town_bonus_description": "<i>This settlement shall be at one with the environment.</i><ul><li>Trees produce 25% more Wood</li><li>Both Plants and Crops grow 25% faster</li><li>Plants have 2x their normal Appeal</li></ul>"
             },
-            "town_banner_nature_token_iconic": {
+            "nordlings_town_banner_nature_token_iconic": {
                "display_name": "Banner of Vitality Shred",
                "description": "A shred from the Banner of Vitality, carrying along its magic."
             }
@@ -306,21 +306,45 @@
 					}
 				},
 	"food" : {
+		"honey" : {
+			"honey" : {
+				"display_name" : "Jar of Honey",
+				"description" : "A pot full of Honey"
+			},
+			"honey_serbing" : {
+				"display_name" : "Jar of Honey",
+				"description" : "A pot full of Honey"
+			}
+			},
 		"ale" : {
-			"display_name" : "Ale",
-			"description" : "A Barrel of Ale",
-				"beer_serving" : {
-					"display_name" : "Ale"}
+			"ale" : {
+				"display_name" : "Ale",
+				"description" : "A Barrel of Ale"
+			},
+			"ale_serving" : {
+				"display_name" : "Ale",
+				"description" : "A Horn full of Ale"
+			}
 			},
 		"mead" : {
-			"display_name" : "Mead",
-			"description" : "A Bottle of Mead",
-				"beer_serving" : {
-					"display_name" : "Mead"}
+			"mead" : {
+				"display_name" : "Mead",
+				"description" : "A Bottle of Mead"
+			},
+			"mead_serving" : {
+					"display_name" : "Mead",
+					"description" : "A Horn full of Mead"
+				}
 			}
 		}
 	},
 "jobs" : {
+	"trapper" :{
+		"bee_hive" :{
+			"display_name": "Beehive",
+			"description": "Bees live in here and make honey!"
+		}
+	},
 	"herbalist" : {
 		"recipes" : {
 			"ale_recipe" : {
