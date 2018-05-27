@@ -7,6 +7,7 @@
 	},
 	"default_locale" : "en",
 	"client_init_script": "file(nordlingmod_client)",
+	"server_init_script": "file(nordlingmod_server)",
    "aliases" : {
 	  "kingdoms:nordlings"		  		: "file(data/nordlings_population.json)",
 	  "resources:mythril:mythril_ore" 	: "file(entities/resources/mythril/mythril_ore/mythril_ore.json)",
