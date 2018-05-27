@@ -1,0 +1,54 @@
+{
+  "mixins": "stonehearth:mixins:item_properties",
+  "type": "entity",
+  "components": {
+   "render_info": {
+        "scale": 0.045
+    },
+   "model_variants": {
+        "default": {
+           "models": [
+              "file(honey.qb)"
+           ]
+        }
+     },
+     "mob": {
+        "model_origin": { "x": 0, "y": 0, "z": 0.00 }
+     },
+     "stonehearth:stacks": {
+        "max_stacks": 16
+     }
+  },
+  "entity_data": {
+    "stonehearth:food": {
+       "stonehearth:sitting_on_chair": {
+          "satisfaction": 75
+       },
+       "default": {
+          "satisfaction": 40
+       },
+       "quality": 2
+    },
+     "stonehearth:net_worth": {
+        "value_in_gold": 5,
+        "rarity": "common",
+        "shop_info": {
+           "buyable": true,
+           "sellable": true,
+           "shopkeeper_level": 1,
+           "shopkeeper_type": "caravan"
+        }
+     },
+     "stonehearth:catalog": {
+        "display_name": "i18n(nordlingmod:entities.food.honey.honey.display_name)",
+        "description": "i18n(nordlingmod:entities.food.honey.honey.description)",
+        "icon": "file(honey.png)",
+        "is_item": true,
+        "category": "food",
+        "material_tags": "prepared_food honey vegetarian brewing_ingredient"
+     },
+     "stonehearth:appeal": {
+        "appeal": 1
+     }
+  }
+}
