@@ -96,7 +96,8 @@
       "stonehearth:scenarios:scenario_index" 						: "file(scenarios/scenario_index.json)",
       "stonehearth/data/resource_constants.json" 					: "file(data/resource_constants.json)",
 		"stonehearth/data/gm/gm_index.json"							: "nordlingmod:gm_index",
-		"stonehearth/jobs/herbalist/recipes/recipes.json": "mordlingmod/jobs/herbalist/recipes/recipes.json"
+		"stonehearth/jobs/herbalist/recipes/recipes.json": "nordlingmod/jobs/herbalist/recipes/recipes.json",
+		"stonehearth/jobs/trapper/trapping_grounds/trapping_grounds.json": "nordlingmod/jobs/trapper/trapping_grounds/trapping_grounds.json"
    },
 	"overrides" : {},
 	"components" : {},

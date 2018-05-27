@@ -1,9 +1,11 @@
 {
   "type": "entity",
   "components": {
+    "stonehearth:trapping_grounds": {
     "trap_weights": {
-      "nordlingmod:bee_hive": 1,
-      "stonehearth:trapper:snare_trap":10
+        "nordlingmod:bee_hive": 1,
+        "stonehearth:trapper:snare_trap": 10
+      }
     }
   }
 }
