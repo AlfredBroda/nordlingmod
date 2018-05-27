@@ -1,10 +1,7 @@
 {
-   "type": "job",
-   "mixins" : "stonehearth:jobs:herbalist",
-   "equipment" : {
-      "torso": "file(herbalist_outfit)"
-	},
-   "crafter": {
-      "recipe_list": "/nordlingmod/jobs/herbalist/recipes/recipes.json"
-   }
+      "type": "job",
+      "mixins": "stonehearth:jobs:herbalist",
+      "crafter": {
+            "recipe_list": "/nordlingmod/jobs/herbalist/recipes/recipes.json"
+      }
 }

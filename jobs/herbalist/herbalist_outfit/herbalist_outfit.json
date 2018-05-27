@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
    "mixins": "stonehearth/jobs/herbalist/herbalist_outfit/herbalist_outfit.json",
    "components": {
       "model_variants": {
@@ -22,3 +23,37 @@
       }
    }
 }
+=======
+  "type": "entity",
+  "mixins": "stonehearth:mixins:item_properties",
+  "components": {
+     "render_info": {},
+     "model_variants": {
+        "default": {
+           "layer": "clothing",
+           "models": [
+              "file(herbalist_outfit.qb)"
+           ]
+        },
+        "female": {
+           "layer": "clothing",
+           "models": [
+              "file(herbalist_outfit_female.qb)"
+           ]
+        }
+     },
+     "stonehearth:equipment_piece": {
+        "slot": "torso",
+        "render_type": "merge_with_model"
+     }
+  },
+  "entity_data": {
+     "stonehearth:catalog": {
+        "display_name": "i18n(stonehearth:jobs.herbalist.herbalist_outfit.display_name)",
+        "description": "i18n(stonehearth:jobs.herbalist.herbalist_outfit.description)",
+        "icon": "file(herbalist_outfit.png)",
+        "material_tags": "cloth"
+     }
+  }
+}
+>>>>>>> f7b809011cb0f5e664688f2136e897ffd5dee265

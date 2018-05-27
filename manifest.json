@@ -7,6 +7,7 @@
 	},
 	"default_locale" : "en",
 	"client_init_script": "file(nordlingmod_client)",
+	"server_init_script": "file(nordlingmod_server)",
    "aliases" : {
 	  "kingdoms:nordlings"		  		: "file(data/nordlings_population.json)",
 	  "resources:mythril:mythril_ore" 	: "file(entities/resources/mythril/mythril_ore/mythril_ore.json)",
@@ -29,7 +30,6 @@
 	  "jobs:footman"					: "file(jobs/footman/nordlings_footman_description.json)",
 	  "jobs:knight"						: "file(jobs/knight/nordlings_knight_description.json)",
 	  "jobs:herbalist"					: "file(jobs/herbalist/nordlings_herbalist_description.json)",
-	  "jobs:weaver"						: "file(jobs/weaver/nordlings_weaver_description.json)",
 	  "gm_index"						: "file(data/gm/gm_index.json)",
 	  "banner:cunning"					: "file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian.json)",
       "banner:cunning:token"			: "file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian_token.json)",
@@ -50,7 +50,8 @@
 	  "camp_standard"					: "file(entities/gizmos/nordlings_camp_standard)",
       "camp_standard_ghost"				: "file(entities/gizmos/nordlings_camp_standard/nordlings_camp_standard_ghost.json)",
 	  "food:ale:ale"					: "file(entities/food/ale/ale/ale.json)",
-	  "food:ale:ale_serving"			: "file(entities/food/ale/ale_serving/ale_serving.json)",
+		"food:ale:ale_serving"			: "file(entities/food/ale/ale_serving/ale_serving.json)",
+		"food:honey:honey"        : "file(entities/food/honey)",
 	  "food:mead:mead"					: "file(entities/food/mead/mead/mead.json)",
 	  "food:mead:mead_serving"			: "file(entities/food/mead/mead_serving/mead_serving.json)",
 	  "runic_wooden_comb"         		: "file(entities/armor/runic_wooden_comb/runic_wooden_comb.json)",
@@ -79,7 +80,11 @@
 	  "mythril_sword_viking"      		: "file(entities/weapons/mythril_sword_viking/mythril_sword_viking.json)",
 	  "rune_stone"                		: "file(entities/decoration/rune_stone/rune_stone.json)",
 	  "fireplace"                 		: "file(entities/decoration/fireplace/fireplace.json)",
-	  "large_crate_stack"				: "file(entities/containers/large_crate_stack/large_crate_stack.json)"
+		"large_crate_stack"				: "file(entities/containers/large_crate_stack/large_crate_stack.json)",
+		
+		"__comment"								: "Bee Stuff :D",
+    "bee_hive"								: "file(jobs/trapper/bee_hive)",
+    "critters:bee"						: "file(entities/critters/bee)"
    }, 
    "mixintos" : {
       "stonehearth:playable_kingdom_index"							: "file(data/nordlings_playable_kingdom_index.json)",
