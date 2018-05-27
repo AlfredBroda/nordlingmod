@@ -5,7 +5,7 @@
       "type": "animation_effect",
       "start_time": 0,
       "animation": "idle.json",
-      "loop": true
+      "loop": false
     },
     "cubemitter_base": {
       "type": "cubemitter",
@@ -57,7 +57,7 @@
     },
     "sound": {
       "type": "sound_effect",
-      "loop": true,
+      "loop": false,
       "start_time": 10,
       "min_distance": 15,
       "falloff": 10,
