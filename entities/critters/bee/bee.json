@@ -24,7 +24,7 @@
       "stonehearth:bait_trap": {
          "can_trap": false,
          "can_hive": true,
-         "catch_chance": 0.5,
+         "catch_chance": 1,
          "trigger_trap_on_failure_chance": 0.0
       },
       "stonehearth:harvest_beast_loot_table": {
