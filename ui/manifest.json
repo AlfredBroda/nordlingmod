@@ -24,8 +24,8 @@
       "stonehearth/ui/root/css/images/gui/tab.png" : "file(gui/tab.png)",
       "stonehearth/ui/root/css/images/gui/tab_active.png" : "file(gui/tab_active.png)",
       "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json" : "nordlingmod/entities/gizmos/nordlings_camp_standard/nordlings_camp_standard_ghost.json",
-      "stonehearth/jobs/weaver/weaver_outfit/weaver_outfit.qb": "nordlingmod:weaver:outfit",
-      "stonehearth/jobs/herbalist/herbalist_outfit/herbalist_outfit.qb": "nordlingmod:herbalist:outfit"
+      "stonehearth/jobs/weaver/weaver_outfit/weaver_out.json": "nordlingmod:weaver:outfit",
+      "stonehearth/jobs/herbalist/herbalist_outfit/herbalist_outfit.json": "nordlingmod:herbalist:outfit"
 
    },
    "ui": {

@@ -29,7 +29,6 @@
 	  "jobs:mason"						: "file(jobs/mason/nordlings_mason_description.json)",
 	  "jobs:footman"					: "file(jobs/footman/nordlings_footman_description.json)",
 	  "jobs:knight"						: "file(jobs/knight/nordlings_knight_description.json)",
-	  "jobs:herbalist"					: "file(jobs/herbalist/nordlings_herbalist_description.json)",
 	  "gm_index"						: "file(data/gm/gm_index.json)",
 	  "banner:cunning"					: "file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian.json)",
       "banner:cunning:token"			: "file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian_token.json)",
@@ -96,7 +95,8 @@
       "stonehearth:mining:base_loot_table" 							: "file(services/server/mining/mining_loot_tables.json)",
       "stonehearth:scenarios:scenario_index" 						: "file(scenarios/scenario_index.json)",
       "stonehearth/data/resource_constants.json" 					: "file(data/resource_constants.json)",
-	  "stonehearth/data/gm/gm_index.json"							: "nordlingmod:gm_index"
+		"stonehearth/data/gm/gm_index.json"							: "nordlingmod:gm_index",
+		"stonehearth/jobs/herbalist/recipes/recipes.json": "mordlingmod/jobs/herbalist/recipes/recipes.json"
    },
 	"overrides" : {},
 	"components" : {},
