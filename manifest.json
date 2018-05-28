@@ -80,8 +80,9 @@
 	  "mythril_sword_viking"      		: "file(entities/weapons/mythril_sword_viking/mythril_sword_viking.json)",
 	  "rune_stone"                		: "file(entities/decoration/rune_stone/rune_stone.json)",
 	  "fireplace"                 		: "file(entities/decoration/fireplace/fireplace.json)",
+	  "comfy_fur_bed"					: "file{entities/furniture/comfy_fur_bed/comfy_fur_bed.json}",
       "bee_hive"						: "file(jobs/trapper/bee_hive)",
-    "critters:bee"						: "file(entities/critters/bee)"
+      "critters:bee"					: "file(entities/critters/bee)"
    }, 
    "mixintos" : {
       "stonehearth:playable_kingdom_index"								: "file(data/nordlings_playable_kingdom_index.json)",
