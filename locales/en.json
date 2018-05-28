@@ -18,6 +18,12 @@
                "display_name": "Comfy Fur-covered Bed",
                "description": "Keeps out winter!"
 			}
+		},
+		"wooden_chair_fur":{
+			"wooden_chair_fur_ghost": {
+               "display_name": "Fur-covered chair",
+               "description": "Soft on the behind!"
+			}
 		}
 	},
 	"gizmos": {
@@ -518,11 +524,6 @@
 },
 	"carpenter" : {
 		"recipes" : {
-			"large_crate_stack" : {
-			"description": "16 large wooden crates, all at once!",
-			"flavor": "Less is more!",
-			"recipe_name": "Large Crate Stack"
-			},
 			"runic_wooden_comb" : {
 			"description": "A runic comb that takes care of your hair. let your hair take care of you!",
             "flavor": "Flavourtextgoeshere",
@@ -542,7 +543,11 @@
 			"description": "Warm, Fur-covered bed",
             "flavor": "Winter might be coming, but not to this bed!",
             "recipe_name": "Comfy Fur-Covered Bed"
-			}
+			},
+			"wooden_chair_fur" : {
+			"description": "Fur-covered Chair",
+            "flavor": "Just make sure not to accidentally sit on the cat!",
+            "recipe_name": "Fur-covered Chair"}
 		}
 },
 	"mason" : {
