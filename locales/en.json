@@ -12,14 +12,14 @@
       }
 	  },
 "entities" : {
-	"containers": {
-         "large_crate_stack": {
-            "large_crate_stack_ghost": {
-               "display_name": "Large Crate stack",
-               "description": "Stores up to 256 items"
-            }
+	"funiture": {
+		"comfy_fur_bed":{
+			"comfy_fur_bed_ghost": {
+               "display_name": "Comfy Fur-covered Bed",
+               "description": "Keeps out winter!"
 			}
-},
+		}
+	},
 	"gizmos": {
 		"nordlings_camp_standard": {
             "nordlings_camp_standard_ghost": {
@@ -537,8 +537,13 @@
 			"description": "A well made wooden roundshield, covered in linnen",
             "flavor": "Proudly decorated by your hearthling!",
             "recipe_name": "Wooden Roundshield"
+			},
+			"comfy_fur_bed" : {
+			"description": "Warm, Fur-covered bed",
+            "flavor": "Winter might be coming, but not to this bed!",
+            "recipe_name": "Comfy Fur-Covered Bed"
 			}
-					}
+		}
 },
 	"mason" : {
 		"recipes" : {
