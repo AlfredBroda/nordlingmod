@@ -1,8 +1,12 @@
 {
    "type" : "rig",
    "skeleton": {
-      "root": [0,0,0]
+      "root": [0,0,0],
+      "bee_base": [0,0,0],
+      "bee_mid": [0,0,5],
+      "bee_head": [0,0,10]
    },
    "animation_root" : "file(animations)",
-   "effects_root": "file(effects)"
+   "effects_root": "file(effects)",
+   "postures" : "file(postures.json)"
 }
