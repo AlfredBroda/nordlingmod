@@ -95,7 +95,8 @@
       "stonehearth/data/resource_constants.json" 						: "file(data/resource_constants.json)",
 	  "stonehearth/data/gm/gm_index.json"								: "nordlingmod:gm_index",
 	  "stonehearth/jobs/herbalist/recipes/recipes.json"					: "nordlingmod/jobs/herbalist/recipes/recipes.json",
-	  "stonehearth/jobs/trapper/trapping_grounds/trapping_grounds.json"	: "nordlingmod/jobs/trapper/trapping_grounds/trapping_grounds.json"
+	  "stonehearth/jobs/trapper/trapping_grounds/trapping_grounds.json"	: "nordlingmod/jobs/trapper/trapping_grounds/trapping_grounds.json",
+	  "stonehearth/jobs/blacksmith/recipes/recipes.json"				: "nordlingmod/jobs/blacksmith/recipes/recipes_all.json"
    },
 	"overrides" : {},
 	"components" : {},
