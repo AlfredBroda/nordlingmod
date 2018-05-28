@@ -5,12 +5,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(comfy_hide_bed.qb)"
+               "file(comfy_fur_bed.qb)"
             ]
          },
          "sleeping": {
             "models": [
-               "file(comfy_hide_bed_sleeping.qb)"
+               "file(comfy_fur_bed_sleeping.qb)"
             ]
          }
       },
@@ -24,9 +24,9 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.furniture.comfy_hide_bed.comfy_hide_bed_ghost.display_name)",
-         "description": "i18n(stonehearth:entities.furniture.comfy_hide_bed.comfy_hide_bed_ghost.description)",
-         "icon": "file(comfy_hide_bed.png)",
+         "display_name": "i18n(stonehearth:entities.furniture.comfy_fur_bed.comfy_fur_bed_ghost.display_name)",
+         "description": "i18n(stonehearth:entities.furniture.comfy_fur_bed.comfy_fur_bed_ghost.description)",
+         "icon": "file(comfy_fur_bed.png)",
          "category": "furniture",
          "material_tags": "wood furniture crafted stockpile_furniture"
       }

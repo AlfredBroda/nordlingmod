@@ -20,7 +20,14 @@
                  "wooden_shield": "remove"
 				 
               }			
-         }
-      }
+        }
+    },
+	"furniture": {
+		"recipes" : {
+			"comfy_fur_bed": {
+               "recipe": "file(comfy_fur_bed_recipe.json)"
+            }
+		}	
    }
+}
 }
