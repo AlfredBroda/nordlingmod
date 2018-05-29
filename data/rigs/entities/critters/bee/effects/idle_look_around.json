@@ -3,14 +3,14 @@
   "tracks": {
     "animation": {
       "type": "animation_effect",
-      "start_time": 0,
+      "duration": 5000,
       "animation": "idle.json",
       "loop": false
     },
     "little_bees_1": {
       "type": "cubemitter",
       "cubemitter": "file(/data/horde/particles/bees/bees.cubemitter.json)",
-      "loop": true,
+      "loop": false,
       "transforms": {
         "x": 1,
         "y": 0,
@@ -24,7 +24,7 @@
     "little_bees_2": {
       "type": "cubemitter",
       "cubemitter": "file(/data/horde/particles/bees/bees.cubemitter.json)",
-      "loop": true,
+      "loop": false,
       "transforms": {
         "x": -1,
         "y": 0,
@@ -37,7 +37,7 @@
     },
     "sound": {
       "type": "sound_effect",
-      "loop": true,
+      "loop": false,
       "start_time": 10,
       "min_distance": 15,
       "falloff": 10,
