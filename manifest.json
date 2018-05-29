@@ -1,6 +1,7 @@
 {
 	"info" : {
-		"name" : "Nordling Mod",
+      "display_name": "Nordling's: The Children of Odin",
+		"name" : "nordlingmod",
 		"namespace" : "nordlingmod",
 		"version" : 3,
 		"steam_file_id" : "1384858026"
@@ -81,9 +82,9 @@
 	  "rune_stone"                		: "file(entities/decoration/rune_stone/rune_stone.json)",
 	  "fireplace"                 		: "file(entities/decoration/fireplace/fireplace.json)",
 	  "comfy_fur_bed"					: "file(entities/furniture/comfy_fur_bed/comfy_fur_bed.json)",
-      "wooden_chair_fur"				: "file(entities/furniture/wooden_chair_fur/wooden_chair_fur.json)",
-	  "bee_hive"						: "file(jobs/trapper/bee_hive)",
-      "critters:bee"					: "file(entities/critters/bee)"
+		"wooden_chair_fur"				: "file(entities/furniture/wooden_chair_fur/wooden_chair_fur.json)",
+      "trapper:bee_hive"				: "file(jobs/trapper/bee_hive)",
+    "bee"								: "file(entities/critters/bee)"
    }, 
    "mixintos" : {
       "stonehearth:playable_kingdom_index"								: "file(data/nordlings_playable_kingdom_index.json)",

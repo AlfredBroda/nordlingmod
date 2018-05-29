@@ -3,7 +3,8 @@
    "mixins": "stonehearth:mixins:critter",
    "components": {
       "render_info": {
-         "animation_table": "file(/data/rigs/entities/critters/bee)"
+         "animation_table": "file(/data/rigs/entities/critters/bee)",
+         "scale": 0.01
       },
       "model_variants": {
          "default": {
@@ -14,7 +15,7 @@
       }
    },
    "entity_data": {
-      "stonehearth:entity_radius": 0.3,
+      "stonehearth:entity_radius": 0.1,
       "stonehearth:catalog": {
          "player_id": "animals",
          "display_name": "i18n(nordlingmod:entities.critters.bee.display_name)",
@@ -22,8 +23,7 @@
          "icon": "file(bee.png)"
       },
       "stonehearth:bait_trap": {
-         "can_trap": false,
-         "can_hive": true,
+         "can_trap": true,
          "catch_chance": 1,
          "trigger_trap_on_failure_chance": 0.0
       },
@@ -35,7 +35,7 @@
                   "max": 7
                },
                "items": {
-                  "honey": {
+                  "jerky": {
                      "uri": "nordlingmod:food:honey:honey"
                   }
                }
