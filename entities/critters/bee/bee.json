@@ -4,7 +4,7 @@
    "components": {
       "render_info": {
          "animation_table": "file(/data/rigs/entities/critters/bee)",
-         "scale": 0.1
+         "scale": 0.01
       },
       "model_variants": {
          "default": {

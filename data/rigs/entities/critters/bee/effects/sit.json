@@ -6,58 +6,35 @@
       "start_time": 0,
       "animation": "idle.json",
       "loop": true
-    },    "cubemitter_base": {
+    }, 
+    "little_bees_1": {
       "type": "cubemitter",
-      "cubemitter": "/nordlingmod/data/horde/particles/bees/bees.cubemitter.json",
+      "cubemitter": "file(/data/horde/particles/bees/bees.cubemitter.json)",
+      "loop" : true,        
       "transforms": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "rx": 180,
-        "ry": 0,
-        "rz": 0
+         "x":1,
+         "y":0,
+         "z":-1,
+         "rx":90,
+         "ry":0,
+         "rz":0
       },
-      "bone": "bee_base"
-    },
-    "cubemitter_even": {
+      "attach_to_bone": "beeQueen"
+   },      
+   "little_bees_2": {
       "type": "cubemitter",
-      "cubemitter": "/nordlingmod/data/horde/particles/bees/bees.cubemitter.json",
+      "cubemitter": "file(/data/horde/particles/bees/bees.cubemitter.json)",
+      "loop" : true,        
       "transforms": {
-        "x": -2,
-        "y": 0,
-        "z": 0,
-        "rx": 0,
-        "ry": -180,
-        "rz": 0
+         "x":-1,
+         "y":0,
+         "z":1,
+         "rx":90,
+         "ry":0,
+         "rz":0
       },
-      "bone": "bee_mid"
-    },
-    "cubemitter_mid": {
-      "type": "cubemitter",
-      "cubemitter": "/nordlingmod/data/horde/particles/bees/bees.cubemitter.json",
-      "transforms": {
-        "x": -2,
-        "y": 0,
-        "z": 0,
-        "rx": 0,
-        "ry": 180,
-        "rz": 0
-      },
-      "bone": "bee_mid"
-    },
-    "cubemitter_wide": {
-      "type": "cubemitter",
-      "cubemitter": "/nordlingmod/data/horde/particles/bees/bees.cubemitter.json",
-      "transforms": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "rx": 360,
-        "ry": 360,
-        "rz": 0
-      },
-      "bone": "bee_head"
-    },
+      "attach_to_bone": "beeQueen"
+   },  
     "sound": {
       "type": "sound_effect",
       "loop": true,

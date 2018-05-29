@@ -1,10 +1,9 @@
 {
    "type" : "rig",
    "skeleton": {
-      "root": [0,0,0],
-      "bee_base": [0,0,0],
-      "bee_mid": [0,0,5],
-      "bee_head": [0,0,10]
+    "root": [5.0,9.0,0.0],
+    "ATTOVERCOG": [5.0,9.0,-300],
+    "beeQueen": [5.0,9.0,-250]
    },
    "animation_root" : "file(animations)",
    "effects_root": "file(effects)",
