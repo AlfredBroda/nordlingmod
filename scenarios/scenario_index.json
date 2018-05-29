@@ -1,8 +1,7 @@
 {
     "static": {
         "scenarios": [
-         "file(static/ore/mythril_ore_vein)",
-         "file(static/bee_nest)"
+         "file(static/ore/mythril_ore_vein)"
       ]
     }
 }

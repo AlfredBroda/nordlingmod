@@ -4,12 +4,12 @@ local WeightedSet = require 'stonehearth.lib.algorithms.weighted_set'
 local TrappingGroundsComponent = require 'stonehearth.components.trapping.trapping_grounds_component'
 
 local log = radiant.log.create_logger('Mod')
-log:always("Bee Test")
+-- log:always("Bee Test")
 
 function TrappingGroundsComponent:_create_set_trap_task()
   
   local trap_uri = self:_choose_trap_type()
-  log:always("modded create task trap_uri: %s", trap_uri)
+  --log:always("modded create task trap_uri: %s", trap_uri)
 
   local town = stonehearth.town:get_town(self._entity)
 
@@ -104,7 +104,7 @@ function TrappingGroundsComponent:_choose_trap_type()
 
   for uri, weight in pairs(self.trap_weights) do
     weighted_set:add(uri,weight)
-    log:always("modded made trap_type trap weights: %s", weight)
+    --log:always("modded made trap_type trap weights: %s", weight)
   end
 
   local uri = weighted_set:choose_random()
@@ -112,12 +112,12 @@ function TrappingGroundsComponent:_choose_trap_type()
 end
 
 function TrappingGroundsComponent:_choose_spawned_critter_type(trap)
-  log:always("modded choose critter trap: %s", trap)
+  --log:always("modded choose critter trap: %s", trap)
   local trap_uri = trap:get_uri()
   if trap_uri == "nordlingmod:trapper:bee_hive" then
     return "nordlingmod:bee"
   else
-    log:always("notbeehive trap: %s", trap)
+    --log:always("notbeehive trap: %s", trap)
     local weighted_set = WeightedSet(rng)
 
     for uri, weight  in pairs(self.trappable_animal_weights) do
@@ -135,7 +135,7 @@ function TrappingGroundsComponent:_create_critter(uri)
 
   radiant.entities.add_buff(critter, 'stonehearth:buffs:despawn')
   self:_track_critter(critter)
-  log:always("modded create critter: %s", critter)
+  --log:always("modded create critter: %s", critter)
 
   return critter
 end
