@@ -79,10 +79,11 @@
 	  "iron_sword_viking"         		: "file(entities/weapons/iron_sword_viking/iron_sword_viking.json)",
 	  "steel_sword_viking"        		: "file(entities/weapons/steel_sword_viking/steel_sword_viking.json)",
 	  "mythril_sword_viking"      		: "file(entities/weapons/mythril_sword_viking/mythril_sword_viking.json)",
+	  "legendary_hammer"				: "file(entities/weapons/legendary_hammer/legendary_hammer.json)",
 	  "rune_stone"                		: "file(entities/decoration/rune_stone/rune_stone.json)",
 	  "fireplace"                 		: "file(entities/decoration/fireplace/fireplace.json)",
 	  "comfy_fur_bed"					: "file(entities/furniture/comfy_fur_bed/comfy_fur_bed.json)",
-		"wooden_chair_fur"				: "file(entities/furniture/wooden_chair_fur/wooden_chair_fur.json)",
+	  "wooden_chair_fur"				: "file(entities/furniture/wooden_chair_fur/wooden_chair_fur.json)",
       "trapper:bee_hive"				: "file(jobs/trapper/bee_hive)",
     "bee"								: "file(entities/critters/bee)"
    }, 

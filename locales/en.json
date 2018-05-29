@@ -147,6 +147,14 @@
 				"display_name": "Mythril Viking Sword",
 				"description": "Lighter than steel and twice as strong!"
 							}
+				},
+		"legendary_hammer": {
+			"display_name" : "Legendary Hammer",
+			"description" : "Overwhelming power, and control over lightning. Too bad the handle is a bit short",
+			"legendary_hammer": {
+				"display_name": "Legendary Hammer",
+				"description": "Overwhelming power, and control over lightning. Too bad the handle is a bit short"
+							}
 				}
 },
 	"armor" : {
@@ -444,6 +452,11 @@
 			"description": "Ice giant rated!",
             "flavor": "flavourtextgoeshere",
             "recipe_name": "Mythril Viking Sword"
+			},
+			"legendary_hammer" : {
+				"description": "Legendary Hammer",
+				"flavor": "And it shall be called: Mjolnir",
+				"recipe_name": "Legendary Hammer"
 			},
 			"stone_axe" : {
 			"description": "An Axe with a stone axehead",
