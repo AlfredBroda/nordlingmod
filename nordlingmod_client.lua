@@ -1,6 +1,8 @@
 nordlingmod = {
 }
 
+local log = radiant.log.create_logger('Nordling Mod Server')
+
 local player_service_trace = nil
 
 local function check_override_ui(players, player_id)
@@ -14,6 +16,7 @@ local function check_override_ui(players, player_id)
       if client_player.kingdom == "nordlingmod:kingdoms:nordlings" then
          -- hot load nordlingmod ui mod
          _radiant.res.apply_manifest("/nordlingmod/ui/manifest.json")
+         log:always("Nordlings Selected: Applying UI")
       end
    end
 end

@@ -1,7 +1,7 @@
 nordlingmod = {
 }
 
-local log = radiant.log.create_logger('Nordling Mod')
+local log = radiant.log.create_logger('Nordling Mod Server')
 
 
 function nordlingmod:_on_required_loaded()
