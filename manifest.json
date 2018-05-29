@@ -81,6 +81,7 @@
 	  "rune_stone"                		: "file(entities/decoration/rune_stone/rune_stone.json)",
 	  "fireplace"                 		: "file(entities/decoration/fireplace/fireplace.json)",
 	  "comfy_fur_bed"					: "file(entities/furniture/comfy_fur_bed/comfy_fur_bed.json)",
+		"wooden_chair_fur"				: "file(entities/furniture/wooden_chair_fur/wooden_chair_fur.json)",
       "trapper:bee_hive"						: "file(jobs/trapper/bee_hive)",
     "bee"						: "file(entities/critters/bee)"
    }, 

@@ -12,14 +12,20 @@
       }
 	  },
 "entities" : {
-	"containers": {
-         "large_crate_stack": {
-            "large_crate_stack_ghost": {
-               "display_name": "Large Crate stack",
-               "description": "Stores up to 256 items"
-            }
+	"funiture": {
+		"comfy_fur_bed":{
+			"comfy_fur_bed_ghost": {
+               "display_name": "Comfy Fur-covered Bed",
+               "description": "Keeps out winter!"
 			}
-},
+		},
+		"wooden_chair_fur":{
+			"wooden_chair_fur_ghost": {
+               "display_name": "Fur-covered chair",
+               "description": "Soft on the behind!"
+			}
+		}
+	},
 	"gizmos": {
 		"nordlings_camp_standard": {
             "nordlings_camp_standard_ghost": {
@@ -518,11 +524,6 @@
 },
 	"carpenter" : {
 		"recipes" : {
-			"large_crate_stack" : {
-			"description": "16 large wooden crates, all at once!",
-			"flavor": "Less is more!",
-			"recipe_name": "Large Crate Stack"
-			},
 			"runic_wooden_comb" : {
 			"description": "A runic comb that takes care of your hair. let your hair take care of you!",
             "flavor": "Flavourtextgoeshere",
@@ -537,8 +538,17 @@
 			"description": "A well made wooden roundshield, covered in linnen",
             "flavor": "Proudly decorated by your hearthling!",
             "recipe_name": "Wooden Roundshield"
-			}
-					}
+			},
+			"comfy_fur_bed" : {
+			"description": "Warm, Fur-covered bed",
+            "flavor": "Winter might be coming, but not to this bed!",
+            "recipe_name": "Comfy Fur-Covered Bed"
+			},
+			"wooden_chair_fur" : {
+			"description": "Fur-covered Chair",
+            "flavor": "Just make sure not to accidentally sit on the cat!",
+            "recipe_name": "Fur-covered Chair"}
+		}
 },
 	"mason" : {
 		"recipes" : {

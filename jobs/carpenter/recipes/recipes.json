@@ -26,6 +26,9 @@
 		"recipes" : {
 			"comfy_fur_bed": {
                "recipe": "file(comfy_fur_bed_recipe.json)"
+            },
+			"wooden_chair_fur": {
+               "recipe": "file(wooden_chair_fur_recipe.json)"
             }
 		}	
    }
