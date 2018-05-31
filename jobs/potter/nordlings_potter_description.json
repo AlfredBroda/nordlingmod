@@ -1,0 +1,7 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:potter",
+   "crafter": {
+      "recipe_list": "/nordlingmod/jobs/potter/recipes/recipes.json"
+   }
+}

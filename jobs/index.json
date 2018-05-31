@@ -12,7 +12,10 @@
       },
 	  "stonehearth:jobs:mason": {
          "description": "nordlingmod:jobs:mason"
-	},
+	  },
+	  "stonehearth:jobs:potter": {
+         "description": "nordlingmod:jobs:potter"
+	  },
 	  "stonehearth:jobs:footman": {
          "description": "nordlingmod:jobs:footman"
       },

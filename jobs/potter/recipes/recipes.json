@@ -1,0 +1,4 @@
+{
+	"mixins": "/stonehearth/jobs/potter/recipes/recipes.json",
+	"craftable_recipes": {}
+}
