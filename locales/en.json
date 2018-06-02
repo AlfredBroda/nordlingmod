@@ -1,39 +1,39 @@
 {
-"kingdom": {
+   "kingdom": {
       "kingdom_name": "Nordlings",
       "quote": "The Old Ways will see us through!",
       "long_description": "With a strong tradition of telling the stories of those that came before, the Nordlings look forward to making stories of their own!",
       "post_selection_description": ", a society of Tough, brave Nordlings.",
       "initial_town_name": "Oxcart [str(town_number)]"
    },
-"data": {
+   "data": {
       "nordlings_population": {
          "display_name": "Nordlings"
       }
-	  },
-"entities" : {
-	"funiture": {
-		"comfy_fur_bed":{
-			"comfy_fur_bed_ghost": {
+   },
+   "entities": {
+      "funiture": {
+         "comfy_fur_bed": {
+            "comfy_fur_bed_ghost": {
                "display_name": "Comfy Fur-covered Bed",
                "description": "Keeps out winter!"
-			}
-		},
-		"wooden_chair_fur":{
-			"wooden_chair_fur_ghost": {
+            }
+         },
+         "wooden_chair_fur": {
+            "wooden_chair_fur_ghost": {
                "display_name": "Fur-covered chair",
                "description": "Soft on the behind!"
-			}
-		}
-	},
-	"gizmos": {
-		"nordlings_camp_standard": {
+            }
+         }
+      },
+      "gizmos": {
+         "nordlings_camp_standard": {
             "nordlings_camp_standard_ghost": {
                "display_name": "Camp Standard",
                "description": "Use to mark territory, civilizedly."
             }
-			},
-		"nordlings_town_banner_guardian": {
+         },
+         "nordlings_town_banner_guardian": {
             "nordlings_town_banner_guardian_ghost": {
                "display_name": "Banner of Cunning",
                "description": "How you know you've come home.",
@@ -44,7 +44,7 @@
                "description": "A shred from the Banner of Cunning, carrying along its magic."
             }
          },
-		"nordlings_town_banner_might": {
+         "nordlings_town_banner_might": {
             "nordlings_town_banner_might_ghost": {
                "display_name": "Banner of Strength",
                "description": "How you know you've come home",
@@ -55,7 +55,7 @@
                "description": "A shred from the Banner of Strength, carrying along its magic."
             }
          },
-		"nordlings_town_banner_nature": {
+         "nordlings_town_banner_nature": {
             "nordlings_town_banner_nature_ghost": {
                "display_name": "Banner of Vitality",
                "description": "How you know you've come home",
@@ -66,315 +66,321 @@
                "description": "A shred from the Banner of Vitality, carrying along its magic."
             }
          }
-			},
-   "weapons" : {
-		"stone_axe": {
-			"display_name" : "Stone Axe",
-			"description" : "A one handed stone axe.",
-			"stone_axe_iconic": {
-				"display_name": "Stone Axe",
-				"description": "Looks heavy, but choppy"
-							}
-				},
-		"bronze_axe": {
-			"display_name" : "Bronze Axe",
-			"description" : "A one handed Bronze axe.",
-			"bronze_axe_iconic": {
-				"display_name": "Bronze Axe",
-				"description": "Good at chopping, and easy to repair!"
-							}
-				},
-		"iron_axe": {
-			"display_name" : "Iron Axe",
-			"description" : "A one handed iron axe.",
-			"iron_axe_iconic": {
-				"display_name": "Iron Axe",
-				"description": "A sturdy axe with an iron axe head."
-							}
-				},
-		"steel_axe": {
-			"display_name" : "Steel Axe",
-			"description" : "A one handed steel axe.",
-			"steel_axe_iconic": {
-				"display_name": "Steel Axe",
-				"description": "A high quality axe with a Steel axe head."
-							}
-				},
-		"mythril_axe": {
-			"display_name" : "Mythril Axe",
-			"description" : "A one handed Mythril axe.",
-			"mythril_axe_iconic": {
-				"display_name": "Mythril Axe",
-				"description": "An extremely light, extremely sharp Mythril axe."
-							}
-				},
-		"einherjar_axe": {
-			"display_name" : "Einherjar Axe",
-			"description" : "A double headed axe, used by Einherjar.",
-			"mythril_axe_iconic": {
-				"display_name": "Einherjar Axe",
-				"description": "A double headed axe, used by Einherjar."
-							}
-				},
-		"bronze_sword_viking": {
-			"display_name" : "bronze Viking Sword",
-			"description" : "A well crafted, one handed steel sword. Fit for a Viking",
-			"bronze_sword_viking_iconic": {
-				"display_name": "Bronze Viking Sword",
-				"description": "Sharp!"
-							}
-				},
-		"iron_sword_viking": {
-			"display_name" : "Iron Viking Sword",
-			"description" : "A well crafted, one handed iron sword. Fit for a Viking",
-			"iron_sword_viking_iconic": {
-				"display_name": "Iron Viking Sword",
-				"description": "Sharp!"
-							}
-				},
-		"steel_sword_viking": {
-			"display_name" : "Steel Viking Sword",
-			"description" : "A well crafted, one handed steel sword. Fit for a Viking",
-			"steel_sword_viking_iconic": {
-				"display_name": "Steel Viking Sword",
-				"description": "Sharp!"
-							}
-				},
-		"mythril_sword_viking": {
-			"display_name" : "Mythril Viking Sword",
-			"description" : "A well crafted, one handed Mythril sword. Fit for a Viking Hero",
-			"mythril_sword_viking_iconic": {
-				"display_name": "Mythril Viking Sword",
-				"description": "Lighter than steel and twice as strong!"
-							}
-				},
-		"legendary_hammer": {
-			"display_name" : "Legendary Hammer",
-			"description" : "Overwhelming power, and control over lightning. Too bad the handle is a bit short",
-			"legendary_hammer": {
-				"display_name": "Legendary Hammer",
-				"description": "Overwhelming power, and control over lightning. Too bad the handle is a bit short"
-							}
-				}
-},
-	"armor" : {
-		"runic_wooden_comb": {
-			"display_name" : "Runic Wooden Comb",
-			"description" : "Runic magic will protect your head, who needs helmets!",
-			"runic_wooden_comb_iconic": {
-				"display_name": "Runic Wooden Comb",
-				"description": "Look good while fighting!"
-							}
-				},
-		"runic_bronze_comb": {
-			"display_name" : "Runic Bronze Comb",
-			"description" : "Runic magic will protect your head, who needs helmets!",
-			"runic_bronze_comb_iconic": {
-				"display_name": "Runic Bronze Comb",
-				"description": "Look good while fighting!"
-							}
-				},
-		"runic_iron_comb": {
-			"display_name" : "Runic Iron Comb",
-			"description" : "Runic magic will protect your head, who needs helmets!",
-			"runic_iron_comb_iconic": {
-				"display_name": "Runic Iron Comb",
-				"description": "Look good while fighting!"
-							}
-				},
-		"runic_steel_comb": {
-			"display_name" : "Runic Steel Comb",
-			"description" : "Runic magic will protect your head, who needs helmets!",
-			"runic_steel_comb_iconic": {
-				"display_name": "Runic Steel Comb",
-				"description": "Look good while fighting!"
-							}
-				},
-		"runic_mythril_comb": {
-			"display_name" : "Runic Mythril Comb",
-			"description" : "Runic magic will protect your head, who needs helmets!",
-			"runic_mythril_comb_iconic": {
-				"display_name": "Runic Mythril Comb",
-				"description": "Look good while fighting!"
-							}
-				},
-		"chain_mail_bronze": {
-			"display_name" : "Bronze Chainmail Armor",
-			"description" : "Multiple bronze rings woven together into a protective vest",
-			"chain_mail_bronze_iconic": {
-				"display_name": "Chainmail Armor",
-				"description": "It jingles when you touch it"
-							}
-				},
-		"chain_mail_iron": {
-			"display_name" : "Iron Chainmail Armor",
-			"description" : "Multiple iron rings woven together into a protective vest",
-			"chain_mail_iron_iconic": {
-				"display_name": "Chainmail Armor",
-				"description": "It jingles when you touch it"
-							}
-				},
-		"chain_mail_steel": {
-			"display_name" : "Steel Chainmail Armor",
-			"description" : "Multiple steel rings woven together into a protective vest",
-			"chain_mail_steel_iconic": {
-				"display_name": "Chainmail Armor",
-				"description": "It jingles when you touch it"
-							}
-				},
-		"chain_mail_mythril": {
-			"display_name" : "Mythril Chainmail Armor",
-			"description" : "Multiple Mythril rings woven together into a protective vest",
-			"chain_mail_mythril_iconic": {
-				"display_name": "Chainmail Armor",
-				"description": "It jingles when you touch it"
-							}
-				},
-		"training_roundshield": {
-			"display_name" : "Training Roundshield",
-			"description" : "Wooden boards nailed togeather, nothing fancy",
-			"training_roundshield_iconic": {
-				"display_name": "Training Roundshield",
-				"description": "Best suited for training"
-							}
-				},
-		"wooden_round_shield": {
-			"display_name" : "Wooden Roundshield",
-			"description" : "A wooden roudshield, faced with linnen",
-			"wooden_round_shield_iconic": {
-				"display_name": "Wooden Roundshield",
-				"description": "your heartling will decorate this before use!"
-							}
-				},
-		"iron_round_shield": {
-			"display_name" : "Iron banded Roundshield",
-			"description" : "A Linnen faced wooded roundshield, with a sturdy iron band around the edge",
-			"iron_round_shield_iconic": {
-				"display_name": "Iron banded Roundshield",
-				"description": "your heartling will decorate this before use!"
-							}
-				}
-},
-	"decoration" : {
-		"rune_stone" : {
-			"display_name" : "Rune Stone",
-			"description" : "An enscribed runestone, holding anchient knowledge..but mostly its pretty",
-			"rune_stone_iconic": {
-				"display_name": "Rune stone",
-				"description": "We dont know how, but the stonemason shrunk it down."
-							}
-						}
-				},
-	"resources" : {
-		"mythril_ore": {
-			"display_name": "Mythril Ore",
+      },
+      "weapons": {
+         "stone_axe": {
+            "display_name": "Stone Axe",
+            "description": "A one handed stone axe.",
+            "stone_axe_iconic": {
+               "display_name": "Stone Axe",
+               "description": "Looks heavy, but choppy"
+            }
+         },
+         "bronze_axe": {
+            "display_name": "Bronze Axe",
+            "description": "A one handed Bronze axe.",
+            "bronze_axe_iconic": {
+               "display_name": "Bronze Axe",
+               "description": "Good at chopping, and easy to repair!"
+            }
+         },
+         "iron_axe": {
+            "display_name": "Iron Axe",
+            "description": "A one handed iron axe.",
+            "iron_axe_iconic": {
+               "display_name": "Iron Axe",
+               "description": "A sturdy axe with an iron axe head."
+            }
+         },
+         "steel_axe": {
+            "display_name": "Steel Axe",
+            "description": "A one handed steel axe.",
+            "steel_axe_iconic": {
+               "display_name": "Steel Axe",
+               "description": "A high quality axe with a Steel axe head."
+            }
+         },
+         "mythril_axe": {
+            "display_name": "Mythril Axe",
+            "description": "A one handed Mythril axe.",
+            "mythril_axe_iconic": {
+               "display_name": "Mythril Axe",
+               "description": "An extremely light, extremely sharp Mythril axe."
+            }
+         },
+         "einherjar_axe": {
+            "display_name": "Einherjar Axe",
+            "description": "A double headed axe, used by Einherjar.",
+            "mythril_axe_iconic": {
+               "display_name": "Einherjar Axe",
+               "description": "A double headed axe, used by Einherjar."
+            }
+         },
+         "bronze_sword_viking": {
+            "display_name": "bronze Viking Sword",
+            "description": "A well crafted, one handed steel sword. Fit for a Viking",
+            "bronze_sword_viking_iconic": {
+               "display_name": "Bronze Viking Sword",
+               "description": "Sharp!"
+            }
+         },
+         "iron_sword_viking": {
+            "display_name": "Iron Viking Sword",
+            "description": "A well crafted, one handed iron sword. Fit for a Viking",
+            "iron_sword_viking_iconic": {
+               "display_name": "Iron Viking Sword",
+               "description": "Sharp!"
+            }
+         },
+         "steel_sword_viking": {
+            "display_name": "Steel Viking Sword",
+            "description": "A well crafted, one handed steel sword. Fit for a Viking",
+            "steel_sword_viking_iconic": {
+               "display_name": "Steel Viking Sword",
+               "description": "Sharp!"
+            }
+         },
+         "mythril_sword_viking": {
+            "display_name": "Mythril Viking Sword",
+            "description": "A well crafted, one handed Mythril sword. Fit for a Viking Hero",
+            "mythril_sword_viking_iconic": {
+               "display_name": "Mythril Viking Sword",
+               "description": "Lighter than steel and twice as strong!"
+            }
+         },
+         "legendary_hammer": {
+            "display_name": "Legendary Hammer",
+            "description": "Overwhelming power, and control over lightning. Too bad the handle is a bit short",
+            "legendary_hammer": {
+               "display_name": "Legendary Hammer",
+               "description": "Overwhelming power, and control over lightning. Too bad the handle is a bit short"
+            }
+         }
+      },
+      "armor": {
+         "runic_wooden_comb": {
+            "display_name": "Runic Wooden Comb",
+            "description": "Runic magic will protect your head, who needs helmets!",
+            "runic_wooden_comb_iconic": {
+               "display_name": "Runic Wooden Comb",
+               "description": "Look good while fighting!"
+            }
+         },
+         "runic_bronze_comb": {
+            "display_name": "Runic Bronze Comb",
+            "description": "Runic magic will protect your head, who needs helmets!",
+            "runic_bronze_comb_iconic": {
+               "display_name": "Runic Bronze Comb",
+               "description": "Look good while fighting!"
+            }
+         },
+         "runic_iron_comb": {
+            "display_name": "Runic Iron Comb",
+            "description": "Runic magic will protect your head, who needs helmets!",
+            "runic_iron_comb_iconic": {
+               "display_name": "Runic Iron Comb",
+               "description": "Look good while fighting!"
+            }
+         },
+         "runic_steel_comb": {
+            "display_name": "Runic Steel Comb",
+            "description": "Runic magic will protect your head, who needs helmets!",
+            "runic_steel_comb_iconic": {
+               "display_name": "Runic Steel Comb",
+               "description": "Look good while fighting!"
+            }
+         },
+         "runic_mythril_comb": {
+            "display_name": "Runic Mythril Comb",
+            "description": "Runic magic will protect your head, who needs helmets!",
+            "runic_mythril_comb_iconic": {
+               "display_name": "Runic Mythril Comb",
+               "description": "Look good while fighting!"
+            }
+         },
+         "chain_mail_bronze": {
+            "display_name": "Bronze Chainmail Armor",
+            "description": "Multiple bronze rings woven together into a protective vest",
+            "chain_mail_bronze_iconic": {
+               "display_name": "Chainmail Armor",
+               "description": "It jingles when you touch it"
+            }
+         },
+         "chain_mail_iron": {
+            "display_name": "Iron Chainmail Armor",
+            "description": "Multiple iron rings woven together into a protective vest",
+            "chain_mail_iron_iconic": {
+               "display_name": "Chainmail Armor",
+               "description": "It jingles when you touch it"
+            }
+         },
+         "chain_mail_steel": {
+            "display_name": "Steel Chainmail Armor",
+            "description": "Multiple steel rings woven together into a protective vest",
+            "chain_mail_steel_iconic": {
+               "display_name": "Chainmail Armor",
+               "description": "It jingles when you touch it"
+            }
+         },
+         "chain_mail_mythril": {
+            "display_name": "Mythril Chainmail Armor",
+            "description": "Multiple Mythril rings woven together into a protective vest",
+            "chain_mail_mythril_iconic": {
+               "display_name": "Chainmail Armor",
+               "description": "It jingles when you touch it"
+            }
+         },
+         "training_roundshield": {
+            "display_name": "Training Roundshield",
+            "description": "Wooden boards nailed togeather, nothing fancy",
+            "training_roundshield_iconic": {
+               "display_name": "Training Roundshield",
+               "description": "Best suited for training"
+            }
+         },
+         "wooden_round_shield": {
+            "display_name": "Wooden Roundshield",
+            "description": "A wooden roudshield, faced with linnen",
+            "wooden_round_shield_iconic": {
+               "display_name": "Wooden Roundshield",
+               "description": "your heartling will decorate this before use!"
+            }
+         },
+         "iron_round_shield": {
+            "display_name": "Iron banded Roundshield",
+            "description": "A Linnen faced wooded roundshield, with a sturdy iron band around the edge",
+            "iron_round_shield_iconic": {
+               "display_name": "Iron banded Roundshield",
+               "description": "your heartling will decorate this before use!"
+            }
+         }
+      },
+      "decoration": {
+         "rune_stone": {
+            "display_name": "Rune Stone",
+            "description": "An enscribed runestone, holding anchient knowledge..but mostly its pretty",
+            "rune_stone_iconic": {
+               "display_name": "Rune stone",
+               "description": "We dont know how, but the stonemason shrunk it down."
+            }
+         }
+      },
+      "resources": {
+         "mythril_ore": {
+            "display_name": "Mythril Ore",
             "description": "A chunk of raw Mythril"
-					}
-},
-	"refined" : {
-		"mythril_ingot" : {
-			"display_name": "Mythril Ingot",
-			"description": "A bar of pure Mythril. worth a Kings ransom"
-							}
-},
-	"crops" : {
-		"onion" : {
-			"onion_crop" : {
-				"display_name": "Onion",
-				"description": "A sweet onion",
-				"growth_stage": {
-               "003": {
-                  "name": "Ripe Onion",
-                  "description": "Delicious!"
-               },
-               "002": {
-                  "name": "Baby Onion",
-                  "description": "Small. Bitter."
-               },
-               "001": {
-                  "name": "Onion Sprout",
-                  "description": "Not edible yet!"
-               },
-               "000": {
-                  "name": "Onion Seedling",
-                  "description": "A unrealized Onion."
-               },
-               "011": {
-                  "name": "Rotten Onion",
-                  "description": "Moldy and disgusting."
+         }
+      },
+      "refined": {
+         "mythril_ingot": {
+            "display_name": "Mythril Ingot",
+            "description": "A bar of pure Mythril. worth a Kings ransom"
+         }
+      },
+      "crops": {
+         "onion": {
+            "onion_crop": {
+               "display_name": "Onion",
+               "description": "A sweet onion",
+               "growth_stage": {
+                  "003": {
+                     "name": "Ripe Onion",
+                     "description": "Delicious!"
+                  },
+                  "002": {
+                     "name": "Baby Onion",
+                     "description": "Small. Bitter."
+                  },
+                  "001": {
+                     "name": "Onion Sprout",
+                     "description": "Not edible yet!"
+                  },
+                  "000": {
+                     "name": "Onion Seedling",
+                     "description": "A unrealized Onion."
+                  },
+                  "011": {
+                     "name": "Rotten Onion",
+                     "description": "Moldy and disgusting."
+                  }
                }
-								}
-							}
-					}
-				},
-	"plants" : {
-		"onion" : {
+            }
+         }
+      },
+      "plants": {
+         "onion": {
             "onion_basket": {
                "display_name": "Basket of Turnips",
                "description": "Juicy and exciting!"
-							},
+            },
             "onion_serving": {
                "display_name": "Turnip",
                "description": "Tiny. Bitter."
-								}
-					}
-				},
-	"food" : {
-		"honey" : {
-			"honey" : {
-				"display_name" : "Jar of Honey",
-				"description" : "A pot full of Honey"
-			},
-			"honey_serbing" : {
-				"display_name" : "Jar of Honey",
-				"description" : "A pot full of Honey"
-			}
-			},
-		"ale" : {
-			"ale" : {
-				"display_name" : "Ale",
-				"description" : "A Barrel of Ale"
-			},
-			"ale_serving" : {
-				"display_name" : "Ale",
-				"description" : "A Horn full of Ale"
-			}
-			},
-		"mead" : {
-			"mead" : {
-				"display_name" : "Mead",
-				"description" : "A Bottle of Mead"
-			},
-			"mead_serving" : {
-					"display_name" : "Mead",
-					"description" : "A Horn full of Mead"
-				}
-			}
-		}
-	},
-"jobs" : {
-	"trapper" :{
-		"bee_hive" :{
-			"display_name": "Beehive",
-			"description": "Bees live in here and make honey!"
-		}
-	},
-	"herbalist" : {
-		"recipes" : {
-			"ale_recipe" : {
-				"description": "Ale",
-				"flavor": "Another! *smashes mug*",
-				"recipe_name": "Barrel of Ale"
-			},
-			"mead_recipe" : {
-				"description": "Mead",
-				"flavor": "Drink of the gods!",
-				"recipe_name": "Bottle of Mead"
-			}
-		}
-	},
-	"footman": {
-       "footman_description": {
+            }
+         }
+      },
+      "food": {
+         "honey": {
+            "honey": {
+               "display_name": "Jar of Honey",
+               "description": "A pot full of Honey"
+            },
+            "honey_serbing": {
+               "display_name": "Jar of Honey",
+               "description": "A pot full of Honey"
+            }
+         },
+         "ale": {
+            "ale": {
+               "display_name": "Ale",
+               "description": "A Barrel of Ale"
+            },
+            "ale_serving": {
+               "display_name": "Ale",
+               "description": "A Horn full of Ale"
+            }
+         },
+         "mead": {
+            "mead": {
+               "display_name": "Mead",
+               "description": "A Bottle of Mead"
+            },
+            "mead_serving": {
+               "display_name": "Mead",
+               "description": "A Horn full of Mead"
+            }
+         }
+      },
+      "critters": {
+         "bee": {
+            "display_name": "Queen Bee",
+            "description": "Makes worker bees create honey"
+         }
+      }
+   },
+   "jobs": {
+      "trapper": {
+         "bee_hive": {
+            "display_name": "Beehive",
+            "description": "Bees live in here and make honey!"
+         }
+      },
+      "herbalist": {
+         "recipes": {
+            "ale_recipe": {
+               "description": "Ale",
+               "flavor": "Another! *smashes mug*",
+               "recipe_name": "Barrel of Ale"
+            },
+            "mead_recipe": {
+               "description": "Mead",
+               "flavor": "Drink of the gods!",
+               "recipe_name": "Bottle of Mead"
+            }
+         }
+      },
+      "footman": {
+         "footman_description": {
             "display_name": "Huskarl",
             "description": "The Huskarl is a swift melee fighter, and the backbone of your town's army.",
             "requirements": "Crafted by Carpenter",
@@ -426,163 +432,164 @@
             "description": "Has a conveniant belt for enquipment!"
          }
       },
-	"blacksmith" : {
-		"recipes" : {
-			"mythril_ingot" : {
-				"description": "Mythril Ingot",
-				"flavor": "flavourtextgoeshere",
-				"recipe_name": "Mythril Ingot"
-			},
-			"bronze_sword_viking" : {
-			"description": "Ice giant rated!",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Bronze Viking Sword"
-			},
-			"iron_sword_viking" : {
-			"description": "Ice giant rated!",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Iron Viking Sword"
-			},
-			"steel_sword_viking" : {
-			"description": "Ice giant rated!",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Steel Viking Sword"
-			},
-			"mythril_sword_viking" : {
-			"description": "Ice giant rated!",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Mythril Viking Sword"
-			},
-			"legendary_hammer" : {
-				"description": "Legendary Hammer",
-				"flavor": "And it shall be called: Mjolnir",
-				"recipe_name": "Legendary Hammer"
-			},
-			"stone_axe" : {
-			"description": "An Axe with a stone axehead",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Stone Axe"
-			},
-			"bronze_axe" : {
-			"description": "An Axe with a bronze axehead",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Bronze Axe"
-			},
-			"iron_axe" : {
-			"description": "An Axe with a iron axehead",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Iron Axe"
-			},
-			"steel_axe" : {
-			"description": "An Axe with a steel axehead",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Steel Axe"
-			},
-			"mythril_axe" : {
-			"description": "An Axe with a steel axehead",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Mythril Axe"
-			},
-			"chain_mail_bronze" : {
-			"description": "Bronze rings woven together forming a protective vest",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Bronze Chainmail Armour"
-			},
-			"chain_mail_iron" : {
-			"description": "Iron rings woven together forming a protective vest",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Iron Chainmail Armour"
-			},
-			"chain_mail_steel" : {
-			"description": "Steel rings woven together forming a protective vest",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Steel Chainmail Armour"
-			},
-			"chain_mail_mythril" : {
-			"description": "Mythril rings woven together forming a protective vest",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Mythril Chainmail Armour"
-			},
-			"runic_bronze_comb" : {
-			"description": "A runic comb that takes care of your hair. let your hair take care of you!",
-            "flavor": "Flavourtextgoeshere",
-            "recipe_name": "Runic Bronze Comb"
-			},
-			"runic_iron_comb" : {
-			"description": "A runic comb that takes care of your hair. let your hair take care of you!",
-            "flavor": "Flavourtextgoeshere",
-            "recipe_name": "Runic Iron Comb"
-			},
-			"runic_steel_comb" : {
-			"description": "A runic comb that takes care of your hair. let your hair take care of you!",
-            "flavor": "Flavourtextgoeshere",
-            "recipe_name": "Runic Steel Comb"
-			},
-			"runic_mythril_comb" : {
-			"description": "A runic comb that takes care of your hair. let your hair take care of you!",
-            "flavor": "Flavourtextgoeshere",
-            "recipe_name": "Runic Mythril Comb"
-			},
-			"iron_round_shield" : {
-			"description": "A Linnen covered roundshield, with an iron band",
-            "flavor": "Proudly decorated by your hearthling!",
-            "recipe_name": "Iron-banded Roundshield"
-			},
-			"einherjar_axe_offhand_talisman" : {
-			"description": "A large double headed axe, usable by Einherjar",
-            "flavor": "And with one might stroke, Narfi took two heads and one",
-            "recipe_name": "Einherjar Axe"
-			}
-		}
-},
-	"carpenter" : {
-		"recipes" : {
-			"runic_wooden_comb" : {
-			"description": "A runic comb that takes care of your hair. let your hair take care of you!",
-            "flavor": "Flavourtextgoeshere",
-            "recipe_name": "Runic Wooden Comb"
-			},
-			"training_roundshield" : {
-			"description": "A basic wooden shield, without cover",
-            "flavor": "doubles as a sled in emergencies!",
-            "recipe_name": "Training Roundshield"
-			},
-			"wooden_round_shield" : {
-			"description": "A well made wooden roundshield, covered in linnen",
-            "flavor": "Proudly decorated by your hearthling!",
-            "recipe_name": "Wooden Roundshield"
-			},
-			"comfy_fur_bed" : {
-			"description": "Warm, Fur-covered bed",
-            "flavor": "Winter might be coming, but not to this bed!",
-            "recipe_name": "Comfy Fur-Covered Bed"
-			},
-			"wooden_chair_fur" : {
-			"description": "Fur-covered Chair",
-            "flavor": "Just make sure not to accidentally sit on the cat!",
-            "recipe_name": "Fur-covered Chair"}
-		}
-},
-	"mason" : {
-		"recipes" : {
-			"rune_stone" : {
-			"description": "A carved stone, with runic sigils",
-            "flavor": "I wonder what it says?",
-            "recipe_name": "Rune Stone"
-							},
-			"stone_axe" : {
-			"description": "An Axe with a stone axehead",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Stone Axe"
-							},
-			"fireplace" : {
-			"description": "The floorplate for a fireplace, burns wood and keeps you warm",
-            "flavor": "flavourtextgoeshere",
-            "recipe_name": "Fireplace"
-						}
-		}
-	},
-	"knight": {
+      "blacksmith": {
+         "recipes": {
+            "mythril_ingot": {
+               "description": "Mythril Ingot",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Mythril Ingot"
+            },
+            "bronze_sword_viking": {
+               "description": "Ice giant rated!",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Bronze Viking Sword"
+            },
+            "iron_sword_viking": {
+               "description": "Ice giant rated!",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Iron Viking Sword"
+            },
+            "steel_sword_viking": {
+               "description": "Ice giant rated!",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Steel Viking Sword"
+            },
+            "mythril_sword_viking": {
+               "description": "Ice giant rated!",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Mythril Viking Sword"
+            },
+            "legendary_hammer": {
+               "description": "Legendary Hammer",
+               "flavor": "And it shall be called: Mjolnir",
+               "recipe_name": "Legendary Hammer"
+            },
+            "stone_axe": {
+               "description": "An Axe with a stone axehead",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Stone Axe"
+            },
+            "bronze_axe": {
+               "description": "An Axe with a bronze axehead",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Bronze Axe"
+            },
+            "iron_axe": {
+               "description": "An Axe with a iron axehead",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Iron Axe"
+            },
+            "steel_axe": {
+               "description": "An Axe with a steel axehead",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Steel Axe"
+            },
+            "mythril_axe": {
+               "description": "An Axe with a steel axehead",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Mythril Axe"
+            },
+            "chain_mail_bronze": {
+               "description": "Bronze rings woven together forming a protective vest",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Bronze Chainmail Armour"
+            },
+            "chain_mail_iron": {
+               "description": "Iron rings woven together forming a protective vest",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Iron Chainmail Armour"
+            },
+            "chain_mail_steel": {
+               "description": "Steel rings woven together forming a protective vest",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Steel Chainmail Armour"
+            },
+            "chain_mail_mythril": {
+               "description": "Mythril rings woven together forming a protective vest",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Mythril Chainmail Armour"
+            },
+            "runic_bronze_comb": {
+               "description": "A runic comb that takes care of your hair. let your hair take care of you!",
+               "flavor": "Flavourtextgoeshere",
+               "recipe_name": "Runic Bronze Comb"
+            },
+            "runic_iron_comb": {
+               "description": "A runic comb that takes care of your hair. let your hair take care of you!",
+               "flavor": "Flavourtextgoeshere",
+               "recipe_name": "Runic Iron Comb"
+            },
+            "runic_steel_comb": {
+               "description": "A runic comb that takes care of your hair. let your hair take care of you!",
+               "flavor": "Flavourtextgoeshere",
+               "recipe_name": "Runic Steel Comb"
+            },
+            "runic_mythril_comb": {
+               "description": "A runic comb that takes care of your hair. let your hair take care of you!",
+               "flavor": "Flavourtextgoeshere",
+               "recipe_name": "Runic Mythril Comb"
+            },
+            "iron_round_shield": {
+               "description": "A Linnen covered roundshield, with an iron band",
+               "flavor": "Proudly decorated by your hearthling!",
+               "recipe_name": "Iron-banded Roundshield"
+            },
+            "einherjar_axe_offhand_talisman": {
+               "description": "A large double headed axe, usable by Einherjar",
+               "flavor": "And with one might stroke, Narfi took two heads and one",
+               "recipe_name": "Einherjar Axe"
+            }
+         }
+      },
+      "carpenter": {
+         "recipes": {
+            "runic_wooden_comb": {
+               "description": "A runic comb that takes care of your hair. let your hair take care of you!",
+               "flavor": "Flavourtextgoeshere",
+               "recipe_name": "Runic Wooden Comb"
+            },
+            "training_roundshield": {
+               "description": "A basic wooden shield, without cover",
+               "flavor": "doubles as a sled in emergencies!",
+               "recipe_name": "Training Roundshield"
+            },
+            "wooden_round_shield": {
+               "description": "A well made wooden roundshield, covered in linnen",
+               "flavor": "Proudly decorated by your hearthling!",
+               "recipe_name": "Wooden Roundshield"
+            },
+            "comfy_fur_bed": {
+               "description": "Warm, Fur-covered bed",
+               "flavor": "Winter might be coming, but not to this bed!",
+               "recipe_name": "Comfy Fur-Covered Bed"
+            },
+            "wooden_chair_fur": {
+               "description": "Fur-covered Chair",
+               "flavor": "Just make sure not to accidentally sit on the cat!",
+               "recipe_name": "Fur-covered Chair"
+            }
+         }
+      },
+      "mason": {
+         "recipes": {
+            "rune_stone": {
+               "description": "A carved stone, with runic sigils",
+               "flavor": "I wonder what it says?",
+               "recipe_name": "Rune Stone"
+            },
+            "stone_axe": {
+               "description": "An Axe with a stone axehead",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Stone Axe"
+            },
+            "fireplace": {
+               "description": "The floorplate for a fireplace, burns wood and keeps you warm",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Fireplace"
+            }
+         }
+      },
+      "knight": {
          "knight_outfit": {
             "display_name": "Einherjar's Armor",
             "description": "Metal armor worn by an Einherjar"
@@ -648,6 +655,6 @@
             "display_name": "Einherjar's Helm",
             "description": "Iron headgear standard issue for all Einherjar"
          }
-}
-}
+      }
+   }
 }
