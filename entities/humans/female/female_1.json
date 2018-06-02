@@ -9,9 +9,9 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(head.qb)",
-               "file(body.qb)",
-               "file(eyes.qb)"
+               "/stonehearth/entities/humans/female/head.qb",
+               "/nordlingmod/entities/humans/female/body.qb",
+               "/stonehearth/entities/humans/female/eyes.qb"
             ]
          }
       }

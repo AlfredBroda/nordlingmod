@@ -9,7 +9,7 @@
    "workshop": "stonehearth:herbalist:workbench",
    "ingredients": [
       {
-         "uri": "stonehearth:food:honey:honey",
+         "uri": "nordlingmod:food:honey:honey",
          "count": 2
       }
    ],
