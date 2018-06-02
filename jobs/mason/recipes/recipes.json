@@ -16,6 +16,9 @@
 		    "stone_axe" : {
                "recipe" : "file(stone_axe_recipe.json)"
             },
+			"stone_spear" : {
+               "recipe" : "file(stone_spear_recipe.json)"
+            },
 			"mixintypes": {
 				"stone_maul": "remove"
             }

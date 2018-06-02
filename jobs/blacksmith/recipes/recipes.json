@@ -30,6 +30,18 @@
 					"recipe": "file(mythril_axe_recipe.json)"
 
 				},
+				"bronze_spear": {
+					"recipe": "file(bronze_spear_recipe.json)"
+
+				},
+				"iron_spear": {
+					"recipe": "file(iron_spear_recipe.json)"
+
+				},
+				"steel_spear": {
+					"recipe": "file(steel_spear_recipe.json)"
+
+				},
 				"bronze_sword_viking": {
 					"recipe": "file(bronze_sword_viking_recipe.json)"
 

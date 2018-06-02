@@ -80,6 +80,7 @@
 	"iron_sword_viking"					:	"file(entities/weapons/iron_sword_viking/iron_sword_viking.json)",
 	"steel_sword_viking"				:	"file(entities/weapons/steel_sword_viking/steel_sword_viking.json)",
 	"mythril_sword_viking"				:	"file(entities/weapons/mythril_sword_viking/mythril_sword_viking.json)",
+	"stone_spear"						:	"file(entities/weapons/stone_spear/stone_spear.json)",	
 	"bronze_spear"						:	"file(entities/weapons/bronze_spear/bronze_spear.json)",
 	"iron_spear"						:	"file(entities/weapons/iron_spear/iron_spear.json)",
 	"steel_spear"						:	"file(entities/weapons/steel_spear/steel_spear.json)",

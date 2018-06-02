@@ -16,14 +16,13 @@
          "model_origin": { "x": 0, "y": 0, "z": 0.00 }
       },
       "stonehearth:stacks": {
-         "max_stacks": 8
+         "max_stacks": 4
       }
    },
    "entity_data": {
 		"stonehearth:food_container": {
 			"effect": "fiddle",
-			"food": "nordlingmod:food:honey:honey_serving",
-			"stacks_per_serving": 1
+			"food": "nordlingmod:food:honey:honey_serving"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 15,
