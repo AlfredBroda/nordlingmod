@@ -9,7 +9,7 @@
       "default_stance": "aggressive",
       "abilities": "file(footman_abilities)",
       "equipment": {
-            "torso": "file(footman_outfit)",
+            "torso": "/nordlingmod/jobs/footman/footman_outfit/footman_outfit.json",
             "mainhand": "stonehearth:weapons:wooden_sword"
       },
       "roles": "footman_job cloth_wearer leather_wearer mail_wearer melee_combat combat",
