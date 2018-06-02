@@ -100,6 +100,38 @@
                "description": "A high quality axe with a Steel axe head."
             }
          },
+		 "stone_spear": {
+            "display_name": "Stone Boar-Spear",
+            "description": "A stone Boar-Spear",
+            "bronze_spear_iconic": {
+               "display_name": "Stone Boar-Spear",
+               "description": "A stone Boar-Spear"
+            }
+         },
+		 "bronze_spear": {
+            "display_name": "Bronze Boar-Spear",
+            "description": "A bronze Boar-Spear",
+            "bronze_spear_iconic": {
+               "display_name": "Bronze Boar-Spear",
+               "description": "A bronze Boar-Spear"
+            }
+         },
+         "iron_spear": {
+            "display_name": "Iron Boar-Spear",
+            "description": "An iron Boar-Spear",
+            "iron_spear_iconic": {
+               "display_name": "Iron Boar-Spear",
+               "description": "An iron Boar-Spear"
+            }
+         },
+         "steel_spear": {
+            "display_name": "Steel Boar-Spear",
+            "description": "A steel Boar-Spear",
+            "steel_spear_iconic": {
+               "display_name": "Steel Boar-Spear",
+               "description": "A steel Boar-Spear"
+            }
+         },
          "mythril_axe": {
             "display_name": "Mythril Axe",
             "description": "A one handed Mythril axe.",
@@ -489,6 +521,26 @@
                "flavor": "flavourtextgoeshere",
                "recipe_name": "Mythril Axe"
             },
+			"bronze_spear": {
+               "description": "A bronze tipped Boar-Spear",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Bronze Boar-Spear"
+            },
+            "iron_spear": {
+               "description": "An iron tipped Boar-Spear",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Iron Boar-Spear"
+            },
+            "steel_spear": {
+               "description": "A steel tipped Boar-Spear",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Steel Boar-Spear"
+            },
+            "mythril_axe": {
+               "description": "An Axe with a steel axehead",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Mythril Axe"
+            },
             "chain_mail_bronze": {
                "description": "Bronze rings woven together forming a protective vest",
                "flavor": "flavourtextgoeshere",
@@ -581,6 +633,11 @@
                "description": "An Axe with a stone axehead",
                "flavor": "flavourtextgoeshere",
                "recipe_name": "Stone Axe"
+            },
+			"stone_spear": {
+               "description": "A Boar-Spear with a stone head",
+               "flavor": "flavourtextgoeshere",
+               "recipe_name": "Stone Boar-Spear"
             },
             "fireplace": {
                "description": "The floorplate for a fireplace, burns wood and keeps you warm",
