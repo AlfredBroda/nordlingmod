@@ -10,6 +10,9 @@
 	  "stonehearth:jobs:carpenter": {
          "description": "nordlingmod:jobs:carpenter"
       },
+	  "stonehearth:jobs:weaver": {
+         "description": "nordlingmod:jobs:weaver"
+      },
 	  "stonehearth:jobs:mason": {
          "description": "nordlingmod:jobs:mason"
 	  },
