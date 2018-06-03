@@ -24,11 +24,21 @@
          },
          "quality": 3
       },
-      "stonehearth:catalog": {
-         "display_name": "i18n(nordlingmod:entities.food.honey.honey_serving.display_name)",
-         "description": "",
-         "material_tags": "food vegetarian",
-         "subject_override": "nordlingmod:food:honey"
-      }
-   }
+"stonehearth:net_worth": {
+	"value_in_gold": 0,
+	"shop_info": {
+		"buyable": false,
+		"sellable": false
+	}
+},
+"stonehearth:catalog": {
+	"display_name": "i18n(nordlingmod:entities.food.honey.honey_serving.display_name)",
+	"description": "i18n(nordlingmod:entities.food.honey.honey_serving.description)",
+	"icon": "file(honey_serving.png)",
+	"is_item": true,
+	"category": "food",
+	"material_tags": "food vegetarian",
+	"subject_override": "nordlingmod:food:honey"
+}
+}
 }
