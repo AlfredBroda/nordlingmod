@@ -7,5 +7,6 @@
    },
    "animation_root" : "file(animations)",
    "effects_root": "file(effects)",
-   "postures" : "file(postures.json)"
+   "postures" : "file(postures.json)",
+   "conversation_effects": "file(conversation_effects.json)"
 }

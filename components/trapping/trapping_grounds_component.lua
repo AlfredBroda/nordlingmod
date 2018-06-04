@@ -3,8 +3,7 @@ local WeightedSet = require 'stonehearth.lib.algorithms.weighted_set'
 
 local TrappingGroundsComponent = require 'stonehearth.components.trapping.trapping_grounds_component'
 
-local log = radiant.log.create_logger('Mod')
--- log:always("Bee Test")
+local log = radiant.log.create_logger('Nordling Mod')
 
 function TrappingGroundsComponent:_create_set_trap_task()
   
@@ -171,5 +170,6 @@ function TrappingGroundsComponent:_try_spawn()
 end
 
 
+log:always("Trapping Grounds Changed")
 return TrappingGroundsComponent
 

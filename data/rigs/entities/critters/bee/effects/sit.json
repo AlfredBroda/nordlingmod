@@ -34,15 +34,6 @@
          "rz":0
       },
       "attach_to_bone": "beeQueen"
-   },  
-    "sound": {
-      "type": "sound_effect",
-      "loop": true,
-      "start_time": 10,
-      "min_distance": 15,
-      "falloff": 10,
-      "volume": 10,
-      "track": "stonehearth:sounds:flies"
-    }
+   }
   }
 }
