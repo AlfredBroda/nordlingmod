@@ -3,5 +3,5 @@
    "mixins": "stonehearth:jobs:weaver",
    "crafter": {
       "recipe_list": "/nordlingmod/jobs/weaver/recipes/recipes.json"
-   }
+	}
 }

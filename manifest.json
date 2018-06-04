@@ -31,6 +31,7 @@
 	"jobs:mason"						:	"file(jobs/mason/nordlings_mason_description.json)",
 	"jobs:footman"						:	"file(jobs/footman/nordlings_footman_description.json)",
 	"jobs:knight"						:	"file(jobs/knight/nordlings_knight_description.json)",
+	"jobs:weaver"						:	"file(jobs/weaver/nordlings_weaver_description.json)",
 	"gm_index"							:	"file(data/gm/gm_index.json)",
 	"banner:cunning"					:	"file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian.json)",
 	"banner:cunning:token"				:	"file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian_token.json)",
