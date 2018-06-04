@@ -238,6 +238,22 @@
                "description": "It jingles when you touch it"
             }
          },
+		 "cloth_armour": {
+            "display_name": "Cloth Padded Vest",
+            "description": "Light armour, might soften a blow or two",
+            "chain_mail_iron_iconic": {
+               "display_name": "Cloth Padded Vest",
+               "description": "Light armour, might soften a blow or two"
+            }
+         },
+		 "leather_armour": {
+            "display_name": "Leather Armour",
+            "description": "Light armour, slightly better than cloth",
+            "chain_mail_iron_iconic": {
+               "display_name": "Leather Armour",
+               "description": "Light armour, slightly better than cloth"
+            }
+         },
          "chain_mail_iron": {
             "display_name": "Iron Chainmail Armor",
             "description": "Multiple iron rings woven together into a protective vest",
@@ -391,6 +407,20 @@
       }
    },
    "jobs": {
+	  "weaver": {
+		"recipes": {
+			"cloth_armour": {
+				"description": "This triple-quilted vest provides more protection to your combat units than mere clothing. Not a lot more, but every little bit helps, right?",
+				"recipe_name": "Padded Vest",
+				"flavor": "Needs... thicker... padding!"
+			},
+			"leather_armour": {
+				"description": "Hardened leather provides study protection against light weapons.",
+				"recipe_name": "Thick Leather Vest",
+				"flavor": "Insults bounce right off too!"
+			}
+		}
+		},
       "trapper": {
          "bee_hive": {
             "display_name": "Beehive",
@@ -535,11 +565,6 @@
                "description": "A steel tipped Boar-Spear",
                "flavor": "flavourtextgoeshere",
                "recipe_name": "Steel Boar-Spear"
-            },
-            "mythril_axe": {
-               "description": "An Axe with a steel axehead",
-               "flavor": "flavourtextgoeshere",
-               "recipe_name": "Mythril Axe"
             },
             "chain_mail_bronze": {
                "description": "Bronze rings woven together forming a protective vest",
