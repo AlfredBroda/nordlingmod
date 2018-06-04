@@ -1,6 +1,8 @@
-local TrapperClass = require 'stonehearth.jobs.trapper'
-
+local TrapperClass = require 'stonehearth.jobs.trapper.trapper'
+local rng = _radiant.math.get_default_rng()
+local log = radiant.log.create_logger('Nordling Mod')
 function TrapperClass:should_tame(target)
+  --log:always("targe uri: %s", target:get_uri())
   if target:get_uri() == "nordlingmod:bee" then
     return false
   end
@@ -33,4 +35,5 @@ function TrapperClass:should_tame(target)
   return true
 end
 
+log:always("Trapper changed")
 return TrapperClass
