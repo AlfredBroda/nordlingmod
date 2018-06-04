@@ -7,13 +7,13 @@
         "default": {
            "layer": "clothing",
            "models": [
-              "file(weaver_outfit.qb)"
+              "/nordlingmod/jobs/weaver/weaver_outfit/weaver_outfit.json"
            ]
         },
         "female": {
            "layer": "clothing",
            "models": [
-              "file(weaver_outfit_female.qb)"
+              "/nordlingmod/jobs/weaver/weaver_outfit/weaver_outfit_female.json"
            ]
         }
      },
