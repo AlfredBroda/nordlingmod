@@ -13,6 +13,9 @@
 	  "stonehearth:jobs:weaver": {
          "description": "nordlingmod:jobs:weaver"
       },
+	  "stonehearth:jobs:herbalist": {
+         "description": "nordlingmod:jobs:herbalist"
+      },
 	  "stonehearth:jobs:mason": {
          "description": "nordlingmod:jobs:mason"
 	  },

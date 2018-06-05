@@ -28,6 +28,7 @@
 	"knight:outfit"						:	"file(jobs/knight/knight_outfit/knight_outfit.json)",
 	"jobs:worker"						:	"file(jobs/worker/nordlings_worker_description.json)",
 	"jobs:blacksmith"					:	"file(jobs/blacksmith/nordlings_blacksmith_description.json)",
+	"jobs:herbalist"					:	"file(jobs/herbalist/nordlings_herbalist_description.json)",
 	"jobs:carpenter"					:	"file(jobs/carpenter/nordlings_carpenter_description.json)",
 	"jobs:potter"						:	"file(jobs/potter/nordlings_potter_description.json)",
 	"jobs:mason"						:	"file(jobs/mason/nordlings_mason_description.json)",
