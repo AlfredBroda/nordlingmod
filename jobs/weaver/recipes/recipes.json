@@ -8,7 +8,13 @@
             },
             "leather_armour": {
                "recipe": "file(leather_armour_recipe.json)"
-            }
+            },
+			"mixintypes": {
+				"cloth_padded_vest"		: "remove",
+				"leather_vest"			: "remove",
+				"cloth_padded_helmet"	: "remove",
+				"leather_helmet"		: "remove"
+			}
          }
       }
    }
