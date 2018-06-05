@@ -19,7 +19,7 @@
          }
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(leather_vest_iconic.json)"
+         "iconic_form": "file(leather_armour_iconic.json)"
       },
       "stonehearth:equipment_piece": {
          "render_type": "merge_with_model",
