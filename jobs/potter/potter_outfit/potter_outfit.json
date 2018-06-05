@@ -1,24 +1,24 @@
 {
-   "mixins": "stonehearth:mixins:worker_outfit",
+   "mixins": "stonehearth:mixins:potter_outfit",
    "components": {
       "model_variants": {
          "default": {
             "layer": "clothing",
             "models": [
-               "file(worker_outfit.qb)"
+               "file(potter_outfit.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
             "models": [
-               "file(worker_outfit_female.qb)"
+               "file(potter_outfit_female.qb)"
             ]
          }
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "icon": "file(worker_outfit.png)"
+         "icon": "file(potter_outfit.png)"
       }
    }
 }
