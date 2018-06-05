@@ -1,0 +1,24 @@
+{
+   "mixins": "/stonehearth/jobs/blacksmith/blacksmith_outfit/blacksmith_outfit.json",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(blacksmith_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(blacksmith_outfit_female.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(blacksmith_outfit.png)"
+      }
+   }
+}
