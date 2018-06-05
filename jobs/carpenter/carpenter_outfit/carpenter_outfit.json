@@ -7,14 +7,14 @@
          "default": {
             "layer": "clothing",
             "models": [
-               "/nordlingmod/jobs/carpenter/carpenter_outfit/carpenter_outfit.json"
+               "/nordlingmod/jobs/carpenter/carpenter_outfit/carpenter_outfit.qb"
             ]
          },
          "female": {
             "layer": "clothing",
             "transparent": false,
             "models": [
-               "/nordlingmod/jobs/carpenter/carpenter_outfit/carpenter_outfit_female.json"
+               "/nordlingmod/jobs/carpenter/carpenter_outfit/carpenter_outfit_female.qb"
             ]
          }
       },

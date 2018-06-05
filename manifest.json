@@ -20,6 +20,8 @@
 	"jobs:index"						:	"file(jobs/index.json)",
 	"worker:outfit"						:	"file(jobs/worker/worker_outfit/worker_outfit.json)",
 	"weaver:outfit"						:	"file(jobs/weaver/weaver_outfit/weaver_outfit.json)",
+	"potter:outfit"						:	"file(jobs/potter/potter_outfit/potter_outfit.json)",
+	"blacksmith:outfit"					:	"file(jobs/blacksmith/blacksmith_outfit/blacksmith_outfit.json)",
 	"herbalist:outfit"					:	"file(jobs/herbalist/herbalist_outfit/herbalist_outfit.json)",
 	"footman:outfit"					:	"file(jobs/footman/footman_outfit/footman_outfit.json)",
 	"knight:helm"						:	"file(jobs/knight/knight_helm)",

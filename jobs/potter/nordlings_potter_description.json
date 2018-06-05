@@ -1,6 +1,9 @@
 {
    "type": "job",
    "mixins": "stonehearth:jobs:potter",
+   "equipment": {
+      "torso": "file(potter_outfit)"
+	},
    "crafter": {
       "recipe_list": "/nordlingmod/jobs/potter/recipes/recipes.json"
    }
