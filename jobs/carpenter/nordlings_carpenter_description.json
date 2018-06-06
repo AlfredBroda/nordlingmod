@@ -2,7 +2,7 @@
    "type": "job",
    "mixins": "stonehearth:jobs:carpenter",
    "equipment": {
-		"torso": "file(blacksmith_outfit)"
+		"torso": "file(carpenter_outfit)"
 	},
    "crafter": {
       "recipe_list": "/nordlingmod/jobs/carpenter/recipes/recipes.json"
