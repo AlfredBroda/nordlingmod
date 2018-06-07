@@ -40,7 +40,7 @@
          "icon": "file(honey.png)",
          "is_item": true,
          "category": "food",
-         "material_tags": "food_container food honey vegetarian stockpile_prepared_food"
+         "material_tags": "food_container prepared_food honey stockpile_prepared_food vegetarian"
       },
       "stonehearth:appeal": {
          "appeal": 1
