@@ -34,7 +34,7 @@
 	"jobs:trapper"						:	"file(jobs/trapper/nordlings_trapper_description.json)",
 	"jobs:weaver"						:	"file(jobs/weaver/nordlings_weaver_description.json)",	
 	"jobs:worker"						:	"file(jobs/worker/nordlings_worker_description.json)",
-	"blacksmith:archer"					:	"file(jobs/archer/archer_outfit/archer_outfit.json)",
+	"archer:outfit"						:	"file(jobs/archer/archer_outfit/archer_outfit.json)",
 	"blacksmith:outfit"					:	"file(jobs/blacksmith/blacksmith_outfit/blacksmith_outfit.json)",
 	"carpenter:outfit"					:	"file(jobs/carpenter/carpenter_outfit/carpenter_outfit.json)",
 	"cleric:outfit"						:	"file(jobs/cleric/cleric_outfit/cleric_outfit.json)",

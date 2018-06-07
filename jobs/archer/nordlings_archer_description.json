@@ -2,6 +2,11 @@
    "type": "job",
    "mixins": "stonehearth:jobs:archer",
     "equipment": {
-		"torso": "file(archer_outfit)"
-	}
+		"mixintypes": {
+			"helmet": "remove"
+				},
+		"torso": "file(archer_outfit)",
+	},
+	"roles": "footman_job cloth_wearer leather_wearer mail_wearer melee_combat combat",
+		"icon": "file(images/icon.png)"
 }
