@@ -1,8 +1,7 @@
 {
+	"mixins": "/stonehearth/jobs/herbalist/recipes/recipes.json",
 	"craftable_recipes": {
-		"food" : {
-			"ordinal": 60,
-			"name": "i18n(stonehearth:jobs.cook.recipes.food_name)",
+		"tonics": {
 			"recipes" : {
 				"ale" : { 
 					"recipe" : "file(ale_recipe.json)"
@@ -11,5 +10,6 @@
 					"recipe" : "file(mead_recipe.json)" 
 				}
 			}
-	}	}
+		}	
+	}
 }

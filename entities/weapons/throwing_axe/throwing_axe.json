@@ -19,25 +19,25 @@
             "stonehearth:combat",
             "stonehearth:patrol"
          ],
-         "ilevel": 25,
-         "no_drop": true
+         "ilevel": 28,
+         "roles": "archer_job",
+         "required_job_level": 3,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
    "entity_data": {
       "stonehearth:combat:weapon_data": {
-         "base_damage": 25,
-         "base_ranged_damage": 25,
-         "range": 30,
-         "projectile_speed": 30,
-         "projectile_uri": "stonehearth:weapons:arrow",
-         "projectile_start_offset": { "x": -0.2, "y": 1.5, "z": -1 },
-         "projectile_end_offset": { "x": 0, "y": 1.5, "z": 0 }
+         "base_damage": 28,
+         "base_ranged_damage": 28,
+         "range": 35,
+         "projectile_speed": 50,
+         "projectile_uri": "nordlingmod:throwing_axe_projectile"
       },
-      "stonehearth:combat:ranged_attacks": [
+      "stonehearth:combat:melee_attacks": [
          {
-            "name": "archer_1h_shoot",
-            "effect": "archer_1h_shoot",
-            "active_frame": 41,
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
             "cooldown": 0,
             "priority": 0
          }
@@ -46,18 +46,21 @@
          "name": "archer_1h_idle"
       },
       "stonehearth:net_worth": {
-         "value_in_gold": 0,
+         "value_in_gold": 26,
+         "rarity": "common",
          "shop_info": {
-            "buyable": false,
-            "sellable": false
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.weapons.throwing_axe.display_name)",
-         "description": "i18n(stonehearth:entities.weapons.throwing_axe.description)",
+         "display_name": "i18n(nordlingmod:entities.weapons.throwing_axe.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.throwing_axe.description)",
          "icon": "file(throwing_axe.png)",
          "category": "weapons",
-         "material_tags": "wood ranged_weapon"
+         "material_tags": "wood ranged_weapon stockpile_weapon"
       }
    }
 }

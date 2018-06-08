@@ -106,6 +106,8 @@
 	"bronze_spear"						:	"file(entities/weapons/bronze_spear/bronze_spear.json)",
 	"iron_spear"						:	"file(entities/weapons/iron_spear/iron_spear.json)",
 	"steel_spear"						:	"file(entities/weapons/steel_spear/steel_spear.json)",
+	"throwing_axe"						:	"file(entities/weapons/throwing_axe/throwing_axe.json)",
+	"throwing_axe_projectile"			:	"file(entities/weapons/throwing_axe/throwing_axe_projectile/throwing_axe_projectile.json)",
 	"legendary_hammer"					:	"file(entities/weapons/legendary_hammer/legendary_hammer.json)",
 	"rune_stone"						:	"file(entities/decoration/rune_stone/rune_stone.json)",
 	"fireplace"							:	"file(entities/decoration/fireplace/fireplace.json)",
@@ -125,7 +127,6 @@
 	"stonehearth:scenarios:scenario_index"								:	"file(scenarios/scenario_index.json)",
 	"stonehearth/data/resource_constants.json"							:	"file(data/resource_constants.json)",
 	"stonehearth/data/gm/gm_index.json"									:	"nordlingmod:gm_index",
-	"stonehearth/jobs/herbalist/recipes/recipes.json"					:	"nordlingmod/jobs/herbalist/recipes/recipes.json",
 	"stonehearth/jobs/trapper/trapping_grounds/trapping_grounds.json"	:	"nordlingmod/jobs/trapper/trapping_grounds/trapping_grounds.json",
 	"stonehearth/jobs/blacksmith/recipes/recipes.json"					:	"nordlingmod/jobs/blacksmith/recipes/recipes_all.json"
 },
