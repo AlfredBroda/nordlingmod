@@ -21,7 +21,6 @@
          ],
          "ilevel": 28,
          "roles": "archer_job",
-         "required_job_level": 3,
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
