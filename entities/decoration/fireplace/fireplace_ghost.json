@@ -10,8 +10,11 @@
          }
       },
       "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "model_origin": { "x": 0.075, "y": 0, "z": 0.075 },
          "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+	  "render_info": {
+         "scale": 0.15
       }
    },
    "entity_data": {
@@ -22,7 +25,7 @@
          "description": "i18n(nordlingmod:entities.decoration.fireplace.fireplace_ghost.description)",
          "icon": "file(fireplace.png)",
          "category": "decoration",
-         "material_tags": "fireplace light light_source stockpile_decoration"
+         "material_tags": "fireplace light stone light_source stockpile_decoration"
       }
    }
 }
