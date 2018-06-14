@@ -116,7 +116,9 @@
 	"hotspring_chair"					:	"file(entities/furniture/hotspring_chair/hotspring_chair.json)",
 	"hotspring_steam_generator"			:	"file(entities/furniture/hotspring_steam_generator/hotspring_steam_generator.json)",
 	"trapper:bee_hive"					:	"file(jobs/trapper/bee_hive)",
-	"bee"								:	"file(entities/critters/bee)"
+	"bee"								:	"file(entities/critters/bee)",
+	"hotspring_steam"					:	"file(data/effects/hotspring_steam/hotspring_steam_effect.json)",
+	"steam_cubemitter"					:	"file(data/horde/patricles/steam/steam.cubemitter.json)"
 },
 	"mixintos":{
 	"stonehearth:playable_kingdom_index"								:	"file(data/nordlings_playable_kingdom_index.json)",
