@@ -15,8 +15,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.furniture.hotspring_steam_generator.hotspring_steam_generator_ghost.display_name)",
-         "description": "i18n(stonehearth:entities.furniture.hotspring_steam_generator.hotspring_steam_generator_ghost.description)",
+         "display_name": "i18n(nordlingmod:entities.furniture.hotspring_steam_generator.hotspring_steam_generator_ghost.display_name)",
+         "description": "i18n(nordlingmod:entities.furniture.hotspring_steam_generator.hotspring_steam_generator_ghost.description)",
          "icon": "file(hotspring_steam_generator.png)",
          "category": "furniture",
          "material_tags": "stone furniture crafted steam_generator stockpile_furniture"
