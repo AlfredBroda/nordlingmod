@@ -14,7 +14,7 @@
             "layer": "armor",
             "transparent": "false",
             "models": [
-               "file(cloth_padded_vest_female.qb)"
+               "file(cloth_armour_female.qb)"
             ]
          },
       },

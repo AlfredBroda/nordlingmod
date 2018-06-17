@@ -15,9 +15,9 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(Wooden Round Shield)",
-         "description": "i18n(Wooden round shield, no facing)",
-         "icon": "file(wooden_shield_basic.png)",
+         "display_name": "i18n(nordlingmod:entities.armor.training_roundshield.display_name)",
+         "description": "i18n(nordlingmod:entities.armor.training_roundshield.description)",
+         "icon": "file(training_roundshield.png)",
          "is_item": true,
          "category": "armor"
       }

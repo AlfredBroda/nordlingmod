@@ -3,5 +3,6 @@
    "mixins": "stonehearth:jobs:cleric",
     "equipment": {
 		"torso": "file(cleric_outfit)"
-	}
+	},
+	"roles": "cloth_wearer leather_wearer mail_wearer cleric_job combat"
 }

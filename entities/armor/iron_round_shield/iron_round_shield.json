@@ -31,7 +31,7 @@
             "stonehearth:have_shield"
          ],
          "ilevel": 3,
-         "roles": "melee_combat",
+         "roles": "mail_wearer",
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },

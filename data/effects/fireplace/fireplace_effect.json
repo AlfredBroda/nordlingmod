@@ -32,8 +32,8 @@
          "type": "sound_effect",
          "loop": true,
          "start_time": 400,
-         "min_distance": 40,
-         "falloff": 2.5,
+         "min_distance": 20,
+         "falloff": 10,
          "volume": 70,
          "track": "stonehearth:sounds:firepit_loop_sound"       
       },
