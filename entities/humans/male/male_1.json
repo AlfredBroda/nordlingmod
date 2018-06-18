@@ -68,8 +68,8 @@
                   "weights": {
                      "[none]": 1,
                      "chops": 1,
-                     "chin_beard": 3,
-                     "beard": 2
+                     "chin_beard": 8,
+                     "beard": 5
                   }
                },
                "head_hair": {
@@ -85,14 +85,14 @@
                "eyebrows": {
                   "weights": {
                      "[none]": 1,
-                     "straight_eyebrows": 1
+                     "straight_eyebrows": 3
                   }
                },
                "facial_hair": {
                   "weights": {
                      "chops": 1,
-                     "chin_beard": 2,
-                     "beard": 2
+                     "chin_beard": 5,
+                     "beard": 8
                   }
                },
                "head_hair": {

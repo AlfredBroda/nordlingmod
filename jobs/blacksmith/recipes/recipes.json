@@ -106,7 +106,10 @@
 					"bronze_breastplate": "remove",
 					"iron_shield": "remove",
 					"iron_helm": "remove",
-					"iron_mail": "remove"
+					"iron_mail": "remove",
+					"bronze_circlet": "remove",
+					"iron_circlet": "remove",
+					"steel_circlet": "remove"
 				}
 			}
 		},
