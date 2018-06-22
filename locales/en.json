@@ -100,7 +100,7 @@
                "description": "A high quality axe with a Steel axe head."
             }
          },
-		 "stone_spear": {
+         "stone_spear": {
             "display_name": "Stone Boar-Spear",
             "description": "A stone Boar-Spear",
             "bronze_spear_iconic": {
@@ -108,7 +108,7 @@
                "description": "A stone Boar-Spear"
             }
          },
-		 "bronze_spear": {
+         "bronze_spear": {
             "display_name": "Bronze Boar-Spear",
             "description": "A bronze Boar-Spear",
             "bronze_spear_iconic": {
@@ -238,7 +238,7 @@
                "description": "It jingles when you touch it"
             }
          },
-		 "cloth_armour": {
+         "cloth_armour": {
             "display_name": "Cloth Padded Vest",
             "description": "Light armour, might soften a blow or two",
             "chain_mail_iron_iconic": {
@@ -246,7 +246,7 @@
                "description": "Light armour, might soften a blow or two"
             }
          },
-		 "leather_armour": {
+         "leather_armour": {
             "display_name": "Leather Armour",
             "description": "Light armour, slightly better than cloth",
             "chain_mail_iron_iconic": {
@@ -404,23 +404,37 @@
             "display_name": "Queen Bee",
             "description": "Makes worker bees create honey"
          }
+      },
+      "furniture": {
+         "map_table": {
+            "map_table_ghost": {
+               "display_name": "Map Table",
+               "description": "A table with a map on it"
+            }
+         },
+         "wooden_chair_fur": {
+            "wooden_chair_fur_ghost": {
+               "display_name": "Fur-Covered Chair",
+               "description": "A chair Covered with a fur"
+            }
+         }
       }
    },
    "jobs": {
-	  "weaver": {
-		"recipes": {
-			"cloth_armour": {
-				"description": "This triple-quilted vest provides more protection to your combat units than mere clothing. Not a lot more, but every little bit helps, right?",
-				"recipe_name": "Padded Vest",
-				"flavor": "Needs... thicker... padding!"
-			},
-			"leather_armour": {
-				"description": "Hardened leather provides study protection against light weapons.",
-				"recipe_name": "Thick Leather Vest",
-				"flavor": "Insults bounce right off too!"
-			}
-		}
-		},
+      "weaver": {
+         "recipes": {
+            "cloth_armour": {
+               "description": "This triple-quilted vest provides more protection to your combat units than mere clothing. Not a lot more, but every little bit helps, right?",
+               "recipe_name": "Padded Vest",
+               "flavor": "Needs... thicker... padding!"
+            },
+            "leather_armour": {
+               "description": "Hardened leather provides study protection against light weapons.",
+               "recipe_name": "Thick Leather Vest",
+               "flavor": "Insults bounce right off too!"
+            }
+         }
+      },
       "trapper": {
          "bee_hive": {
             "display_name": "Beehive",
@@ -551,7 +565,7 @@
                "flavor": "flavourtextgoeshere",
                "recipe_name": "Mythril Axe"
             },
-			"bronze_spear": {
+            "bronze_spear": {
                "description": "A bronze tipped Boar-Spear",
                "flavor": "flavourtextgoeshere",
                "recipe_name": "Bronze Boar-Spear"
@@ -659,7 +673,7 @@
                "flavor": "flavourtextgoeshere",
                "recipe_name": "Stone Axe"
             },
-			"stone_spear": {
+            "stone_spear": {
                "description": "A Boar-Spear with a stone head",
                "flavor": "flavourtextgoeshere",
                "recipe_name": "Stone Boar-Spear"

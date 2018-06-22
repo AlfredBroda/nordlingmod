@@ -47,7 +47,7 @@
             {
                "type": "apply_buff",
                "name": "i18n(nordlingmod:jobs.knight.knight_description.level_1_data.perk_001_name)",
-               "id": "knight_defense_up_1",k
+               "id": "knight_defense_up_1",
                "icon": "/stonehearth/jobs/knight/images/knight_perk_def_up_1.png",
                "buff_name": "nordlingmod:buffs:knight:defense_1",
                "description": "i18n(nordlingmod:jobs.knight.knight_description.level_1_data.perk_001_description)",
