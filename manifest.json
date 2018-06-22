@@ -113,6 +113,7 @@
 	"fireplace"							:	"file(entities/decoration/fireplace/fireplace.json)",
 	"comfy_fur_bed"						:	"file(entities/furniture/comfy_fur_bed/comfy_fur_bed.json)",
 	"wooden_chair_fur"					:	"file(entities/furniture/wooden_chair_fur/wooden_chair_fur.json)",
+	"map_table"							:	"file(entities/furniture/map_table/map_table.json)",
 	"hotspring_chair"					:	"file(entities/furniture/hotspring_chair/hotspring_chair.json)",
 	"hotspring_steam_generator"			:	"file(entities/furniture/hotspring_steam_generator/hotspring_steam_generator.json)",
 	"trapper:bee_hive"					:	"file(jobs/trapper/bee_hive)",
