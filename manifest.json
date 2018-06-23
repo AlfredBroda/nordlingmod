@@ -90,6 +90,7 @@
 	"chain_mail_iron"					:	"file(entities/armor/chain_mail_iron/chain_mail_iron.json)",
 	"chain_mail_steel"					:	"file(entities/armor/chain_mail_steel/chain_mail_steel.json)",
 	"chain_mail_mythril"				:	"file(entities/armor/chain_mail_mythril/chain_mail_mythril.json)",
+	"sword_sheeth"						:	"file(entities/armor/sword_sheeth/sword_sheeth.json)",
 	"stone_axe"							:	"file(entities/weapons/stone_axe/stone_axe.json)",
 	"bronze_axe"						:	"file(entities/weapons/bronze_axe/bronze_axe.json)",
 	"iron_axe"							:	"file(entities/weapons/iron_axe/iron_axe.json)",
