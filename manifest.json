@@ -51,6 +51,7 @@
 	"trapper:outit"						:	"file(jobs/trapper/trapper_outfit/trapper_outfit.json)",
 	"weaver:outfit"						:	"file(jobs/weaver/weaver_outfit/weaver_outfit.json)",
 	"worker:outfit"						:	"file(jobs/worker/worker_outfit/worker_outfit.json)",
+	"worker:outfit_2"					:	"file(jobs/worker/worker_outfit_2/worker_outfit_2.json)",
 	"gm_index"							:	"file(data/gm/gm_index.json)",
 	"banner:cunning"					:	"file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian.json)",
 	"banner:cunning:token"				:	"file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian_token.json)",
@@ -120,7 +121,12 @@
 	"trapper:bee_hive"					:	"file(jobs/trapper/bee_hive)",
 	"bee"								:	"file(entities/critters/bee)",
 	"hotspring_steam"					:	"file(data/effects/hotspring_steam/hotspring_steam_effect.json)",
-	"steam_cubemitter"					:	"file(data/horde/patricles/steam/steam.cubemitter.json)"
+	"steam_cubemitter"					:	"file(data/horde/patricles/steam/steam.cubemitter.json)",
+	"charcoal"							:	"file(entities/resources/coal/lump_of_charcoal/lump_of_charcoal.json)",
+	"charcoal_mound"					:	"file(entities/furniture/charcoal_mound/charcoal_mound_phase_1/charcoal_mound_phase_1.json)",
+	"charcoal_mound_phase_2"			:	"file(entities/furniture/charcoal_mound/charcoal_mound_phase_2/charcoal_mound_phase_2.json)",
+	"charcoal_mound_phase_3"			:	"file(entities/furniture/charcoal_mound/charcoal_mound_phase_3/charcoal_mound_phase_3.json)",
+	"charcoal_mound_phase_4"			:	"file(entities/furniture/charcoal_mound/charcoal_mound_phase_4/charcoal_mound_phase_4.json)"
 },
 	"mixintos":{
 	"stonehearth:playable_kingdom_index"								:	"file(data/nordlings_playable_kingdom_index.json)",

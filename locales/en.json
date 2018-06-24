@@ -317,6 +317,12 @@
          "mythril_ore": {
             "display_name": "Mythril Ore",
             "description": "A chunk of raw Mythril"
+         },
+         "coal": {
+            "lump_of_charcoal": {
+               "display_name": "Lump of Charcoal",
+               "description": "Burns hotter than wood!"
+            }
          }
       },
       "refined": {
