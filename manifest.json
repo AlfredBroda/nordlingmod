@@ -51,7 +51,6 @@
 	"trapper:outit"						:	"file(jobs/trapper/trapper_outfit/trapper_outfit.json)",
 	"weaver:outfit"						:	"file(jobs/weaver/weaver_outfit/weaver_outfit.json)",
 	"worker:outfit"						:	"file(jobs/worker/worker_outfit/worker_outfit.json)",
-	"worker:outfit_2"					:	"file(jobs/worker/worker_outfit_2/worker_outfit_2.json)",
 	"gm_index"							:	"file(data/gm/gm_index.json)",
 	"banner:cunning"					:	"file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian.json)",
 	"banner:cunning:token"				:	"file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian_token.json)",
