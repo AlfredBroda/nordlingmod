@@ -3,7 +3,7 @@
    "type": "entity",
    "components": {
       "render_info": {
-         "scale": 0.1
+         "scale": 0.2
       },
       "model_variants": {
          "default": {
@@ -18,8 +18,8 @@
          }
       },
       "mob": {
-         "model_origin": { "x": -0.5, "y": 0, "z": 0.5 },
-         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 },
          "align_to_grid": [
             "x",
             "z"

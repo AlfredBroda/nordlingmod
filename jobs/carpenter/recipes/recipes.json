@@ -16,6 +16,9 @@
                "recipe" : "file(wooden_round_shield_recipe.json)"
             
 			},
+			"charcoal_mound": {
+               "recipe": "file(charcoal_mound_recipe.json)"
+            },
 			"mixintypes": {
                  "wooden_shield": "remove"
 				 

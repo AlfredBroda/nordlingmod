@@ -5,20 +5,11 @@
       "render_info": {
          "scale": 0.2
       },
-	  "effect_list": {
-		 "default": "/nordlingmod/data/effects/fireplace/fireplace_effect.json"
-      },
       "stonehearth:evolve": {},
-      "stonehearth:entity_forms": {
-         "iconic_form": "file(charcoal_mound_phase_1_iconic.json)",
-         "ghost_form": "file(charcoal_mound_phase_1_ghost.json)",
-         "placeable_on_ground": true,
-         "hide_undeploy_ui": true
-      },
       "model_variants": {
          "default": {
             "models": [
-                     "file(charcoal_mound_phase_1.qb)"
+                     "file(charcoal_mound_phase_2.qb)"
                   ]
          }
       },
@@ -75,14 +66,14 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(nordlingmod:entities.furniture.charcoal_mound.charcoal_mound_phase_1.display_name)",
-         "description": "i18n(nordlingmod:entities.furniture.charcoal_mound.charcoal_mound_phase_1.description)",
+         "display_name": "i18n(nordlingmod:entities.furniture.charcoal_mound.charcoal_mound_phase_2.display_name)",
+         "description": "i18n(nordlingmod:entities.furniture.charcoal_mound.charcoal_mound_phase_2.description)",
          "icon": "file(charcoal_mound.png)",
          "material_tags": "stockpile_plant",
          "category": "seed"
       },
       "stonehearth:evolve_data": {
-         "next_stage": "nordlingmod:charcoal_mound_phase_2",
+         "next_stage": "nordlingmod:charcoal_mound_phase_3",
          "evolve_time": "1h+1h"
       },
       "stonehearth:net_worth": {
