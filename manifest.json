@@ -13,6 +13,7 @@
 	"kingdoms:nordlings"				:	"file(data/nordlings_population.json)",
 	"resources:mythril:mythril_ore"		:	"file(entities/resources/mythril/mythril_ore/mythril_ore.json)",
 	"terrain:ui:mythril_ore"			:	"file(entities/terrain/ui/mythril_ore/mythril_ore.json)",
+	"ui:nordling_shields_filter"		:	"file(ui/game/modes/zones_mode/stockpile/images/taxonomy/shield.png)",
 	"male_1"							:	"file(entities/humans/male/male_1.json)",
 	"female_1"							:	"file(entities/humans/female/female_1.json)",
 	"farmer_initial_crops"				:	"file(data/nordlings_initial_crops.json)",	
