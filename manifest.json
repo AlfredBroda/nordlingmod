@@ -13,6 +13,7 @@
 	"kingdoms:nordlings"				:	"file(data/nordlings_population.json)",
 	"resources:mythril:mythril_ore"		:	"file(entities/resources/mythril/mythril_ore/mythril_ore.json)",
 	"terrain:ui:mythril_ore"			:	"file(entities/terrain/ui/mythril_ore/mythril_ore.json)",
+	"data:sound_constants"				: "file(data/sounds/sound_constants.json)",
 	"ui:nordling_shields_filter"		:	"file(ui/game/modes/zones_mode/stockpile/images/taxonomy/shield.png)",
 	"male_1"							:	"file(entities/humans/male/male_1.json)",
 	"female_1"							:	"file(entities/humans/female/female_1.json)",
@@ -131,6 +132,7 @@
 	"mixintos":{
 	"stonehearth:playable_kingdom_index"								:	"file(data/nordlings_playable_kingdom_index.json)",
 	"stonehearth:farmer:initial_crops"									:	"nordlingmod:farmer_initial_crops",
+	"stonehearth:data:sound_constants"									: 	"nordlingmod:data:sound_constants",
 	"stonehearth/data/biome/arctic_generation_data.json"				:	"file(data/biome/arctic_generation_data.json)",
 	"stonehearth/data/biome/desert_generation_data.json"				:	"file(data/biome/desert_generation_data.json)",
 	"stonehearth/data/biome/temperate_generation_data.json"				:	"file(data/biome/temperate_generation_data.json)",
@@ -141,6 +143,7 @@
 	"stonehearth/data/gm/gm_index.json"									:	"nordlingmod:gm_index",
 	"stonehearth/jobs/trapper/trapping_grounds/trapping_grounds.json"	:	"nordlingmod/jobs/trapper/trapping_grounds/trapping_grounds.json",
 	"stonehearth/jobs/blacksmith/recipes/recipes.json"					:	"nordlingmod/jobs/blacksmith/recipes/recipes_all.json"
+	
 },
 	"overrides":{},
 	"components":{},
