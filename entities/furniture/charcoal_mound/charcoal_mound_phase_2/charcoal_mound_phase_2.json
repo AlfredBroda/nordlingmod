@@ -5,6 +5,9 @@
       "render_info": {
          "scale": 0.2
       },
+	  "effect_list": {
+		 "default": "/nordlingmod/data/effects/charcoal_mound/charcoal_mound_phase_2_effect.json"
+      },
       "stonehearth:evolve": {},
       "model_variants": {
          "default": {

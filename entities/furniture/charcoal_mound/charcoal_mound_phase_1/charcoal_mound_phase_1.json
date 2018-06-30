@@ -6,7 +6,7 @@
          "scale": 0.2
       },
 	  "effect_list": {
-		 "default": "/nordlingmod/data/effects/fireplace/fireplace_effect.json"
+		 "default": "/nordlingmod/data/effects/charcoal_mound/charcoal_mound_phase_1_effect.json"
       },
       "stonehearth:evolve": {},
       "stonehearth:entity_forms": {
