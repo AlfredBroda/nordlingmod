@@ -12,6 +12,44 @@
 			  }
 			}
 		},
+	"smelt": {
+		"recipes": {
+			"mixintypes": {
+				"copper_ingot"	: "remove",
+				"tin_ingot"		: "remove",
+				"bronze_ingot"	: "remove",
+				"iron_ingot"	: "remove",
+				"silver_ingot"	: "remove",
+				"gold_ingot"	: "remove",
+				"steel_ingot"	: "remove",
+				"mythril_ingot"	: "remove"				
+			},
+            "copper_ingot_new": {
+               "recipe": "file(copper_ingot_recipe.json)"
+            },
+            "tin_ingot_new": {
+               "recipe": "file(tin_ingot_recipe.json)"
+            },
+            "bronze_ingot_new": {
+               "recipe": "file(bronze_ingot_recipe.json)"
+            },
+            "iron_ingot_new": {
+               "recipe": "file(iron_ingot_recipe.json)"
+            },
+            "silver_ingot_new": {
+               "recipe": "file(silver_ingot_recipe.json)"
+            },
+            "gold_ingot_new": {
+               "recipe": "file(gold_ingot_recipe.json)"
+            },
+            "steel_ingot_new": {
+               "recipe": "file(steel_ingot_recipe.json)"
+            },
+			"mythril_ingot_new": {
+					"recipe": "file(mythril_ingot_recipe.json)"
+				}
+         }
+      },
 		"weapons": {
 			"recipes": {
 				"bronze_axe": {
@@ -110,13 +148,6 @@
 					"bronze_circlet": "remove",
 					"iron_circlet": "remove",
 					"steel_circlet": "remove"
-				}
-			}
-		},
-		"smelt": {
-			"recipes": {
-				"mythril_ingot": {
-					"recipe": "file(mythril_ingot_recipe.json)"
 				}
 			}
 		}
