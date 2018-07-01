@@ -5,14 +5,15 @@
       "render_info": {
          "scale": 0.2
       },
+      "stonehearth:evolve": {},
       "model_variants": {
          "default": {
             "models": [
-               "/nordlingmod/entities/furniture/charcoal_mound/charcoal_mound_phase_4/charcoal_mound_phase_4.qb"
+                     "/nordlingmod/entities/furniture/charcoal_mound/charcoal_mound_phase_4/charcoal_mound_phase_4.qb"
             ]
          }
       },
-      "stonehearth:resource_node": {
+	  "stonehearth:resource_node": {
          "durability": 6,
          "resource": "nordlingmod:charcoal",
          "resource_loot_table": {
@@ -23,11 +24,11 @@
                      "max": 1
                   },
                   "items": {
-                     "none": {
+					"none": {
                         "uri": "",
                         "weight": 3
                      },
-                     "pelt": {
+                    "pelt": {
                         "uri": "stonehearth:resources:clay:clay_mound",
                         "weight": 1
                      }
@@ -36,22 +37,19 @@
             }
          }
       },
-      "destination": {
-         "region": [
-            {
-               "min": { "x": -2, "y": 0, "z": -2 },
-               "max": { "x": 2, "y": 1, "z": 2 }
-            }
-         ],
-         "adjacency_flags": [
-            "front"
-         ]
-      },
       "region_collision_shape": {
          "region": [
             {
-               "min": { "x": -2, "y": 0, "z": -2 },
-               "max": { "x": 2, "y": 5, "z": 2 }
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 2, "y": 2, "z": 2 }
+            }
+         ]
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 2, "y": 1, "z": 2 }
             }
          ]
       },
@@ -82,7 +80,7 @@
             "shopkeeper_level": 2
          }
       },
-      "stonehearth:appeal": {
+	  "stonehearth:appeal": {
          "appeal": 1
       }
    }

@@ -11,10 +11,9 @@
 	"server_init_script":"file(nordlingmod_server)",
 	"aliases":{
 	"kingdoms:nordlings"				:	"file(data/nordlings_population.json)",
-	"resource_constants"				:	"file(data/resource_constants.json)",
 	"resources:mythril:mythril_ore"		:	"file(entities/resources/mythril/mythril_ore/mythril_ore.json)",
 	"terrain:ui:mythril_ore"			:	"file(entities/terrain/ui/mythril_ore/mythril_ore.json)",
-	"data:sound_constants"				: 	"file(data/sounds/sound_constants.json)",
+	"data:sound_constants"				: "file(data/sounds/sound_constants.json)",
 	"ui:nordling_shields_filter"		:	"file(ui/game/modes/zones_mode/stockpile/images/taxonomy/shield.png)",
 	"male_1"							:	"file(entities/humans/male/male_1.json)",
 	"female_1"							:	"file(entities/humans/female/female_1.json)",
@@ -36,7 +35,6 @@
 	"jobs:shepherd"						:	"file(jobs/shepherd/nordlings_shepherd_description.json)",	
 	"jobs:trapper"						:	"file(jobs/trapper/nordlings_trapper_description.json)",
 	"jobs:weaver"						:	"file(jobs/weaver/nordlings_weaver_description.json)",	
-	"class:worker"						:	"file(jobs/worker/worker.lua)",
 	"jobs:worker"						:	"file(jobs/worker/nordlings_worker_description.json)",
 	"archer:outfit"						:	"file(jobs/archer/archer_outfit/archer_outfit.json)",
 	"blacksmith:outfit"					:	"file(jobs/blacksmith/blacksmith_outfit/blacksmith_outfit.json)",
@@ -141,7 +139,7 @@
 	"stonehearth/data/terrain/terrain_blocks.json"						:	"file(data/terrain/terrain_blocks.json)",
 	"stonehearth:mining:base_loot_table"								:	"file(services/server/mining/mining_loot_tables.json)",
 	"stonehearth:scenarios:scenario_index"								:	"file(scenarios/scenario_index.json)",
-	"stonehearth/data/resource_constants.json"							:	"nordlingmod:resource_constants",
+	"stonehearth/data/resource_constants.json"							:	"file(data/resource_constants.json)",
 	"stonehearth/data/gm/gm_index.json"									:	"nordlingmod:gm_index",
 	"stonehearth/jobs/trapper/trapping_grounds/trapping_grounds.json"	:	"nordlingmod/jobs/trapper/trapping_grounds/trapping_grounds.json",
 	"stonehearth/jobs/blacksmith/recipes/recipes.json"					:	"nordlingmod/jobs/blacksmith/recipes/recipes_all.json"

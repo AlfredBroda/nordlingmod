@@ -316,11 +316,7 @@
       "resources": {
          "mythril_ore": {
             "display_name": "Mythril Ore",
-            "description": "A chunk of raw Mythril",
-            "mythril_vein": {
-               "display_name": "Mythril Vein",
-               "description": "Provides Mythril when mined"
-            }
+            "description": "A chunk of raw Mythril"
          },
          "coal": {
             "lump_of_charcoal": {
@@ -426,24 +422,6 @@
             "wooden_chair_fur_ghost": {
                "display_name": "Fur-Covered Chair",
                "description": "A chair Covered with a fur"
-            }
-         },
-         "charcoal_mound": {
-            "charcoal_mound_phase_1": {
-               "display_name": "Charcoal mound",
-               "description": "Its quickly turning hotter!"
-            },
-            "charcoal_mound_phase_2": {
-               "display_name": "Charcoal mound",
-               "description": "Its nearly at it hottest!, nearly time to close it up"
-            },
-            "charcoal_mound_phase_3": {
-               "display_name": "Charcoal Mound",
-               "description": "Now that its closed up, it wont take long before you can harvest the charcoal!"
-            },
-            "charcoal_mound_phase_4": {
-               "display_name": "Charcoal Mound",
-               "description": "Ready for havesting!"
             }
          }
       }
@@ -778,13 +756,6 @@
          "knight_helm": {
             "display_name": "Einherjar's Helm",
             "description": "Iron headgear standard issue for all Einherjar"
-         }
-      }
-   },
-   "ui": {
-      "data": {
-         "constants": {
-            "coal_resource_name": "A Lump of Coal"
          }
       }
    }

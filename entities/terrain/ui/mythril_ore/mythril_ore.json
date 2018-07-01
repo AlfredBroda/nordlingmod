@@ -1,12 +1,12 @@
 {
-   "type": "entity",
-   "components": {
-      "stonehearth:ore_block": {}
-   },
-   "entity_data": {
-      "stonehearth:catalog": {
-         "display_name": "i18n(nordlingmod:entities.resources.mythril_ore.mythril_vein.display_name)",
-         "description": "i18n(nordlingmod:entities.resources.mythril_ore.mythril_vein.description)"
-      }
-   }
+    "type": "entity",
+    "components": {
+        "stonehearth:ore_block": {}
+    },
+    "entity_data": {
+        "stonehearth:catalog": {
+            "display_name": "mythril vein",
+            "description": "Provides mythril when mined."
+        }
+    }
 }
