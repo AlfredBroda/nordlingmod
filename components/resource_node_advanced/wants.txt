@@ -1,6 +1,0 @@
-want:
-an added option to change model and size of model/area after X chops/digs
-an option to add a sound effect when that happens.
-
-why would you want this thahat/wouter? 
-so trees can get a felled-model (down on the ground) while hearthligns would keep chopping. (to keep it user friendly, unlike that modd that added tree stumps)
