@@ -64,7 +64,7 @@
          "description": "i18n(nordlingmod:entities.armor.wooden_round_shield.description)",
          "icon": "file(wooden_round_shield.png)",
          "category": "armor",
-         "material_tags": "wood armor light_armor stockpile_equipment shield nordling_made"
+         "material_tags": "wood armor light_armor stockpile_equipment"
       }
    }
 }

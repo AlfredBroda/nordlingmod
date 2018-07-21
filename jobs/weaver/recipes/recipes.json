@@ -3,7 +3,7 @@
    "craftable_recipes": {
       "clothing_armor": {
          "recipes": {
-			"cloth_armour": {
+            "cloth_armour": {
                "recipe": "file(cloth_armour_recipe.json)"
             },
             "leather_armour": {
