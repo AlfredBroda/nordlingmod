@@ -12,6 +12,7 @@
    },
    "overrides" : {
       "stonehearth/ui/game/start_menu/images/dock.png":"file(start_menu/dock.png)",
+	  "stonehearth/ui/game/start_menu/images/build.png":"file(start_menu/build.png)",
       "stonehearth/ui/game/start_menu/images/town.png":"file(start_menu/town.png)",
 	  "stonehearth/ui/game/start_menu/images/citizens.png":"file(start_menu/citizens.png)",
 	  "stonehearth/ui/game/start_menu/images/dock_crafters.png":"file(start_menu/dock_crafters.png)",
