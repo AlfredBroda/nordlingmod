@@ -29,6 +29,9 @@
             },
 			"wooden_chair_fur": {
                "recipe": "file(wooden_chair_fur_recipe.json)"
+            },
+			"charcoal_mound": {
+               "recipe": "file(charcoal_mound_recipe.json)"
             }
 		}	
    }

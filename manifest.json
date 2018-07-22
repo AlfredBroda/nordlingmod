@@ -121,8 +121,6 @@
 	"map_table"							:	"file(entities/furniture/map_table/map_table.json)",
 	"hotspring_chair"					:	"file(entities/furniture/hotspring_chair/hotspring_chair.json)",
 	"hotspring_steam_generator"			:	"file(entities/furniture/hotspring_steam_generator/hotspring_steam_generator.json)",
-	"trapper:bee_hive"					:	"file(jobs/trapper/bee_hive)",
-	"bee"								:	"file(entities/critters/bee)",
 	"hotspring_steam"					:	"file(data/effects/hotspring_steam/hotspring_steam_effect.json)",
 	"steam_cubemitter"					:	"file(data/horde/patricles/steam/steam.cubemitter.json)",
 	"charcoal"							:	"file(entities/resources/coal/lump_of_charcoal/lump_of_charcoal.json)",
@@ -143,11 +141,14 @@
 	"stonehearth:scenarios:scenario_index"								:	"file(scenarios/scenario_index.json)",
 	"stonehearth/data/resource_constants.json"							:	"nordlingmod:resource_constants",
 	"stonehearth/data/gm/gm_index.json"									:	"nordlingmod:gm_index",
-	"stonehearth/jobs/trapper/trapping_grounds/trapping_grounds.json"	:	"nordlingmod/jobs/trapper/trapping_grounds/trapping_grounds.json",
 	"stonehearth/jobs/blacksmith/recipes/recipes.json"					:	"nordlingmod/jobs/blacksmith/recipes/recipes_all.json"
 	
 },
-	"overrides":{},
+	"overrides":{
+	"stonehearth/data/rigs/entities/humans/animations/male/combat_1h_thrust.json"	: "nordlingmod/data/rigs/entities/humans/animations/male/combat_1h_thrust.json",
+	"stonehearth/data/rigs/entities/humans/animations/female/combat_1h_thrust.json"	: "nordlingmod/data/rigs/entities/humans/animations/female/combat_1h_thrust.json",
+	"stonehearth/data/rigs/entities/humans/effects/combat_1h_thrust.json"			: "nordlingmod/data/rigs/entities/humans/effects/combat_1h_thrust.json"
+	},
 	"components":{},
 	"controllers":{}
 }
