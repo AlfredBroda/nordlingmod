@@ -8,7 +8,6 @@
 	},
 	"default_locale":"en",
 	"client_init_script":"file(nordlingmod_client)",
-	"server_init_script":"file(nordlingmod_server)",
 	"aliases":{
 	"kingdoms:nordlings"				:	"file(data/nordlings_population.json)",
 	"resource_constants"				:	"file(data/resource_constants.json)",
