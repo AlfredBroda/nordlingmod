@@ -64,10 +64,6 @@
 					"recipe": "file(steel_axe_recipe.json)"
 
 				},
-				"mythril_axe": {
-					"recipe": "file(mythril_axe_recipe.json)"
-
-				},
 				"bronze_spear": {
 					"recipe": "file(bronze_spear_recipe.json)"
 
@@ -92,10 +88,6 @@
 					"recipe": "file(steel_sword_viking_recipe.json)"
 
 				},
-				"mythril_sword_viking": {
-					"recipe": "file(mythril_sword_viking_recipe.json)"
-
-				},
 				"mixintypes": {
 					"bronze_mace": "remove"
 				}
@@ -115,9 +107,6 @@
 					"recipe": "file(chain_mail_steel_recipe.json)"
 
 				},
-				"chain_mail_mythril": {
-					"recipe": "file(chain_mail_mythril_recipe.json)"
-				},
 				"runic_bronze_comb": {
 					"recipe": "file(runic_bronze_comb_recipe.json)"
 
@@ -128,10 +117,6 @@
 				},
 				"runic_steel_comb": {
 					"recipe": "file(runic_steel_comb_recipe.json)"
-
-				},
-				"runic_mythril_comb": {
-					"recipe": "file(runic_mythril_comb_recipe.json)"
 
 				},
 				"iron_round_shield": {
