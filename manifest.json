@@ -140,8 +140,8 @@
 	"stonehearth:scenarios:scenario_index"								:	"file(scenarios/scenario_index.json)",
 	"stonehearth/data/resource_constants.json"							:	"nordlingmod:resource_constants",
 	"stonehearth/data/gm/gm_index.json"									:	"nordlingmod:gm_index",
-	"stonehearth/jobs/blacksmith/recipes/recipes.json"					:	"nordlingmod/jobs/blacksmith/recipes/recipes_all.json"
-	
+	"stonehearth/jobs/blacksmith/recipes/recipes.json"					:	"nordlingmod/jobs/blacksmith/recipes/recipes_all.json",
+	"stonehearth/entities/weapons/bronze_sword/bronze_sword.json" 		: 	"nordlingmod/entities/weapons/bronze_sword/bronze_sword.json"
 },
 	"overrides":{
 	"stonehearth/data/rigs/entities/humans/animations/male/combat_1h_thrust.json"	: "nordlingmod/data/rigs/entities/humans/animations/male/combat_1h_thrust.json",
