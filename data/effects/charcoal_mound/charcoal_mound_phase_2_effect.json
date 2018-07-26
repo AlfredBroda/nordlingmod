@@ -17,7 +17,7 @@
       },
 	  "fire": {
          "type": "cubemitter",
-         "cubemitter": "/stonehearth/data/horde/particles/charcoal_mound/small_fire_fast.cubemitter.json",
+         "cubemitter": "/nordlingmod/data/horde/particles/charcoal_mound/small_fire_fast.cubemitter.json",
          "loop": true,
          "transforms": {
             "x":0,
