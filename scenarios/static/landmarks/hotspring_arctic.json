@@ -1,0 +1,18 @@
+{
+   "mixins": "file(qb_to_terrain.json)",
+   "biomes": ["stonehearth:biome:arctic"],
+   "name": "geyser_arctic",
+   "category": "terrain_feature_rare",
+   "unique" : true,
+   "size": {
+      "width": 64,
+      "length": 64
+   },
+   "habitat_types": ["mountains"],
+   "overwrite_occupied_size": 3,
+   "weight" : 1,
+   "data": {
+      "brush" : "/stonehearth/data/models/landmark/64x_geyser_arctic.qb",
+      "landmark_block_types": "stonehearth:landmark_blocks"
+   }
+}
