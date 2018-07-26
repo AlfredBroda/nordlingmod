@@ -41,7 +41,7 @@
 	  "stonehearth/ui/game/start_menu/images/town_defense.png":"file(start_menu/town_defense.png)",
 	  "stonehearth/ui/game/start_menu/images/town_alert.png":"file(start_menu/town_alert.png)",
       "stonehearth/ui/game/unit_frame/images/bg_border.png":"file(unit_frame/bg_border.png)",
-	  "stonehearth/ui/game/unit_frame/images/command-button-bg.png" : "file(unit_frame/command-button-bg.png)",
+	  "stonehearth/ui/game/unit_frame/images/command-button-bg.png" : "file(unit_frame/command_button_bg.png)",
 	  "stonehearth/ui/game/unit_frame/images/image-bg.png" : "file(unit_frame/image-bg.png)",
 	  "stonehearth/ui/game/create_camp/images/banner.png" : "file(create_camp/banner.png)",
 	  "stonehearth/ui/game/promotion_tree/images/jobButton.png" : "file(promotion_tree/jobButton.png)",

@@ -1,18 +1,18 @@
 {
-   "mixins": "file(qb_to_terrain.json)",
+   "mixins": "/stonehearth/scenarios/static/landmarks/qb_to_terrain.json",
    "biomes": ["stonehearth:biome:temperate"],
-   "name": "hotsprig_temperate",
+   "name": "hotspring_temperate",
    "category": "terrain_feature_rare",
-   "unique" : true,
+   "unique" : false,
    "size": {
-      "width": 64,
-      "length": 64
+      "width": 42,
+      "length": 26
    },
-   "habitat_types": ["mountains"],
+   "habitat_types": ["plains", "forest", "mountains"],
    "overwrite_occupied_size": 3,
-   "weight": 1,
+   "weight": 2,
    "data": {
-      "brush" : "/stonehearth/data/models/landmark/hotspring_temperate.qb",
+      "brush" : "/nordlingmod/data/models/landmarks/hotspring_temperate.qb",
       "landmark_block_types": "nordlingmod:landmark_blocks"
    }
 }
