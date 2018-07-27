@@ -26,13 +26,13 @@
             {
                "id": "strength_bonus_1",
                "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_strength.achievements.000)",
-               "icon": "file(stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             },
             {
                "id": "strength_bonus_2",
                "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_strength.achievements.001)",
-               "icon": "file(stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png",
                "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
             }
          ]
