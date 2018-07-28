@@ -4,32 +4,32 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(watermelon_crop_4.qb)"
+               "file(cabbage_crop_4.qb)"
             ]
          },
-         "watermelon_1": {
+         "cabbage_crop_1": {
             "models": [
-               "file(watermelon_crop_1.qb)"
+               "file(cabbage_crop_1.qb)"
             ]
          },
-         "watermelon_2": {
+         "cabbage_crop_2": {
             "models": [
-               "file(watermelon_crop_2.qb)"
+               "file(cabbage_crop_2.qb)"
             ]
          },
-         "watermelon_3": {
+         "cabbage_crop_3": {
             "models": [
-               "file(watermelon_crop_3.qb)"
+               "file(cabbage_crop_3.qb)"
             ]
          },
-         "watermelon_4": {
+         "cabbage_crop_4": {
             "models": [
-               "file(watermelon_crop_4.qb)"
+               "file(cabbage_crop_4.qb)"
             ]
          },
-         "watermelon_12": {
+         "cabbage_crop_12": {
             "models": [
-               "file(watermelon_crop_12.qb)"
+               "file(cabbage_crop_12.qb)"
             ]
          }
       },
@@ -39,11 +39,11 @@
       },
       "stonehearth:crop": {
          "resource_pairings": {
-            "watermelon_3": "stonehearth:food:watermelon_serving",
-            "watermelon_4": "stonehearth:food:watermelon:watermelon_basket",
-            "watermelon_12": ""
+            "cabbage_crop_3": "stonehearth:food:cabbage_serving",
+            "cabbage_crop_4": "stonehearth:food:cabbage:cabbage_basket",
+            "cabbage_crop_12": ""
          },
-         "harvest_threshhold": "watermelon_4",
+         "harvest_threshhold": "cabbage_crop_4",
          "plant_overlay_effect": "stonehearth:effects:plant_crop_overlay_effect"
       },
       "stonehearth:growing": {
@@ -55,24 +55,24 @@
          },
          "growth_stages": [
             {
-               "model_name": "watermelon_1",
-               "name": "i18n(stonehearth:entities.crops.watermelon_crop.growth_stage.000.name)",
-               "description": "i18n(stonehearth:entities.crops.watermelon_crop.growth_stage.000.description)"
+               "model_name": "cabbage_crop_1",
+               "name": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.000.name)",
+               "description": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.000.description)"
             },
             {
-               "model_name": "watermelon_2",
-               "name": "i18n(stonehearth:entities.crops.watermelon_crop.growth_stage.001.name)",
-               "description": "i18n(stonehearth:entities.crops.watermelon_crop.growth_stage.001.description)"
+               "model_name": "cabbage_crop_2",
+               "name": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.001.name)",
+               "description": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.001.description)"
             },
             {
-               "model_name": "watermelon_3",
-               "name": "i18n(stonehearth:entities.crops.watermelon_crop.growth_stage.002.name)",
-               "description": "i18n(stonehearth:entities.crops.watermelon_crop.growth_stage.002.description)"
+               "model_name": "cabbage_crop_3",
+               "name": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.002.name)",
+               "description": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.002.description)"
             },
             {
-               "model_name": "watermelon_4",
-               "name": "i18n(stonehearth:entities.crops.watermelon_crop.growth_stage.003.name)",
-               "description": "i18n(stonehearth:entities.crops.watermelon_crop.growth_stage.003.description)"
+               "model_name": "cabbage_crop_4",
+               "name": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.003.name)",
+               "description": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.003.description)"
             },
             {},
             {},
@@ -82,9 +82,9 @@
             {},
             {},
             {
-               "model_name": "watermelon_12",
-               "name": "i18n(stonehearth:entities.crops.watermelon_crop.growth_stage.011.name)",
-               "description": "i18n(stonehearth:entities.crops.watermelon_crop.growth_stage.011.description)"
+               "model_name": "cabbage_crop_12",
+               "name": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.011.name)",
+               "description": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.011.description)"
             }
          ]
       }
@@ -99,10 +99,10 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.crops.watermelon_crop.display_name)",
-         "description": "i18n(stonehearth:entities.crops.watermelon_crop.description)",
+         "display_name": "i18n(stonehearth:entities.crops.cabbage_crop.display_name)",
+         "description": "i18n(stonehearth:entities.crops.cabbage_crop.description)",
          "icon": "file(icon.png)",
-         "material_tags": "crop watermelon"
+         "material_tags": "crop cabbage"
       },
       "stonehearth:appeal": {
          "appeal": 1
