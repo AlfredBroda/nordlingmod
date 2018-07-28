@@ -17,7 +17,8 @@
 	"ui:nordling_shields_filter"		:	"file(ui/game/modes/zones_mode/stockpile/images/taxonomy/shield.png)",
 	"male_1"							:	"file(entities/humans/male/male_1.json)",
 	"female_1"							:	"file(entities/humans/female/female_1.json)",
-	"farmer_initial_crops"				:	"file(data/nordlings_initial_crops.json)",	
+	"farmer_initial_crops"				:	"file(data/nordlings_initial_crops.json)",
+	"farmer:all_crops"					:	"file(services/server/farmer/all_crops.json)",
 	"mythril_ingot"						:	"file(entities/refined/mythril_ingot/mythril_ingot.json)",
 	"jobs:index"						:	"file(jobs/index.json)",	
 	"jobs:archer"						:	"file(jobs/archer/nordlings_archer_description.json)",
@@ -129,6 +130,7 @@
 	"mixintos":{
 	"stonehearth:playable_kingdom_index"								:	"file(data/nordlings_playable_kingdom_index.json)",
 	"stonehearth:farmer:initial_crops"									:	"nordlingmod:farmer_initial_crops",
+	"stonehearth:farmer:all_crops"										:	"nordlingmod:farmer:all_crops",
 	"stonehearth:data:sound_constants"									: 	"nordlingmod:data:sound_constants",
 	"stonehearth/data/biome/arctic_generation_data.json"				:	"file(data/biome/arctic_generation_data.json)",
 	"stonehearth/data/biome/desert_generation_data.json"				:	"file(data/biome/desert_generation_data.json)",

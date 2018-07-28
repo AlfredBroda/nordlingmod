@@ -5,12 +5,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(grape_basket.qb)"
+               "file(white_carrot_basket.qb)"
             ]
          },
          "decay_1": {
             "models": [
-               "file(grape_basket_rotting.qb)"
+               "file(white_carrot_basket_rotting.qb)"
             ]
          }
       },
@@ -18,16 +18,17 @@
          "model_origin": { "x": 0, "y": 0, "z": 0.05 }
       },
       "stonehearth:stacks": {
-         "max_stacks": 3
+         "max_stacks": 10
       }
    },
    "entity_data": {
       "stonehearth:food_container": {
          "effect": "fiddle",
-         "food": "stonehearth:food:grapes:grape_serving"
+         "food": "nordlingmod:food:white_carrot:white_carrot_serving",
+         "stacks_per_serving": 6
       },
       "stonehearth:net_worth": {
-         "value_in_gold": 2,
+         "value_in_gold": 4,
          "rarity": "common",
          "shop_info": {
             "buyable": true,
@@ -37,13 +38,13 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.food.berries.grape_basket.display_name)",
-         "description": "i18n(stonehearth:entities.food.berries.grape_basket.description)",
-         "icon": "file(grape_basket.png)",
+         "display_name": "i18n(stonehearth:entities.plants.white_carrot.white_carrot_basket.display_name)",
+         "description": "i18n(stonehearth:entities.plants.white_carrot.white_carrot_basket.description)",
+         "icon": "file(white_carrot_basket.png)",
          "is_item": true,
          "category": "food",
-         "material_tags": "food_container raw_food fruit grape vegetarian stockpile_raw_food",
-         "subject_override": "nordlingmod:crops:grape_crop"
+         "material_tags": "food_container raw_food vegetable vegetarian carrot stockpile_raw_food",
+         "subject_override": "nordlingmod:crops:white_carrot_crop"
       },
       "stonehearth:appeal": {
          "appeal": 0
