@@ -1,0 +1,19 @@
+{
+      "crops": {
+	  "cabbage": {
+         "crop_type": "nordlingmod:crops:cabbage_crop",
+         "ordinal": 1,
+         "level_requirement": 0
+	  },
+	  "beans": {
+         "crop_type": "nordlingmod:crops:beans_crop",
+         "ordinal": 2,
+         "level_requirement": 0
+	  },
+	  "white_carrot": {
+         "crop_type": "nordlingmod:crops:white_carrot_crop",
+         "ordinal": 3,
+         "level_requirement": 0
+      }
+   }
+}

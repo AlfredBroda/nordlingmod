@@ -3,12 +3,12 @@
       "nordlingmod:kingdoms:nordlings": {
          "fallow": true,
          "turnip": true,
-         "carrot": true,
-         "pumpkin": true,
+		 "cabbage": true,
+		 "beans": true,
+		 "white_carrot": true,
          "silkweed": true,
          "brightbell": true,
          "frostsnap": true,
-         "sweet_potato": true,
          "wheat": true,
          "pine_tree": true
 		}
