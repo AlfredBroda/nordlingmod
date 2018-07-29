@@ -38,8 +38,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.plants.white_carrot.white_carrot_basket.display_name)",
-         "description": "i18n(stonehearth:entities.plants.white_carrot.white_carrot_basket.description)",
+         "display_name": "i18n(nordlingmod:entities.plants.white_carrot.white_carrot_basket.display_name)",
+         "description": "i18n(nordlingmod:entities.plants.white_carrot.white_carrot_basket.description)",
          "icon": "file(white_carrot_basket.png)",
          "is_item": true,
          "category": "food",

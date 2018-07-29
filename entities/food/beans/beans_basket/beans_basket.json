@@ -38,8 +38,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.plants.beans.beans_basket.display_name)",
-         "description": "i18n(stonehearth:entities.plants.beans.beans_basket.description)",
+         "display_name": "i18n(nordlingmod:entities.plants.beans.beans_basket.display_name)",
+         "description": "i18n(nordlingmod:entities.plants.beans.beans_basket.description)",
          "icon": "file(beans_basket.png)",
          "is_item": true,
          "category": "food",

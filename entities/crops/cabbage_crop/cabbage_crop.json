@@ -39,8 +39,8 @@
       },
       "stonehearth:crop": {
          "resource_pairings": {
-            "cabbage_crop_3": "stonehearth:food:cabbage_serving",
-            "cabbage_crop_4": "stonehearth:food:cabbage:cabbage_basket",
+            "cabbage_crop_3": "nordlingmod:food:cabbage_serving",
+            "cabbage_crop_4": "nordlingmod:food:cabbage:cabbage_basket",
             "cabbage_crop_12": ""
          },
          "harvest_threshhold": "cabbage_crop_4",
@@ -49,30 +49,36 @@
       "stonehearth:growing": {
          "growth_period": "14h",
          "preferred_seasons": {
-            "stonehearth:biome:temperate": ["summer"],
-            "stonehearth:biome:desert": ["summer"],
-            "stonehearth:biome:arctic": ["summer"]
+            "stonehearth:biome:temperate": [
+               "summer"
+            ],
+            "stonehearth:biome:desert": [
+               "summer"
+            ],
+            "stonehearth:biome:arctic": [
+               "summer"
+            ]
          },
          "growth_stages": [
             {
                "model_name": "cabbage_crop_1",
-               "name": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.000.name)",
-               "description": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.000.description)"
+               "name": "i18n(nordlingmod:entities.crops.cabbage_crop.growth_stage.000.name)",
+               "description": "i18n(nordlingmod:entities.crops.cabbage_crop.growth_stage.000.description)"
             },
             {
                "model_name": "cabbage_crop_2",
-               "name": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.001.name)",
-               "description": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.001.description)"
+               "name": "i18n(nordlingmod:entities.crops.cabbage_crop.growth_stage.001.name)",
+               "description": "i18n(nordlingmod:entities.crops.cabbage_crop.growth_stage.001.description)"
             },
             {
                "model_name": "cabbage_crop_3",
-               "name": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.002.name)",
-               "description": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.002.description)"
+               "name": "i18n(nordlingmod:entities.crops.cabbage_crop.growth_stage.002.name)",
+               "description": "i18n(nordlingmod:entities.crops.cabbage_crop.growth_stage.002.description)"
             },
             {
                "model_name": "cabbage_crop_4",
-               "name": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.003.name)",
-               "description": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.003.description)"
+               "name": "i18n(nordlingmod:entities.crops.cabbage_crop.growth_stage.003.name)",
+               "description": "i18n(nordlingmod:entities.crops.cabbage_crop.growth_stage.003.description)"
             },
             {},
             {},
@@ -83,8 +89,8 @@
             {},
             {
                "model_name": "cabbage_crop_12",
-               "name": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.011.name)",
-               "description": "i18n(stonehearth:entities.crops.cabbage_crop.growth_stage.011.description)"
+               "name": "i18n(nordlingmod:entities.crops.cabbage_crop.growth_stage.011.name)",
+               "description": "i18n(nordlingmod:entities.crops.cabbage_crop.growth_stage.011.description)"
             }
          ]
       }
@@ -99,8 +105,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.crops.cabbage_crop.display_name)",
-         "description": "i18n(stonehearth:entities.crops.cabbage_crop.description)",
+         "display_name": "i18n(nordlingmod:entities.crops.cabbage_crop.display_name)",
+         "description": "i18n(nordlingmod:entities.crops.cabbage_crop.description)",
          "icon": "file(icon.png)",
          "material_tags": "crop cabbage"
       },

@@ -5,12 +5,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(beans_basket.qb)"
+               "file(cabbage_basket.qb)"
             ]
          },
          "decay_1": {
             "models": [
-               "file(beans_basket_rotting.qb)"
+               "file(cabbage_basket_rotting.qb)"
             ]
          }
       },
@@ -24,7 +24,7 @@
    "entity_data": {
       "stonehearth:food_container": {
          "effect": "fiddle",
-         "food": "nordlingmod:food:beans:beans_serving",
+         "food": "nordlingmod:food:cabbage:cabbage_serving",
          "stacks_per_serving": 6
       },
       "stonehearth:net_worth": {
@@ -38,13 +38,13 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.plants.beans.beans_basket.display_name)",
-         "description": "i18n(stonehearth:entities.plants.beans.beans_basket.description)",
-         "icon": "file(beans_basket.png)",
+         "display_name": "i18n(nordlingmod:entities.plants.cabbage.cabbage_basket.display_name)",
+         "description": "i18n(nordlingmod:entities.plants.cabbage.cabbage_basket.description)",
+         "icon": "file(cabbage_basket.png)",
          "is_item": true,
          "category": "food",
          "material_tags": "food_container raw_food vegetable vegetarian carrot stockpile_raw_food",
-         "subject_override": "nordlingmod:crops:beans_crop"
+         "subject_override": "nordlingmod:crops:cabbage_crop"
       },
       "stonehearth:appeal": {
          "appeal": 0

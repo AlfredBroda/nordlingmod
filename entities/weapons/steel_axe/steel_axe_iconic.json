@@ -16,7 +16,7 @@
          "description": "i18n(nordlingmod:entities.weapons.steel_axe.steel_axe_iconic.description)",
          "icon": "file(steel_axe.png)",
          "is_item": true,
-         "category": "weapons"
+         "category": "weapons",
 		 "material_tags": "steel melee_weapon"
       }
    }

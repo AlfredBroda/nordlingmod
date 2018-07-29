@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(steel_axe_iconic.qb)"
+               "file(stone_axe_iconic.qb)"
             ]
          }
       }

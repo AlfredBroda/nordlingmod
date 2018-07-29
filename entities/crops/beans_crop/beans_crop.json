@@ -58,40 +58,48 @@
       "stonehearth:growing": {
          "growth_period": "6h",
          "preferred_seasons": {
-            "stonehearth:biome:temperate": ["summer", "autumn"],
-            "stonehearth:biome:desert": ["autumn", "winter"],
-            "stonehearth:biome:arctic": ["summer"]
+            "stonehearth:biome:temperate": [
+               "summer",
+               "autumn"
+            ],
+            "stonehearth:biome:desert": [
+               "autumn",
+               "winter"
+            ],
+            "stonehearth:biome:arctic": [
+               "summer"
+            ]
          },
          "growth_stages": [
             {
                "model_name": "beans_crop_1",
-               "name": "i18n(stonehearth:entities.crops.beans_crop.growth_stage.000.name)",
-               "description": "i18n(stonehearth:entities.crops.beans_crop.growth_stage.000.description)"
+               "name": "i18n(nordlingmod:entities.crops.beans_crop.growth_stage.000.name)",
+               "description": "i18n(nordlingmod:entities.crops.beans_crop.growth_stage.000.description)"
             },
             {
                "model_name": "beans_crop_2",
-               "name": "i18n(stonehearth:entities.crops.beans_crop.growth_stage.001.name)",
-               "description": "i18n(stonehearth:entities.crops.beans_crop.growth_stage.001.description)"
+               "name": "i18n(nordlingmod:entities.crops.beans_crop.growth_stage.001.name)",
+               "description": "i18n(nordlingmod:entities.crops.beans_crop.growth_stage.001.description)"
             },
             {
                "model_name": "beans_crop_3",
-               "name": "i18n(stonehearth:entities.crops.beans_crop.growth_stage.002.name)",
-               "description": "i18n(stonehearth:entities.crops.beans_crop.growth_stage.002.description)"
+               "name": "i18n(nordlingmod:entities.crops.beans_crop.growth_stage.002.name)",
+               "description": "i18n(nordlingmod:entities.crops.beans_crop.growth_stage.002.description)"
             },
             {
                "model_name": "beans_crop_4",
-               "name": "i18n(stonehearth:entities.crops.beans_crop.growth_stage.003.name)",
-               "description": "i18n(stonehearth:entities.crops.beans_crop.growth_stage.003.description)"
+               "name": "i18n(nordlingmod:entities.crops.beans_crop.growth_stage.003.name)",
+               "description": "i18n(nordlingmod:entities.crops.beans_crop.growth_stage.003.description)"
             },
             {
                "model_name": "beans_crop_5",
-               "name": "i18n(stonehearth:entities.crops.beans_crop.growth_stage.004.name)",
-               "description": "i18n(stonehearth:entities.crops.beans_crop.growth_stage.004.description)"
+               "name": "i18n(nordlingmod:entities.crops.beans_crop.growth_stage.004.name)",
+               "description": "i18n(nordlingmod:entities.crops.beans_crop.growth_stage.004.description)"
             },
             {
                "model_name": "beans_crop_6",
-               "name": "i18n(stonehearth:entities.crops.beans_crop.growth_stage.005.name)",
-               "description": "i18n(stonehearth:entities.crops.beans_crop.growth_stage.005.description)"
+               "name": "i18n(nordlingmod:entities.crops.beans_crop.growth_stage.005.name)",
+               "description": "i18n(nordlingmod:entities.crops.beans_crop.growth_stage.005.description)"
             },
             {},
             {},
@@ -100,8 +108,8 @@
             {},
             {
                "model_name": "beans_crop_12",
-               "name": "i18n(stonehearth:entities.crops.beans_crop.growth_stage.011.name)",
-               "description": "i18n(stonehearth:entities.crops.beans_crop.growth_stage.011.description)"
+               "name": "i18n(nordlingmod:entities.crops.beans_crop.growth_stage.011.name)",
+               "description": "i18n(nordlingmod:entities.crops.beans_crop.growth_stage.011.description)"
             }
          ]
       }
@@ -116,8 +124,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.crops.beans_crop.display_name)",
-         "description": "i18n(stonehearth:entities.crops.beans_crop.description)",
+         "display_name": "i18n(nordlingmod:entities.crops.beans_crop.display_name)",
+         "description": "i18n(nordlingmod:entities.crops.beans_crop.description)",
          "icon": "file(icon.png)",
          "material_tags": "crop beans"
       },

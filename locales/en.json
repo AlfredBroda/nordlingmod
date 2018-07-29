@@ -146,6 +146,10 @@
             "mythril_axe_iconic": {
                "display_name": "Einherjar Axe",
                "description": "A double headed axe, used by Einherjar."
+            },
+            "bronze_sword_iconic": {
+               "display_name": "Einherjar Axe",
+               "description": "A weapon for a True Hero"
             }
          },
          "bronze_sword_viking": {
@@ -301,6 +305,14 @@
                "display_name": "Iron banded Roundshield",
                "description": "your heartling will decorate this before use!"
             }
+         },
+         "sword_sheeth": {
+            "display_name": "Sword Sheeth",
+            "description": "Holds your sword when not in use."
+         },
+         "einherjar_axe_offhand": {
+            "display_name": "Einherjar Axe",
+            "description": "A Weapon for a True Hero"
          }
       },
       "decoration": {
@@ -310,6 +322,12 @@
             "rune_stone_iconic": {
                "display_name": "Rune stone",
                "description": "We dont know how, but the stonemason shrunk it down."
+            }
+         },
+         "fireplace": {
+            "fireplace_ghost": {
+               "display_name": "Fireplace",
+               "description": "Keeps your house nice and warm!"
             }
          }
       },
@@ -363,6 +381,91 @@
                   }
                }
             }
+         },
+         "white_carrot_crop": {
+            "growth_stage": {
+               "000": {
+                  "name": "White Carrot Seedling",
+                  "description": "Freshly planted!"
+               },
+               "001": {
+                  "name": "baby white carrot",
+                  "description": "Doing its best to grow"
+               },
+               "003": {
+                  "name": "Ripe White Carrot",
+                  "description": "Ready for the harvest!"
+               },
+               "002": {
+                  "name": "Growing White Carrot",
+                  "description": "A novice at this whole growing thing by now"
+               },
+               "011": {
+                  "name": "Rotten White Carrot",
+                  "description": "Only good for compost now"
+               }
+            },
+            "display_name": "White Carrot",
+            "description": "A hardy Vegatable"
+         },
+         "cabbage_crop": {
+            "display_name": "Cabbage",
+            "description": "Leafy and green",
+            "growth_stage": {
+               "011": {
+                  "name": "Rotten Cabbage",
+                  "description": "Rotten and stinks like the blazes"
+               },
+               "000": {
+                  "name": "Cabbage sprout",
+                  "description": "Planted and ready to grow!"
+               },
+               "001": {
+                  "name": "Baby Cabbage",
+                  "description": "Just a 'Lil guy"
+               },
+               "002": {
+                  "name": "Small Cabbage",
+                  "description": "Still growing!"
+               },
+               "003": {
+                  "name": "Ripe Cabbage",
+                  "description": "Ready to be harvested!"
+               }
+            }
+         },
+         "beans_crop": {
+            "display_name": "Beans",
+            "description": "Dangly and nutricious",
+            "growth_stage": {
+               "000": {
+                  "name": "Bean Sprout",
+                  "description": "Just a tiny little stub"
+               },
+               "001": {
+                  "name": "Growing Beanstalk",
+                  "description": "Clingy!"
+               },
+               "002": {
+                  "name": "Spouting Beanstalk",
+                  "description": "Are you sure these arent magic?"
+               },
+               "005": {
+                  "name": "Ripe Beanstalk",
+                  "description": "Ripe Beans on a stalk, Harvest now!"
+               },
+               "004": {
+                  "name": "Ripening Beanstalk",
+                  "description": "Almost ripe!"
+               },
+               "011": {
+                  "name": "Rotting Beans",
+                  "description": "Mushy and Juck!"
+               },
+               "003": {
+                  "description": "Full of promise!"
+               }
+            }
          }
       },
       "plants": {
@@ -374,6 +477,36 @@
             "onion_serving": {
                "display_name": "Turnip",
                "description": "Tiny. Bitter."
+            }
+         },
+         "beans": {
+            "beans_basket": {
+               "display_name": "Basket of Beans",
+               "description": "A basket full of beans"
+            },
+            "beans_serving": {
+               "display_name": "Beans",
+               "description": "A serving of green beans,"
+            }
+         },
+         "cabbage": {
+            "cabbage_basket": {
+               "display_name": "Cabbage in a basket",
+               "description": "A cabbage in a basket. Its that simple."
+            },
+            "cabbage_serving": {
+               "display_name": "Cabbage on a plate",
+               "description": "Concider it a sallad"
+            }
+         },
+         "white_carrot": {
+            "white_carrot_basket": {
+               "display_name": "White Carrots",
+               "description": "A hardy old species of carrot"
+            },
+            "white_carrot_serving": {
+               "display_name": "A meal of carrot",
+               "description": "Bunnies love it!"
             }
          }
       },
@@ -431,7 +564,11 @@
          "charcoal_mound": {
             "charcoal_mound_phase_1": {
                "display_name": "Charcoal mound",
-               "description": "Its quickly turning hotter!"
+               "description": "Its quickly turning hotter!",
+               "charcoal_mound_phase_1_ghost": {
+                  "display_name": "Charcoal Mound",
+                  "description": "Turns wood into charcoal!"
+               }
             },
             "charcoal_mound_phase_2": {
                "display_name": "Charcoal mound",
@@ -444,6 +581,18 @@
             "charcoal_mound_phase_4": {
                "display_name": "Charcoal Mound",
                "description": "Ready for havesting!"
+            }
+         },
+         "comfy_fur_bed": {
+            "comfy_fur_bed_ghost": {
+               "display_name": "Comfy Fur Bed",
+               "description": "Keeps you warm in winter!"
+            }
+         },
+         "comfy_fur_bed_stone": {
+            "comfy_fur_bed_stone_ghost": {
+               "display_name": "Comfy Fur-covered Stone Bed",
+               "description": "Rugged and Warm!"
             }
          }
       }

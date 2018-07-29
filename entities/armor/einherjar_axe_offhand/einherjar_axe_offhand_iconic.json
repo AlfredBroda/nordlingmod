@@ -15,8 +15,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.armor.einherjar_axe_offhand.display_name)",
-         "description": "i18n(stonehearth:entities.armor.einherjar_axe_offhand.description)",
+         "display_name": "i18n(nordlingmod:entities.armor.einherjar_axe_offhand.display_name)",
+         "description": "i18n(nordlingmod:entities.armor.einherjar_axe_offhand.description)",
          "icon": "file(einherjar_axe_offhand.png)",
          "is_item": true,
          "category": "armor",

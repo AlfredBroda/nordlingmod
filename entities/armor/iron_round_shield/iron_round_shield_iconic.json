@@ -10,14 +10,14 @@
          }
       },
       "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0.00 }
+         "model_origin": { "x": 0, "y": 0, "z": 0.0 }
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
          "display_name": "i18n(nordlingmod:entities.armor.iron_round_shield.iron_round_shield_iconic.display_name)",
          "description": "i18n(nordlingmod:entities.armor.iron_round_shield.iron_round_shield_iconic.description)",
-         "icon": "file(iron_shield.png)",
+         "icon": "file(iron_round_shield.png)",
          "is_item": true,
          "category": "armor"
       }

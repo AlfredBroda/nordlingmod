@@ -25,8 +25,8 @@
          "quality": 1
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.plants.beans.beans_serving.display_name)",
-         "description": "i18n(stonehearth:entities.plants.beans.beans_serving.description)",
+         "display_name": "i18n(nordlingmod:entities.plants.beans.beans_serving.display_name)",
+         "description": "i18n(nordlingmod:entities.plants.beans.beans_serving.description)",
          "material_tags": "food vegetarian",
          "subject_override": "nordlingmod:crops:beans_crop"
       }

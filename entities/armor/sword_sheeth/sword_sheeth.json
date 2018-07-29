@@ -25,7 +25,7 @@
          "required_job_level": 0,
          "roles": "combat",
          "equip_effect": "stonehearth:effects:weapon_level_up",
-		 "no_drop": true
+         "no_drop": true
       }
    },
    "entity_data": {
@@ -38,8 +38,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.armor.sword_sheeth.display_name)",
-         "description": "i18n(stonehearth:entities.armor.sword_sheeth.description)",
+         "display_name": "i18n(nordlingmod:entities.armor.sword_sheeth.display_name)",
+         "description": "i18n(nordlingmod:entities.armor.sword_sheeth.description)",
          "icon": "file(sword_sheeth.png)",
          "category": "armor",
          "material_tags": "leather armor light_armor stockpile_equipment"
