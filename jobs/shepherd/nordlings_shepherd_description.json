@@ -2,6 +2,10 @@
    "type": "job",
    "mixins": "stonehearth:jobs:shepherd",
     "equipment": {
-		"torso": "file(shepherd_outfit)"
-	}
+		"torso": "file(shepherd_outfit)",
+		"mainhand": "nordlingmod:shepherd:crook"
+	},
+	"parent_job": "stonehearth:jobs:worker",
+	"parent_level_requirement": 0,
+	"talisman_uri": "nordlingmod:shepherd:talisman"
 }

@@ -11,10 +11,6 @@
       {
          "material": "wood resource",
          "count": 10
-      },
-	  {
-         "material": "clay resource",
-         "count": 2
       }
    ],
    "produces": [

@@ -18,7 +18,6 @@
 			},
 			"mixintypes": {
                  "wooden_shield": "remove"
-				 
               }			
         }
     },
@@ -34,6 +33,16 @@
                "recipe": "file(charcoal_mound_recipe.json)"
             }
 		}	
+   },
+   "tools": {
+		"recipes" : {
+			 "shepherd_crook_nordlings": {
+               "recipe": "file(shepherd_crook_recipe.json)"
+            },
+			"mixintypes": {
+                 "shepherd_crook": "remove"
+            }
+			}
    }
 }
 }

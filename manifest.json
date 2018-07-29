@@ -52,6 +52,8 @@
 	"mason:outfit"						:	"file(jobs/mason/mason_outfit/mason_outfit.json)",
 	"potter:outfit"						:	"file(jobs/potter/potter_outfit/potter_outfit.json)",
 	"shepherd:outfit"					:	"file(jobs/shepherd/shepherd_outfit/shepherd_outfit.json)",
+	"shepherd:crook"					:	"file(jobs/shepherd/shepherd_crook/shepherd_crook.json)",
+	"shepherd:talisman"					:	"file(jobs/shepherd/shepherd_crook/shepherd_crook_talisman.json)",
 	"trapper:outit"						:	"file(jobs/trapper/trapper_outfit/trapper_outfit.json)",
 	"weaver:outfit"						:	"file(jobs/weaver/weaver_outfit/weaver_outfit.json)",
 	"worker:outfit"						:	"file(jobs/worker/worker_outfit/worker_outfit.json)",
