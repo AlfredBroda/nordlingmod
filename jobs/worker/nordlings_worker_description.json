@@ -2,5 +2,72 @@
    "mixins": "stonehearth:jobs:worker",
    "equipment": {
       "torso": "file(worker_outfit)"
+   },
+    "controller": "stonehearth:class:farmer",
+	"task_groups": [
+	  "stonehearth:task_groups:farming"
+   ],
+   "abilities": "/nordlingmod/jobs/worker/worker_abilities/worker_abilities.json",
+   "roles": "farmer_job",
+   "promotion_activity_name": "promote_farmer",
+    "xp_rewards": {
+      "base_exp_per_harvest": 4,
+      "stonehearth:pumpkin_crop": 10,
+      "stonehearth:corn_crop": 30,
+      "stonehearth:crops:tester_crop": 120,
+      "stonehearth:crops:tester_crop_2": 120
+   },
+   "max_level": 6,
+   "level_data": {
+      "1": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(stonehearth:jobs.farmer.farmer_description.level_1_data.perk_000_name)",
+               "id": "farmer_speed_up_1",
+               "icon": "/stonehearth/jobs/farmer/images/speed_up.png",
+               "buff_name": "stonehearth:buffs:farmer:speed_1",
+               "description": "i18n(stonehearth:jobs.farmer.farmer_description.level_1_data.perk_000_description)",
+               "level": 1,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "2": {
+         "perks": [
+            {
+               "name": "i18n(stonehearth:jobs.farmer.farmer_description.level_2_data.perk_000_name)",
+               "id": "farmer_job_opportunities",
+               "icon": "/stonehearth/jobs/farmer/images/farmerLv2.png)",
+               "description": "i18n(stonehearth:jobs.farmer.farmer_description.level_2_data.perk_000_description)",
+               "level": 2
+            }
+         ]
+      },
+      "3": {
+         "perks": [
+            {
+               "name": "i18n(stonehearth:jobs.farmer.farmer_description.level_3_data.perk_000_name)",
+               "id": "farmer_harvest_increase",
+               "icon": "/stonehearth/jobs/farmer/images/farmerLv3.png)",
+               "description": "i18n(stonehearth:jobs.farmer.farmer_description.level_3_data.perk_000_description)",
+               "level": 3
+            }
+         ]
+      },
+      "5": {
+         "perks": [
+            {
+               "name": "i18n(stonehearth:jobs.farmer.farmer_description.level_5_data.perk_000_name)",
+               "id": "farmer_unlock_trees",
+               "icon": "/stonehearth/jobs/farmer/images/farmerLv5.png)",
+               "description": "i18n(stonehearth:jobs.farmer.farmer_description.level_5_data.perk_000_description)",
+               "level": 5
+            }
+         ]
+      },
+      "6": {
+         "title": "i18n(stonehearth:jobs.farmer.farmer_description.level_6_data.title)"
+      }
    }
 }
