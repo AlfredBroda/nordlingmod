@@ -18,7 +18,7 @@
    },
    "entity_data": {
       "stonehearth:customization_variants": {
-         "customization_options": "stonehearth:humans:female:customizations",
+         "customization_options": "/nordlingmod/entities/humans/female/female_customizations.json",
          "root": {
             "hair_and_skin_color": {
                "weights": {

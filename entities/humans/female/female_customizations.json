@@ -82,9 +82,6 @@
       "head_hair": {
          "type": "model",
          "values": {
-            "[none]": {
-               "file": ""
-            },
             "female_hair_1": {
                "file": "/stonehearth/entities/humans/female/hair_1.qb"
             },
@@ -108,6 +105,27 @@
             },
             "female_hair_8": {
                "file": "/stonehearth/entities/humans/female/hair_8.qb"
+            },
+			"female_hair_1_new": {
+               "file": "file(hair_female_1.qb)"
+            },
+			"female_hair_2_new": {
+				"file": "file(hair_female_2.qb)"
+            },
+			"female_hair_3_new": {
+				"file": "file(hair_female_3.qb)"
+            },
+			"female_hair_4_new": {
+				"file": "file(hair_female_4.qb)"
+            },
+			"female_hair_5_new": {
+				"file": "file(hair_female_5.qb)"
+            },
+			"female_hair_6_new": {
+				"file": "file(hair_female_6.qb)"
+            },
+			"female_hair_8_new": {
+				"file": "file(hair_female_8.qb)"
             }
          }
       }

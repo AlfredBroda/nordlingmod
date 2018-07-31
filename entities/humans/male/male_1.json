@@ -60,16 +60,15 @@
             "young": {
                "eyebrows": {
                   "weights": {
-                     "[none]": 1,
-                     "straight_eyebrows": 2
+                     "straight_eyebrows": 1
                   }
                },
                "facial_hair": {
                   "weights": {
                      "[none]": 1,
                      "chops": 1,
-                     "chin_beard": 8,
-                     "beard": 5
+                     "chin_beard": 1,
+                     "beard": 1
                   }
                },
                "head_hair": {

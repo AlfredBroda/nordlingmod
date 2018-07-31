@@ -86,27 +86,42 @@
             "[none]": {
                "file": ""
             },
+			"moustache": {
+               "file": "file(moustache.qb)"
+            },
+            "beard_full": {
+               "file": "file(beard_full.qb)"
+            },
             "beard_chin": {
                "file": "/stonehearth/entities/humans/male/chin_beard.qb"
+            },
+			"beard_huge": {
+               "file": "file(beard_huge.qb)"
+            },
+            "beard_braid_single": {
+               "file": "file(beard_braid_single.qb)"
+            },
+            "beard_braid_double": {
+               "file": "file(beard_braid_double.qb)"
             },
             "chops": {
                "file": "/stonehearth/entities/humans/male/chops.qb"
             },
+			"chops_moustache": {
+               "file": "file(chops_moustache.qb)"
+            },
             "beard": {
-               "file": "/stonehearth/entities/humans/male/beard.qb"
+               "file": "file(beard_huge.qb)"
             },
             "beard_epic": {
                "hidden": true,
-               "file": "/stonehearth/entities/humans/male/beard_epic.qb"
+               "file": "file(beard_epic.qb)"
             }
          }
       },
       "eyebrows": {
          "type": "model",
          "values": {
-            "[none]": {
-               "file": ""
-            },
             "straight_eyebrows": {
                "file": "/stonehearth/entities/humans/male/brows.qb"
             }
@@ -129,6 +144,12 @@
             },
             "male_hair_4": {
                "file": "/stonehearth/entities/humans/male/hair_4.qb"
+            },
+			"hair_kitty_loki": {
+               "file": "file(hair_kitty_loki.qb)"
+            },
+			"hair_kitty_thor": {
+               "file": "file(hair_kitty_thor.qb)"
             },
             "male_hair_old_1": {
                "file": "/stonehearth/entities/humans/male/hair_old_1.qb"
