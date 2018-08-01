@@ -440,14 +440,14 @@ App.StonehearthCitizenCharacterSheetView = App.View.extend({
       //show each class that this person has ever been
       var jobs = this.get('model.stonehearth:job.job_controllers');
       radiant.each(jobs, function(alias, data) {
-          {
+          
             var div = self.$("[uri='" + alias + "']");
 
             //For each, figure out which perks should be unlocked
             self._unlockPerksToLevel(div, data.last_gained_lv)
 
             $(div).show();
-         }
+         
       });
 
       //Highlight current class, since it needs to be 100% up to date
