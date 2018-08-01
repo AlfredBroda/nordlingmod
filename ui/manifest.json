@@ -8,7 +8,8 @@
    "aliases" : {},
    "mixintos" :  {
       "stonehearth/ui/data/constants.json" : "file(ui/data/constants.json)",
-      "stonehearth/locales/en.json": "nordlingmod/locales/en.json"
+      "stonehearth/locales/en.json": "nordlingmod/locales/en.json",
+	   "stonehearth/data/ui/start_menu.json": "nordlingmod/data/ui/start_menu.json"
    },
    "overrides" : {
       "stonehearth/ui/game/start_menu/images/dock.png":"file(start_menu/dock.png)",
