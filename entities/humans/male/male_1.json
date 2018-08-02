@@ -65,10 +65,15 @@
                },
                "facial_hair": {
                   "weights": {
-                     "[none]": 1,
-                     "chops": 1,
-                     "chin_beard": 1,
-                     "beard": 1
+                     "moustache": 1,
+					 "chops": 1,
+					 "chops_moustache": 1,
+                     "beard_chin": 1,
+                     "beard": 1,
+					 "beard_braid_single": 1,
+					 "beard_braid_double": 1,
+					 "beard_full": 1,
+					 "beard_huge": 1
                   }
                },
                "head_hair": {
@@ -76,26 +81,37 @@
                      "male_hair_1": 1,
                      "male_hair_2": 1,
                      "male_hair_3": 1,
-                     "male_hair_4": 1
+                     "male_hair_4": 1,
+					 "hair_kitty_loki": 1,
+					 "hair_kitty_thor": 1
                   }
                }
             },
             "old": {
                "eyebrows": {
                   "weights": {
-                     "[none]": 1,
-                     "straight_eyebrows": 3
+                     "straight_eyebrows": 1
                   }
                },
                "facial_hair": {
                   "weights": {
-                     "chops": 1,
-                     "chin_beard": 5,
-                     "beard": 8
+                     "moustache": 1,
+					 "chops": 1,
+					 "chops_moustache": 1,
+                     "beard_chin": 1,
+                     "beard": 1,
+					 "beard_braid_single": 1,
+					 "beard_braid_double": 1,
+					 "beard_full": 1,
+					 "beard_huge": 1
                   }
                },
                "head_hair": {
                   "weights": {
+				     "male_hair_1": 1,
+                     "male_hair_2": 1,
+                     "male_hair_3": 1,
+                     "male_hair_4": 1,
                      "male_hair_old_1": 1,
                      "male_hair_old_2": 1
                   }

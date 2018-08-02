@@ -89,28 +89,28 @@
 			"moustache": {
                "file": "file(moustache.qb)"
             },
-            "beard_full": {
-               "file": "file(beard_full.qb)"
-            },
-            "beard_chin": {
-               "file": "/stonehearth/entities/humans/male/chin_beard.qb"
-            },
-			"beard_huge": {
-               "file": "file(beard_huge.qb)"
-            },
-            "beard_braid_single": {
-               "file": "file(beard_braid_single.qb)"
-            },
-            "beard_braid_double": {
-               "file": "file(beard_braid_double.qb)"
-            },
-            "chops": {
+			"chops": {
                "file": "/stonehearth/entities/humans/male/chops.qb"
             },
 			"chops_moustache": {
                "file": "file(chops_moustache.qb)"
             },
-            "beard": {
+            "beard_chin": {
+               "file": "/stonehearth/entities/humans/male/chin_beard.qb"
+            },
+			 "beard": {
+               "file": "file(beard_huge.qb)"
+            },
+			 "beard_braid_single": {
+               "file": "file(beard_braid_single.qb)"
+            },
+            "beard_braid_double": {
+               "file": "file(beard_braid_double.qb)"
+            },
+			 "beard_full": {
+               "file": "file(beard_full.qb)"
+            },
+			"beard_huge": {
                "file": "file(beard_huge.qb)"
             },
             "beard_epic": {
