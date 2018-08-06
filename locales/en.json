@@ -934,6 +934,12 @@
             "display_name": "Einherjar's Helm",
             "description": "Iron headgear standard issue for all Einherjar"
          }
+      },
+      "worker": {
+         "worker_description": {
+            "display_name": "Villager",
+            "description": "Villagers perform basic tasks like harvesting resources, hauling stuff around, and constructing buildings, in addition to tending the fields."
+         }
       }
    },
    "ui": {
