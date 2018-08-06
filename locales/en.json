@@ -329,6 +329,12 @@
                "display_name": "Fireplace",
                "description": "Keeps your house nice and warm!"
             }
+         },
+         "decorative_wall_shield": {
+            "decorative_wall_shield_ghost": {
+               "display_name": "Decorative Wall Shield",
+               "description": "Not for actual battle, but decorative!"
+            }
          }
       },
       "resources": {

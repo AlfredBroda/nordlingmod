@@ -20,7 +20,7 @@
          "description": "nordlingmod:jobs:engineer"
       },
 	  "stonehearth:jobs:farmer": {
-         "description": "nordlingmod:jobs:farmer"
+         "description": "/nordlingmod/jobs/farmer/farmer_description_empty.json"
       },
 	  "stonehearth:jobs:footman": {
          "description": "nordlingmod:jobs:footman"

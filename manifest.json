@@ -136,8 +136,9 @@
 	"charcoal_mound_phase_2"			:	"file(entities/furniture/charcoal_mound/charcoal_mound_phase_2/charcoal_mound_phase_2.json)",
 	"charcoal_mound_phase_3"			:	"file(entities/furniture/charcoal_mound/charcoal_mound_phase_3/charcoal_mound_phase_3.json)",
 	"charcoal_mound_phase_4"			:	"file(entities/furniture/charcoal_mound/charcoal_mound_phase_4/charcoal_mound_phase_4.json)",
-	"landmark_blocks"					:	"file(data/terrain/landmark_blocks.json)"
-},
+	"landmark_blocks"					:	"file(data/terrain/landmark_blocks.json)",
+	"decorative_wall_shield"			:	"file(entities/decoration/decorative_wall_shield/decorative_wall_shield.json)"
+	},
 	"mixintos":{
 	"stonehearth:playable_kingdom_index"								:	"file(data/nordlings_playable_kingdom_index.json)",
 	"stonehearth:farmer:initial_crops"									:	"nordlingmod:farmer_initial_crops",

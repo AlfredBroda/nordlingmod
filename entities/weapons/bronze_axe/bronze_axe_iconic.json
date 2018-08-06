@@ -16,7 +16,7 @@
          "description": "i18n(nordlingmod:entities.weapons.bronze_axe.bronze_axe_iconic.description)",
          "icon": "file(bronze_axe.png)",
          "is_item": true,
-         "category": "weapons"
+         "category": "weapons",
 		 "material_tags": "bronze melee_weapon"
       }
    }

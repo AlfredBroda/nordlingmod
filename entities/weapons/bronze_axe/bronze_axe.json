@@ -19,7 +19,7 @@
             "stonehearth:combat",
             "stonehearth:patrol"
          ],
-		 "ilevel": 14,
+         "ilevel": 14,
          "roles": "footman_job",
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
@@ -40,7 +40,7 @@
       ],
       "stonehearth:net_worth": {
          "value_in_gold": 25,
-		 "rarity": "common",
+         "rarity": "common",
          "shop_info": {
             "buyable": true,
             "sellable": true,

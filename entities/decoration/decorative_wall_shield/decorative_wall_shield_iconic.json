@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(tapestry_wall_iconic.qb)"
+               "file(decorative_wall_shield_iconic.qb)"
             ]
          }
       },
