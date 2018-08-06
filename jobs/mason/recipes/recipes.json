@@ -23,6 +23,13 @@
 				"stone_maul": "remove"
             }
 	    }
-    }
-}
+    },
+	"furniture": {
+		"recipes": {
+			"comfy_fur_bed_stone": {
+               "recipe": "file(comfy_fur_bed_stone_recipe.json)"
+            }
+		}
+	}
+	}
 }
