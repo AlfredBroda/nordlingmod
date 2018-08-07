@@ -12,7 +12,7 @@
 	   "stonehearth/data/ui/start_menu.json": "nordlingmod/data/ui/start_menu.json"
    },
    "overrides" : {
-	  "stonehearth/ui/game/character_sheets/citizen_character_sheet/citizen_character_sheet.js":"nordlingmod/ui/game/character_sheets/citizen_character_sheet/citizen_character_sheet.js"
+	  "stonehearth/ui/game/character_sheets/citizen_character_sheet/citizen_character_sheet.js":"nordlingmod/ui/game/character_sheets/citizen_character_sheet/citizen_character_sheet.js",
       "stonehearth/ui/game/start_menu/images/dock.png":"file(start_menu/dock.png)",
 	  "stonehearth/ui/game/start_menu/images/build.png":"file(start_menu/build.png)",
       "stonehearth/ui/game/start_menu/images/town.png":"file(start_menu/town.png)",
