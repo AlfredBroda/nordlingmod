@@ -1,10 +1,10 @@
 {
    "type": "entity",
-   "mixins": "file(ornate_comfy_bed_ghost.json)",
+   "mixins": "file(ornate_comfy_fur_bed_ghost.json)",
    "components": {
       "stonehearth:entity_forms": {
-         "iconic_form": "file(ornate_comfy_bed_iconic.json)",
-         "ghost_form": "file(ornate_comfy_bed_ghost.json)",
+         "iconic_form": "file(ornate_comfy_fur_bed_iconic.json)",
+         "ghost_form": "file(ornate_comfy_fur_bed_ghost.json)",
          "placeable_on_ground": true
       },
       "region_collision_shape": {

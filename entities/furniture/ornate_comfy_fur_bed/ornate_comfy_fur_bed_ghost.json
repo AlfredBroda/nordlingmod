@@ -5,12 +5,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(ornate_comfy_bed.qb)"
+               "file(ornate_comfy_fur_bed.qb)"
             ]
          },
          "sleeping": {
             "models": [
-               "file(ornate_comfy_bed_sleeping.qb)"
+               "file(ornate_comfy_fur_bed_sleeping.qb)"
             ]
          }
       },
@@ -28,9 +28,9 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.furniture.ornate_comfy_bed.ornate_comfy_bed_ghost.display_name)",
-         "description": "i18n(stonehearth:entities.furniture.ornate_comfy_bed.ornate_comfy_bed_ghost.description)",
-         "icon": "file(ornate_comfy_bed.png)",
+         "display_name": "i18n(stonehearth:entities.furniture.ornate_comfy_fur_bed.ornate_comfy_fur_bed_ghost.display_name)",
+         "description": "i18n(stonehearth:entities.furniture.ornate_comfy_fur_bed.ornate_comfy_fur_bed_ghost.description)",
+         "icon": "file(ornate_comfy_fur_bed.png)",
          "category": "furniture",
          "material_tags": "wood furniture crafted stockpile_furniture"
       }
