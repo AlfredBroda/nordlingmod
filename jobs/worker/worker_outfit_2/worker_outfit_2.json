@@ -23,7 +23,10 @@
       "stonehearth:equipment_piece": {
          "slot": "torso",
          "render_type": "merge_with_model",
-         "roles": "worker_job",
+         "roles": [
+			"worker_job",
+			"farmer_job"
+		],
          "ilevel": 2,
          "injected_buffs": [
             "stonehearth:buffs:devoted",
