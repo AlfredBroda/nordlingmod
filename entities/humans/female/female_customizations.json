@@ -125,7 +125,10 @@
 				"file": "file(hair_female_6.qb)"
             },
 			"female_hair_7_new": {
-				"file": "file(hair_female_8.qb)"
+				"file": "file(hair_female_7.qb)"
+            },
+			"female_hair_thorunn": {
+				"file": "file(hair_kitty_thorunn.qb)"
             }
          }
       }

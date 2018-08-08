@@ -7,18 +7,18 @@
             "layer": "clothing",
             "transparent": false,
             "models": [
-               "file(worker_outfit2.qb)"
+               "file(worker_outfit_fancy.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
             "models": [
-               "file(worker_outfit2_female.qb)"
+               "file(worker_outfit_fancy_female.qb)"
             ]
          }
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(worker_outfit2_iconic.json)"
+         "iconic_form": "file(worker_outfit_fancy_iconic.json)"
       },
       "stonehearth:equipment_piece": {
          "slot": "torso",
@@ -47,9 +47,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(nordlingmod:jobs.worker.worker_outfit2.display_name)",
-         "description": "i18n(nordlingmod:jobs.worker.worker_outfit2.description)",
-         "icon": "file(worker_outfit2.png)",
+         "display_name": "i18n(nordlingmod:jobs.worker.worker_outfit_fancy.display_name)",
+         "description": "i18n(nordlingmod:jobs.worker.worker_outfit_fancy.description)",
+         "icon": "file(worker_outfit_fancy.png)",
          "category": "armor",
          "material_tags": "cloth worker_outfit stockpile_equipment"
       }

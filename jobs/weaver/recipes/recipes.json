@@ -3,6 +3,9 @@
    "craftable_recipes": {
       "clothing_armor": {
          "recipes": {
+			"worker_outfit_fancy": {
+               "recipe": "file(worker_outfit_fancy_recipe.json)"
+            },
             "cloth_armour": {
                "recipe": "file(cloth_armour_recipe.json)"
             },
@@ -10,6 +13,8 @@
                "recipe": "file(leather_armour_recipe.json)"
             },
 			"mixintypes": {
+				"worker_outfit_2"		: "remove",
+				"worker_outfit_winter"	: "remove",
 				"cloth_padded_vest"		: "remove",
 				"leather_vest"			: "remove",
 				"cloth_padded_helmet"	: "remove",

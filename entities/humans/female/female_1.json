@@ -61,6 +61,7 @@
                "head_hair": {
                   "weights": {
                      "female_hair_1": 1,
+					 "female_hair_thorunn": 1,
                      "female_hair_2": 1,
                      "female_hair_3": 1,
                      "female_hair_4": 1,
