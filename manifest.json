@@ -109,6 +109,7 @@
       "iron_axe": "file(entities/weapons/iron_axe/iron_axe.json)",
 	  "iron_axe_2h": "file(entities/weapons/iron_axe_2h/iron_axe_2h.json)",
       "steel_axe": "file(entities/weapons/steel_axe/steel_axe.json)",
+	  "steel_axe_2h": "file(entities/weapons/steel_axe_2h/steel_axe_2h.json)",
       "einherjar_axe": "file(entities/weapons/einherjar_axe/einherjar_axe.json)",
       "einherjar_axe_offhand": "file(entities/armor/einherjar_axe_offhand/einherjar_axe_offhand.json)",
       "einherjar_axe_offhand_talisman": "file(entities/armor/einherjar_axe_offhand/einherjar_axe_offhand_talisman.json)",
