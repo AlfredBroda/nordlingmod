@@ -89,7 +89,8 @@
 
 				},
 				"mixintypes": {
-					"bronze_mace": "remove"
+					"bronze_mace": "remove",
+					"iron_pike": "remove"
 				}
 			}
 		},

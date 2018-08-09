@@ -22,15 +22,15 @@
             "stonehearth:combat",
             "stonehearth:patrol"
          ],
-         "ilevel": 28,
+         "ilevel": 20,
          "roles": "footman_job",
-         "required_job_level": 5,
+         "required_job_level": 2,
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
    "entity_data": {
       "stonehearth:combat:weapon_data": {
-         "base_damage": 28,
+         "base_damage": 280,
          "reach": 2.2
       },
       "stonehearth:combat:melee_attacks": [
@@ -43,12 +43,12 @@
          }
       ],
       "stonehearth:net_worth": {
-         "value_in_gold": 100,
+         "value_in_gold": 14,
          "rarity": "common",
          "shop_info": {
             "buyable": true,
             "sellable": true,
-            "shopkeeper_level": 3,
+            "shopkeeper_level": 2,
             "shopkeeper_type": "caravan"
          }
       },
@@ -57,7 +57,7 @@
          "description": "i18n(stonehearth:entities.weapons.iron_axe_2h.description)",
          "icon": "file(iron_axe_2h.png)",
          "category": "weapons",
-         "material_tags": "metal melee_weapon crafted stockpile_weapon"
+         "material_tags": "iron melee_weapon crafted stockpile_weapon"
       }
    }
 }
