@@ -57,7 +57,9 @@
       "trapper:outit": "file(jobs/trapper/trapper_outfit/trapper_outfit.json)",
       "weaver:outfit": "file(jobs/weaver/weaver_outfit/weaver_outfit.json)",
       "worker:outfit": "file(jobs/worker/worker_outfit/worker_outfit.json)",
-      "gm_index": "file(data/gm/gm_index.json)",
+      "blacksmith_forge_nordlings": "file(jobs/blacksmith/blacksmith_forge_nordlings/blacksmith_forge_nordlings.json",
+	  "blacksmith_workbench_nordlings": "file(jobs/blacksmith/blacksmith_workbench_nordlings/blacksmith_workbench_nordlings.json)",
+	  "gm_index": "file(data/gm/gm_index.json)",
       "banner:cunning": "file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian.json)",
       "banner:cunning:token": "file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian_token.json)",
       "banner:strength": "file(entities/gizmos/nordlings_town_banner_might/nordlings_town_banner_might.json)",
@@ -154,8 +156,9 @@
       "stonehearth:scenarios:scenario_index": "file(scenarios/scenario_index.json)",
       "stonehearth/data/resource_constants.json": "nordlingmod:resource_constants",
       "stonehearth/data/gm/gm_index.json": "nordlingmod:gm_index",
-      "stonehearth/jobs/blacksmith/recipes/recipes.json": "nordlingmod/jobs/blacksmith/recipes/recipes_all.json",
-      "stonehearth/entities/weapons/bronze_sword/bronze_sword.json": "nordlingmod/entities/weapons/bronze_sword/bronze_sword.json"
+      "stonehearth/jobs/blacksmith/recipes/recipes.json": "nordlingmod/jobs/blacksmith/recipes/recipes_all.json"
+	  "stonehearth/jobs/blacksmith/blacksmith_forge/blacksmith_forge.json": "nordlingmod/jobs/blacksmith/blacksmith_forge_nordlings/blacksmith_forge_nordlings_enable.json",
+	  "stonehearth/jobs/blacksmith/blacksmith_workbench/blacksmith_workbench.json": "nordlingmod/jobs/blacksmith/blacksmith_workbench_nordlings/blacksmith_workbench_nordlings_enable.json"
    },
    "overrides": {
       "stonehearth/data/rigs/entities/humans/animations/male/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/animations/male/combat_1h_thrust.json",

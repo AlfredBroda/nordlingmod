@@ -1,6 +1,20 @@
 {
 	"mixins": "/stonehearth/jobs/blacksmith/recipes/recipes.json",
 	"craftable_recipes": {
+		 "workbenches": {
+			"recipes": {
+				"blacksmith_workbench_nordlings": {
+					"recipe": "file(blacksmith_workbench_nordlings_recipe.json)"
+				},
+				"blacksmith_forge_nordlings": {
+					"recipe": "file(blacksmith_forge_nordlings_recipe.json)"
+				}
+			},
+			"mixintypes": {
+				"blacksmith_workbench": "remove",
+				"blacksmith_forge": "remove",
+			  }
+		 },
 		"tools": {
 			"recipes": {
 			"einherjar_axe_offhand": {

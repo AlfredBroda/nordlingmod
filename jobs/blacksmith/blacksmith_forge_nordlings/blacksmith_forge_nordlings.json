@@ -1,10 +1,10 @@
 {
    "type": "entity",
-   "mixins": "file(blacksmith_forge_ghost.json)",
+   "mixins": "file(blacksmith_forge_nordlings_ghost.json)",
    "components": {
       "stonehearth:workshop": {
          "job_alias": "stonehearth:jobs:blacksmith",
-         "workshop_effect": "file(/data/rigs/jobs/blacksmith/blacksmith_forge/effects/work.json)"
+         "workshop_effect": "stonehearth/data/rigs/jobs/blacksmith/blacksmith_forge/effects/work.json"
       },
       "destination": {
          "region": [
@@ -31,12 +31,12 @@
          ]
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(blacksmith_forge_iconic.json)",
-         "ghost_form": "file(blacksmith_forge_ghost.json)",
+         "iconic_form": "file(blacksmith_forge_nordlings_iconic.json)",
+         "ghost_form": "file(blacksmith_forge_nordlings_ghost.json)",
          "placeable_on_ground": true
       },
       "effect_list": {
-         "default": "file(/data/rigs/jobs/blacksmith/blacksmith_forge/effects/idle.json)"
+         "default": "stonehearth/data/rigs/jobs/blacksmith/blacksmith_forge/effects/idle.json"
       }
    },
    "entity_data": {

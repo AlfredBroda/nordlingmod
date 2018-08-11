@@ -3,7 +3,7 @@
       "kingdom_name": "Nordlings",
       "quote": "The Old Ways will see us through!",
       "long_description": "With a strong tradition of telling the stories of those that came before, the Nordlings look forward to making stories of their own!",
-      "post_selection_description": ", a society of Tough, brave Nordlings.",
+      "post_selection_description": "A society of Tough, Brave Nordlings.",
       "initial_town_name": "Oxcart [str(town_number)]"
    },
    "data": {
@@ -191,6 +191,14 @@
                "display_name": "Legendary Hammer",
                "description": "Overwhelming power, and control over lightning. Too bad the handle is a bit short"
             }
+         },
+         "iron_axe_2h": {
+            "iron_axe_2h_iconic": {
+               "display_name": "Iron Greataxe",
+               "description": "For cutting down monsters, not trees!"
+            },
+            "display_name": "Iron Greataxe",
+            "description": "An iron, two handed axe."
          }
       },
       "armor": {

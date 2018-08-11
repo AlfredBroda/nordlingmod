@@ -1,7 +1,7 @@
 {
    "entity_data": {
       "stonehearth:workshop": {
-         "equivalents": [ "nordlingmod:blacksmith:forge" ]
+         "equivalents": [ "nordlingmod:blacksmith_forge_nordlings" ]
       }
    }
 }

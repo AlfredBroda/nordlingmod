@@ -53,8 +53,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.weapons.iron_axe_2h.display_name)",
-         "description": "i18n(stonehearth:entities.weapons.iron_axe_2h.description)",
+         "display_name": "i18n(nordlingmod:entities.weapons.iron_axe_2h.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.iron_axe_2h.description)",
          "icon": "file(iron_axe_2h.png)",
          "category": "weapons",
          "material_tags": "iron melee_weapon crafted stockpile_weapon"

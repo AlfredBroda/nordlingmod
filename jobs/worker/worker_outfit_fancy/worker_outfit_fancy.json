@@ -23,10 +23,7 @@
       "stonehearth:equipment_piece": {
          "slot": "torso",
          "render_type": "merge_with_model",
-         "roles": [
-			"worker_job",
-			"farmer_job"
-		],
+         "roles": "farmer_job",
          "ilevel": 2,
          "injected_buffs": [
             "stonehearth:buffs:devoted",
@@ -40,7 +37,7 @@
          "value_in_gold": 23,
          "rarity": "common",
          "shop_info": {
-            "buyable": true,
+            "buyable": false,
             "sellable": true,
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"

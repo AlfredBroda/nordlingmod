@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(blacksmith_forge_iconic.qb)"
+               "file(blacksmith_forge_nordlings_iconic.qb)"
             ]
          }
       },
