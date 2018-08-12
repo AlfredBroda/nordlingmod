@@ -8,12 +8,12 @@
 				},
 				"blacksmith_forge_nordlings": {
 					"recipe": "file(blacksmith_forge_nordlings_recipe.json)"
-				}
-			},
-			"mixintypes": {
+				},
+				"mixintypes": {
 				"blacksmith_workbench": "remove",
 				"blacksmith_forge": "remove",
 			  }
+			}			
 		 },
 		"tools": {
 			"recipes": {

@@ -2,9 +2,9 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-		"render_info": {
-			"scale": 0.05
-		},
+      "render_info": {
+         "scale": 0.05
+      },
       "model_variants": {
          "default": {
             "models": [
@@ -17,7 +17,7 @@
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
-		 "additional_equipment": {
+         "additional_equipment": {
             "stonehearth:armor:offhand_placeholder": true
          },
          "render_type": "attach_to_bone",
@@ -27,7 +27,7 @@
          ],
          "ilevel": 40,
          "roles": "footman_job",
-		 "required_job_level": 5,
+         "required_job_level": 5,
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
@@ -44,7 +44,7 @@
             "cooldown": 0,
             "priority": 0
          },
-		 {
+         {
             "name": "combat_2h_attack",
             "effect": "combat_2h_attack",
             "active_frame": 21,
@@ -62,8 +62,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.weapons.legendary_hammer.display_name)",
-         "description": "i18n(stonehearth:entities.weapons.legendary_hammer.description)",
+         "display_name": "i18n(nordlingmod:entities.weapons.legendary_hammer.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.legendary_hammer.description)",
          "icon": "file(legendary_hammer.png)",
          "category": "weapons",
          "material_tags": "metal melee_weapon crafted stockpile_weapon"

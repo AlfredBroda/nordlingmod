@@ -190,6 +190,10 @@
             "legendary_hammer": {
                "display_name": "Legendary Hammer",
                "description": "Overwhelming power, and control over lightning. Too bad the handle is a bit short"
+            },
+            "legendary_hammer_iconic": {
+               "display_name": "Legendary Hammer",
+               "description": "Short handle, Long on power."
             }
          },
          "iron_axe_2h": {
@@ -820,6 +824,22 @@
                "description": "A large double headed axe, usable by Einherjar",
                "flavor": "And with one might stroke, Narfi took two heads and one",
                "recipe_name": "Einherjar Axe"
+            },
+            "blacksmith_forge_nordlings_recipe": {
+               "recipe_name": "Nordling Forge",
+               "flavor": "Channeling the Old Forge-Gods",
+               "description": "Used to craft blacksmith recipes"
+            },
+            "blacksmith_workbench_nordlings_recipe": {
+               "recipe_name": "Nordling Anvil",
+               "description": "Beat metal into submission!",
+               "flavor": "\"What else do we cut in half to test the sharpness?\""
+            }
+         },
+         "blacksmith_workbench_nordlings": {
+            "blacksmith_workbench_nordlings_ghost": {
+               "display_name": "Nordling Anvil",
+               "description": "Beat metal into submission!"
             }
          }
       },
