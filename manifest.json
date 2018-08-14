@@ -57,7 +57,7 @@
       "trapper:outit": "file(jobs/trapper/trapper_outfit/trapper_outfit.json)",
       "weaver:outfit": "file(jobs/weaver/weaver_outfit/weaver_outfit.json)",
       "worker:outfit": "file(jobs/worker/worker_outfit/worker_outfit.json)",
-      "blacksmith_forge_nordlings": "file(jobs/blacksmith/blacksmith_forge_nordlings/blacksmith_forge_nordlings.json",
+      "blacksmith_forge_nordlings": "/nordlingmod/jobs/blacksmith/blacksmith_forge_nordlings/blacksmith_forge_nordlings.json",
 	  "blacksmith_workbench_nordlings": "file(jobs/blacksmith/blacksmith_workbench_nordlings/blacksmith_workbench_nordlings.json)",
 	  "gm_index": "file(data/gm/gm_index.json)",
       "banner:cunning": "file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian.json)",
