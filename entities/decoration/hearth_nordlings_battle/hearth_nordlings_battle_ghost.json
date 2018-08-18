@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(firepit_hearth.qb)"
+               "file(hearth_nordlings_battle.qb)"
             ]
          }
       },
@@ -20,7 +20,7 @@
          "portrait": "file(firepit_hearth.png)",
          "display_name": "i18n(stonehearth:entities.decoration.firepit_hearth.firepit_hearth_ghost.display_name)",
          "description": "i18n(stonehearth:entities.decoration.firepit_hearth.firepit_hearth_ghost.description)",
-         "icon": "file(firepit_hearth.png)",
+         "icon": "file(hearth_nordlings_battle.png)",
          "category": "decoration",
          "material_tags": "firepit light light_source stockpile_decoration"
       }

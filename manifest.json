@@ -145,7 +145,8 @@
 	  "hearth_nordlings_happyness": "file(entities/decoration/hearth_nordlings_happyness/hearth_nordlings_happyness.json)",
 	  "hearth_nordlings_battle": "file(entities/decoration/hearth_nordlings_battle/hearth_nordlings_battle.json)",
 	  "hearth_nordlings_trade": "file(entities/decoration/hearth_nordlings_trade/hearth_nordlings_trade.json)",
-	  "hearth_trade_effect": "file(data/effects/hearth/hearth_trade_effect.json)"
+	  "hearth_trade_effect": "file(data/effects/hearth/hearth_trade_effect.json)",
+	  "hearth_battle_effect": "file(data/effects/hearth/hearth_battle_effect.json)"
    },
    "mixintos": {
       "stonehearth:playable_kingdom_index": "file(data/nordlings_playable_kingdom_index.json)",

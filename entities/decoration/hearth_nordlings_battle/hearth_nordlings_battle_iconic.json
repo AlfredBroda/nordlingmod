@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(firepit_hearth_iconic.qb)"
+               "file(hearth_nordlings_battle_iconic.qb)"
             ]
          }
       },

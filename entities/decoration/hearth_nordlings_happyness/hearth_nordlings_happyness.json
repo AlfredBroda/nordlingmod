@@ -1,25 +1,29 @@
 {
-   "mixins": "file(firepit_hearth_ghost.json)",
    "type": "entity",
+   "mixins": "file(hearth_nordlings_happyness_ghost.json)",
    "components": {
-      "stonehearth:entity_forms": {
-         "ghost_form": "file(firepit_hearth_ghost.json)",
-         "iconic_form": "file(firepit_hearth_iconic.json)",
-         "placeable_on_ground": true,
-         "hide_undeploy_ui": true
-      },
+      "render_info": {},
       "stonehearth:firepit": {},
-      "stonehearth:lamp": {
-         "light_policy": "manual",
-         "light_effect": "stonehearth:effects:firepit_effect",
-         "light_origin": { "x": 0, "y": 1, "z": 0 }
-      },
       "region_collision_shape": {
          "region": [
             {
                "min": { "x": -2, "y": 0, "z": -2 },
                "max": { "x": 3, "y": 2, "z": 3 }
             }
+         ]
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(hearth_nordlings_happyness_iconic.json)",
+         "ghost_form": "file(hearth_nordlings_happyness_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_undeploy_ui": true
+      },
+      "effect_list": {
+         "default": "rayyas_children:effects:hearth:box"
+      },
+      "stonehearth:commands": {
+         "commands": [
+            "stonehearth:commands:spawn_glory_wave"
          ]
       }
    },
@@ -28,18 +32,16 @@
          "clearable": false
       },
       "stonehearth:net_worth": {
-         "value_in_gold": 10,
+         "value_in_gold": 160,
          "rarity": "common",
          "shop_info": {
             "buyable": false,
-            "sellable": false
+            "sellable": false,
+            "shopkeeper_type": "caravan"
          }
       },
       "stonehearth:appeal": {
-         "appeal": 12
-      },
-      "stonehearth:item_quality": {
-         "variable_quality": true
+         "appeal": 120
       }
    }
 }
