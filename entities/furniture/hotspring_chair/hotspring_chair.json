@@ -8,7 +8,7 @@
          "placeable_on_ground": true
       },
       "region_collision_shape": {
-		"type" : "none"
+         "type": "none"
       },
       "stonehearth:mount": {
          "mounted_posture": "stonehearth:sitting"
@@ -20,7 +20,7 @@
          "value_in_gold": 6,
          "rarity": "common",
          "shop_info": {
-            "buyable": true,
+            "buyable": false,
             "sellable": true,
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"

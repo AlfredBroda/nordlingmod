@@ -5,7 +5,7 @@
    "out_edge": "delay_before_shrine_foreshadow",
    "town_upgrade_info": {
       "old_facility_uri": "stonehearth:decoration:firepit_hearth",
-      "new_facility_uri": "stonehearth:decoration:hearth:makers",
+      "new_facility_uri": "nordlingmod:hearth_nordlings_trade",
       "town_bonus": "stonehearth:town_bonus:makers",
       "tier_achieved": 2,
       "finish_event": "stonehearth:tier_2_reached",

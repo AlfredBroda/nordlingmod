@@ -203,6 +203,14 @@
             },
             "display_name": "Iron Greataxe",
             "description": "An iron, two handed axe."
+         },
+         "steel_axe_2h": {
+            "display_name": "Steel Greataxe",
+            "description": "A steel Greataxe",
+            "steel_axe_2h_iconic": {
+               "display_name": "Steel Greataxe",
+               "description": "A Steel Greataxe"
+            }
          }
       },
       "armor": {
@@ -612,6 +620,12 @@
                "display_name": "Comfy Fur-covered Stone Bed",
                "description": "Rugged and Warm!"
             }
+         },
+         "hotspring_steam_generator": {
+            "hotspring_steam_generator_ghost": {
+               "display_name": "Hotspring Steam generator",
+               "description": "Generates steam particules to simulate a Hotspring"
+            }
          }
       }
    },
@@ -869,6 +883,16 @@
                "description": "Fur-covered Chair",
                "flavor": "Just make sure not to accidentally sit on the cat!",
                "recipe_name": "Fur-covered Chair"
+            },
+            "charcoal_mound": {
+               "recipe_name": "Charcoal Mound",
+               "description": "Uses Wood to form Charcoal",
+               "flavor": "The original Black Gold"
+            },
+            "wooden_wall_lantern_recipe": {
+               "recipe_name": "Decorative Wall Shield",
+               "description": "Easier to make than a shield, but just as decorative!",
+               "flavor": "FLAVORTEXTGOESHERE"
             }
          }
       },
