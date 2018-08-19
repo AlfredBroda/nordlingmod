@@ -2,16 +2,21 @@
    "type": "entity",
    "mixins": "file(hearth_nordlings_happyness_ghost.json)",
    "components": {
-      "render_info": {},
-      "stonehearth:firepit": {},
+      "render_info": {
+         "color_map": "stonehearth:color_map:water",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/water_material_map.json"
+         ]
+      },
       "region_collision_shape": {
          "region": [
             {
-               "min": { "x": -2, "y": 0, "z": -2 },
-               "max": { "x": 3, "y": 2, "z": 3 }
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 2, "y": 2, "z": 2 }
             }
          ]
       },
+      "stonehearth:firepit": {},
       "stonehearth:entity_forms": {
          "iconic_form": "file(hearth_nordlings_happyness_iconic.json)",
          "ghost_form": "file(hearth_nordlings_happyness_ghost.json)",
@@ -19,12 +24,7 @@
          "hide_undeploy_ui": true
       },
       "effect_list": {
-         "default": "rayyas_children:effects:hearth:box"
-      },
-      "stonehearth:commands": {
-         "commands": [
-            "stonehearth:commands:spawn_glory_wave"
-         ]
+         "default": "nordlingmod:hearth_happyness_effect"
       }
    },
    "entity_data": {
@@ -42,6 +42,9 @@
       },
       "stonehearth:appeal": {
          "appeal": 120
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
       }
    }
 }
