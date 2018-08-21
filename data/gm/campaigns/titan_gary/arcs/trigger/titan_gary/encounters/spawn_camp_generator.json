@@ -1,0 +1,18 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "spawn_camp_generator",
+   "generator_info": {
+      "delay": "12h+12h",
+      "spawn_edge": {
+         "type": "trigger_one",
+         "out_edges": [
+            "play_spawn_camp_animation",
+            "play_spawn_camp_wolves_animation",
+            "play_spawn_camp_zilla_animation",
+            "play_spawn_camp_mix_animation"
+         ]
+      },
+      "continue_on_disconnect": true
+   }
+}

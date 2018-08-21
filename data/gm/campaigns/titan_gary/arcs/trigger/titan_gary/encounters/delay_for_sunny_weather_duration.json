@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "delay_for_sunny_weather_duration",
+   "out_edge": "clear_sunny_weather_override",
+   "wait_info": {
+      "duration": "24h"
+   },
+   "continue_on_disconnect": true
+}

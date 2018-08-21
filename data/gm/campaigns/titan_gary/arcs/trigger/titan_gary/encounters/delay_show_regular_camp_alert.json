@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "delay_show_regular_camp_alert",
+   "out_edge": "enable_regular_camp_alert",
+   "wait_info": {
+      "duration": "1h"
+   },
+   "continue_on_disconnect": true
+}

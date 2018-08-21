@@ -1,0 +1,15 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "51_wait_for_slayer_begin_charging",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "51_delay_before_slayer_charging_message",
+         "54_on_titan_death_clean_up_slayer_events"
+      ]
+   },
+   "wait_for_event_info": {
+      "event": "stonehearth:amberstone:slayer_began_charging"
+   }
+}

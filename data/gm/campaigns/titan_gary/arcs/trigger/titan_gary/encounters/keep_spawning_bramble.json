@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "keep_spawning_bramble",
+   "generator_info": {
+      "delay": "4h",
+      "spawn_edge": "spawn_bramble_sprout",
+      "continue_on_disconnect": true
+   }
+}

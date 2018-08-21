@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "start_delay_evil_waves",
+   "out_edge": "evil_wave_generator",
+   "wait_info": {
+      "duration": "2h30m+1h30m",
+      "continue_on_disconnect": true
+   }
+}

@@ -1,0 +1,23 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation",
+   "in_edge": "20_partnership_reward",
+   "donation_info": {
+      "loot_table": {
+         "entries": {
+            "default": {
+               "num_rolls": 1,
+               "roll_type": "each_of",
+               "items": {
+                  "statue": {
+                     "uri": "stonehearth:amberstone:statue"
+                  },
+                  "golem": {
+                     "uri": "stonehearth:monsters:golems:golem_restocking:auto"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

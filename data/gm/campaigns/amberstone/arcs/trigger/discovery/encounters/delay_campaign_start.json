@@ -1,0 +1,17 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "delay_campaign_start",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "quest_generator",
+         "reminder_generator",
+         "stage_transition_generator",
+         "recurring_bun_citizen_generator"
+      ]
+   },
+   "wait_info": {
+      "duration": "2d+12h"
+   }
+}

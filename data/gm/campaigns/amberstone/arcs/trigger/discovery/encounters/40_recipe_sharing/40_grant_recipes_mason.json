@@ -1,0 +1,19 @@
+{
+   "type": "encounter",
+   "encounter_type": "unlock_recipe",
+   "in_edge": "40_grant_recipes_mason",
+   "out_edge": "40_grant_recipes_weaver",
+   "unlock_recipe_info": {
+      "job": "stonehearth:jobs:mason",
+      "recipe_key": [
+         "workbenches:mason_pedestal_amberstone",
+         "storage:output_box_amberstone",
+         "building_parts:amberstone_tunnel_door",
+         "building_parts:amberstone_window",
+         "furniture:amberstone_table",
+         "signage_decoration:amberstone_teapot",
+         "signage_decoration:amberstone_lantern"
+      ],
+      "bulletin_title": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.40_recipe_sharing.40_grant_recipes_mason.bulletin_title)"
+   }
+}

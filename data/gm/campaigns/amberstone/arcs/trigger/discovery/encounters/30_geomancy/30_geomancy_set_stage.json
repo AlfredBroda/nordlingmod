@@ -1,0 +1,28 @@
+{
+   "type": "encounter",
+   "encounter_type": "set_counters",
+   "unique": true,
+   "can_start": {
+      "all_tests": {
+         "stage": {
+            "type": "deny_if_not",
+            "item": "counter",
+            "key": "stage",
+            "value": 20
+         },
+         "reputation": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "reputation",
+            "value": 12
+         }
+      }
+   },
+   "in_edge": "30_geomancy_set_stage",
+   "out_edge": "30_geomancy_intro",
+   "set_counters_info": {
+      "counters": {
+         "stage": 30
+      }
+   }
+}

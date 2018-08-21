@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "quest_finish",
+   "out_edge": "quest_cleanup",
+   "wait_info": {
+      "duration": "22h+28h"
+   }
+}

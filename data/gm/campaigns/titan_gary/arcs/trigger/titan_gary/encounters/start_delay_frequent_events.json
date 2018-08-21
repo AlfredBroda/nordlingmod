@@ -1,0 +1,15 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "start_delay_frequent_events",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "frequent_event_generator"
+      ]
+   },
+   "wait_info": {
+      "duration": "2h+10m",
+      "continue_on_disconnect": true
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "type": "encounter",
+   "encounter_type": "bulletin",
+   "in_edge": "alert_initial_spawn_roots",
+   "bulletin_info": {
+      "type": "alert",
+      "title": "i18n(stonehearth:data.gm.campaigns.titan.alert_initial_spawn_roots.title)",
+      "zoom_to_entity": "roots_of_evil[1]",
+      "send_to_all_players": true,
+      "sticky": true
+   }
+}

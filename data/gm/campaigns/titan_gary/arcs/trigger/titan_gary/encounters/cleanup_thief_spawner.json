@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "none",
+   "in_edge": "cleanup_thief_spawner",
+   "out_edge": {
+      "type": "destroy_tree",
+      "root": "spawn_thieves_until_portal_killed",
+      "destroy_root": true
+   }
+}

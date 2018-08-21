@@ -1,0 +1,71 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "can_start": {
+      "checks": {
+         "titan_has_been_killed": {
+            "type": "deny_if",
+            "item": "score",
+            "value": 0,
+            "score_type": "titans_killed"
+         }
+      }
+   },
+   "in_edge": "titan_already_killed_dialog",
+   "dialog_tree_info": {
+      "start_node": "greet",
+      "nodes": {
+         "greet": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.greet.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.greet.dialog_title)",
+               "portrait": "file(encounter_data/erdene.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.greet.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.greet.choice_000": {
+                     "next_node": "intro"
+                  }
+               }
+            }
+         },
+         "intro": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.intro.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.intro.dialog_title)",
+               "portrait": "file(encounter_data/erdene.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.intro.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.intro.choice_000": {
+                     "next_node": "story1"
+                  }
+               }
+            }
+         },
+         "story1": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.story1.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.story1.dialog_title)",
+               "portrait": "file(encounter_data/erdene.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.story1.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.story1.choice_000": {
+                     "next_node": "story2"
+                  }
+               }
+            }
+         },
+         "story2": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.story2.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.story2.dialog_title)",
+               "portrait": "file(encounter_data/erdene.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.story2.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_already_killed_dialog.dialog_tree_info.dialog_nodes.story2.choice_000": {}
+               }
+            }
+         }
+      }
+   }
+}

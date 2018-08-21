@@ -1,0 +1,19 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "wait_for_weather_transition",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "start_delay_evil_waves",
+         "start_delay_frequent_events",
+         "start_delay_spawn_camps",
+         "start_delay_initial_roots",
+         "wait_for_titan_defeated_for_cleanup"
+      ]
+   },
+   "wait_info": {
+      "duration": "25m",
+      "continue_on_disconnect": true
+   }
+}

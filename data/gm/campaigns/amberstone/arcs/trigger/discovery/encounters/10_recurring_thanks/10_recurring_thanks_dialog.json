@@ -1,0 +1,87 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation_dialog",
+   "in_edge": "10_recurring_thanks_dialog",
+   "out_edge": {
+      "type": "destroy_tree",
+      "root": "reminder_generator",
+      "destroy_root": false
+   },
+   "donation_dialog_info": {
+      "nodes": {
+         "simple_message": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.10_recurring_thanks.10_recurring_thanks_dialog.donation_dialog_info.dialog_nodes.simple_message.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.amberstone.persons.sasha.title)",
+               "portrait": "file(../../../../../images/amberstone-representative.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.10_recurring_thanks.10_recurring_thanks_dialog.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.10_recurring_thanks.10_recurring_thanks_dialog.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.10_recurring_thanks.10_recurring_thanks_dialog.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.002)",
+                  "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.10_recurring_thanks.10_recurring_thanks_dialog.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.003)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.10_recurring_thanks.10_recurring_thanks_dialog.donation_dialog_info.dialog_nodes.simple_message.choice_000": {
+                     "result": "accept"
+                  }
+               }
+            }
+         }
+      },
+      "loot_table": {
+         "entries": {
+            "default": {
+               "roll_type": "some_of",
+               "num_rolls": {
+                  "min": 1,
+                  "max": 1
+               },
+               "items": {
+                  "lanters": {
+                     "uri": "stonehearth:decoration:amberstone_lantern",
+                     "num_rolls": 2,
+                     "weight": 3
+                  },
+                  "toy_rabbit": {
+                     "uri": "stonehearth:toys:plushie_toy_rabbit",
+                     "num_rolls": 1,
+                     "weight": 1
+                  },
+                  "painting": {
+                     "uri": "stonehearth:decoration:amberstone_painting_branch",
+                     "num_rolls": 1,
+                     "weight": 1
+                  },
+                  "teapot": {
+                     "uri": "stonehearth:decoration:amberstone_teapot",
+                     "num_rolls": 1,
+                     "weight": 1
+                  },
+                  "energy_tonic": {
+                     "uri": "stonehearth:consumables:energy_tonic",
+                     "num_rolls": 4,
+                     "weight": 2
+                  },
+                  "courage_tonic": {
+                     "uri": "stonehearth:consumables:courage_tonic",
+                     "num_rolls": 3,
+                     "weight": 2
+                  },
+                  "iron_pike": {
+                     "uri": "stonehearth:weapons:iron_pike",
+                     "weight": 1
+                  },
+                  "recurve_bow": {
+                     "uri": "stonehearth:weapons:recurve_bow",
+                     "weight": 1
+                  },
+                  "fire_quiver": {
+                     "uri": "stonehearth:armor:fire_quiver",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

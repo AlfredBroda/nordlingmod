@@ -1,0 +1,38 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation_dialog",
+   "in_edge": "50_titan_weapon_help_complete",
+   "donation_dialog_info": {
+      "nodes": {
+         "simple_message": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.50_titan.50_titan_weapon_help_complete.donation_dialog_info.dialog_nodes.simple_message.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.amberstone.persons.sasha.title)",
+               "portrait": "file(../../../../../images/amberstone-representative.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.50_titan.50_titan_weapon_help_complete.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.50_titan.50_titan_weapon_help_complete.donation_dialog_info.dialog_nodes.simple_message.choice_000": {
+                     "result": "accept"
+                  }
+               }
+            }
+         }
+      },
+      "loot_table": {
+         "entries": {
+            "arbalest+golem": {
+               "roll_type": "each_of",
+               "num_rolls": 1,
+               "items": {
+                  "slayer": {
+                     "uri": "stonehearth:gizmos:corrupt:titanstorm:slayer"
+                  },
+                  "golem": {
+                     "uri": "stonehearth:monsters:golems:golem_restocking:auto"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

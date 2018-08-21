@@ -1,0 +1,27 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation",
+   "in_edge": "15_crystal_charging_spawn",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "15_crystal_charging_quest",
+         "15_crystal_charging_generate_raid"
+      ]
+   },
+   "donation_info": {
+      "ctx_entity_registration_path": "crystal_charging_spawn",
+      "loot_table": {
+         "entries": {
+            "default": {
+               "num_rolls": 1,
+               "items": {
+                  "charging_pedestal": {
+                     "uri": "stonehearth:amberstone:charging_pedestal"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

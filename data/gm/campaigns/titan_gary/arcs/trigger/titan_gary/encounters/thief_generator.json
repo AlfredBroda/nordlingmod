@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "thief_generator",
+   "generator_info": {
+      "delay": "6h+4h",
+      "spawn_edge": "spawn_thieves",
+      "continue_on_disconnect": true
+   }
+}

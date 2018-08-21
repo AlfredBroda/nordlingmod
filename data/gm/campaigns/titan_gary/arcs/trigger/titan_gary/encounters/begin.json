@@ -1,0 +1,20 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "begin",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "wait_for_weather_transition",
+         "wait_for_titan_defeated",
+         "wait_for_titan_slayer_fired"
+      ]
+   },
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:override_weather",
+      "data": {
+         "weather_uri": "stonehearth:weather:titanstorm",
+         "ctx_entity_registration_path": "weather"
+      }
+   }
+}

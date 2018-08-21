@@ -1,0 +1,19 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "can_start": {
+      "checks": {
+         "titan_has_been_killed": {
+            "type": "deny_if",
+            "item": "score",
+            "value": 0,
+            "score_type": "titans_killed"
+         }
+      }
+   },
+   "in_edge": "59_wait_group_titan_already_killed",
+   "out_edge": "59_titan_already_killed_dialog",
+   "wait_info": {
+      "duration": "30s"
+   }
+}

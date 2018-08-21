@@ -1,0 +1,54 @@
+{
+   "type": "encounter",
+   "encounter_type": "city_raid",
+   "in_edge": "spawn_thieves",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "wait_for_thief_kill",
+         "count_spawned_bugs",
+         "bug_alert_spam_preventer"
+      ]
+   },
+   "can_start": {
+      "dont_spawn_initially_or_if_too_many": {
+         "dont_spawn_initially": {
+            "type": "deny_if",
+            "item": "counter",
+            "key": "show_camp_spawn_message",
+            "value": 0
+         },
+         "dont_spawn_if_too_many": {
+            "type": "deny_if_greater_than",
+            "item": "counter",
+            "key": "num_bugs_alive",
+            "value": 5
+         }
+      }
+   },
+   "city_raid_info": {
+      "missions": {
+         "raid_stockpiles": {
+            "npc_player_id": "titans",
+            "raid_timeout_minutes": 300,
+            "raid_timeout_variance_minutes": 60,
+            "ctx_entity_registration_path": "thieves",
+            "role": "raid_stockpiles",
+            "offset": { "x": 0, "y": 0, "z": 0 },
+            "members": {
+               "bugs": {
+                  "from_population": {
+                     "role": "beetle",
+                     "min": 2,
+                     "max": 4,
+                     "location": { "x": 0, "z": 0 },
+                     "range": 6
+                  },
+                  "tuning": "stonehearth:monster_tuning:corruption:thief",
+                  "abilities": "stonehearth:abilities:maurauder_abilities"
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,17 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "start_delay_initial_roots",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "spawn_initial_roots_of_evil",
+         "delay_continued_roots",
+         "alert_initial_spawn_roots"
+      ]
+   },
+   "wait_info": {
+      "duration": "15m",
+      "continue_on_disconnect": true
+   }
+}

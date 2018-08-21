@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "bulletin",
+   "in_edge": "alert_trance",
+   "bulletin_info": {
+      "type": "alert",
+      "title": "i18n(stonehearth:data.gm.campaigns.titan.alert_trance.title)",
+      "zoom_to_entity": "tranced_citizen"
+   }
+}

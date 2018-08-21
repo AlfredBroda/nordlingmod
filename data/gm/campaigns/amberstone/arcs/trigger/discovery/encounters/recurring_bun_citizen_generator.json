@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "recurring_bun_citizen_generator",
+   "generator_info": {
+      "delay": "7d",
+      "spawn_edge": "58_prompt_for_recurring_bun_citizen"
+   }
+}

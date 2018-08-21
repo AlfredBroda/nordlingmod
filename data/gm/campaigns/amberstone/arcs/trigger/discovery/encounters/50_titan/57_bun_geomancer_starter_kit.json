@@ -1,0 +1,51 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation_dialog",
+   "rarity": "common",
+   "in_edge": "57_bun_geomancer_starter_kit",
+   "donation_dialog_info": {
+      "nodes": {
+         "simple_message": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.50_titan.57_bun_geomancer_starter_kit.donation_dialog_info.dialog_nodes.simple_message.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.50_titan.57_bun_geomancer_starter_kit.donation_dialog_info.dialog_nodes.simple_message.dialog_title)",
+               "message": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.50_titan.57_bun_geomancer_starter_kit.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.50_titan.57_bun_geomancer_starter_kit.donation_dialog_info.dialog_nodes.simple_message.choice_000": {
+                     "result": "accept"
+                  }
+               }
+            }
+         }
+      },
+      "loot_table": {
+         "entries": {
+            "default": {
+               "roll_type": "each_of",
+               "items": {
+                  "earthbud": {
+                     "uri": "stonehearth:plants:earthbud",
+                     "num_rolls": 6
+                  },
+                  "earth_essence": {
+                     "uri": "stonehearth:resources:earth_essence",
+                     "num_rolls": 10
+                  },
+                  "stone": {
+                     "uri": "stonehearth:containers:stone_pile",
+                     "num_rolls": 1
+                  },
+                  "clay": {
+                     "uri": "stonehearth:containers:clay_pile",
+                     "num_rolls": 1
+                  },
+                  "wood": {
+                     "uri": "stonehearth:containers:log_pile",
+                     "num_rolls": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

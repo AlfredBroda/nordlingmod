@@ -1,0 +1,19 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "57_wait_for_titan_killed",
+   "out_edge": "57_wait_before_titan_defeated_dialog",
+   "can_start": {
+      "checks": {
+         "titan_not_killed_already": {
+            "type": "deny_if_greater_than",
+            "item": "score",
+            "value": 0,
+            "score_type": "titans_killed"
+         }
+      }
+   },
+   "wait_for_event_info": {
+      "event": "stonehearth:titan_killed"
+   }
+}

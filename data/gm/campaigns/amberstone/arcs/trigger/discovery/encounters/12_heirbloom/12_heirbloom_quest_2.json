@@ -1,0 +1,19 @@
+{
+   "type": "encounter",
+   "encounter_type": "delivery_quest",
+   "in_edge": "12_heirbloom_quest_2",
+   "out_edge": "12_heirbloom_outro_repeated",
+   "delivery_quest_info": {
+      "title": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.12_heirbloom.12_heirbloom_quest_2.title)",
+      "dialog_title": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.12_heirbloom.12_heirbloom_quest_2.dialog_title)",
+      "text": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.12_heirbloom.12_heirbloom_quest_2.text)",
+      "requirements": [
+         {
+            "type": "give_item",
+            "uri": "stonehearth:resources:fiber:heirbloom_bundle",
+            "count": 10
+         }
+      ],
+      "abandon_out_edge": "quest_finish"
+   }
+}

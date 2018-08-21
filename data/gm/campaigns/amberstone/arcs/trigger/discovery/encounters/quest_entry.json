@@ -1,0 +1,35 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "quest_entry",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         "00_sighting_intro",
+         "00_sighting_intro_rc_na",
+         "01_strange_trading_intro",
+         "02a_hello_friend_intro",
+         "11_shook_down_intro",
+         "12_heirbloom_entry",
+         "14_chase_scene_intro",
+         "15_crystal_charging_intro",
+         "21_residents_intro",
+         "23_borrow_crafter_entry"
+      ],
+      "fallback": "quest_finish"
+   },
+   "can_start": {
+      "all_tests": {
+         "no_quests_active": {
+            "type": "deny_if_greater_than",
+            "item": "number_active",
+            "start_node": "quest_entry",
+            "end_node": "quest_cleanup",
+            "value": 0
+         }
+      }
+   },
+   "wait_info": {
+      "duration": "1s"
+   }
+}

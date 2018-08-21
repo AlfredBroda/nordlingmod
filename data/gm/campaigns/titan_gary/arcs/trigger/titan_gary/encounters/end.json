@@ -1,0 +1,23 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "end",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "end_dialog",
+         "delay_for_sunny_weather_duration",
+         "delay_destroying_minions_slightly",
+         "set_titans_killed_score",
+         "ending_celebration",
+         "cleanse_orc_gong",
+         "change_arbalest_to_monument_form"
+      ]
+   },
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:override_weather",
+      "data": {
+         "weather_uri": "stonehearth:weather:sunny"
+      }
+   }
+}

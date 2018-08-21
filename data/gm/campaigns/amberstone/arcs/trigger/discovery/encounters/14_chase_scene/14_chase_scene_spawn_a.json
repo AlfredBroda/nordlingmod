@@ -1,0 +1,52 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_mission",
+   "in_edge": "14_chase_scene_spawn_a",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "14_chase_scene_quest_a"
+      ]
+   },
+   "create_mission_info": {
+      "mission": {
+         "npc_player_id": "orcs",
+         "role": "pillage",
+         "offset": { "x": 0, "y": 0, "z": 0 },
+         "pillage_radius": {
+            "min": 0,
+            "max": 60
+         },
+         "ctx_entity_registration_path": "chase_scene_spawn_a",
+         "members": {
+            "wolves": {
+               "from_population": {
+                  "role": "wolf",
+                  "min": 2,
+                  "max": 2,
+                  "location": { "x": 0, "z": 0 },
+                  "range": 7
+               },
+               "tuning": "stonehearth:monster_tuning:kobolds:wolf"
+            },
+            "kobolds": {
+               "from_population": {
+                  "role": "kobold",
+                  "min": 2,
+                  "max": 2,
+                  "location": { "x": 0, "z": 0 },
+                  "range": 7
+               },
+               "tuning": "stonehearth:monster_tuning:kobolds:kobold_archer_scout"
+            }
+         },
+         "sighted_bulletin": {
+            "title": "i18n(stonehearth:data.gm.campaigns.ambient_threats.random_encounter.combat_bulletin.title)"
+         }
+      },
+      "spawn_range": {
+         "min": 80,
+         "max": 300
+      }
+   }
+}

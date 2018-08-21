@@ -1,0 +1,13 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "damage_titan_from_slayer",
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:titan:damage_titan",
+      "data": {
+         "damage_amount": 100,
+         "animation_name": "on_hit_blast_effect"
+      },
+      "continue_on_disconnect": true
+   }
+}

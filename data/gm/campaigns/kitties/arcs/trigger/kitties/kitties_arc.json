@@ -1,0 +1,10 @@
+{
+   "type": "arc",
+   "rarity": "common",
+   "encounters": {
+      "kitty_generator": "file(encounters/kitty_generator.json)",
+      "spawn_koda": "file(encounters/spawn_koda.json)",
+      "spawn_jacko": "file(encounters/spawn_jacko.json)",
+      "do_nothing": "file(encounters/do_nothing.json)"
+   }
+}

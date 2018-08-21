@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "23_borrow_crafter_reject",
+   "out_edge": "quest_finish",
+   "wait_info": {
+      "duration": "0h"
+   }
+}

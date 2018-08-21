@@ -1,0 +1,11 @@
+{
+   "type": "encounter",
+   "encounter_type": "set_counters",
+   "in_edge": "enable_initial_camp_alert",
+   "out_edge": "delay_show_regular_camp_alert",
+   "set_counters_info": {
+      "counters": {
+         "show_camp_spawn_message": 1
+      }
+   }
+}

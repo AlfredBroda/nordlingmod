@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "00_sighting_wait_if_you_dont_belive",
+   "out_edge": "00_sighting_set_stage",
+   "wait_info": {
+      "duration": "8d+2d"
+   }
+}

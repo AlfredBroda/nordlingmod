@@ -1,0 +1,57 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_mission",
+   "in_edge": "spawn_raid",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "wait_for_raid_kill",
+         "wait_for_raid_kill_wolf"
+      ]
+   },
+   "create_mission_info": {
+      "continue_on_disconnect": true,
+      "mission": {
+         "continue_on_disconnect": {
+            "$ref": "elements/continue_on_disconnect.json"
+         },
+         "ctx_entity_registration_path": "raid",
+         "members": {
+            "hearthling": {
+               "from_population": {
+                  "role": "hearthling",
+                  "min": 1,
+                  "max": 2,
+                  "location": { "x": 3, "z": 3 },
+                  "range": 8
+               },
+               "tuning": "stonehearth:monster_tuning:corruption:hearthling"
+            },
+            "wolf": {
+               "from_population": {
+                  "role": "wolf",
+                  "min": 1,
+                  "max": 1,
+                  "location": { "x": 3, "z": 3 },
+                  "range": 8
+               },
+               "tuning": "stonehearth:monster_tuning:corruption:wolf"
+            }
+         },
+         "npc_player_id": "titans",
+         "role": "pillage",
+         "offset": { "x": 0, "y": 0, "z": 0 },
+         "pillage_radius": {
+            "min": 0,
+            "max": 50
+         },
+         "sighted_bulletin": {
+            "title": "i18n(stonehearth:data.gm.campaigns.titan.spawn_raid.mission.sighted_bulletin.title)"
+         }
+      },
+      "spawn_range": {
+         "min": 60,
+         "max": 180
+      }
+   }
+}

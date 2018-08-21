@@ -1,0 +1,11 @@
+
+{
+   "type" : "encounter",
+   "encounter_type" : "wait_for_event",
+   "in_edge": "21_residents_quest_a",
+   "out_edge": "21_residents_outro_a",
+   "wait_for_event_info" :  {
+      "source" : "residents_spawn_a[1]",
+      "event"  : "stonehearth:amberstone:surroundings_check_success"
+   }
+}

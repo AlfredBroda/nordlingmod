@@ -1,0 +1,37 @@
+{
+   "type": "encounter",
+   "encounter_type": "set_counters",
+   "unique": true,
+   "in_edge": "50_titan_set_stage",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "50_titan_dialog",
+         "56_wait_for_titan_arbalest_placed",
+         "51_wait_for_slayer_begin_charging",
+         "57_wait_for_titan_killed",
+         "59_wait_group_titan_already_killed"
+      ]
+   },
+   "can_start": {
+      "all_tests": {
+         "stage": {
+            "type": "deny_if_not",
+            "item": "counter",
+            "key": "stage",
+            "value": 40
+         },
+         "reputation": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "reputation",
+            "value": 25
+         }
+      }
+   },
+   "set_counters_info": {
+      "counters": {
+         "stage": 50
+      }
+   }
+}

@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "recurring_orc_citizen_generator",
+   "generator_info": {
+      "delay": "7d",
+      "spawn_edge": "prompt_for_recurring_orc_citizen"
+   }
+}

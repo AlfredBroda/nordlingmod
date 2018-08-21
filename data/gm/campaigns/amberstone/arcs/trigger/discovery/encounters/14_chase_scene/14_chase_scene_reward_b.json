@@ -1,0 +1,70 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation_dialog",
+   "in_edge": "14_chase_scene_reward_b",
+   "out_edge": "add_reputation_1",
+   "donation_dialog_info": {
+      "use_ctx_portrait": true,
+      "nodes": {
+         "simple_message": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.14_chase_scene.14_chase_scene_reward_b.donation_dialog_info.dialog_nodes.simple_message.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.14_chase_scene.14_chase_scene_reward_b.donation_dialog_info.dialog_nodes.simple_message.dialog_title)",
+               "portrait": "$ctx",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.14_chase_scene.14_chase_scene_reward_b.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.14_chase_scene.14_chase_scene_reward_b.donation_dialog_info.dialog_nodes.simple_message.choice_000": {
+                     "result": "accept"
+                  }
+               }
+            }
+         }
+      },
+      "loot_table": {
+         "entries": {
+            "hats": {
+               "num_rolls": {
+                  "min": 1,
+                  "max": 2
+               },
+               "items": {
+                  "a": {
+                     "uri": "stonehearth:monsters:kobolds:loot:masters_bling_hat",
+                     "weight": 3
+                  },
+                  "b": {
+                     "uri": "stonehearth:monsters:kobolds:loot:elite_bling_hat",
+                     "weight": 2
+                  },
+                  "c": {
+                     "uri": "stonehearth:monsters:kobolds:loot:generals_bling_hat",
+                     "weight": 1
+                  }
+               }
+            },
+            "stuff": {
+               "num_rolls": {
+                  "min": 1,
+                  "max": 1
+               },
+               "items": {
+                  "a": {
+                     "uri": "stonehearth:refined:gold_flakes",
+                     "weight": 1
+                  },
+                  "b": {
+                     "uri": "stonehearth:weapons:giant_bone_mace",
+                     "weight": 1
+                  },
+                  "c": {
+                     "uri": "stonehearth:refined:iron_ingot",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

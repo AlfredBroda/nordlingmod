@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "15_crystal_charging_generate_raid",
+   "generator_info": {
+      "delay": "16h",
+      "spawn_edge": "15_crystal_charging_wait_for_night"
+   }
+}

@@ -1,0 +1,150 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "can_start": {
+      "a": {
+         "stage": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "stage",
+            "value": 20
+         },
+         "crafter": {
+            "item": "highest_job_level",
+            "type": "deny_if_less_than",
+            "value": 3,
+            "job_alias": "stonehearth:jobs:blacksmith"
+         }
+      },
+      "b": {
+         "stage": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "stage",
+            "value": 20
+         },
+         "crafter": {
+            "item": "highest_job_level",
+            "type": "deny_if_less_than",
+            "value": 3,
+            "job_alias": "stonehearth:jobs:carpenter"
+         }
+      },
+      "c": {
+         "stage": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "stage",
+            "value": 20
+         },
+         "crafter": {
+            "item": "highest_job_level",
+            "type": "deny_if_less_than",
+            "value": 3,
+            "job_alias": "stonehearth:jobs:cook"
+         }
+      },
+      "d": {
+         "stage": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "stage",
+            "value": 20
+         },
+         "crafter": {
+            "item": "highest_job_level",
+            "type": "deny_if_less_than",
+            "value": 2,
+            "job_alias": "stonehearth:jobs:engineer"
+         }
+      },
+      "e": {
+         "stage": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "stage",
+            "value": 20
+         },
+         "crafter": {
+            "item": "highest_job_level",
+            "type": "deny_if_less_than",
+            "value": 4,
+            "job_alias": "stonehearth:jobs:farmer"
+         }
+      },
+      "f": {
+         "stage": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "stage",
+            "value": 20
+         },
+         "crafter": {
+            "item": "highest_job_level",
+            "type": "deny_if_less_than",
+            "value": 3,
+            "job_alias": "stonehearth:jobs:herbalist"
+         }
+      },
+      "g": {
+         "stage": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "stage",
+            "value": 20
+         },
+         "crafter": {
+            "item": "highest_job_level",
+            "type": "deny_if_less_than",
+            "value": 3,
+            "job_alias": "stonehearth:jobs:potter"
+         }
+      },
+      "h": {
+         "stage": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "stage",
+            "value": 20
+         },
+         "crafter": {
+            "item": "highest_job_level",
+            "type": "deny_if_less_than",
+            "value": 3,
+            "job_alias": "stonehearth:jobs:weaver"
+         }
+      },
+      "i": {
+         "stage": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "stage",
+            "value": 20
+         },
+         "crafter": {
+            "item": "highest_job_level",
+            "type": "deny_if_less_than",
+            "value": 3,
+            "job_alias": "stonehearth:jobs:trapper"
+         }
+      }
+   },
+   "in_edge": "23_borrow_crafter_entry",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         "borrow_intro_blacksmith",
+         "borrow_intro_carpenter",
+         "borrow_intro_cook",
+         "borrow_intro_engineer",
+         "borrow_intro_farmer",
+         "borrow_intro_herbalist",
+         "borrow_intro_potter",
+         "borrow_intro_trapper",
+         "borrow_intro_weaver"
+      ]
+   },
+   "wait_info": {
+      "duration": "0h"
+   }
+}

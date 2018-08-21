@@ -1,0 +1,11 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "damage_titan_large",
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:titan:damage_titan",
+      "data": {
+         "damage_amount": 100
+      }
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "12_heirbloom_unlock",
+   "out_edge": "12_heirbloom_set_counter",
+   "script_info": {
+      "script": "file(unlock_crop.lua)",
+      "data": {
+         "crop": "heirbloom"
+      }
+   }
+}

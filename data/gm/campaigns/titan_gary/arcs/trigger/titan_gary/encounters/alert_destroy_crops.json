@@ -1,0 +1,11 @@
+{
+   "type": "encounter",
+   "encounter_type": "bulletin",
+   "in_edge": "alert_destroy_crops",
+   "bulletin_info": {
+      "type": "alert",
+      "title": "i18n(stonehearth:data.gm.campaigns.titan.alert_destroy_crops.title)",
+      "send_to_all_players": false,
+      "active_duration": "1h"
+   }
+}

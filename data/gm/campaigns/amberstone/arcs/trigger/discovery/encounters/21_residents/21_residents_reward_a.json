@@ -1,0 +1,29 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "21_residents_reward_a",
+   "generator_info": {
+      "delay": "0h",
+      "max_spawns": 2,
+      "spawn_edge": {
+         "type": "trigger_one",
+         "out_edges": [
+            {
+               "type": "weighted_edge",
+               "out_edge": "21_residents_reward_a_add_citizen",
+               "weight": 3
+            },
+            {
+               "type": "weighted_edge",
+               "out_edge": "21b_residents_reward_a_add_citizen",
+               "weight": 3
+            },
+            {
+               "type": "weighted_edge",
+               "out_edge": "21c_residents_reward_a_add_citizen",
+               "weight": 2
+            }
+         ]
+      }
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "spawn_tentacle_traps",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "wait_for_tentacle_kill"
+      ]
+   },
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:titan:tentacle_trap_spawn",
+      "data": {
+         "uri": "stonehearth:corrupt:tentacle_trap",
+         "enemy_player_id": "titans",
+         "excluded_role": "combat",
+         "ctx_registration_variable": "spawned_tentacle"
+      }
+   }
+}

@@ -1,0 +1,11 @@
+{
+   "type": "encounter",
+   "encounter_type": "set_counters",
+   "in_edge": "02_hello_set_stage",
+   "out_edge": "quest_finish",
+   "set_counters_info": {
+      "counters": {
+         "stage": 10
+      }
+   }
+}

@@ -1,0 +1,23 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "entrance",
+   "out_edge": "alert_trance",
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:titan:buff_random_citizen",
+      "data": {
+         "buff": "stonehearth:buffs:titan_trance",
+         "forbidden_role": "combat",
+         "ctx_entity_registration_path": "tranced_citizen"
+      }
+   },
+   "can_start": {
+      "all_checks": {
+         "still_in_titanstorm": {
+            "type": "deny_if_not",
+            "item": "weather",
+            "value": "stonehearth:weather:titanstorm"
+         }
+      }
+   }
+}

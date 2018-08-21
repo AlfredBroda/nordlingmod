@@ -1,0 +1,12 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "wait_for_raid_kill",
+   "out_edge": "damage_titan_kill_human",
+   "wait_for_event_info": {
+      "source": "raid.hearthling",
+      "event": "radiant:entity:destroy",
+      "repeatable": true,
+      "trigger_on_each": true
+   }
+}

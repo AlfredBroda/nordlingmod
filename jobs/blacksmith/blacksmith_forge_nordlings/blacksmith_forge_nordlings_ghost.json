@@ -11,7 +11,7 @@
       },
       "render_info": {
          "scale": 0.15,
-         "animation_table": "stonehearth/data/rigs/jobs/blacksmith/blacksmith_forge/blacksmith_forge.json"
+         "animation_table": "/stonehearth/data/rigs/jobs/blacksmith/blacksmith_forge/blacksmith_forge.json"
       },
       "model_variants": {
          "default": {

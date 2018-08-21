@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "set_titans_killed_score",
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:titan:set_titans_killed_score",
+      "continue_on_disconnect": true
+   }
+}

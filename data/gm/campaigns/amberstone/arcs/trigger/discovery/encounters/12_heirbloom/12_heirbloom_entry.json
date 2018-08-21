@@ -1,0 +1,26 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "can_start": {
+      "all_tests": {
+         "stage": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "stage",
+            "value": 10
+         }
+      }
+   },
+   "in_edge": "12_heirbloom_entry",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         "12_heirbloom_intro",
+         "12_heirbloom_return",
+         "12_heirbloom_return_repeated"
+      ]
+   },
+   "wait_info": {
+      "duration": "0h"
+   }
+}

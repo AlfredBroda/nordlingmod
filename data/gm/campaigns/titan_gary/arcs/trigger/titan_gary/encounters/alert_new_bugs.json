@@ -1,0 +1,12 @@
+{
+   "type": "encounter",
+   "encounter_type": "bulletin",
+   "in_edge": "alert_new_bugs",
+   "out_edge": "wait_to_reenable_bug_alert",
+   "bulletin_info": {
+      "type": "alert",
+      "title": "i18n(stonehearth:data.gm.campaigns.titan.alert_new_bugs.title)",
+      "active_duration": "1h",
+      "zoom_to_entity": "thieves.bugs[1]"
+   }
+}

@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "50_titan_completely_decline_delay",
+   "out_edge": "50_titan_finished_weapon_despite_declining",
+   "wait_info": {
+      "duration": "18d+2d"
+   }
+}

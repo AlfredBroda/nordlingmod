@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "53_wait_for_slayer_fired",
+   "out_edge": "53_slayer_fired_delay",
+   "wait_for_event_info": {
+      "event": "stonehearth:amberstone:slayer_fired"
+   }
+}

@@ -1,0 +1,13 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "play_spawn_wave_animation",
+   "out_edge": "spawn_wave",
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:titan:play_titan_effect",
+      "data": {
+         "effect": "emote_laugh_effect"
+      },
+      "continue_on_disconnect": true
+   }
+}

@@ -1,0 +1,16 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "wait_for_building_tentacle_kill",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "damage_titan_slightly",
+         "cleanup_building_tentacle"
+      ]
+   },
+   "wait_for_event_info": {
+      "source": "building_tentacle",
+      "event": "radiant:entity:destroy"
+   }
+}

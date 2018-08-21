@@ -1,0 +1,13 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "play_spawn_camp_zilla_animation",
+   "out_edge": "spawn_camp_zilla",
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:titan:play_titan_effect",
+      "data": {
+         "effect": "cast_effect"
+      },
+      "continue_on_disconnect": true
+   }
+}

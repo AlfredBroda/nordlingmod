@@ -1,0 +1,12 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "damage_titan_kill_wolf",
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:titan:damage_titan",
+      "data": {
+         "damage_amount": 5
+      },
+      "continue_on_disconnect": true
+   }
+}

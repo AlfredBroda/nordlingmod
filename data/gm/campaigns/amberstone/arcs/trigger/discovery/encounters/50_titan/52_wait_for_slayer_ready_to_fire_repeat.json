@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "52_wait_for_slayer_ready_to_fire_repeat",
+   "out_edge": "52_slayer_ready_again_dialog",
+   "wait_for_event_info": {
+      "event": "stonehearth:amberstone:slayer_ready_to_fire",
+      "repeatable": true
+   }
+}

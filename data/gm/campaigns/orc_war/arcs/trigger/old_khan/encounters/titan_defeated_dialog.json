@@ -1,0 +1,135 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "titan_defeated_dialog",
+   "dialog_tree_info": {
+      "start_node": "greet",
+      "nodes": {
+         "greet": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.greet.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.greet.dialog_title)",
+               "portrait": "file(encounter_data/erdene.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.greet.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.greet.choice_000": {
+                     "next_node": "intro"
+                  }
+               }
+            }
+         },
+         "intro": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.intro.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.intro.dialog_title)",
+               "portrait": "file(encounter_data/erdene.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.intro.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.intro.choice_000": {
+                     "next_node": "request1"
+                  }
+               }
+            }
+         },
+         "request1": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.request1.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.request1.dialog_title)",
+               "portrait": "file(encounter_data/erdene.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.request1.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.request1.choice_000": {
+                     "next_node": "request2"
+                  }
+               }
+            }
+         },
+         "request2": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.request2.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.request2.dialog_title)",
+               "portrait": "file(encounter_data/erdene.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.request2.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.request2.choice_000": {
+                     "next_node": "request3"
+                  }
+               }
+            }
+         },
+         "request3": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.request3.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.request3.dialog_title)",
+               "portrait": "file(encounter_data/erdene.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.request3.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.request3.choice_000": {
+                     "next_node": "accept1"
+                  },
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.request3.choice_001": {
+                     "next_node": "reject1"
+                  }
+               }
+            }
+         },
+         "accept1": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.accept1.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.accept1.dialog_title)",
+               "portrait": "file(encounter_data/erdene.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.accept1.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.accept1.choice_000": {
+                     "next_node": "accept2"
+                  },
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.accept1.choice_001": {
+                     "next_node": "reject1"
+                  }
+               }
+            }
+         },
+         "accept2": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.accept2.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.accept2.dialog_title)",
+               "portrait": "file(encounter_data/erdene.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.accept2.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.accept2.choice_000": {
+                     "out_edge": "grant_orc_citizen"
+                  }
+               }
+            }
+         },
+         "reject1": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.reject1.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.reject1.dialog_title)",
+               "portrait": "file(encounter_data/erdene.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.reject1.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.reject1.choice_000": {
+                     "next_node": "reject2"
+                  },
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.reject1.choice_001": {
+                     "next_node": "accept1"
+                  }
+               }
+            }
+         },
+         "reject2": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.reject2.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.reject2.dialog_title)",
+               "portrait": "file(encounter_data/erdene.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.reject2.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.titan_defeated_dialog.dialog_tree_info.dialog_nodes.reject2.choice_000": {}
+               }
+            }
+         }
+      }
+   }
+}

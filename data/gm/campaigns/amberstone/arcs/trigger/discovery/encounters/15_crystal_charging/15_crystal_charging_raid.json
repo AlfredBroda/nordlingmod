@@ -1,0 +1,50 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_mission",
+   "in_edge": "15_crystal_charging_raid",
+   "can_start": {
+      "all_tests": {
+         "pedestal_placed": {
+            "type": "deny_if_not",
+            "item": "exists_in_world",
+            "uri": "stonehearth:amberstone:charging_pedestal",
+            "value": true
+         }
+      }
+   },
+   "create_mission_info": {
+      "spawn_range": {
+         "min": 50,
+         "max": 250
+      },
+      "on_searcher_failure": {
+         "retry": true
+      },
+      "mission": {
+         "npc_player_id": "forest",
+         "role": "pillage",
+         "combat_bulletin": {
+            "dialog_title": "Wolves, drawn by the Charging Crystals' glow.",
+            "title": "Creatures, drawn by the Amberstones"
+         },
+         "offset": { "x": 0, "y": 0, "z": 0 },
+         "target": "crystal_charging_spawn[1]",
+         "pillage_radius": {
+            "min": 0,
+            "max": 20
+         },
+         "members": {
+            "wolf": {
+               "from_population": {
+                  "role": "wolf",
+                  "min": 2,
+                  "max": 3,
+                  "location": { "x": 0, "y": 0, "z": 0 },
+                  "range": 6
+               },
+               "tuning": "stonehearth:monster_tuning:forest:scaled_wolf"
+            }
+         }
+      }
+   }
+}

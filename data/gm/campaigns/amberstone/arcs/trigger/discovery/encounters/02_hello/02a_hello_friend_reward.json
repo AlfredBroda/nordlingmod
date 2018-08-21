@@ -1,0 +1,24 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation",
+   "in_edge": "02a_hello_friend_reward",
+   "out_edge": "02_hello_set_stage",
+   "donation_info": {
+      "loot_table": {
+         "entries": {
+            "default": {
+               "num_rolls": {
+                  "min": 4,
+                  "max": 4
+               },
+               "items": {
+                  "lanterns": {
+                     "uri": "stonehearth:decoration:amberstone_lantern",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

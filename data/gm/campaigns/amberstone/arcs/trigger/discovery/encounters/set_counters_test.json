@@ -1,0 +1,13 @@
+{
+   "type": "encounter",
+   "encounter_type": "set_counters",
+   "in_edge": "set_counters_test",
+   "out_edge": "xxxx",
+   "set_counters_info": {
+      "counters": {
+         "foo": 42,
+         "bar": "x / 2 + 13",
+         "quux": "stonehearth.calendar:get_seconds_since_last_midnight()"
+      }
+   }
+}

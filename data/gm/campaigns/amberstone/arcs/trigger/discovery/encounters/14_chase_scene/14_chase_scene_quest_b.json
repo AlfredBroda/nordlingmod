@@ -1,0 +1,24 @@
+{
+   "type": "encounter",
+   "encounter_type": "delivery_quest",
+   "in_edge": "14_chase_scene_quest_b",
+   "out_edge": "14_chase_scene_reward_b",
+   "delivery_quest_info": {
+      "title": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.14_chase_scene.14_chase_scene_quest_b.title)",
+      "dialog_title": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.14_chase_scene.14_chase_scene_quest_b.dialog_title)",
+      "text": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.14_chase_scene.14_chase_scene_quest_b.text)",
+      "requirements": [
+         {
+            "type": "give_item",
+            "uri": "stonehearth:consumables:healing_tonic:small",
+            "count": 2
+         },
+         {
+            "type": "give_item",
+            "uri": "stonehearth:consumables:light_bandage",
+            "count": 2
+         }
+      ],
+      "abandon_out_edge": "14_chase_scene_abandon"
+   }
+}

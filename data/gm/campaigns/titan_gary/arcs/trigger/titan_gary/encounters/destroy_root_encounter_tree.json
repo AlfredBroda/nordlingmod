@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "none",
+   "in_edge": "destroy_root_encounter_tree",
+   "out_edge": {
+      "type": "destroy_tree",
+      "root": "spawn_single_root",
+      "destroy_root": true
+   }
+}

@@ -1,0 +1,22 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "destroy_building",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "wait_for_building_tentacle_kill",
+         "alert_destroy_building"
+      ]
+   },
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:titan:destroy_building",
+      "data": {
+         "player_id": "titans",
+         "delay": "4h",
+         "distance_around_building": 10,
+         "preventer": "stonehearth:corrupt:titanstorm:building_tentacle",
+         "ctx_registration_variable": "building_tentacle"
+      }
+   }
+}

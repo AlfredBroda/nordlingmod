@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "delay_continued_roots",
+   "out_edge": "set_enable_root_spawn_alert",
+   "wait_info": {
+      "duration": "4h+4h",
+      "continue_on_disconnect": true
+   }
+}

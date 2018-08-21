@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "14_chase_scene_quest_a",
+   "out_edge": "14_chase_scene_reward_b",
+   "wait_for_event_info": {
+      "source": "chase_scene_spawn_a.kobolds",
+      "event": "stonehearth:kill_event"
+   }
+}

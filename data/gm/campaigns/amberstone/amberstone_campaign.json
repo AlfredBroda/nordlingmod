@@ -1,0 +1,14 @@
+{
+   "type" : "campaign",
+   "rarity" : "common",
+
+   "arcs" : {
+      "trigger" : {
+         "discovery" : "file(arcs/trigger/discovery/discovery_arc.json)"
+      },
+      "challenge" : {
+      },
+      "climax" : {
+      }
+   }
+}

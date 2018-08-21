@@ -1,0 +1,11 @@
+{
+   "type": "encounter",
+   "encounter_type": "set_counters",
+   "in_edge": "add_reputation_1",
+   "out_edge": "quest_finish",
+   "set_counters_info": {
+      "counters": {
+         "reputation": "x + 1"
+      }
+   }
+}

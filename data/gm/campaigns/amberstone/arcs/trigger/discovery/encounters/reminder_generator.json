@@ -1,0 +1,25 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "reminder_generator",
+   "can_start": {
+      "all_tests": {
+         "stage": {
+            "type": "deny_if_not",
+            "item": "counter",
+            "key": "stage",
+            "value": 10
+         },
+         "reputation": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "reputation",
+            "value": 6
+         }
+      }
+   },
+   "generator_info": {
+      "delay": "36h+36h",
+      "spawn_edge": "10_recurring_thanks_dialog"
+   }
+}

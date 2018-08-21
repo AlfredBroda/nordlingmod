@@ -1,0 +1,12 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "play_spawn_initial_camps_animation",
+   "out_edge": "spawn_initial_camps",
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:titan:play_titan_effect",
+      "data": {
+         "effect": "cast_effect"
+      }
+   }
+}

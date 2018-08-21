@@ -1,0 +1,14 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "cleanse_orc_gong",
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:titan:replace_item",
+      "data": {
+         "old_uri": "stonehearth:corrupt:titanstorm:orc_titan_gong",
+         "new_uri": "stonehearth:corrupt:titanstorm:orc_friendship_gong",
+         "effect": "stonehearth:effects:level_up:banner"
+      },
+      "continue_on_disconnect": true
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "spawn_initial_camps",
+   "generator_info": {
+      "delay": "1m",
+      "min_spawns": 3,
+      "max_spawns": 4,
+      "spawn_edge": {
+         "type": "trigger_one",
+         "out_edges": [
+            "spawn_camp",
+            "spawn_camp_wolves",
+            "spawn_camp_mix"
+         ]
+      },
+      "continue_on_disconnect": true
+   }
+}
