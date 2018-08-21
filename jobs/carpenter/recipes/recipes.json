@@ -36,8 +36,14 @@
 			"wooden_chair_fur": {
                "recipe": "file(wooden_chair_fur_recipe.json)"
             },
+			"wooden_chair_nordlings": {
+               "recipe": "file(wooden_chair_nordlings_recipe.json)"
+            },
 			"charcoal_mound": {
                "recipe": "file(charcoal_mound_recipe.json)"
+            },
+			"mixintypes": {
+                 "wooden_chair": "remove"
             }
 		}	
    },
