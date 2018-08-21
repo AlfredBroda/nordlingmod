@@ -355,6 +355,24 @@
                "display_name": "Decorative Wall Shield",
                "description": "Not for actual battle, but decorative!"
             }
+         },
+         "hearth_nordlings_trade": {
+            "hearth_nordlings_trade": {
+               "display_name": "Hearth of Prosperity",
+               "description": "May your future shine bright"
+            }
+         },
+         "firepit_hearth": {
+            "firepit_hearth_ghost": {
+               "display_name": "Hearth of Battle",
+               "description": "May the flames of war clear your way"
+            }
+         },
+         "hearth_stump": {
+            "hearth_stump_ghost": {
+               "display_name": "Hearth of Bliss",
+               "description": "Happyness is the true wisdom."
+            }
          }
       },
       "resources": {
@@ -626,6 +644,12 @@
                "display_name": "Hotspring Steam generator",
                "description": "Generates steam particules to simulate a Hotspring"
             }
+         },
+         "wooden_chair_nordlings": {
+            "wooden_chair_nordlings_ghost": {
+               "display_name": "Nordling Chair",
+               "description": "no one really needs that fourth leg, right?"
+            }
          }
       }
    },
@@ -854,6 +878,12 @@
             "blacksmith_workbench_nordlings_ghost": {
                "display_name": "Nordling Anvil",
                "description": "Beat metal into submission!"
+            }
+         },
+         "blacksmith_forge_nordlings": {
+            "blacksmith_forge_nordlings_ghost": {
+               "display_name": "Nordling Forge",
+               "description": "A Forge for Nordling blacksmiths"
             }
          }
       },
