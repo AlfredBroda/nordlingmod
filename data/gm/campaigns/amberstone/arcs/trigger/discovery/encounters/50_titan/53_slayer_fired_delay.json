@@ -1,9 +1,0 @@
-{
-   "type": "encounter",
-   "encounter_type": "wait",
-   "in_edge": "53_slayer_fired_delay",
-   "out_edge": "53_slayer_fired_dialog",
-   "wait_info": {
-      "duration": "30m"
-   }
-}

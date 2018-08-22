@@ -1,9 +1,0 @@
-{
-   "type": "encounter",
-   "encounter_type": "generator",
-   "in_edge": "quest_generator",
-   "generator_info": {
-      "delay": "3h",
-      "spawn_edge": "quest_entry"
-   }
-}

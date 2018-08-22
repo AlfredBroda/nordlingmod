@@ -1,9 +1,0 @@
-{
-   "type": "encounter",
-   "encounter_type": "wait",
-   "in_edge": "wait_before_titan_defeated_dialog",
-   "out_edge": "titan_defeated_dialog",
-   "wait_info": {
-      "duration": "2h"
-   }
-}

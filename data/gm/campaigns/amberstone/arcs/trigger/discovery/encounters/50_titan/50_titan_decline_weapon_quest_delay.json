@@ -1,9 +1,0 @@
-{
-   "type": "encounter",
-   "encounter_type": "wait",
-   "in_edge": "50_titan_decline_weapon_quest_delay",
-   "out_edge": "50_titan_finished_weapon_without_help",
-   "wait_info": {
-      "duration": "8d+2d"
-   }
-}

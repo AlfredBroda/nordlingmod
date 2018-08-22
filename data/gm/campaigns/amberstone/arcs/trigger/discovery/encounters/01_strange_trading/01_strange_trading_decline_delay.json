@@ -1,9 +1,0 @@
-{
-   "type": "encounter",
-   "encounter_type": "wait",
-   "in_edge": "01_strange_trading_decline_delay",
-   "out_edge": "quest_finish",
-   "wait_info": {
-      "duration": "22h+12h"
-   }
-}

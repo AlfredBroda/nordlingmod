@@ -1,9 +1,0 @@
-{
-   "type": "encounter",
-   "encounter_type": "wait_for_event",
-   "in_edge": "wait_for_titan_defeated_for_cleanup",
-   "out_edge": "destroy_event_generator_trees",
-   "wait_for_event_info": {
-      "event": "stonehearth:titan_gary:defeated"
-   }
-}
