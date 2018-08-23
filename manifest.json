@@ -131,6 +131,7 @@
       "rune_stone": "file(entities/decoration/rune_stone/rune_stone.json)",
       "fireplace": "file(entities/decoration/fireplace/fireplace.json)",
       "comfy_fur_bed": "file(entities/furniture/comfy_fur_bed/comfy_fur_bed.json)",
+	  "ornate_comfy_fur_bed": "file(entities/furniture/ornate_comfy_fur_bed/ornate_comfy_fur_bed.json)",
       "comfy_fur_bed_stone": "file(entities/furniture/comfy_fur_bed_stone/comfy_fur_bed_stone.json)",
       "wooden_chair_fur": "file(entities/furniture/wooden_chair_fur/wooden_chair_fur.json)",
       "map_table": "file(entities/furniture/map_table/map_table.json)",

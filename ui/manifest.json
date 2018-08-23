@@ -30,6 +30,7 @@
 	  "stonehearth/ui/game/start_menu/images/loot.png":"file(start_menu/loot.png)",
 	  "stonehearth/ui/game/start_menu/images/mine.png":"file(start_menu/mine.png)",
 	  "stonehearth/ui/game/start_menu/images/mine_block_new.png":"file(start_menu/mine_block_new.png)",
+	  "stonehearth/ui/game/start_menu/images/mine_block.png":"file(start_menu/mine_block.png)",
 	  "stonehearth/ui/game/start_menu/images/multiplayer_menu.png":"file(start_menu/multiplayer_menu.png)",
 	  "stonehearth/ui/game/start_menu/images/zone.png":"file(start_menu/zone.png)",
 	  "stonehearth/ui/game/start_menu/images/zone_farm.png":"file(start_menu/zone_farm.png)",

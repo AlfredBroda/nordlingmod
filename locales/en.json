@@ -650,6 +650,28 @@
                "display_name": "Nordling Chair",
                "description": "no one really needs that fourth leg, right?"
             }
+         },
+         "ornate_comfy_fur_bed": {
+            "ornate_comfy_fur_bed_ghost": {
+               "display_name": "Ornate Comfy Fur Bed",
+               "description": "Makes you both warm AND stylish"
+            }
+         }
+      },
+      "consumables": {
+         "seeds": {
+            "beans_seeds": {
+               "display_name": "Bean Seeds",
+               "description": "Use these to unlock beans as a crop!"
+            },
+            "cabbage_seeds": {
+               "display_name": "Cabbage Seeds",
+               "description": "Enables Cabbages as crop!"
+            },
+            "white_carrot_seeds": {
+               "display_name": "White Carrot Seeds",
+               "description": "Enables White Carrots as a crop"
+            }
          }
       }
    },
@@ -1021,6 +1043,14 @@
          "worker_description": {
             "display_name": "Villager",
             "description": "Villagers perform basic tasks like harvesting resources, hauling stuff around, and constructing buildings, in addition to tending the fields."
+         },
+         "worker_outfit_fancy": {
+            "worker_outfit_fancy_iconic": {
+               "display_name": "Fancy Clothes",
+               "description": "Fancy clothes, keeps the cold out and the productivity IN"
+            },
+            "display_name": "Fancy Clothes",
+            "description": "Fancy clothes, keeps the cold out and the productivity IN"
          }
       }
    },
