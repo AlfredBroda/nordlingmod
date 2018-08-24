@@ -155,6 +155,7 @@
 	  "hearth_happyness_effect": "file(data/effects/hearth/hearth_happyness_effect.json)"
    },
    "mixintos": {
+	  "stonehearth/jobs/mason/recipes/recipes.json": "nordlingmod/jobs/mason/recipes/recipes_all.json",
       "stonehearth:playable_kingdom_index": "file(data/nordlings_playable_kingdom_index.json)",
       "stonehearth:farmer:initial_crops": "nordlingmod:farmer_initial_crops",
       "stonehearth:farmer:all_crops": "file(services/server/farming/data/all_crops.json)",

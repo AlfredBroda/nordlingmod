@@ -1,0 +1,11 @@
+{
+	"craftable_recipes" : {
+		"signage_decoration" : {
+			"recipes" : {
+				"fireplace" : {
+					"recipe" : "file(fireplace_recipe.json)"
+				}
+			}
+		}
+	}
+}
