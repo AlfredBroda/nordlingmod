@@ -920,6 +920,16 @@
                "recipe_name": "Nordling Anvil",
                "description": "Beat metal into submission!",
                "flavor": "\"What else do we cut in half to test the sharpness?\""
+            },
+            "legendary_hammer_head": {
+               "recipe_name": "Legendary Hammer Head",
+               "description": "Heavy as time, Strikes like Lightning!",
+               "flavor": "\"Whosoever holds this hammer...\""
+            },
+            "legendary_hammer_haft": {
+               "recipe_name": "Legendary Hammer Haft",
+               "description": "Strong as a mountain!",
+               "flavor": "\"Keep that damn mosquito away from me!\" -Eitri"
             }
          },
          "blacksmith_workbench_nordlings": {
@@ -1087,6 +1097,15 @@
             },
             "display_name": "Fancy Clothes",
             "description": "Fancy clothes, keeps the cold out and the productivity IN"
+         }
+      },
+      "potter": {
+         "recipes": {
+            "legendary_hammer_mounting": {
+               "recipe_name": "Legendary Hammer Mounting",
+               "description": "Made of Highly conductive gold, it sparks to the touch.",
+               "flavor": "\"did anyone see that flash just now?\""
+            }
          }
       }
    },

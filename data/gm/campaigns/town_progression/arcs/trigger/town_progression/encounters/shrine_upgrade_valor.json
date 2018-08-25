@@ -6,7 +6,7 @@
       "old_facility_uri": "stonehearth:decoration:valor_statue",
       "new_facility_uri": "stonehearth:decoration:valor_statue:blessed",
       "facility_upgrade_effect": "stonehearth:effects:level_up:monument",
-      "town_bonus": "stonehearth:town_bonus:valor",
+      "town_bonus": "/nordlingmod/data/town_bonuses/fighting_town_bonus.lua",
       "tier_achieved": 3,
       "conversation_subjects": [
          "stonehearth:subjects:town_status",

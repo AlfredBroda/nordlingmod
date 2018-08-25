@@ -26,6 +26,16 @@
 			  }
 			}
 		},
+		"legendary": {
+			"recipes": {
+				"legendary_hammer_head": {
+					"recipe": "file(legendary_hammer_head_recipe.json)"
+				},
+				"legendary_hammer_haft": {
+					"recipe": "file(legendary_hammer_haft_recipe.json)"
+				}
+			}
+		},
 	"smelt": {
 		"recipes": {
 			"mixintypes": {
