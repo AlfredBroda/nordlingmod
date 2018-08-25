@@ -395,6 +395,22 @@
          "mythril_ingot": {
             "display_name": "Mythril Ingot",
             "description": "A bar of pure Mythril. worth a Kings ransom"
+         },
+         "leather_strip": {
+            "display_name": "Leather Strip",
+            "description": "A strip of leather, used for crafting"
+         },
+         "legendary_hammer_haft": {
+            "display_name": "Legendary Hammer Haft",
+            "description": "A hammer haft,. Made strong as a mountain"
+         },
+         "legendary_hammer_mounting": {
+            "display_name": "Legendary Hammer Mounting",
+            "description": "Made of Highly conductive gold...It seems to spark to the touch."
+         },
+         "legendary_hammer_head": {
+            "display_name": "Legendary Hammer-head",
+            "description": "It seems to thrumm with power."
          }
       },
       "crops": {
@@ -687,6 +703,16 @@
                "description": "Hardened leather provides study protection against light weapons.",
                "recipe_name": "Thick Leather Vest",
                "flavor": "Insults bounce right off too!"
+            },
+            "worker_outfit_fancy_recipe": {
+               "recipe_name": "Fancy Nordling Clothing",
+               "description": "Keeps you warm, and looks good too!",
+               "flavor": "\"its a Troll? its a Bear! no its a nordling!\""
+            },
+            "leather_strip_recipe": {
+               "recipe_name": "Leater Strips (x3)",
+               "description": "Produces three leather strips, used in crafting",
+               "flavor": "What else would you wrap handles with?"
             }
          }
       },
@@ -945,6 +971,16 @@
                "recipe_name": "Decorative Wall Shield",
                "description": "Easier to make than a shield, but just as decorative!",
                "flavor": "FLAVORTEXTGOESHERE"
+            },
+            "wooden_chair_nordlings": {
+               "recipe_name": "Nordling Chair",
+               "flavor": "\"anchient legend says good things come in threes. so why not legs?\"",
+               "description": "A three leggend chair, favored by the Nordlings"
+            },
+            "ornate_comfy_fur_bed": {
+               "flavor": "\"NO DRAPES!\" -Edna",
+               "recipe_name": "Ornate Comfy Fur  Bed",
+               "description": "A bed, Suitable for Nordling aristrocracy"
             }
          }
       },

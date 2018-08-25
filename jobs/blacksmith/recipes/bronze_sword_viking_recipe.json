@@ -11,7 +11,11 @@
    "ingredients": [
       {
          "uri": "stonehearth:refined:bronze_ingot",
-         "count": 3
+         "count": 2
+      },
+      {
+         "uri": "nordlingmod:leather_strip",
+         "count": 1
       }
    ],
    "produces": [

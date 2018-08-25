@@ -11,6 +11,10 @@
       {
          "uri": "stonehearth:refined:steel_ingot",
          "count": 2
+      },
+      {
+         "uri": "nordlingmod:leather_strip",
+         "count": 1
       }
    ],
    "produces": [

@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(legendary_hammer_head.qb)"
+               "file(legendary_hammer_mounting.qb)"
             ]
          }
       },
@@ -24,9 +24,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(nordlingmod:entities.refined.legendary_hammer_head.display_name)",
-         "description": "i18n(nordlingmod:entities.refined.legendary_hammer_head.description)",
-         "icon": "file(legendary_hammer_head.png)",
+         "display_name": "i18n(nordlingmod:entities.refined.legendary_hammer_mounting.display_name)",
+         "description": "i18n(nordlingmod:entities.refined.legendary_hammer_mounting.description)",
+         "icon": "file(legendary_hammer_mounting.png)",
          "is_item": true,
          "category": "refined",
          "material_tags": "iron resource refined_iron stockpile_refined_blacksmith"

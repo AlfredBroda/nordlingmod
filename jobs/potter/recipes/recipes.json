@@ -1,4 +1,11 @@
 {
 	"mixins": "/stonehearth/jobs/potter/recipes/recipes.json",
-	"craftable_recipes": {}
+	"craftable_recipes": {
+		"legendary": {
+			"recipes": {
+				"legendary_hammer_mounting": {
+					"recipe": "file(legendary_hammer_mounting_recipe.json)"
+				}
+			}
+		}
 }
