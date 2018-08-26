@@ -1,10 +1,10 @@
 {
    "type": "entity",
-   "mixins": "file(carpenter_toolbench_ghost.json)",
+   "mixins": "file(carpenter_toolbench_nordlings_ghost.json)",
    "components": {
       "stonehearth:entity_forms": {
-         "ghost_form": "file(carpenter_toolbench_ghost.json)",
-         "iconic_form": "file(carpenter_toolbench_iconic.json)",
+         "ghost_form": "file(carpenter_toolbench_nordlings_ghost.json)",
+         "iconic_form": "file(carpenter_toolbench_nordlings_iconic.json)",
          "placeable_on_ground": true
       },
       "destination": {

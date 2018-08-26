@@ -991,6 +991,28 @@
                "flavor": "\"NO DRAPES!\" -Edna",
                "recipe_name": "Ornate Comfy Fur  Bed",
                "description": "A bed, Suitable for Nordling aristrocracy"
+            },
+            "carpenter_toolbench_nordlings_recipe": {
+               "recipe_name": "Nordling Carpenters Toolbench",
+               "flavor": "\"Olaf! Get back here with that carved dragons head!\" -Snorri",
+               "description": "A nordling toolbench, usable by a carpenter."
+            },
+            "carpenter_workbench_nordlings_recipe": {
+               "recipe_name": "Nordling Carpenters Workbench",
+               "description": "Used by a carpenter to make furniture",
+               "flavor": "\"it might just be a split treetrunk to you, but its the start of Home to me\" -Olaf Woodsplitter"
+            }
+         },
+         "carpenter_workbench_nordlings": {
+            "carpenter_workbench_nordlings_ghost": {
+               "display_name": "Nordling Carpenters Workbench",
+               "description": "Carpenters Toolbench, builds furnture."
+            }
+         },
+         "carpenter_toolbench_nordlings": {
+            "carpenter_toolbench_ghost": {
+               "display_name": "Nordling Carpenters Toolbench",
+               "description": "For advanced wooden recipes."
             }
          }
       },

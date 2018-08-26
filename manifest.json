@@ -59,6 +59,8 @@
       "worker:outfit": "file(jobs/worker/worker_outfit/worker_outfit.json)",
       "blacksmith_forge_nordlings": "/nordlingmod/jobs/blacksmith/blacksmith_forge_nordlings/blacksmith_forge_nordlings.json",
 	  "blacksmith_workbench_nordlings": "file(jobs/blacksmith/blacksmith_workbench_nordlings/blacksmith_workbench_nordlings.json)",
+	  "carpenter_workbench_nordlings":"file(jobs/carpenter/carpenter_workbench_nordlings/carpenter_workbench_nordlings.json)",
+	  "carpenter_toolbench_nordlings":"file(jobs/carpenter/carpenter_toolbench_nordlings/carpenter_toolbench_nordlings.json)",
 	  "gm_index": "file(data/gm/gm_index.json)",
       "banner:cunning": "file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian.json)",
       "banner:cunning:token": "file(entities/gizmos/nordlings_town_banner_guardian/nordlings_town_banner_guardian_token.json)",
@@ -177,7 +179,9 @@
 	  "northern_alliance/data/gm/campaigns/trader/arcs/encounters/returning_trader_encounter.json": "nordlingmod/data/gm/campaigns/trader/arcs/encounters/returning_trader_encounter_others.json",
 	  "stonehearth/jobs/blacksmith/recipes/recipes.json": "nordlingmod/jobs/blacksmith/recipes/recipes_all.json",
 	  "stonehearth/jobs/blacksmith/blacksmith_forge/blacksmith_forge.json": "nordlingmod/jobs/blacksmith/blacksmith_forge_nordlings/blacksmith_forge_nordlings_enable.json",
-	  "stonehearth/jobs/blacksmith/blacksmith_workbench/blacksmith_workbench.json": "nordlingmod/jobs/blacksmith/blacksmith_workbench_nordlings/blacksmith_workbench_nordlings_enable.json"
+	  "stonehearth/jobs/blacksmith/blacksmith_workbench/blacksmith_workbench.json": "nordlingmod/jobs/blacksmith/blacksmith_workbench_nordlings/blacksmith_workbench_nordlings_enable.json",
+	  "stonehearth/jobs/carpenter/carpenter_workbench/carpenter_workbench.json": "nordlingmod/jobs/carpenter/carpenter_workbench_nordlings/carpenter_workbench_nordlings_enable.json",
+      "stonehearth/jobs/carpenter/carpenter_toolbench/carpenter_toolbench.json": "nordlingmod/jobs/carpenter/carpenter_toolbench_nordlings/carpenter_toolbench_nordlings_enable.json"
    },
    "overrides": {
       "stonehearth/data/rigs/entities/humans/animations/male/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/animations/male/combat_1h_thrust.json",

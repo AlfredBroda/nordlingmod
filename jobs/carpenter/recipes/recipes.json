@@ -1,7 +1,21 @@
 {
    "mixins": "/stonehearth/jobs/carpenter/recipes/recipes.json",
    "craftable_recipes" : {
-      "armor" : {
+      "workbenches": {
+		"recipes": {
+			"carpenter_workbench_nordlings": {
+               "recipe": "file(carpenter_workbench_nordlings_recipe.json)"
+            },
+            "carpenter_toolbench_nordlings": {
+               "recipe": "file(carpenter_toolbench_nordlings_recipe.json)"
+            },
+			"mixintypes": {
+				"carpenter_workbench": "remove",
+				"carpenter_toolbench": "remove"
+			}
+		}
+	  },
+	  "armor" : {
          "recipes" : {
 			"runic_wooden_comb" : {
                "recipe" : "file(runic_wooden_comb_recipe.json)"
