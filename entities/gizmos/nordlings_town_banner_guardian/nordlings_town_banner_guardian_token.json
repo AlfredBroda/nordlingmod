@@ -10,11 +10,7 @@
          }
       },
       "mob": {
-         "model_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-         }
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
       },
       "stonehearth:town_bonus_granter": {
          "town_bonus_uri": "stonehearth:town_bonus:cunning"

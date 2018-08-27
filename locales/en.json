@@ -42,6 +42,10 @@
             "town_banner_guardian_token_iconic": {
                "display_name": "Banner of Cunning Shred",
                "description": "A shred from the Banner of Cunning, carrying along its magic."
+            },
+            "nordlings_town_banner_guardian_token_iconic": {
+               "display_name": "Banner of Cunning Shred",
+               "description": "A shred of the banner of cunning, carrying along its magic"
             }
          },
          "nordlings_town_banner_might": {
