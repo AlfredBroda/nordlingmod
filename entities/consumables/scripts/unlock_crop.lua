@@ -6,7 +6,7 @@ function UnlockCrop.use(consumable, consumable_data, player_id, target_entity)
     if kingdom == "nordlingmod:kingdoms:nordlings" then
         local worker_job = stonehearth.job:get_job_info(player_id, "stonehearth:jobs:worker")
         if worker_job then  
-            worker_job:manually_unlock_crop(consumable_data.crop)
+            worker_job:manually_unlock_crop(consumable_data.crop, true)
         end
     else
         local farmer_job = stonehearth.job:get_job_info(player_id, "stonehearth:jobs:farmer")
