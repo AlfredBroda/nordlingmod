@@ -12,8 +12,9 @@
 	   "stonehearth/data/ui/start_menu.json": "nordlingmod/data/ui/start_menu.json"
    },
    "overrides" : {
+	  "stonehearth/data/gm/campaigns/amberstone/arcs/trigger/discovery/encounters/12_heirbloom/unlock_crop.lua": "nordlingmoddata/gm/campaigns/amberstone/arcs/trigger/discovery/encounters/12_heirbloom/unlock_crop.lua",
 	  "stonehearth/ui/game/modes/zones_mode/farm/farm.js": "file(game/modes/zones_mode/farm/farm.js)",
-	   "stonehearth/jobs/carpenter/images/carpenter_menu_icon.png": "/nordlingmod/jobs/carpenter/carpenter_menu_icon.png",
+	  "stonehearth/jobs/carpenter/images/carpenter_menu_icon.png": "/nordlingmod/jobs/carpenter/carpenter_menu_icon.png",
 	  "stonehearth/jobs/blacksmith/images/blacksmith_menu_icon.png": "/nordlingmod/jobs/blacksmith/blacksmith_menu_icon.png",
 	  "stonehearth/jobs/cook/images/cook_menu_icon.png": "/nordlingmod/jobs/cook/cook_menu_icon.png",
 	  "stonehearth/jobs/engineer/images/engineer_menu_icon.png": "/nordlingmod/jobs/engineer/engineer_menu_icon.png",
@@ -22,7 +23,7 @@
 	  "stonehearth/jobs/potter/images/potter_menu_icon.png": "/nordlingmod/jobs/potter/potter_menu_icon.png",
 	  "stonehearth/jobs/weaver/images/weaver_menu_icon.png": "/nordlingmod/jobs/weaver/weaver_menu_icon.png",
 	  "archipelago_biome/jobs/fisher/images/fisher_menu_icon.png": "/nordlingmod/jobs/fisher/fisher_menu_icon.png",
-	  "stonehearth/ui/game/character_sheets/citizen_character_sheet/citizen_character_sheet.js":"nordlingmod/ui/game/character_sheets/citizen_character_sheet/citizen_character_sheet.js",
+	  "stonehearth/ui/game/character_sheets/citizen_character_sheet/citizen_character_sheet.js": "nordlingmod/ui/game/character_sheets/citizen_character_sheet/citizen_character_sheet.js",
       "stonehearth/ui/game/start_menu/images/dock.png":"file(start_menu/dock.png)",
 	  "stonehearth/ui/game/start_menu/images/build.png":"file(start_menu/build.png)",
       "stonehearth/ui/game/start_menu/images/town.png":"file(start_menu/town.png)",

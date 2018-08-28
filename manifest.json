@@ -184,6 +184,8 @@
       "stonehearth/jobs/carpenter/carpenter_toolbench/carpenter_toolbench.json": "nordlingmod/jobs/carpenter/carpenter_toolbench_nordlings/carpenter_toolbench_nordlings_enable.json"
    },
    "overrides": {
+	  "stonehearth/entities/consumables/scripts/unlock_crop.lua": "nordlingmod/entities/consumables/scripts/unlock_crop.lua",
+	  "stonehearth/services/server/job/job_info_controller.lua": "nordlingmod/services/server/job/job_info_controller.lua",
       "stonehearth/data/rigs/entities/humans/animations/male/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/animations/male/combat_1h_thrust.json",
       "stonehearth/data/rigs/entities/humans/animations/female/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/animations/female/combat_1h_thrust.json",
       "stonehearth/data/rigs/entities/humans/effects/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/effects/combat_1h_thrust.json"
