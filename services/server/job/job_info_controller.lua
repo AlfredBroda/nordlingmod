@@ -234,7 +234,7 @@ end
 
 function JobInfoController:manually_unlock_crop(crop_key, ignore_missing) -- TODO: remove hardcoded 'stonehearth:jobs:farmer' and 'stonehearth:farmer:all_crops' to allow for mods
     local kingdom = stonehearth.player:get_kingdom(self._sv.player_id)
-    if kingdom == "nordlings:kingdom:nordlings" then
+    if kingdom == "nordlingmod:kingdoms:nordlings" then
         if self._sv.alias ~= 'stonehearth:jobs:worker' then
             radiant.verify(false, "Attempting to manually unlock crop %s when job %s does not have crops!", crop_key, self._sv.alias)
             return false
