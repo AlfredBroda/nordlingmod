@@ -2,7 +2,7 @@
 local UnlockCrop = class()
 
 function UnlockCrop.use(consumable, consumable_data, player_id, target_entity)
-    local kingdom_alias = stonehearth.player:get_kingdom(player_id)
+    local kingdom = stonehearth.player:get_kingdom(player_id)
     if kingdom == "nordlings:kingdom:nordlings" then
         local worker_job = stonehearth.job:get_job_info(player_id, "stonehearth:jobs:worker")
         if worker_job then  
@@ -15,7 +15,6 @@ function UnlockCrop.use(consumable, consumable_data, player_id, target_entity)
         end
     end
     return true
-end
 end
 
 return UnlockCrop
