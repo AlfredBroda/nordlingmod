@@ -5,7 +5,7 @@
          "type": "cubemitter",
          "cubemitter": "/nordlingmod/data/horde/particles/hearth_happyness/hearth_stump.base_dense.cubemitter.json",
          "loop": true,
-         "transforms": { "x": 0, "y": 1.5, "z": 0,
+         "transforms": { "x": 0, "y": 0.5, "z": 0,
             "rx": 90,
             "ry": 0,
             "rz": 0
@@ -15,7 +15,7 @@
          "type": "cubemitter",
          "cubemitter": "/nordlingmod/data/horde/particles/hearth_happyness/hearth_stump.base_bubbles.cubemitter.json",
          "loop": true,
-         "transforms": { "x": 0, "y": 1.5, "z": 0,
+         "transforms": { "x": 0, "y": 0.5, "z": 0,
             "rx": 90,
             "ry": 0,
             "rz": 0
@@ -25,7 +25,7 @@
          "type": "cubemitter",
          "cubemitter": "/nordlingmod/data/horde/particles/hearth_happyness/hearth_stump.base_bubbles_conc.cubemitter.json",
          "loop": true,
-         "transforms": { "x": 0, "y": 1.5, "z": 0,
+         "transforms": { "x": 0, "y": 0.5, "z": 0,
             "rx": 90,
             "ry": 0,
             "rz": 0
@@ -35,7 +35,7 @@
          "type": "cubemitter",
          "cubemitter": "/nordlingmod/data/horde/particles/hearth_happyness/hearth_stump.base_bubbles_extreme.cubemitter.json",
          "loop": true,
-         "transforms": { "x": 0, "y": 1.5, "z": 0,
+         "transforms": { "x": 0, "y": 0.5, "z": 0,
             "rx": 90,
             "ry": 0,
             "rz": 0
@@ -45,7 +45,7 @@
          "type": "cubemitter",
          "cubemitter": "/nordlingmod/data/horde/particles/hearth_happyness/hearth_stump.glow.cubemitter.json",
          "loop": true,
-         "transforms": { "x": 0, "y": 1.5, "z": 0,
+         "transforms": { "x": 0, "y": 0.5, "z": 0,
             "rx": 90,
             "ry": 0,
             "rz": 0
@@ -55,7 +55,7 @@
          "type": "cubemitter",
          "cubemitter": "/nordlingmod/data/horde/particles/hearth_happyness/hearth_stump.embers.cubemitter.json",
          "loop": true,
-         "transforms": { "x": 0, "y": 1.5, "z": 0,
+         "transforms": { "x": 0, "y": 0.5, "z": 0,
             "rx": 90,
             "ry": 0,
             "rz": 0
@@ -84,7 +84,7 @@
       "light": {
          "type": "light",
          "light": "animatedlights/fire/hearth/hearth.stump.animatedlight.json",
-         "transforms": { "x": 0, "y": 3, "z": 0 },
+         "transforms": { "x": 0, "y": 2.5, "z": 0 },
          "shadows": true
       }
    }
