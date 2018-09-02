@@ -6,15 +6,14 @@ local RECIPES_TO_UNLOCK = {
       'decoration:valor_brazier_large',
       'decoration:wall_hanging_plaque',
       'decoration:valor_war_horn',
-      'legendary:steel_frame',
+   },
+   ['nordlingmod:jobs:blacksmith'] = {
       'legendary_hammer',
 	  'legendary_hammer_head',
 	  'legendary_hammer_haft',
-      'legendary:circlet_valor',
    },
    ['stonehearth:jobs:engineer'] = {
       'building_parts:portcullis_valor',
-      'legendary:mechanism',
    },
    ['stonehearth:jobs:mason'] = {
       'signage_decoration:statue_knight',
@@ -23,22 +22,9 @@ local RECIPES_TO_UNLOCK = {
       'signage_decoration:valor_window_arrow_tall',
       'signage_decoration:valor_window_frame_barred',
       'signage_decoration:valor_window_frame_xlarge',
-      'legendary:lucid_gem',
-      'legendary:giants_shield',
    },
-   ['stonehearth:jobs:carpenter'] = {
-      'legendary:bow_valor',
-      'legendary:giants_face',
-   },
-   ['stonehearth:jobs:herbalist'] = {
-      'legendary:leaf_setting',
-   },
-   ['stonehearth:jobs:potter'] = {
+   ['nordlingmod:jobs:potter'] = {
      'legendary_hammer_mounting',
-   },
-   ['stonehearth:jobs:weaver'] = {
-      'legendary:silver_bowstring',
-      'legendary:woven_grip',
    }
 }
 

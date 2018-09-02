@@ -11,6 +11,7 @@
    "starting_resource": "stonehearth:resources:wood:oak_log",
    "initial_town_name": "i18n(nordlingmod:kingdom.initial_town_name)",
    "camp_standard": "nordlingmod:camp_standard",
+   "loadouts": "/nordlingmod/data/loadouts/loadouts.json",
    "job_index": "nordlingmod:jobs:index",
    "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
   "roles": {

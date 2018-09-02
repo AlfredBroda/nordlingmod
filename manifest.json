@@ -10,6 +10,7 @@
    "client_init_script": "file(nordlingmod_client)",
    "aliases": {
       "kingdoms:nordlings": "file(data/nordlings_population.json)",
+	  "loadouts": "file(data/loadouts/loadouts.json)",
       "resource_constants": "file(data/resource_constants.json)",
       "resources:mythril:mythril_ore": "file(entities/resources/mythril/mythril_ore/mythril_ore.json)",
       "terrain:ui:mythril_ore": "file(entities/terrain/ui/mythril_ore/mythril_ore.json)",

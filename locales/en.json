@@ -9,6 +9,11 @@
    "data": {
       "nordlings_population": {
          "display_name": "Nordlings"
+      },
+      "loadouts": {
+         "items": {
+            "cabbage": "Cabbages"
+         }
       }
    },
    "entities": {

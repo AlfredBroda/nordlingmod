@@ -1,0 +1,29 @@
+{
+   "mixins": "stonehearth:loadouts",
+   "loadouts": {
+      "food_for_days": {
+         "content": {
+            "mixintypes": {
+               "farmer": "remove",
+               "carrots": "remove"
+            },
+            "trapper": {
+               "ordinal": 1,
+               "display_name": "i18n(stonehearth:jobs.trapper.trapper_description.display_name)",
+               "type": "entity",
+               "uri": "stonehearth:trapper:talisman",
+               "icon": "/stonehearth/data/loadouts/images/items/trapper_knife.png",
+               "amount": 1
+            },
+            "cabbage": {
+               "ordinal": 3,
+               "display_name": "i18n(nordlingmod:data.loadouts.items.cabbage)",
+               "type": "entity",
+               "uri": "food:cabbage:cabbage_basket",
+               "icon": "/nordlingmod/data/loadouts/images/items/cabbage_basket.png",
+               "amount": 10
+            }
+         }
+      }
+   }
+}
