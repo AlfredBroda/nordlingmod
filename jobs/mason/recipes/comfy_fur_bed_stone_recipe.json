@@ -13,9 +13,9 @@
          "material": "stone resource",
          "count": 1
       },
-	  {
-         "material" : "pelt resource",
-         "count" : 1
+      {
+         "material": "pelt resource",
+         "count": 1
       }
    ],
    "produces": [

@@ -1041,6 +1041,11 @@
                "description": "The floorplate for a fireplace, burns wood and keeps you warm",
                "flavor": "flavourtextgoeshere",
                "recipe_name": "Fireplace"
+            },
+            "comfy_fur_bed_stone_recipe": {
+               "recipe_name": "Stone and Fur Bed",
+               "description": "A stone bed with comfy fur pelts to sleep under",
+               "flavor": "FLAVORPLACEHOLDERHERE"
             }
          }
       },
