@@ -19,7 +19,7 @@
                "ordinal": 3,
                "display_name": "i18n(nordlingmod:data.loadouts.items.cabbage)",
                "type": "entity",
-               "uri": "food:cabbage:cabbage_basket",
+               "uri": "nordlingmod:food:cabbage:cabbage_basket",
                "icon": "/nordlingmod/data/loadouts/images/items/cabbage_basket.png",
                "amount": 10
             }
