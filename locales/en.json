@@ -382,6 +382,12 @@
                "display_name": "Hearth of Bliss",
                "description": "Happyness is the true wisdom."
             }
+         },
+         "fireplace_big": {
+            "fireplace_big_ghost": {
+               "display_name": "Big Fireplace",
+               "description": "A larger fireplace, for when you need more heat"
+            }
          }
       },
       "resources": {
@@ -1051,6 +1057,11 @@
                "recipe_name": "Stone and Fur Bed",
                "description": "A stone bed with comfy fur pelts to sleep under",
                "flavor": "FLAVORPLACEHOLDERHERE"
+            },
+            "fireplace_big": {
+               "recipe_name": "Big Fireplace",
+               "flavor": "FLAVORTEXTGOESHERE",
+               "description": "For when the small one just isnt enough."
             }
          }
       },

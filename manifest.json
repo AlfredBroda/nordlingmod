@@ -137,6 +137,7 @@
 	  "legendary_hammer": "file(entities/weapons/legendary_hammer/legendary_hammer.json)",
       "rune_stone": "file(entities/decoration/rune_stone/rune_stone.json)",
       "fireplace": "file(entities/decoration/fireplace/fireplace.json)",
+	  "fireplace_big": "file(entities/decoration/fireplace_big/fireplace_big.json)",
       "comfy_fur_bed": "file(entities/furniture/comfy_fur_bed/comfy_fur_bed.json)",
 	  "ornate_comfy_fur_bed": "file(entities/furniture/ornate_comfy_fur_bed/ornate_comfy_fur_bed.json)",
       "comfy_fur_bed_stone": "file(entities/furniture/comfy_fur_bed_stone/comfy_fur_bed_stone.json)",
