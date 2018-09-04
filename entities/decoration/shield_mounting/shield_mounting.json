@@ -24,7 +24,7 @@
          "type": "input_crate",
          "capacity": 1,
          "render_contents": true,
-         "filter_list": "stonehearth:ui:input_box:filters",
+         "filter_list": "/nordlingmod/entities/decoration/shield_mounting/shield_mounting_filters.json",
          "is_single_filter": true
       }
    },
