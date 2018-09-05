@@ -1,6 +1,6 @@
 {
    "type": "entity",
-   "mixins": "file(decorative_wall_shield_ghost.json)",
+   "mixins": "file(shield_mounting_ghost.json)",
    "components": {
       "stonehearth:entity_forms": {
          "iconic_form": "file(shield_mounting_iconic.json)",
@@ -20,7 +20,7 @@
             "right"
          ]
       },
-	  "stonehearth:storage": {
+      "stonehearth:storage": {
          "type": "input_crate",
          "capacity": 1,
          "render_contents": true,

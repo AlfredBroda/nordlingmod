@@ -388,6 +388,12 @@
                "display_name": "Big Fireplace",
                "description": "A larger fireplace, for when you need more heat"
             }
+         },
+         "shield_mounting": {
+            "shield_mounting_ghost": {
+               "display_name": "Shield Hanger",
+               "description": "For hanging your shield on."
+            }
          }
       },
       "resources": {

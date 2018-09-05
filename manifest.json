@@ -155,6 +155,7 @@
       "charcoal_mound_phase_4": "file(entities/furniture/charcoal_mound/charcoal_mound_phase_4/charcoal_mound_phase_4.json)",
       "landmark_blocks": "file(data/terrain/landmark_blocks.json)",
       "decorative_wall_shield": "file(entities/decoration/decorative_wall_shield/decorative_wall_shield.json)",
+	  "shield_mounting": "/nordlingmod/entities/decoration/shield_mounting/shield_mounting.json",
 	  "hearth_nordlings_happyness": "file(entities/decoration/hearth_nordlings_happyness/hearth_nordlings_happyness.json)",
 	  "hearth_nordlings_battle": "file(entities/decoration/hearth_nordlings_battle/hearth_nordlings_battle.json)",
 	  "hearth_nordlings_trade": "file(entities/decoration/hearth_nordlings_trade/hearth_nordlings_trade.json)",

@@ -54,7 +54,7 @@
          "description": "i18n(nordlingmod:entities.armor.training_roundshield.description)",
          "icon": "file(training_roundshield.png)",
          "category": "armor",
-         "material_tags": "wood armor light_armor stockpile_equipment"
+         "material_tags": "wood armor light_armor stockpile_equipment shield"
       }
    }
 }
