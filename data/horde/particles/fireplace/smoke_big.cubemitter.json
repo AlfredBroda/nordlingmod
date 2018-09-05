@@ -21,13 +21,13 @@
       "lifetime": {
          "start": {
             "kind": "RANDOM_BETWEEN",
-            "values": [12000, 24000]
+            "values": [26000, 40000]
          }
       },
       "speed": {
          "start": {
             "kind": "RANDOM_BETWEEN",
-            "values": [0.5, 0.9]
+            "values": [0.6, 0.9]
          }
       },
       "rotation": {

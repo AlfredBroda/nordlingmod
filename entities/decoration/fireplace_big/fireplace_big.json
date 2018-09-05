@@ -10,7 +10,7 @@
       "stonehearth:firepit": {},
       "stonehearth:lamp": {
          "light_policy": "manual",
-		 "light_effect": "/nordlingmod/data/effects/fireplace/fireplace_effect.json",
+		 "light_effect": "/nordlingmod/data/effects/fireplace/fireplace_effect_big.json",
          "light_origin": { "x": 0, "y": 1, "z": 0 }
       },
        "destination": {
@@ -33,7 +33,7 @@
    "entity_data": {
 		"stonehearth:table": {
 			"drop_effect": "carry_putdown_on_table",
-			"drop_offset": { "x": 0.5, "y": 0.5, "z": 0.5 }
+			"drop_offset": { "x": 0.5, "y": 0, "z": 0.5 }
 		},
       "stonehearth:net_worth": {
          "value_in_gold": 10,
