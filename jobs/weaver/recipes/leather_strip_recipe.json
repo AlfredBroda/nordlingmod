@@ -8,7 +8,7 @@
    "workshop": "stonehearth:weaver:workbench",
    "ingredients": [
       {
-         "material": "leather resource",
+         "uri": "stonehearth:refined:leather_bolt",
          "count": 1
       }
    ],
