@@ -1,0 +1,65 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.05
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(legendary_axe_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(legendary_axe_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "additional_equipment": {
+            "stonehearth:armor:offhand_placeholder": true
+         },
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 40,
+         "roles": "footman_job",
+         "required_job_level": 5,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 40,
+         "reach": 1.5
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 400,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.weapons.legendary_axe.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.legendary_axe.description)",
+         "icon": "file(legendary_axe.png)",
+         "category": "weapons",
+         "material_tags": "metal melee_weapon crafted stockpile_weapon"
+      }
+   }
+}
