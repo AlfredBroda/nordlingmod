@@ -3,7 +3,7 @@
    "mixins": "file(shrine_to_odin.json)",
    "components": {
       "effect_list": {
-         "default": "/nordlingmod/data/effects/shrines/fountain_valor_statue_effect.json"
+         "default": "/nordlingmod/data/effects/shrines/odin_statue_effect.json"
       }
    },
    "entity_data": {

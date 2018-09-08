@@ -3,8 +3,8 @@
    "encounter_type": "town_upgrade",
    "in_edge": "shrine_upgrade_guildmaster",
    "town_upgrade_info": {
-      "old_facility_uri": "stonehearth:decoration:craftsman_statue",
-      "new_facility_uri": "stonehearth:decoration:craftsman_statue:blessed",
+      "old_facility_uri": "nordlingmod:shrine_to_odin",
+      "new_facility_uri": "nordlingmod:shrine_to_odin_blessed",
       "facility_upgrade_effect": "stonehearth:effects:level_up:monument",
       "town_bonus": "stonehearth:town_bonus:guildmaster",
       "tier_achieved": 3,

@@ -27,6 +27,16 @@
                "recipe": "file(comfy_fur_bed_stone_recipe.json)"
             }
 		}
+	},
+	"signage_decoration": {
+		"recipes": {
+			shrine_to_odin": {
+               "recipe": "file(shrine_to_odin_recipe.json)"
+            },
+			"mixintypes": {
+				"craftsman_statue": "remove"
+            }
+		}
 	}
 	}
 }

@@ -19,7 +19,7 @@
          },
          {
             "type": "placed_item",
-            "uri": "stonehearth:decoration:craftsman_statue"
+            "uri": "nordlingmod:shrine_to_odin"
          }
       ],
       "abandon_out_edge": "shrine_abandon"
