@@ -1,14 +1,6 @@
 {
    "type": "entity",
    "mixins": "file(shrine_to_freya.json)",
-   "components": {
-      "effect_list": {
-         "default": "stonehearth:effects:fountain:valor_statue"
-      },
-      "stonehearth:lamp": {
-         "light_effect": "stonehearth:effects:fountain:valor_statue:light"
-      }
-   },
    "entity_data": {
       "stonehearth:appeal": {
          "appeal": 120

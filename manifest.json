@@ -161,7 +161,13 @@
 	  "hearth_nordlings_trade": "file(entities/decoration/hearth_nordlings_trade/hearth_nordlings_trade.json)",
 	  "hearth_trade_effect": "file(data/effects/hearth/hearth_trade_effect.json)",
 	  "hearth_battle_effect": "file(data/effects/hearth/hearth_battle_effect.json)",
-	  "hearth_happyness_effect": "file(data/effects/hearth/hearth_happyness_effect.json)"
+	  "hearth_happyness_effect": "file(data/effects/hearth/hearth_happyness_effect.json)",
+	  "shrine_to_odin":"file(entities/decoration/shrine_to_odin/shrine_to_odin.json)",
+	  "shrine_to_odin_blessed":"file(entities/decoration/shrine_to_odin/shrine_to_odin_blessed.json)",
+	  "shrine_to_thor":"file(entities/decoration/shrine_to_thor/shrine_to_thor.json)",
+	  "shrine_to_thor_blessed":"file(entities/decoration/shrine_to_thor/shrine_to_thor_blessed.json)",
+	  "shrine_to_freya":"file(entities/decoration/shrine_to_freya/shrine_to_freya.json)",
+	  "shrine_to_freya_blessed":"file(entities/decoration/shrine_to_freya/shrine_to_freya_blessed.json)"
    },
    "mixintos": {
 	  "stonehearth/jobs/mason/recipes/recipes.json": "nordlingmod/jobs/mason/recipes/recipes_all.json",

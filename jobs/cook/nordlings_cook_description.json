@@ -4,6 +4,9 @@
     "equipment": {
 		"torso": "file(cook_outfit)"
 	},
+	"crafter": {
+      "recipe_list": "/nordlingmod/jobs/cook/recipes/recipes.json"
+   },
 	"parent_job": "stonehearth:jobs:worker",
-   "parent_level_requirement": 2,
+   "parent_level_requirement": 1,
 }

@@ -10,7 +10,7 @@
    "level_requirement": 0,
    "ingredients": [
       {
-         "uri": "stonehearth:food:corn:corn_basket",
+         "material": "food_container raw_food vegetable",
          "count": 1
       }
    ],
