@@ -2,15 +2,13 @@ local ValorTownBonus = class()
 
 local RECIPES_TO_UNLOCK = {
    ['stonehearth:jobs:blacksmith'] = {
+	  'legendary:legendary_hammer',
+	  'legendary:legendary_hammer_head',
+	  'legendary:legendary_hammer_haft',
       'building_parts:fence_gate_iron',
       'decoration:valor_brazier_large',
       'decoration:wall_hanging_plaque',
       'decoration:valor_war_horn',
-   },
-   ['nordlingmod:jobs:blacksmith'] = {
-      'legendary_hammer',
-	  'legendary_hammer_head',
-	  'legendary_hammer_haft',
    },
    ['stonehearth:jobs:engineer'] = {
       'building_parts:portcullis_valor',
@@ -23,8 +21,8 @@ local RECIPES_TO_UNLOCK = {
       'signage_decoration:valor_window_frame_barred',
       'signage_decoration:valor_window_frame_xlarge',
    },
-   ['nordlingmod:jobs:potter'] = {
-     'legendary_hammer_mounting',
+   ['stonehearth:jobs:potter'] = {
+     'legendary:legendary_hammer_mounting',
    }
 }
 
