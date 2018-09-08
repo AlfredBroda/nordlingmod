@@ -11,7 +11,8 @@
       "stonehearth/locales/en.json": "nordlingmod/locales/en.json",
 	  "stonehearth/data/ui/start_menu.json": "nordlingmod/data/ui/start_menu.json",
 	  "trapper_plus/mixins/start_menu.json": "nordlingmod/data/ui/start_menu_trapperplus_compatabillity.json",
-	  "archipelago_biome/data/ui/start_menu.json": "nordlingmod/data/ui/start_menu_archipelago_compatabillity.json"
+	  "archipelago_biome/data/ui/start_menu.json": "nordlingmod/data/ui/start_menu_archipelago_compatabillity.json",
+	  "box_command_tool/data/ui/start_menu.json": "nordlingmod/data/ui/start_menu_box_command_tool_compatabillity.json"
    },
    "overrides" : {
 	  "stonehearth/ui/game/start_menu/images/dock.png": "nordlingmod/ui/game/start_menu/images/dock.png",
