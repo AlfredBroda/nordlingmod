@@ -2,9 +2,6 @@
    "type": "entity",
    "mixins": "file(weaver_workbench_nordlings_ghost.json)",
    "components": {
-   "render_info": {
-         "scale": 0.05
-      },
       "stonehearth:entity_forms": {
          "ghost_form": "file(weaver_workbench_nordlings_ghost.json)",
          "iconic_form": "file(weaver_workbench_nordlings_iconic.json)",
