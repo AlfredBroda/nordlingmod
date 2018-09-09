@@ -740,6 +740,17 @@
                "recipe_name": "Leater Strips (x3)",
                "description": "Produces three leather strips, used in crafting",
                "flavor": "What else would you wrap handles with?"
+            },
+            "weaver_workbench_recipe": {
+               "recipe_name": "Nordling Weaver Workbench",
+               "description": "Used to craft things out of Fibre or Leather",
+               "flavor": "\"A golden fleece is nice and all but i sure prefer a norman sheep for its heat-retention capabillities..\" -Mer Burleighands"
+            }
+         },
+         "weaver_workbench_nordlings": {
+            "weaver_workbench_nordlings_ghost": {
+               "display_name": "Nordling Weaver Workbench",
+               "description": "Used to craft things out of fibre or leather"
             }
          }
       },

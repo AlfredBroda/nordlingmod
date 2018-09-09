@@ -1,4 +1,4 @@
-local ValorTownBonus = class()
+local ValorTownBonusnordlings = class()
 
 local RECIPES_TO_UNLOCK = {
    ['stonehearth:jobs:blacksmith'] = {
@@ -36,23 +36,23 @@ local RECIPE_UNLOCK_BULLETIN_TITLES = {
    "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.recipe_unlock_weapons_4)"
 }
 
-function ValorTownBonus:initialize()
+function ValorTownBonusnordlings:initialize()
    self._sv.player_id = nil
    self._sv.display_name = 'i18n(stonehearth:data.gm.campaigns.town_progression.shrine_choice.valor.name)'
    self._sv.description = 'i18n(stonehearth:data.gm.campaigns.town_progression.shrine_choice.valor.description)'
 end
 
-function ValorTownBonus:create(player_id)
+function ValorTownBonusnordlings:create(player_id)
    self._sv.player_id = player_id
 end
 
-function ValorTownBonus:initialize_bonus()
+function ValorTownBonusnordlings:initialize_bonus()
    --unlock the new epic weapon recipes
 end
 
-function ValorTownBonus:get_recipe_unlocks()
+function ValorTownBonusnordlings:get_recipe_unlocks()
    return RECIPES_TO_UNLOCK, RECIPE_UNLOCK_BULLETIN_TITLES
 end
 
-return ValorTownBonus
+return ValorTownBonusnordlings
 
