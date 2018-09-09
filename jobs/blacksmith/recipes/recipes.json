@@ -33,6 +33,9 @@
 				},
 				"legendary_hammer_haft": {
 					"recipe": "file(legendary_hammer_haft_recipe.json)"
+				},
+				"legendary_hammer": {
+					"recipe": "file(legendary_hammer_recipe.json)"
 				}
 			}
 		},
