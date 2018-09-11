@@ -87,8 +87,16 @@
 					"recipe": "file(iron_axe_recipe.json)"
 
 				},
+				"iron_axe_2h": {
+					"recipe": "file(iron_axe_2h_recipe.json)"
+
+				},
 				"steel_axe": {
 					"recipe": "file(steel_axe_recipe.json)"
+
+				},
+				"steel_axe_2h": {
+					"recipe": "file(steel_axe_2h_recipe.json)"
 
 				},
 				"bronze_spear": {
