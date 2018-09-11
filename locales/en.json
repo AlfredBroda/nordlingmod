@@ -400,6 +400,18 @@
                "display_name": "Shrine to Odin, King of the Gods.",
                "description": "A Shrine to the Wisdom of Odin, King of the Gods."
             }
+         },
+         "shrine_to_thor": {
+            "shrine_to_thor_ghost": {
+               "display_name": "Shrine to Thor",
+               "description": "placeholder"
+            }
+         },
+         "shrine_to_freya": {
+            "shrine_to_freya_ghost": {
+               "description": "placeholder",
+               "display_name": "shrine to freya"
+            }
          }
       },
       "resources": {
@@ -968,6 +980,21 @@
                "recipe_name": "Legendary Hammer Haft",
                "description": "Strong as a mountain!",
                "flavor": "\"Keep that damn mosquito away from me!\" -Eitri"
+            },
+            "legendary_hammer_recipe": {
+               "recipe_name": "Legendary Hammer",
+               "description": "A Legendary Hammer, worthy of the god Thor himself.",
+               "flavor": "\"He, whomsoever holds this Hammer, If he be worthy...\""
+            },
+            "steel_axe_2h_recipe": {
+               "recipe_name": "Steel Greataxe",
+               "description": "A double handed axe, Not for trees.",
+               "flavor": "\"try spinning in circles. that might work!\" -Bor the Brave, discussing fighting styles"
+            },
+            "iron_axe_2h_recipe": {
+               "recipe_name": "Iron Greataxe",
+               "description": "A double handed Greataxe",
+               "flavor": "not too great at defence, but will sure as hell give the other guy issues"
             }
          },
          "blacksmith_workbench_nordlings": {
@@ -1085,6 +1112,11 @@
                "recipe_name": "Big Fireplace",
                "flavor": "FLAVORTEXTGOESHERE",
                "description": "For when the small one just isnt enough."
+            },
+            "shrine_to_odin_recipe": {
+               "recipe_name": "Shrine to Odin",
+               "description": "A shrine to Odin one-eye, King of the Gods",
+               "flavor": "\"Do not forget, where Thor hurls his hammer under guidance of thunder-storm, Odin prfers to strike from a clear sky\""
             }
          }
       },
@@ -1175,6 +1207,21 @@
                "recipe_name": "Legendary Hammer Mounting",
                "description": "Made of Highly conductive gold, it sparks to the touch.",
                "flavor": "\"did anyone see that flash just now?\""
+            }
+         }
+      },
+      "cook": {
+         "recipes": {
+            "cook_workbench_nordlings_recipe": {
+               "recipe_name": "Nordling Cookingpot",
+               "description": "For preparing food",
+               "flavor": "\"yum yum!\""
+            }
+         },
+         "cook_workbench_nordlings": {
+            "cook_workbench_nordlings_ghost": {
+               "display_name": "Nordling Cauldron",
+               "description": "For Cooking"
             }
          }
       }

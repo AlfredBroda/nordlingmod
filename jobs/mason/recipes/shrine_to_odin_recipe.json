@@ -11,6 +11,10 @@
    "manual_unlock": true,
    "ingredients": [
       {
+         "uri": "stonehearth:refined:gold_ingot",
+         "count": 1
+      },
+	  {
          "uri": "stonehearth:refined:steel_ingot",
          "count": 2
       },

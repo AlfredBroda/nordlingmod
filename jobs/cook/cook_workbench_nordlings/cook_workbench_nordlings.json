@@ -1,8 +1,14 @@
 {
    "type": "entity",
-   "mixins": "file(cook_workbench_ghost.json)",
+   "mixins": "file(cook_workbench_nordlings_ghost.json)",
    "components": {
-      "stonehearth:entity_forms": {
+      "render_info": {
+         "color_map": "stonehearth:color_map:water",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/water_material_map.json"
+         ]
+      },
+	  "stonehearth:entity_forms": {
          "ghost_form": "file(cook_workbench_nordlings_ghost.json)",
          "iconic_form": "file(cook_workbench_nordlings_iconic.json)",
          "placeable_on_ground": true
@@ -25,7 +31,7 @@
       },
       "stonehearth:workshop": {
          "job_alias": "stonehearth:jobs:cook",
-         "workshop_effect": "file(/data/rigs/jobs/cook/cook_workbench/effects/work.json)"
+         "workshop_effect": "/stonehearth/data/rigs/jobs/cook/cook_workbench/effects/work.json"
       }
    },
    "entity_data": {
