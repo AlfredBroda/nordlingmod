@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(cook_workbench_iconic.qb)"
+               "file(cook_workbench_nordlings_iconic.qb)"
             ]
          }
       },

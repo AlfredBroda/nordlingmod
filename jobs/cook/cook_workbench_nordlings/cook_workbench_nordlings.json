@@ -3,8 +3,8 @@
    "mixins": "file(cook_workbench_ghost.json)",
    "components": {
       "stonehearth:entity_forms": {
-         "ghost_form": "file(cook_workbench_ghost.json)",
-         "iconic_form": "file(cook_workbench_iconic.json)",
+         "ghost_form": "file(cook_workbench_nordlings_ghost.json)",
+         "iconic_form": "file(cook_workbench_nordlings_iconic.json)",
          "placeable_on_ground": true
       },
       "destination": {

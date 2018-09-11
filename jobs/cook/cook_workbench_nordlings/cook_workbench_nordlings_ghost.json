@@ -4,7 +4,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(cook_bench.qb)"
+               "file(cook_workbench_nordlings.qb)"
             ]
          }
       },
@@ -16,9 +16,9 @@
    "entity_data": {
       "stonehearth:hide_child_entities_from_pathfinder": true,
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:jobs.cook.cook_workbench.cook_workbench_ghost.display_name)",
-         "description": "i18n(stonehearth:jobs.cook.cook_workbench.cook_workbench_ghost.description)",
-         "icon": "file(cook_workbench.png)",
+         "display_name": "i18n(stonehearth:jobs.cook.cook_workbench_nordlings.cook_workbench_nordlings_ghost.display_name)",
+         "description": "i18n(stonehearth:jobs.cook.cook_workbench_nordlings.cook_workbench_nordlings_ghost.description)",
+         "icon": "file(cook_workbench_nordlings.png)",
          "category": "workshops",
          "material_tags": "stockpile_tool"
       }
