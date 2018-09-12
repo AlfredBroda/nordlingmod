@@ -9,6 +9,7 @@
    "default_locale": "en",
    "client_init_script": "file(nordlingmod_client)",
    "aliases": {
+      "data:gm_index":"file(data/gm/gm_index.json)",
       "kingdoms:nordlings": "file(data/nordlings_population.json)",
 	  "loadouts": "file(data/loadouts/loadouts.json)",
       "resource_constants": "file(data/resource_constants.json)",
