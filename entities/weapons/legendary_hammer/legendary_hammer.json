@@ -32,6 +32,14 @@
       }
    },
    "entity_data": {
+      "stonehearth:buffs": {
+		   "inflictable_debuffs": {
+			   "infection": {
+               "uri": "stonehearth:buffs:undead_infection",
+               "chance": 0.5
+            }
+		}
+	  },
       "stonehearth:combat:weapon_data": {
          "base_damage": 40,
          "reach": 1.5
