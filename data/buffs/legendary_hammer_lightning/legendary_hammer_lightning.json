@@ -1,10 +1,10 @@
 {
    "type": "buff",
-   "display_name": "i18n(stonehearth:jobs.archer.archer_buffs.fire_arrow.display_name)",
-   "description": "i18n(stonehearth:jobs.archer.archer_buffs.fire_arrow.description)",
-   "icon": "file(archer_buff_immolate.png)",
+   "display_name": "i18n(nordlingmod:entities.legendary_hammer_lightning.display_name)",
+   "description": "i18n(nordlingmod:entities.legendary_hammer_lightning.description)",
+   "icon": "/stonehearth/data/buffs/weather/hit_by_lightning_debuff.png",
    "duration": "15m",
-   "effect": "stonehearth:effects:debuff_added:fire_debuff",
+   "effect": "stonehearth:effects:lightning_effect",
    "repeat_add_action": "renew_duration",
    "script": "stonehearth:buff_scripts:periodic_health_modification",
    "script_info": {

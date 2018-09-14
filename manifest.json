@@ -138,6 +138,7 @@
 	  "legendary_hammer_mounting": "file(entities/refined/legendary_hammer_mounting/legendary_hammer_mounting.json)",
 	  "legendary_hammer_head": "file(entities/refined/legendary_hammer_head/legendary_hammer_head.json)",
 	  "legendary_hammer": "file(entities/weapons/legendary_hammer/legendary_hammer.json)",
+	  "legendary_hammer_debuff": "file(data/buffs/legendary_hammer_lightning/legendary_hammer_lightning.json)",
       "rune_stone": "file(entities/decoration/rune_stone/rune_stone.json)",
       "fireplace": "file(entities/decoration/fireplace/fireplace.json)",
 	  "fireplace_big": "file(entities/decoration/fireplace_big/fireplace_big.json)",

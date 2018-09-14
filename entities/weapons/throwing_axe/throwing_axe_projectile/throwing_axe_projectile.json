@@ -15,8 +15,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.weapons.throwing_axe_projectile.display_name)",
-         "description": "i18n(stonehearth:entities.weapons.throwing_axe_projectile.description)"
+         "display_name": "i18n(nordlingmod:entities.weapons.throwing_axe_projectile.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.throwing_axe_projectile.description)"
       }
    }
 }

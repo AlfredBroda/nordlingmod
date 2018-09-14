@@ -14,6 +14,57 @@
          "items": {
             "cabbage": "Cabbages"
          }
+      },
+      "gm": {
+         "campaigns": {
+            "town_progression": {
+               "arcs": {
+                  "trigger": {
+                     "town_progression": {
+                        "encounters": {
+                           "hearth_choice_explanation": {
+                              "dialog_tree_info": {
+                                 "dialog_nodes": {
+                                    "intro2": {
+                                       "bulletin_message": {
+                                          "00": "I came out personally to help you on your last step towards being a true Nordling Fjord!<br><br>You've grown large enough now that it's time to choose what Hearth shall represent your town, as is tradition."
+                                       }
+                                    }
+                                 }
+                              }
+                           }
+                        }
+                     }
+                  }
+               },
+               "shrine_choice": {
+                  "valor": {
+                     "name": "Shrine to Thor",
+                     "description": "<i>This Township shall be dedicated to Thors's valorous example to protect All of the nine realms.</i><ul><li>Unlocks legendary weapon recipes</li><li>Unlocks castle decoration recipes</li></ul>"
+                  },
+                  "guildmaster": {
+                     "name": "Shrine to Odin",
+                     "description": "<i>This Township shall be known for its artisans' persuit of wisdom and knowledge.</i><ul><li>Allows crafting Masterwork quality items</li><li>Unlocks artisan-themed decoration recipes</li></ul>"
+                  },
+                  "deity": {
+                     "name": "Shrine To Freya",
+                     "description": "<i>This Township emulates the kindness of freya, and a respect for nature like no other.</i><ul><li>Blesses all citizens with +1  to Mind, Body, and Spirit</li><li>Unlocks nature-themed decoration recipes</li></ul>"
+                  }
+               },
+               "shrine_quest_guildmaster": {
+                  "title": "Township Quest: Odin's Wisdom",
+                  "dialog_title": "Township Quest: Odin's Wisdom"
+               },
+               "shrine_quest_valor": {
+                  "title": "Township Quest: Thor's Might",
+                  "dialog_title": "Township Quest: Thor's Might"
+               },
+               "shrine_quest_deity": {
+                  "title": "Township Quest: Freya's Compassion",
+                  "dialog_title": "Township Quest: Freya's Compassion"
+               }
+            }
+         }
       }
    },
    "entities": {
@@ -220,6 +271,14 @@
                "display_name": "Steel Greataxe",
                "description": "A Steel Greataxe"
             }
+         },
+         "throwing_axe": {
+            "display_name": "Throwing Axe",
+            "description": "A light axe for throwing!"
+         },
+         "throwing_axe_projectile": {
+            "display_name": "Throwing Axe",
+            "description": "A light axe for throwing"
          }
       },
       "armor": {
@@ -728,6 +787,10 @@
                "description": "Enables White Carrots as a crop"
             }
          }
+      },
+      "legendary_hammer_lightning": {
+         "display_name": "Thunderstruck",
+         "description": "Hit by the thundergods fury!"
       }
    },
    "jobs": {

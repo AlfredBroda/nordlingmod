@@ -35,7 +35,7 @@
       "stonehearth:buffs": {
 		   "inflictable_debuffs": {
 			   "infection": {
-               "uri": "stonehearth:buffs:undead_infection",
+               "uri": "nordlingmod:legendary_hammer_debuff",
                "chance": 0.5
             }
 		}
