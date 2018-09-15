@@ -7,7 +7,7 @@
          "iconic_form": "file(fireplace_iconic.json)",
          "placeable_on_ground": true
       },
-      "stonehearth:firepit": {},
+      "nordlingmod:firepit": {},
       "stonehearth:lamp": {
          "light_policy": "manual",
 		 "light_effect": "/nordlingmod/data/effects/fireplace/fireplace_effect.json",

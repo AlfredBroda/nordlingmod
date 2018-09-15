@@ -1,0 +1,23 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(ruler_sword_raya.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.weapons.ruler_sword_raya.ruler_sword_raya_iconic.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.ruler_sword_raya.ruler_sword_raya_iconic.description)",
+         "icon": "file(ruler_sword_raya.png)",
+         "is_item": true,
+         "category": "weapons",
+         "material_tags": "melee_weapon"
+      }
+   }
+}

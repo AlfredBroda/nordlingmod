@@ -1,0 +1,39 @@
+{
+   "type": "job",
+   "enabled": true,
+   "job_id": "ruler",
+   "display_order": 1,
+   "alias": "nordlingmod:jobs:ruler",
+   "display_name": "i18n(nordlingmod:jobs.ruler.ruler_description.display_name)",
+   "controller": "nordlingmod:class:ruler",
+   "description": "i18n(nordlingmod:jobs.ruler.ruler_description.description)",
+   "requirements": "i18n(nordlingmod:jobs.ruler.ruler_description.requirements)",
+   "talisman_uri": "nordlingmod:ruler_sword_talisman",
+   "default_stance": "aggressive",
+   "abilities": "file(ruler_abilities)",
+   "equipment": {
+      "torso": "file(ruler_outfit)",
+      "mainhand": "nordlingmod:ruler_sword"
+   },
+   "roles": "footman_job cloth_wearer leather_wearer mail_wearer plate_wearer melee_combat combat",
+   "promotion_activity_name": "promote_ruler",
+   "task_groups": [
+	  "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:rescue"
+   ],
+   "xp_rewards": {
+      "town_protection": 1
+   },
+   "icon": "file(images/icon.png)",
+   "parent_job": "stonehearth:jobs:worker",
+   "max_level": 6,
+   "level_data": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {}
+   }
+}

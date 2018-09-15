@@ -487,6 +487,12 @@
                "display_name": "Lump of Charcoal",
                "description": "Burns hotter than wood!"
             }
+         },
+         "wood": {
+            "firewood": {
+               "display_name": "Bundle of Firewood",
+               "description": "A bundle of firewood, will keep you warm during the cold dark night."
+            }
          }
       },
       "refined": {
@@ -1129,6 +1135,11 @@
                "recipe_name": "Nordling Carpenters Workbench",
                "description": "Used by a carpenter to make furniture",
                "flavor": "\"it might just be a split treetrunk to you, but its the start of Home to me\" -Olaf Woodsplitter"
+            },
+            "firewood3x": {
+               "recipe_name": "Firewood (x3)",
+               "description": "used to stoke fireplaces, as fuel.",
+               "flavor": "\"you mean puttign an ENTIRE treetrunk in a fireplace is NOT the way to go about it?\"- Raya"
             }
          },
          "carpenter_workbench_nordlings": {

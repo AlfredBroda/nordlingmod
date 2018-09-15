@@ -171,7 +171,9 @@
 	  "shrine_to_thor":"file(entities/decoration/shrine_to_thor/shrine_to_thor.json)",
 	  "shrine_to_thor_blessed":"file(entities/decoration/shrine_to_thor/shrine_to_thor_blessed.json)",
 	  "shrine_to_freya":"file(entities/decoration/shrine_to_freya/shrine_to_freya.json)",
-	  "shrine_to_freya_blessed":"file(entities/decoration/shrine_to_freya/shrine_to_freya_blessed.json)"
+	  "shrine_to_freya_blessed":"file(entities/decoration/shrine_to_freya/shrine_to_freya_blessed.json)",
+	  "firepit": "file(components/firepit/firepit_component.lua)",
+	  "firewood": "file(entities/refined/firewood/firewood.json)"
    },
    "mixintos": {
 	  "stonehearth/jobs/mason/recipes/recipes.json": "nordlingmod/jobs/mason/recipes/recipes_all.json",
@@ -195,6 +197,7 @@
 	  "stonehearth/jobs/blacksmith/blacksmith_workbench/blacksmith_workbench.json": "nordlingmod/jobs/blacksmith/blacksmith_workbench_nordlings/blacksmith_workbench_nordlings_enable.json",
 	  "stonehearth/jobs/carpenter/carpenter_workbench/carpenter_workbench.json": "nordlingmod/jobs/carpenter/carpenter_workbench_nordlings/carpenter_workbench_nordlings_enable.json",
       "stonehearth/jobs/carpenter/carpenter_toolbench/carpenter_toolbench.json": "nordlingmod/jobs/carpenter/carpenter_toolbench_nordlings/carpenter_toolbench_nordlings_enable.json",
+	  "stonehearth/jobs/carpenter/recipes/recipes.json": "nordlingmod/jobs/carpenter/recipes/recipes_all.json",
 	  "stonehearth/jobs/weaver/weaver_workbench/weaver_workbench.json": "nordlingmod/jobs/weaver/weaver_workbench_nordlings/weaver_workbench_nordlings_enable.json",
 	  "stonehearth/jobs/cook/cook_workbench/cook_workbench.json": "nordlingmod/jobs/cook/cook_workbench_nordlings/cook_workbench_nordlings_enable.json"
    },
@@ -207,5 +210,7 @@
 	  "stonehearth/data/rigs/entities/humans/effects/combat_1h_forehand_thunder.json": "nordlingmod/data/rigs/entities/humans/effects/combat_1h_forehand_thunder.json"
    },
    "components": {},
-   "controllers": {}
+   "controllers": {
+	  "class:ruler": "file(jobs/ruler/ruler.lua)"
+   }
 }
