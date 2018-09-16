@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(ruler_sword.qb)"
+               "file(ruler_talisman.qb)"
             ]
          }
       },
@@ -28,9 +28,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(nordlingmod:entities.weapons.ruler_sword.ruler_sword_talisman.display_name)",
-         "description": "i18n(nordlingmod:entities.weapons.ruler_sword.ruler_sword_talisman.description)",
-         "icon": "file(ruler_sword.png)",
+         "display_name": "i18n(nordlingmod:jobs.ruler.ruler_talisman.display_name)",
+         "description": "i18n(nordlingmod:jobs.ruler.ruler_talisman.description)",
+         "icon": "file(ruler_talisman.png)",
          "is_item": true,
          "category": "tools",
          "material_tags": "stockpile_tool"

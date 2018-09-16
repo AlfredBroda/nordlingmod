@@ -279,6 +279,14 @@
          "throwing_axe_projectile": {
             "display_name": "Throwing Axe",
             "description": "A light axe for throwing"
+         },
+         "ruler_sword_ac": {
+            "display_name": "King's Sword",
+            "description": "Promotes a hearthling into a King",
+            "ruler_sword_ac_iconic": {
+               "display_name": "King's Sword",
+               "description": "Promotes a Hearthling into a king"
+            }
          }
       },
       "armor": {

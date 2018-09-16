@@ -7,13 +7,13 @@
         "default": {
            "layer": "clothing",
            "models": [
-              "/nordlingmod/jobs/ruler/ruler_outfit/ruler_outfit.qb"
+              "/nordlingmod/jobs/ruler/ruler_outfit_na/ruler_outfit_na.qb"
            ]
         },
         "female": {
            "layer": "clothing",
            "models": [
-              "/nordlingmod/jobs/ruler/ruler_outfit/ruler_outfit_female.qb"
+              "/nordlingmod/jobs/ruler/ruler_outfit_na/ruler_outfit_na_female.qb"
            ]
         }
      },
@@ -24,9 +24,9 @@
   },
   "entity_data": {
      "stonehearth:catalog": {
-        "display_name": "i18n(nordlingmod:jobs.ruler.ruler_outfit.display_name)",
-        "description": "i18n(nordlingmod:jobs.ruler.ruler_outfit.description)",
-        "icon": "file(ruler_outfit.png)"
+        "display_name": "i18n(nordlingmod:jobs.ruler.ruler_outfit_na.display_name)",
+        "description": "i18n(nordlingmod:jobs.ruler.ruler_outfit_na.description)",
+        "icon": "file(ruler_outfit_na.png)"
      }
   }
 }

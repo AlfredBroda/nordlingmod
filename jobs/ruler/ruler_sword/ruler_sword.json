@@ -5,12 +5,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(ruler_sword_ascendency_equipped.qb)"
+               "file(ruler_sword_equipped.qb)"
             ]
          }
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(ruler_sword_ascendency_iconic.json)"
+         "iconic_form": "file(ruler_sword_iconic.json)"
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
@@ -50,9 +50,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(nordlingmod:entities.weapons.ruler_sword_ascendency.display_name)",
-         "description": "i18n(nordlingmod:entities.weapons.ruler_sword_ascendency.description)",
-         "icon": "file(ruler_sword_ascendency.png)",
+         "display_name": "i18n(nordlingmod:jobs.ruler.ruler_sword.display_name)",
+         "description": "i18n(nordlingmod:jobs.ruler.ruler_sword.description)",
+         "icon": "file(ruler_sword.png)",
          "category": "weapons",
          "material_tags": "melee_weapon"
       }

@@ -173,7 +173,13 @@
 	  "shrine_to_freya":"file(entities/decoration/shrine_to_freya/shrine_to_freya.json)",
 	  "shrine_to_freya_blessed":"file(entities/decoration/shrine_to_freya/shrine_to_freya_blessed.json)",
 	  "firepit": "file(components/firepit/firepit_component.lua)",
-	  "firewood": "file(entities/refined/firewood/firewood.json)"
+	  "firewood": "file(entities/refined/firewood/firewood.json)",
+	  "jobs:ruler":"file(jobs/ruler/ruler_description.json)",
+	  "jobs:ruler_na":"file(jobs/ruler/ruler_description_na.json)",
+	  "jobs:ruler_rc":"file(jobs/ruler/ruler_description_rc.json)",
+	  "jobs:ruler_nordlings":"file(jobs/ruler/ruler_description_nordlings.json)",
+	  "ruler_sword": "file(jobs/ruler/ruler_sword/ruler_sword.json)",
+	  "ruler_talisman": "file(jobs/ruler/ruler_talisman/ruler_talisman.json)"
    },
    "mixintos": {
 	  "stonehearth/jobs/mason/recipes/recipes.json": "nordlingmod/jobs/mason/recipes/recipes_all.json",
@@ -199,15 +205,19 @@
       "stonehearth/jobs/carpenter/carpenter_toolbench/carpenter_toolbench.json": "nordlingmod/jobs/carpenter/carpenter_toolbench_nordlings/carpenter_toolbench_nordlings_enable.json",
 	  "stonehearth/jobs/carpenter/recipes/recipes.json": "nordlingmod/jobs/carpenter/recipes/recipes_all.json",
 	  "stonehearth/jobs/weaver/weaver_workbench/weaver_workbench.json": "nordlingmod/jobs/weaver/weaver_workbench_nordlings/weaver_workbench_nordlings_enable.json",
-	  "stonehearth/jobs/cook/cook_workbench/cook_workbench.json": "nordlingmod/jobs/cook/cook_workbench_nordlings/cook_workbench_nordlings_enable.json"
+	  "stonehearth/jobs/cook/cook_workbench/cook_workbench.json": "nordlingmod/jobs/cook/cook_workbench_nordlings/cook_workbench_nordlings_enable.json",
+	  "stonehearth/data/effects/firepit_effect/firepit_effect.json": "nordlingmod/data/effects/firepit_effect/firepit_smoke_effect.json",
+	  "stonehearth/data/effects/firepit_effect/green_firepit_effect.json": "nordlingmod/data/effects/firepit_effect/firepit_smoke_effect.json",
+	  "northern_alliance/jobs/index.json": "file(jobs/index_na.json)",
+	  "rayyas_children/jobs/index.json": "file(jobs/index_rc.json)",
+	  "stonehearth/jobs/index.json": "file(jobs/index_ac.json)"
    },
    "overrides": {
 	  "stonehearth/entities/consumables/scripts/unlock_crop.lua": "nordlingmod/entities/consumables/scripts/unlock_crop.lua",
 	  "stonehearth/services/server/job/job_info_controller.lua": "nordlingmod/services/server/job/job_info_controller.lua",
       "stonehearth/data/rigs/entities/humans/animations/male/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/animations/male/combat_1h_thrust.json",
       "stonehearth/data/rigs/entities/humans/animations/female/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/animations/female/combat_1h_thrust.json",
-      "stonehearth/data/rigs/entities/humans/effects/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/effects/combat_1h_thrust.json",
-	  "stonehearth/data/rigs/entities/humans/effects/combat_1h_forehand_thunder.json": "nordlingmod/data/rigs/entities/humans/effects/combat_1h_forehand_thunder.json"
+      "stonehearth/data/rigs/entities/humans/effects/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/effects/combat_1h_thrust.json"
    },
    "components": {},
    "controllers": {

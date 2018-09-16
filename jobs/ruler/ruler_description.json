@@ -8,12 +8,12 @@
    "controller": "nordlingmod:class:ruler",
    "description": "i18n(nordlingmod:jobs.ruler.ruler_description.description)",
    "requirements": "i18n(nordlingmod:jobs.ruler.ruler_description.requirements)",
-   "talisman_uri": "nordlingmod:ruler_sword_talisman",
+   "talisman_uri": "nordlingmod:ruler_talisman",
    "default_stance": "aggressive",
    "abilities": "file(ruler_abilities)",
    "equipment": {
-      "torso": "file(ruler_outfit)",
-      "mainhand": "nordlingmod:ruler_sword"
+      "torso": "file(ruler_outfit_ac)",
+      "mainhand": "file(ruler_sword)"
    },
    "roles": "footman_job cloth_wearer leather_wearer mail_wearer plate_wearer melee_combat combat",
    "promotion_activity_name": "promote_ruler",

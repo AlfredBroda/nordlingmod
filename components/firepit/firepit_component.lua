@@ -54,7 +54,7 @@ function FirepitComponent:get_entity()
 end
 
 function FirepitComponent:get_fuel_material()
-   return 'firewood resource'
+   return 'fuel resource'
 end
 
 --- If WE are added to the universe, register for events, etc/
