@@ -172,7 +172,6 @@
 	  "shrine_to_thor_blessed":"file(entities/decoration/shrine_to_thor/shrine_to_thor_blessed.json)",
 	  "shrine_to_freya":"file(entities/decoration/shrine_to_freya/shrine_to_freya.json)",
 	  "shrine_to_freya_blessed":"file(entities/decoration/shrine_to_freya/shrine_to_freya_blessed.json)",
-	  "firepit": "file(components/firepit/firepit_component.lua)",
 	  "firewood": "file(entities/refined/firewood/firewood.json)",
 	  "jobs:ruler":"file(jobs/ruler/ruler_description.json)",
 	  "jobs:ruler_na":"file(jobs/ruler/ruler_description_na.json)",
@@ -219,7 +218,9 @@
       "stonehearth/data/rigs/entities/humans/animations/female/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/animations/female/combat_1h_thrust.json",
       "stonehearth/data/rigs/entities/humans/effects/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/effects/combat_1h_thrust.json"
    },
-   "components": {},
+   "components": {
+	  "firepit": "file(components/firepit/firepit_component.lua)"
+	},
    "controllers": {
 	  "class:ruler": "file(jobs/ruler/ruler.lua)"
    }

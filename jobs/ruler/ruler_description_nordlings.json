@@ -1,3 +1,9 @@
 {
-	"mixins":"nordlingmod:jobs:ruler"
+   "mixins": "nordlingmod:jobs:ruler",
+   "display_name": "i18n(nordlingmod:jobs.ruler.ruler_description_nordlings.display_name)",
+   "description": "i18n(nordlingmod:jobs.ruler.ruler_description_nordlings.description)",
+   "equipment": {
+      "torso": "file(ruler_outfit_nordlings)",
+      "mainhand": "file(ruler_sword)"
+   }
 }

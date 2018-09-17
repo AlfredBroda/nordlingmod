@@ -287,6 +287,12 @@
                "display_name": "King's Sword",
                "description": "Promotes a Hearthling into a king"
             }
+         },
+         "ruler_sword_ascendency": {
+            "ruler_sword_ascendency_iconic": {
+               "display_name": "Ruler's Sword",
+               "description": "A sword fit for a Ruler"
+            }
          }
       },
       "armor": {
@@ -1305,6 +1311,33 @@
                "display_name": "Nordling Cauldron",
                "description": "For Cooking"
             }
+         }
+      },
+      "ruler": {
+         "ruler_sword": {
+            "display_name": "Ruler Sword",
+            "description": "A sword fit for a Ruler"
+         },
+         "ruler_talisman": {
+            "display_name": "Deed of Rights",
+            "description": "Official looking paperwork"
+         },
+         "ruler_description": {
+            "display_name": "Lord",
+            "description": "A Lord, to lead your people",
+            "requirements": "Proof of the Right to Rule"
+         },
+         "ruler_description_na": {
+            "display_name": "Warchief",
+            "description": "A Warchief to Lead your people."
+         },
+         "ruler_description_rc": {
+            "display_name": "Sultan",
+            "description": "A Sultan, Here to lead your people"
+         },
+         "ruler_description_nordlings": {
+            "display_name": "Jarl",
+            "description": "A Nordling King of old"
          }
       }
    },
