@@ -1,0 +1,16 @@
+{
+   "type": "entity",
+   "mixins": "file(shrine_to_freya.json)",
+   "entity_data": {
+      "stonehearth:appeal": {
+         "appeal": 120
+      },
+	  "stonehearth:evolve_data": {
+         "next_stage": "/nordlingmod/scenarios/static/landmarks/hotspring_temperate.json",
+         "evolve_time": "1h+1h"
+      }
+   },
+   "stonehearth:net_worth": {
+      "value_in_gold": 160
+   }
+}

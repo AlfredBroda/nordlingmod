@@ -6,6 +6,7 @@
 			"helmet": "remove"
 				},
 		"torso": "file(archer_outfit)",
+		"mainhand": "nordlingmod:throwing_axe"
 	},
 	"roles": "footman_job cloth_wearer leather_wearer mail_wearer melee_combat combat",
 		"icon": "file(images/icon.png)"
