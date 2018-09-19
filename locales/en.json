@@ -1337,7 +1337,8 @@
          },
          "ruler_description_nordlings": {
             "display_name": "Jarl",
-            "description": "A Nordling King of old"
+            "description": "A Nordling King of old",
+            "requirements": "Notsurewhatshouldbehere"
          }
       }
    },
