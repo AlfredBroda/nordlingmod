@@ -8,7 +8,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(legendary_axe.qb)"
+               "file(legendary_axe_iconic.qb)"
             ]
          }
       }

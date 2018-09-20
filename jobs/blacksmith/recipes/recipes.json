@@ -36,6 +36,15 @@
 				},
 				"legendary_hammer": {
 					"recipe": "file(legendary_hammer_recipe.json)"
+				},
+				"legendary_axe_head": {
+					"recipe": "file(legendary_axe_head_recipe.json)"
+				},
+				"legendary_axe_haft": {
+					"recipe": "file(legendary_axe_haft_recipe.json)"
+				},
+				"legendary_axe": {
+					"recipe": "file(legendary_axe_recipe.json)"
 				}
 			}
 		},

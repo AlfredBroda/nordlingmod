@@ -293,6 +293,14 @@
                "display_name": "Ruler's Sword",
                "description": "A sword fit for a Ruler"
             }
+         },
+         "legendary_axe": {
+            "legendary_axe_iconic": {
+               "display_name": "Legendary Axe",
+               "description": "The edge seems sharp enough to shave with.."
+            },
+            "display_name": "Legendary Axe",
+            "description": "The edge seems sharp enough to shave with.."
          }
       },
       "armor": {
@@ -529,6 +537,14 @@
          "legendary_hammer_head": {
             "display_name": "Legendary Hammer-head",
             "description": "It seems to thrumm with power."
+         },
+         "legendary_axe_head": {
+            "display_name": "Legendary Axe-head",
+            "description": "A finely crafted axehead"
+         },
+         "legendary_axe_haft": {
+            "display_name": "Legendary Axe Haft",
+            "description": "Strong as a mountain."
          }
       },
       "crops": {
@@ -1078,6 +1094,21 @@
                "recipe_name": "Iron Greataxe",
                "description": "A double handed Greataxe",
                "flavor": "not too great at defence, but will sure as hell give the other guy issues"
+            },
+            "legendary_axe_haft": {
+               "recipe_name": "Legendary Axe Haft",
+               "flavor": "\"Echanted with powerfull spells and strong as the mountain...And then you mistook it for a chairleg..\" -Bor Flamesbane, Master Blacksmith",
+               "description": "A Haft Strong enough to be used for a Legendary Axe"
+            },
+            "legendary_axe_head": {
+               "recipe_name": "Legendary Axe Head",
+               "flavor": "It can cut through armour..and stull cut a tomato!",
+               "description": "An Axehead, of the Legendary variety"
+            },
+            "legendary_axe_recipe": {
+               "recipe_name": "Legendary Axe",
+               "description": "A Masterfull weapon.",
+               "flavor": "Instilled in its steel are powerfull spells. It bites as if winter itsself."
             }
          },
          "blacksmith_workbench_nordlings": {
