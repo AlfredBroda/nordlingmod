@@ -25,7 +25,8 @@
       },
       "effect_list": {
          "default": "nordlingmod:hearth_trade_effect"
-      }
+      },
+	  "stonehearth:traveler_attraction": {}
    },
    "entity_data": {
       "stonehearth:item": {

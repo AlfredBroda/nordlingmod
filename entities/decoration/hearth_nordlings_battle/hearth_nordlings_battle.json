@@ -25,7 +25,8 @@
          "commands": [
             "stonehearth:commands:spawn_glory_wave"
          ]
-      }
+      },
+	  "stonehearth:traveler_attraction": {}
    },
    "entity_data": {
       "stonehearth:item": {

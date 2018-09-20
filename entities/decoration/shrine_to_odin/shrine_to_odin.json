@@ -28,7 +28,8 @@
          "iconic_form": "file(shrine_to_odin_iconic.json)",
          "ghost_form": "file(shrine_to_odin_ghost.json)",
          "placeable_on_ground": true
-      }
+      },
+	  "stonehearth:traveler_attraction": {}
    },
    "entity_data": {
       "stonehearth:net_worth": {
