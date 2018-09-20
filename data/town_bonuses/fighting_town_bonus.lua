@@ -5,6 +5,9 @@ local RECIPES_TO_UNLOCK = {
 	  'legendary:legendary_hammer',
 	  'legendary:legendary_hammer_head',
 	  'legendary:legendary_hammer_haft',
+	  'legendary:legendary_axe',
+	  'legendary:legendary_axe_head',
+	  'legendary:legendary_axe_haft',
       'building_parts:fence_gate_iron',
       'decoration:valor_brazier_large',
       'decoration:wall_hanging_plaque',
@@ -14,12 +17,7 @@ local RECIPES_TO_UNLOCK = {
       'building_parts:portcullis_valor',
    },
    ['stonehearth:jobs:mason'] = {
-      'signage_decoration:statue_knight',
-      'signage_decoration:statue_knight_male',
-      'signage_decoration:window_arrow_short',
-      'signage_decoration:valor_window_arrow_tall',
-      'signage_decoration:valor_window_frame_barred',
-      'signage_decoration:valor_window_frame_xlarge',
+	  'legendary:lucid_gem',
    },
    ['stonehearth:jobs:potter'] = {
      'legendary:legendary_hammer_mounting',

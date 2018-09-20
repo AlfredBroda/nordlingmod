@@ -28,7 +28,8 @@
                "max": { "x": 1, "y": 2, "z": 1 }
             }
          ]
-      }
+      },
+	  "stonehearth:traveler_attraction": {}
    },
    "entity_data": {
 		"stonehearth:table": {
