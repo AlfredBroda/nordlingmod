@@ -18,7 +18,7 @@
             }
          },
          "strength": {
-            "name": "i18n(stonehearth:entities.gizmos.town_banner_might.town_banner_might_ghost.display_name)",
+            "name": "i18n(nordlingmod:entities.gizmos.town_banner_might.town_banner_might_ghost.display_name)",
             "description": "i18n(stonehearth:entities.gizmos.town_banner_might.town_banner_might_ghost.town_bonus_description)",
             "icon": "/nordlingmod/entities/gizmos/nordlings_town_banner_might/nordlings_town_banner_might.png",
             "sort_order": 2,

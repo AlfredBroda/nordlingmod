@@ -27,7 +27,29 @@
                                  "dialog_nodes": {
                                     "intro2": {
                                        "bulletin_message": {
-                                          "00": "I came out personally to help you on your last step towards being a true Nordling Fjord!<br><br>You've grown large enough now that it's time to choose what Hearth shall represent your town, as is tradition."
+                                          "00": "I came out personally to help you on your last step towards being a true nordling Settlement!<br><br>You've grown large enough now that it's time to choose what Hearth shall represent your town, as is tradition."
+                                       },
+                                       "bulletin_title": "Jarl Stoic Continues",
+                                       "dialog_title": "Jarl Stoic the Vast"
+                                    },
+                                    "intro3": {
+                                       "bulletin_title": "Stoic Continues",
+                                       "dialog_title": "Stoic the Vast"
+                                    }
+                                 }
+                              }
+                           },
+                           "valor_dialog_1": {
+                              "dialog_tree_info": {
+                                 "dialog_nodes": {
+                                    "msg1": {
+                                       "bulletin_message": {
+                                          "00": "What an inspiring monument! It truly speaks to the Glory of Thor.<br/><br/>It reminds me all over again why I became a member of the Guard. It feels like so long ago...<br/><p align='right'><font size=-1 color='#cccccc'>(Anwyn stares into the middle distance, eyes glistening.)</font></p>"
+                                       }
+                                    },
+                                    "msg2": {
+                                       "bulletin_message": {
+                                          "00": "Oh! I'm fine, I was just... remembering something.<br/><br/>You know, I really do believe in the Old Gods and our people, that we have a destiny to retake these lost lands. Every new Town that springs up serves to strengthen my belief.<br/><br/>But it's the Towns like yours, dedicated to the support our valorous Guard, that truly warm my heart."
                                        }
                                     }
                                  }
@@ -62,6 +84,46 @@
                "shrine_quest_deity": {
                   "title": "Township Quest: Freya's Compassion",
                   "dialog_title": "Township Quest: Freya's Compassion"
+               },
+               "town_founding_explanation": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "open_letter": {
+                           "bulletin_message": {
+                              "00": "An odd bird arrives with a letter in its beak, stamped with the Official Seal of the The Jarls. <br><br><p align='right'><font size=-6 color='#cccccc'>The bird also carries a nametag, which reads 'Harold'</font></p>"
+                           }
+                        }
+                     }
+                  }
+               },
+               "hearth_foreshadow_dialog": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "msg1": {
+                           "bulletin_message": {
+                              "00": "The messenger bird returns, with a reply from Jarl Stoic the Vast.<br><br><p align='right'><font size=-6 color='#cccccc'>The letter has bite marks, and is slightly drooled on. Harold is doing his best.</font></p>"
+                           }
+                        },
+                        "msg3": {
+                           "bulletin_message": {
+                              "00": "As your Outpost grows towards Settlement status, you will start to attract new immigrants.<br/><br/>Your Hearth now is only a spark of what it will one day become - I have faith that it will be a beacon seen all across the Nordlings"
+                           }
+                        },
+                        "msg4": {
+                           "bulletin_message": {
+                              "00": "Take the time to consider what you consider most important, what you wish that beacon to stand for. Prosperity? Happiness? Strength? Each is a noble pursuit.<br><br>Wishing you the best of luck! <br><br>Yours in the Capital,<br> Jarl Stoic the Vast<br><br><font size=-1>P.S. A small gift for you from my personal garden <font size=+2>❀</font></font>"
+                           }
+                        }
+                     }
+                  }
+               }
+            },
+            "trader": {
+               "valor_tier_2_reached": {
+                  "reward_message": "By decree of the Jarl of the Nordlings, we recognize:"
+               },
+               "crafting_tier_2_reached": {
+                  "reward_message_ctd": "For excellence in craftsmanship, and by the cunning of Odin. The town is hereby eligible for:"
                }
             }
          }
@@ -124,6 +186,11 @@
             "nordlings_town_banner_nature_token_iconic": {
                "display_name": "Banner of Vitality Shred",
                "description": "A shred from the Banner of Vitality, carrying along its magic."
+            }
+         },
+         "town_banner_might": {
+            "town_banner_might_ghost": {
+               "display_name": "Banner of the Earth"
             }
          }
       },
@@ -1236,6 +1303,11 @@
                "recipe_name": "Shrine to Odin",
                "description": "A shrine to Odin one-eye, King of the Gods",
                "flavor": "\"Do not forget, where Thor hurls his hammer under guidance of thunder-storm, Odin prfers to strike from a clear sky\""
+            },
+            "shrine_to_thor_recipe": {
+               "recipe_name": "Shrine to Thors Might",
+               "description": "A shrine to Thor, God of thunder",
+               "flavor": "The runes describe how great craftmanship knows no bounds, and praise the glory of thor"
             }
          }
       },

@@ -3,8 +3,8 @@
    "encounter_type": "town_upgrade",
    "in_edge": "shrine_upgrade_valor",
    "town_upgrade_info": {
-      "old_facility_uri": "stonehearth:decoration:valor_statue",
-      "new_facility_uri": "stonehearth:decoration:valor_statue:blessed",
+      "old_facility_uri": "nordlingmod:shrine_to_thor",
+      "new_facility_uri": "nordlingmod:shrine_to_thor_blessed",
       "facility_upgrade_effect": "stonehearth:effects:level_up:monument",
       "town_bonus": "/nordlingmod/data/town_bonuses/fighting_town_bonus.lua",
       "tier_achieved": 3,

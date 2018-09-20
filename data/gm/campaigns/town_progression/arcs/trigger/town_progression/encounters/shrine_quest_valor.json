@@ -19,7 +19,7 @@
          },
          {
             "type": "placed_item",
-            "uri": "stonehearth:decoration:valor_statue"
+            "uri": "nordlingmod:shrine_to_thor"
          }
       ],
       "abandon_out_edge": "shrine_abandon"

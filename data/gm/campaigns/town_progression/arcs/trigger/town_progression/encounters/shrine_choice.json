@@ -32,7 +32,7 @@
          "valor": {
             "name": "i18n(nordlingmod:data.gm.campaigns.town_progression.shrine_choice.valor.name)",
             "description": "i18n(nordlingmod:data.gm.campaigns.town_progression.shrine_choice.valor.description)",
-            "icon": "/stonehearth/entities/decoration/valor_statue/valor_statue.png",
+            "icon": "/nordlingmod/entities/decoration/shrine_to_thor/shrine_to_thor.png",
             "sort_order": 2,
             "out_edge": "shrine_quest_valor"
          }

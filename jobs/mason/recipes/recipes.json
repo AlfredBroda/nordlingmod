@@ -8,6 +8,9 @@
 				},
 				"shrine_to_odin": {
 					"recipe": "file(shrine_to_odin_recipe.json)"
+				},
+				"shrine_to_thor": {
+					"recipe": "file(shrine_to_thor_recipe.json)"
 				}
 			}
 		},
