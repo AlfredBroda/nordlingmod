@@ -17,15 +17,12 @@
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
-         "additional_equipment": {
-            "stonehearth:armor:offhand_placeholder": true
-         },
          "render_type": "attach_to_bone",
          "postures": [
             "stonehearth:combat",
             "stonehearth:patrol"
          ],
-         "ilevel": 40,
+         "ilevel": 22,
          "roles": "footman_job",
          "required_job_level": 5,
          "equip_effect": "stonehearth:effects:weapon_level_up"
@@ -33,7 +30,7 @@
    },
    "entity_data": {
       "stonehearth:combat:weapon_data": {
-         "base_damage": 40,
+         "base_damage": 22,
          "reach": 1.5
       },
       "stonehearth:combat:melee_attacks": [
