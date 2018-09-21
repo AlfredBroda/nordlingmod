@@ -7,6 +7,7 @@
       "steam_file_id": "1384858026"
    },
    "default_locale": "en",
+   "server_init_script": "file(nordlingmod_server)",
    "client_init_script": "file(nordlingmod_client)",
    "aliases": {
       "data:gm_index":"file(data/gm/gm_index.json)",
