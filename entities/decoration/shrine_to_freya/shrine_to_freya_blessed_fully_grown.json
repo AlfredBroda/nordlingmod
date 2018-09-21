@@ -1,16 +1,23 @@
 {
    "type": "entity",
    "mixins": "file(shrine_to_freya.json)",
-   "entity_data": {
+   "components": {
+		"model_variants": {
+			"default": {
+				"models": [
+					"file(shrine_to_freya_fully_grown.qb)"
+				]
+			}
+		},
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "allow_vertical_adjacent": true
+      }
+},
+"entity_data": {
       "stonehearth:appeal": {
          "appeal": 120
-      },
-	  "stonehearth:evolve_data": {
-         "next_stage": "/nordlingmod/scenarios/static/landmarks/hotspring_temperate.json",
-         "evolve_time": "1h+1h"
       }
-   },
-   "stonehearth:net_worth": {
-      "value_in_gold": 160
    }
 }

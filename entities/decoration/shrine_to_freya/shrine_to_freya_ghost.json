@@ -4,7 +4,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(shrine_to_freya.qb)"
+               "file(shrine_to_freya_fully_grown.qb)"
             ]
          }
       },

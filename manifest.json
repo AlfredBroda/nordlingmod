@@ -176,6 +176,7 @@
 	  "shrine_to_thor_blessed":"file(entities/decoration/shrine_to_thor/shrine_to_thor_blessed.json)",
 	  "shrine_to_freya":"file(entities/decoration/shrine_to_freya/shrine_to_freya.json)",
 	  "shrine_to_freya_blessed":"file(entities/decoration/shrine_to_freya/shrine_to_freya_blessed.json)",
+	  "shrine_to_freya_fully_grown":"file(entities/decoration/shrine_to_freya/shrine_to_freya_fully_grown.json)",
 	  "firewood": "file(entities/refined/firewood/firewood.json)",
 	  "jobs:ruler":"file(jobs/ruler/ruler_description.json)",
 	  "jobs:ruler_na":"file(jobs/ruler/ruler_description_na.json)",
