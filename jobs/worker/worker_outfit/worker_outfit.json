@@ -4,6 +4,7 @@
       "model_variants": {
          "default": {
             "layer": "clothing",
+            "transparent": "false",
             "models": [
                "file(worker_outfit.qb)"
             ]
@@ -12,6 +13,30 @@
             "layer": "clothing",
             "models": [
                "file(worker_outfit_female.qb)"
+            ]
+         },
+         "rabbit_male": {
+            "layer": "clothing",
+            "models": [
+               "file(worker_outfit_rabbit_male.qb)"
+            ]
+         },
+         "rabbit_female": {
+            "layer": "clothing",
+            "models": [
+               "file(worker_outfit_rabbit_female.qb)"
+            ]
+         },
+         "orc_male": {
+            "layer": "clothing",
+            "models": [
+               "file(worker_outfit_orc_male.qb)"
+            ]
+         },
+         "orc_female": {
+            "layer": "clothing",
+            "models": [
+               "file(worker_outfit_orc_female.qb)"
             ]
          }
       }
