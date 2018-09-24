@@ -4,7 +4,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(gargoyle.qb)"
+               "file(decorative_wall_dragon.qb)"
             ]
          }
       },
@@ -19,9 +19,9 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.decoration.gargoyle.gargoyle_ghost.display_name)",
-         "description": "i18n(stonehearth:entities.decoration.gargoyle.gargoyle_ghost.description)",
-         "icon": "file(gargoyle.png)",
+         "display_name": "i18n(stonehearth:entities.decoration.decorative_wall_dragon.decorative_wall_dragon_ghost.display_name)",
+         "description": "i18n(stonehearth:entities.decoration.decorative_wall_dragon.decorative_wall_dragon_ghost.description)",
+         "icon": "file(decorative_wall_dragon.png)",
          "category": "decoration",
          "material_tags": "stone crafted stockpile_decoration"
       }

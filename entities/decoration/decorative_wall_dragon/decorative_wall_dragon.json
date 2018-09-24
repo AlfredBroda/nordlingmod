@@ -1,6 +1,6 @@
 {
    "type": "entity",
-   "mixins": "file(gargoyle_ghost.json)",
+   "mixins": "file(decorative_wall_dragon_ghost.json)",
    "components": {
       "region_collision_shape": {
          "region": [
@@ -11,8 +11,8 @@
          ]
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(gargoyle_iconic.json)",
-         "ghost_form": "file(gargoyle_ghost.json)",
+         "iconic_form": "file(decorative_wall_dragon_iconic.json)",
+         "ghost_form": "file(decorative_wall_dragon_ghost.json)",
          "placeable_on_walls": true
       },
       "stonehearth:traveler_attraction": {}
