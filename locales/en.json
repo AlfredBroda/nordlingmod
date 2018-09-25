@@ -490,6 +490,14 @@
          "einherjar_axe_offhand": {
             "display_name": "Einherjar Axe",
             "description": "A Weapon for a True Hero"
+         },
+         "weapon_belt_hanger": {
+            "display_name": "Belt Loop",
+            "description": "A belt loop for holding weapons in"
+         },
+         "weapon_back_hanger": {
+            "display_name": "Weapon back-holster",
+            "description": "Holds the larger weapons"
          }
       },
       "decoration": {
@@ -559,6 +567,12 @@
             "shrine_to_freya_ghost": {
                "description": "placeholder",
                "display_name": "shrine to freya"
+            }
+         },
+         "decorative_wall_dragon": {
+            "decorative_wall_dragon_ghost": {
+               "display_name": "Decorative Wall Dragon",
+               "description": "A decorative dragon carved out of wood"
             }
          }
       },
@@ -1308,6 +1322,11 @@
                "recipe_name": "Shrine to Thors Might",
                "description": "A shrine to Thor, God of thunder",
                "flavor": "The runes describe how great craftmanship knows no bounds, and praise the glory of thor"
+            },
+            "decorative_wall_dragon_recipe": {
+               "recipe_name": "Decroative Wall Dragon",
+               "description": "A dragon carved out of wood",
+               "flavor": "\"AAAAAAAAAH\" -Ivar"
             }
          }
       },

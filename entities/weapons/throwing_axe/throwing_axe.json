@@ -32,7 +32,7 @@
          "projectile_speed": 50,
          "projectile_uri": "nordlingmod:throwing_axe_projectile"
       },
-      "stonehearth:combat:melee_attacks": [
+      "stonehearth:combat:ranged_attacks": [
          {
             "name": "combat_1h_forehand",
             "effect": "combat_1h_forehand",

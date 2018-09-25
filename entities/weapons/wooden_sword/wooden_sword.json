@@ -1,4 +1,11 @@
 {
+	"components": {
+      "stonehearth:equipment_piece": {
+		 "additional_equipment": {
+            "nordlingmod:sword_sheeth": true
+         }
+      }
+   },
 	"entity_data": {
 		"stonehearth:combat:melee_attacks": [
 			{

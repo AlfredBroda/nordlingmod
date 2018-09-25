@@ -11,6 +11,7 @@
    ],
    "abilities": "/nordlingmod/jobs/worker/worker_abilities/worker_abilities.json",
    "roles": "farmer_job",
+   "icon": "file(images/icon.png)",
    "promotion_activity_name": "promote_farmer",
    "xp_rewards": {
       "base_exp_per_harvest": 4,

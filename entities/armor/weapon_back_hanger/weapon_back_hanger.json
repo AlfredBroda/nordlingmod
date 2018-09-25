@@ -7,14 +7,14 @@
             "layer": "clothing",
             "transparent": "true",
             "models": [
-               "file(weapon_belt_hanger.qb)"
+               "file(weapon_back_hanger.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
             "transparent": "true",
             "models": [
-               "file(weapon_belt_hanger_female.qb)"
+               "file(weapon_back_hanger_female.qb)"
             ]
          }
       },
@@ -38,9 +38,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(nordlingmod:entities.armor.weapon_belt_hanger.display_name)",
-         "description": "i18n(nordlingmod:entities.armor.weapon_belt_hanger.description)",
-         "icon": "file(weapon_belt_hanger.png)",
+         "display_name": "i18n(nordlingmod:entities.armor.weapon_back_hanger.display_name)",
+         "description": "i18n(nordlingmod:entities.armor.weapon_back_hanger.description)",
+         "icon": "file(weapon_back_hanger.png)",
          "category": "armor",
          "material_tags": "leather armor light_armor stockpile_equipment"
       }

@@ -18,7 +18,8 @@
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
          "additional_equipment": {
-            "stonehearth:armor:offhand_placeholder": true
+            "stonehearth:armor:offhand_placeholder": true,
+			"nordlingmod:weapon_belt_hanger": true
          },
          "render_type": "attach_to_bone",
          "postures": [

@@ -39,6 +39,9 @@
 		"recipes": {
 			"decorative_wall_shield": {
                "recipe": "file(decorative_wall_shield_recipe.json)"
+            },
+			"decorative_wall_dragon": {
+               "recipe": "file(decorative_wall_dragon_recipe.json)"
             }
 		}
 	},

@@ -14,6 +14,9 @@
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
+		 "additional_equipment": {
+            "nordlingmod:weapon_belt_hanger": true
+         },
          "render_type": "attach_to_bone",
          "postures": [
             "stonehearth:combat",

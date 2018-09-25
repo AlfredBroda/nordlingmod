@@ -20,8 +20,8 @@
       },
       "stonehearth:equipment_piece": {
          "render_type": "merge_with_model",
-         "slot": "accessory",
-         "ilevel": 1,
+         "slot": "sheeth",
+         "ilevel": -1,
          "required_job_level": 0,
          "roles": "combat",
          "equip_effect": "stonehearth:effects:weapon_level_up",
