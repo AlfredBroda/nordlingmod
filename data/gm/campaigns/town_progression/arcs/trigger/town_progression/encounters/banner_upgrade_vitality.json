@@ -2,7 +2,13 @@
    "type": "encounter",
    "encounter_type": "town_upgrade",
    "in_edge": "banner_upgrade_vitality",
-   "out_edge": "town_founding_food_donation",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "town_founding_food_donation",
+         "delay_before_hearth_foreshadow"
+      ]
+   },
    "town_upgrade_info": {
       "tier_achieved": 1,
       "old_facility_uri": "nordlingmod:camp_standard",
