@@ -28,7 +28,9 @@
 				"cloth_padded_vest"		: "remove",
 				"leather_vest"			: "remove",
 				"cloth_padded_helmet"	: "remove",
-				"leather_helmet"		: "remove"
+				"leather_helmet"		: "remove",
+				"simple_quiver"			: "remove",
+				"fire_quiver"			: "remove"
 			}
          }
       },
