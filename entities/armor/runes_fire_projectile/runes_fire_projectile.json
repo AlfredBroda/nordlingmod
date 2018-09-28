@@ -1,0 +1,71 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": "true",
+            "models": [
+               "file(runes_fire_projectile.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": "true",
+            "models": [
+               "file(runes_fire_projectile_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(runes_fire_projectile_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "accessory",
+         "ilevel": 2,
+         "required_job_level": 2,
+         "roles": "archer_job",
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      },
+      "stonehearth:equipment_swap": {
+         "swap_options": {
+            "none": {
+               "command": "stonehearth:commands:archer_arrows:default",
+               "ordinal": 1
+            },
+            "slow": {
+               "uri": "stonehearth:archer:abilities:slow_arrow",
+               "command": "stonehearth:commands:archer_arrows:slow",
+               "ordinal": 2
+            },
+            "fire": {
+               "uri": "stonehearth:archer:abilities:fire_arrow",
+               "command": "stonehearth:commands:archer_arrows:fire",
+               "ordinal": 3
+            }
+         },
+         "default": "fire"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 44,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:entities.armor.runes_fire_projectile.display_name)",
+         "description": "i18n(stonehearth:entities.armor.runes_fire_projectile.description)",
+         "icon": "file(runes_fire_projectile.png)",
+         "category": "armor",
+         "material_tags": "leather armor light_armor quiver stockpile_equipment"
+      }
+   }
+}
