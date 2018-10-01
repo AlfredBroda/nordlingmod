@@ -10,12 +10,20 @@
    "level_requirement": 3,
    "ingredients": [
       {
-         "material": "thread resource",
+         "uri": "nordlingmod:leather_strip",
          "count": 1
       },
       {
-         "uri": "stonehearth:resources:feathers:poyo_feathers",
-         "count": 1
+         "material": "herb resource",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:resources:tin:ore",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:resources:iron:ore",
+         "count": 2
       }
    ],
    "produces": [

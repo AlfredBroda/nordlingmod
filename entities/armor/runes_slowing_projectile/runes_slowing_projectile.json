@@ -56,8 +56,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.armor.runes_slowing_projectile.display_name)",
-         "description": "i18n(stonehearth:entities.armor.runes_slowing_projectile.description)",
+         "display_name": "i18n(nordlingmod:entities.armor.runes_slowing_projectile.display_name)",
+         "description": "i18n(nordlingmod:entities.armor.runes_slowing_projectile.description)",
          "icon": "file(runes_slowing_projectile.png)",
          "category": "armor",
          "material_tags": "leather armor light_armor quiver stockpile_equipment"

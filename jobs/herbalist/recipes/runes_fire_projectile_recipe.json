@@ -5,20 +5,24 @@
    "recipe_name": "i18n(nordlingmod:jobs.herbalist.recipes.runes_fire_projectile_recipe.recipe_name)",
    "description": "i18n(nordlingmod:jobs.herbalist.recipes.runes_fire_projectile_recipe.description)",
    "flavor": "",
-   "portrait": "/nordlingmod/entities/armor/fire_quiver/fire_quiver.png",
+   "portrait": "/nordlingmod/entities/armor/runes_fire_projectile/runes_fire_projectile.png",
    "workshop": "stonehearth:herbalist:workbench",
    "level_requirement": 5,
    "ingredients": [
       {
-         "material": "thread resource",
+         "uri": "nordlingmod:leather_strip",
          "count": 1
       },
       {
-         "uri": "stonehearth:resources:feathers:poyo_feathers",
+         "uri": "stonehearth:resources:copper:ore",
          "count": 2
       },
       {
-         "uri": "stonehearth:resources:coal:lump_of_coal",
+         "material": "stone resource",
+         "count": 1
+      },
+      {
+         "material": "coal resource",
          "count": 2
       }
    ],

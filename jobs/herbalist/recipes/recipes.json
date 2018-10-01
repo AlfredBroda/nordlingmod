@@ -10,6 +10,16 @@
 					"recipe" : "file(mead_recipe.json)" 
 				}
 			}
-		}	
+		},
+		"tools": {
+			"recipes": {
+				"runes_fire_projectile": {
+					"recipe": "file(runes_fire_projectile_recipe.json)"
+				},
+				"runes_slowing_projectile": {
+					"recipe": "file(runes_slowing_projectile_recipe.json)"
+				}			
+			}
+		},		
 	}
 }

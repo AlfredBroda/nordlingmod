@@ -498,6 +498,14 @@
          "weapon_back_hanger": {
             "display_name": "Weapon back-holster",
             "description": "Holds the larger weapons"
+         },
+         "runes_fire_projectile": {
+            "display_name": "Fire-Rune Amulet",
+            "description": "An Amulet for your skirmisher, encasing his weapons in flame"
+         },
+         "runes_slowing_projectile": {
+            "display_name": "Thorn-Rune Amulet",
+            "description": "An Amulet for your skirmisher, causing his weapons to slow"
          }
       },
       "decoration": {
@@ -963,6 +971,14 @@
                "description": "Mead",
                "flavor": "Drink of the gods!",
                "recipe_name": "Bottle of Mead"
+            },
+            "runes_slowing_projectile_recipe": {
+               "recipe_name": "Thorn-Rune Amulet",
+               "description": "An Amulet for your skirmisher, causing his weapons to slow"
+            },
+            "runes_fire_projectile_recipe": {
+               "recipe_name": "Fire-Rune Amulet",
+               "description": "An Amulet for your skirmisher, encasing his weapons in flame"
             }
          }
       },
