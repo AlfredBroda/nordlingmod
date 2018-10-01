@@ -10,7 +10,7 @@
       "stonehearth:task_groups:farming"
    ],
    "abilities": "/nordlingmod/jobs/worker/worker_abilities/worker_abilities.json",
-   "roles": "farmer_job",
+   "roles": "worker_job farmer_job",
    "icon": "file(images/icon.png)",
    "promotion_activity_name": "promote_farmer",
    "xp_rewards": {
