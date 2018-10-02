@@ -1,13 +1,14 @@
 {
-   "type": "job",
    "mixins": "stonehearth:jobs:archer",
-    "equipment": {
-		"mixintypes": {
-			"helmet": "remove"
-				},
-		"torso": "file(archer_outfit)",
-		"mainhand": "nordlingmod:throwing_axe"
-	},
-	"roles": "archer_job footman_job cloth_wearer leather_wearer mail_wearer melee_combat combat",
-		"icon": "file(images/icon.png)"
+   "display_name": "i18n(nordlingmod:jobs.archer.archer_description.display_name)",
+   "talisman_uri": "stonehearth:archer:talisman",
+   "equipment": {
+      "mixintypes": {
+         "helmet": "remove"
+      },
+      "torso": "file(archer_outfit)",
+      "mainhand": "nordlingmod:throwing_axe"
+   },
+   "roles": "archer_job footman_job cloth_wearer leather_wearer mail_wearer melee_combat combat",
+   "icon": "file(images/icon.png)"
 }

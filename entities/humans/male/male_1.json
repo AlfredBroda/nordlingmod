@@ -1,36 +1,8 @@
 {
-   "type": "entity",
-   "mixins": "stonehearth:mixins:base_human",
-   "components": {
-      "render_info": {
-         "animation_table": "stonehearth:skeletons:humanoid:male"
-      },
-      "model_variants": {
-         "default": {
-            "models": [
-               "/stonehearth/entities/humans/male/head.qb",
-               "/nordlingmod/entities/humans/male/body.qb",
-               "/stonehearth/entities/humans/male/eyes.qb"
-            ]
-         }
-      }
-   },
-   "entity_data": {
+   "mixins": "/stonehearth/entities/humans/male/male_1.json",
+     "entity_data": {
       "stonehearth:customization_variants": {
          "customization_options": "/nordlingmod/entities/humans/male/male_customizations.json",
-         "root": {
-            "hair_and_skin_color": {
-               "weights": {
-                  "hair_and_skin_color": 1
-               }
-            },
-            "age": {
-               "weights": {
-                  "young": 3,
-                  "old": 1
-               }
-            }
-         },
          "packages": {
             "hair_and_skin_color": {
                "hair_color": {
@@ -60,7 +32,8 @@
             "young": {
                "eyebrows": {
                   "weights": {
-                     "straight_eyebrows": 1
+				  "[none]": 0,
+                  "straight_eyebrows": 1
                   }
                },
                "facial_hair": {

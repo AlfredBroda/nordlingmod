@@ -1478,6 +1478,11 @@
             "description": "A Nordling King of old",
             "requirements": "Notsurewhatshouldbehere"
          }
+      },
+      "archer": {
+         "archer_description": {
+            "display_name": "Skirmisher"
+         }
       }
    },
    "ui": {
