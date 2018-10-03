@@ -1,7 +1,7 @@
 {
    "mixins": "stonehearth:jobs:archer",
    "display_name": "i18n(nordlingmod:jobs.archer.archer_description.display_name)",
-   "talisman_uri": "stonehearth:archer:talisman",
+   "talisman_uri": "nordlingmod:archer:talisman",
    "equipment": {
       "mixintypes": {
          "helmet": "remove"
