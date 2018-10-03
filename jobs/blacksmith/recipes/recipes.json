@@ -19,7 +19,9 @@
 			"recipes": {
 			"einherjar_axe_offhand": {
 				"recipe": "file(einherjar_axe_offhand_recipe.json)"
-
+			},
+			"throwing_axe": {
+				"recipe": "file(throwing_axe_recipe.json)"
 			},
 			"mixintypes": {
 				"knights_shield": "remove"
