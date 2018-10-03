@@ -195,6 +195,7 @@
 	  "ruler_talisman": "file(jobs/ruler/ruler_talisman/ruler_talisman.json)"
    },
    "mixintos": {
+      "stonehearth/data/gm/campaigns/amberstone/arcs/trigger/discovery/encounters/12_heirbloom/12_heirbloom_unlock.json": "nordlingmoddata/gm/campaigns/amberstone/arcs/trigger/discovery/encounters/12_heirbloom/12_heirbloom_unlock.json",
 	  "stonehearth/jobs/mason/recipes/recipes.json": "nordlingmod/jobs/mason/recipes/recipes_all.json",
       "stonehearth:playable_kingdom_index": "file(data/nordlings_playable_kingdom_index.json)",
       "stonehearth:farmer:initial_crops": "nordlingmod:farmer_initial_crops",

@@ -1,0 +1,66 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(recurve_bow_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(recurve_bow_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 28,
+         "roles": "archer_job",
+         "required_job_level": 3,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 28,
+         "base_ranged_damage": 28,
+         "range": 35,
+         "projectile_speed": 50,
+         "projectile_uri": "stonehearth:weapons:arrow"
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ],
+      "stonehearth:combat:idle:ready": {
+         "name": "archer_1h_idle"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 26,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:entities.weapons.recurve_bow.display_name)",
+         "description": "i18n(stonehearth:entities.weapons.recurve_bow.description)",
+         "icon": "file(recurve_bow.png)",
+         "category": "weapons",
+         "material_tags": "wood ranged_weapon stockpile_weapon"
+      }
+   }
+}

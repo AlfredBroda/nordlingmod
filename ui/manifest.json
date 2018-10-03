@@ -18,7 +18,6 @@
 	  "stonehearth/ui/game/start_menu/images/dock.png": "nordlingmod/ui/game/start_menu/images/dock.png",
       "stonehearth/ui/game/modes/zones_mode/farm/farm.js": "file(game/modes/zones_mode/farm/farm.js)",
 	  "stonehearth/entities/consumables/scripts/unlock_crop.lua": "nordlingmod/entities/consumables/scripts/unlock_crop_2.lua",
-	  "stonehearth/data/gm/campaigns/amberstone/arcs/trigger/discovery/encounters/12_heirbloom/unlock_crop.lua": "nordlingmoddata/gm/campaigns/amberstone/arcs/trigger/discovery/encounters/12_heirbloom/unlock_crop.lua",
       "stonehearth/ui/game/unit_frame/images/bg_border.png":"file(unit_frame/bg_border.png)",
 	  "stonehearth/ui/game/unit_frame/images/command-button-bg.png" : "file(unit_frame/command_button_bg.png)",
 	  "stonehearth/ui/game/unit_frame/images/image-bg.png" : "file(unit_frame/image-bg.png)",

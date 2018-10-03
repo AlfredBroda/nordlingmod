@@ -73,8 +73,9 @@
                "recipe": "file(shepherd_crook_recipe.json)"
             },
 			"mixintypes": {
-                 "shepherd_crook": "remove",
-				 "hoe": "remove"
+                 "shepherd_crook": 		"remove",
+				 "hoe": 				"remove",
+				 "archer_bow":			"remove"
             }
 			}
    }

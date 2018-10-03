@@ -368,6 +368,12 @@
             },
             "display_name": "Legendary Axe",
             "description": "The edge seems sharp enough to shave with.."
+         },
+         "bow": {
+            "bow_talisman": {
+               "display_name": "Throwing Axe",
+               "description": "Promotes a Huskarl into a Skirmisher"
+            }
          }
       },
       "armor": {
@@ -1206,6 +1212,11 @@
                "recipe_name": "Legendary Axe",
                "description": "A Masterfull weapon.",
                "flavor": "Instilled in its steel are powerfull spells. It bites as if winter itsself."
+            },
+            "throwing_axe": {
+               "recipe_name": "Throwing Axe",
+               "description": "A Throwin Axe, used by a Skirmisher",
+               "flavor": "\"Catch!\""
             }
          },
          "blacksmith_workbench_nordlings": {
