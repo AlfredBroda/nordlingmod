@@ -25,6 +25,7 @@
       "mythril_ingot": "file(entities/refined/mythril_ingot/mythril_ingot.json)",
       "jobs:index": "file(jobs/index.json)",
       "jobs:archer": "file(jobs/archer/nordlings_archer_description.json)",
+      "archer:talisman": "file(entities/weapons/throwing_axe/throwing_axe_talisman.json)",
       "jobs:blacksmith": "file(jobs/blacksmith/nordlings_blacksmith_description.json)",
       "jobs:carpenter": "file(jobs/carpenter/nordlings_carpenter_description.json)",
       "jobs:cleric": "file(jobs/cleric/nordlings_cleric_description.json)",
