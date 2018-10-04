@@ -1,9 +1,0 @@
-{
-   
-   "script_info": {
-      "script": "stonehearth:consumables:scripts:unlock_crop",
-      "data": {
-         "crop": "heirbloom"
-      }
-   }
-}
