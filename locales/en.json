@@ -341,7 +341,11 @@
          },
          "throwing_axe": {
             "display_name": "Throwing Axe",
-            "description": "A light axe for throwing!"
+            "description": "A light axe for throwing!",
+            "throwing_axe_talisman": {
+               "display_name": "Throwing Axe",
+               "description": "Used to Promote a Skirmisher"
+            }
          },
          "throwing_axe_projectile": {
             "display_name": "Throwing Axe",
@@ -374,6 +378,10 @@
                "display_name": "Throwing Axe",
                "description": "Promotes a Huskarl into a Skirmisher"
             }
+         },
+         "throwing_axe_iron": {
+            "display_name": "Throwing Axe",
+            "description": "A light axe for throwing!"
          }
       },
       "armor": {

@@ -19,17 +19,16 @@
             "stonehearth:combat",
             "stonehearth:patrol"
          ],
-         "ilevel": 28,
-         "roles": "archer_job",
-         "equip_effect": "stonehearth:effects:weapon_level_up"
+         "ilevel": 25,
+         "no_drop": true
       }
    },
    "entity_data": {
       "stonehearth:combat:weapon_data": {
-         "base_damage": 28,
-         "base_ranged_damage": 28,
-         "range": 35,
-         "projectile_speed": 50,
+         "base_damage": 25,
+         "base_ranged_damage": 25,
+         "range": 30,
+         "projectile_speed": 30,
          "projectile_uri": "nordlingmod:throwing_axe_projectile"
       },
       "stonehearth:combat:ranged_attacks": [
@@ -45,13 +44,10 @@
          "name": "archer_1h_idle"
       },
       "stonehearth:net_worth": {
-         "value_in_gold": 26,
-         "rarity": "common",
+         "value_in_gold": 0,
          "shop_info": {
-            "buyable": true,
-            "sellable": true,
-            "shopkeeper_level": 3,
-            "shopkeeper_type": "caravan"
+            "buyable": false,
+            "sellable": false
          }
       },
       "stonehearth:catalog": {
@@ -59,7 +55,7 @@
          "description": "i18n(nordlingmod:entities.weapons.throwing_axe.description)",
          "icon": "file(throwing_axe.png)",
          "category": "weapons",
-         "material_tags": "wood ranged_weapon stockpile_weapon"
+         "material_tags": "iron ranged_weapon"
       }
    }
 }

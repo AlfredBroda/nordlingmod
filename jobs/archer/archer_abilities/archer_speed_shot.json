@@ -1,0 +1,17 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {}
+   },
+   "entity_data": {
+      "stonehearth:combat:ranged_attacks": [
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 21,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ]
+   }
+}
