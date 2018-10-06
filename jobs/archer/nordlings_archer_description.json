@@ -9,7 +9,7 @@
       "torso": "file(archer_outfit)",
       "mainhand": "nordlingmod:throwing_axe"
    },
-   "roles": "archer_job footman_job cloth_wearer leather_wearer mail_wearer melee_combat combat",
+   "roles": "archer_job cloth_wearer leather_wearer mail_wearer melee_combat combat",
    "icon": "file(images/icon.png)",
    "level_data": {
       "1": {
