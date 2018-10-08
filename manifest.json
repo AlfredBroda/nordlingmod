@@ -129,10 +129,12 @@
       "iron_axe_2h": "file(entities/weapons/iron_axe_2h/iron_axe_2h.json)",
       "steel_axe": "file(entities/weapons/steel_axe/steel_axe.json)",
       "steel_axe_2h": "file(entities/weapons/steel_axe_2h/steel_axe_2h.json)",
-      "einherjar_axe": "file(entities/weapons/einherjar_axe/einherjar_axe.json)",
+      "einherjar_axe": "file(jobs/knight/einherjar_axe/einherjar_axe.json)",
+	  "einherjar_axe_steel": "file(entities/weapons/einherjar_axe_steel/einherjar_axe_steel.json)",
       "einherjar_axe_offhand": "file(entities/armor/einherjar_axe_offhand/einherjar_axe_offhand.json)",
       "einherjar_axe_offhand_talisman": "file(entities/armor/einherjar_axe_offhand/einherjar_axe_offhand_talisman.json)",
-      "bronze_sword_viking": "file(entities/weapons/bronze_sword_viking/bronze_sword_viking.json)",
+      "einherjar_axe_offhand_steel": "file(entities/armor/einherjar_axe_offhand_steel/einherjar_axe_offhand_steel.json)",
+	  "bronze_sword_viking": "file(entities/weapons/bronze_sword_viking/bronze_sword_viking.json)",
       "iron_sword_viking": "file(entities/weapons/iron_sword_viking/iron_sword_viking.json)",
       "steel_sword_viking": "file(entities/weapons/steel_sword_viking/steel_sword_viking.json)",
       "stone_spear": "file(entities/weapons/stone_spear/stone_spear.json)",
@@ -192,6 +194,7 @@
 	  "jobs:ruler_rc":"file(jobs/ruler/ruler_description_rc.json)",
 	  "jobs:ruler_nordlings":"file(jobs/ruler/ruler_description_nordlings.json)",
 	  "ruler_sword": "file(jobs/ruler/ruler_sword/ruler_sword.json)",
+	  "ruler_sword_nordlings": "file(jobs/ruler/ruler_sword_nordlings/ruler_sword_nordlings.json)",
 	  "ruler_talisman": "file(jobs/ruler/ruler_talisman/ruler_talisman.json)"
    },
    "mixintos": {

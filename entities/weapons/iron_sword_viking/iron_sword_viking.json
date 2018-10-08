@@ -47,8 +47,7 @@
             "effect": "combat_1h_forehand",
             "active_frame": 16,
             "cooldown": 0,
-            "priority": 0,
-            "aggro_multiplier": 3.0
+            "priority": 0
          },
 		  {
 		 "name": "combat_1h_thrust",

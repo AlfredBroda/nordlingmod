@@ -1,0 +1,23 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(ruler_sword_nordlings_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.weapons.ruler_sword_nordlings.ruler_sword_nordlings_iconic.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.ruler_sword_nordlings.ruler_sword_nordlings_iconic.description)",
+         "icon": "file(ruler_sword_nordlings.png)",
+         "is_item": true,
+         "category": "weapons",
+         "material_tags": "melee_weapon"
+      }
+   }
+}

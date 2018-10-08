@@ -13,8 +13,7 @@
 				"effect": "combat_1h_thrust",
 				"active_frame": 16,
 				"cooldown": 0,
-				"priority": 0,
-				"aggro_multiplier": 3.0
+				"priority": 0
 			}
 		]
 	}

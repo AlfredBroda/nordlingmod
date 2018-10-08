@@ -11,15 +11,15 @@
    "ingredients": [
       {
          "uri": "stonehearth:refined:iron_ingot",
-         "count": 1
+         "count": 2
       },
 	  {
          "material": "wood resource",
          "count": 1
       },
       {
-         "material": "leather resource",
-         "count": 1
+         "uri": "nordlingmod:leather_strip",
+         "count": 2
       }
    ],
    "produces": [

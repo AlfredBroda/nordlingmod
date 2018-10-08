@@ -92,51 +92,44 @@
 			"recipes": {
 				"bronze_axe": {
 					"recipe": "file(bronze_axe_recipe.json)"
-
 				},
 				"iron_axe": {
 					"recipe": "file(iron_axe_recipe.json)"
-
 				},
 				"iron_axe_2h": {
 					"recipe": "file(iron_axe_2h_recipe.json)"
-
 				},
 				"steel_axe": {
 					"recipe": "file(steel_axe_recipe.json)"
-
 				},
 				"steel_axe_2h": {
 					"recipe": "file(steel_axe_2h_recipe.json)"
-
 				},
 				"bronze_spear": {
 					"recipe": "file(bronze_spear_recipe.json)"
-
 				},
 				"iron_spear": {
 					"recipe": "file(iron_spear_recipe.json)"
-
 				},
 				"steel_spear": {
 					"recipe": "file(steel_spear_recipe.json)"
-
 				},
 				"bronze_sword_viking": {
 					"recipe": "file(bronze_sword_viking_recipe.json)"
-
 				},
 				"iron_sword_viking": {
 					"recipe": "file(iron_sword_viking_recipe.json)"
-
 				},
 				"steel_sword_viking": {
 					"recipe": "file(steel_sword_viking_recipe.json)"
-
+				},
+				"einherjar_axe_steel": {
+					"recipe": "file(einherjar_axe_steel_recipe.json)"
 				},
 				"mixintypes": {
 					"bronze_mace": "remove",
-					"iron_pike": "remove"
+					"iron_pike": "remove",
+					"long_sword": "remove"
 				}
 			}
 		},
@@ -144,31 +137,27 @@
 			"recipes": {
 				"chain_mail_bronze": {
 					"recipe": "file(chain_mail_bronze_recipe.json)"
-
 				},
 				"chain_mail_iron": {
 					"recipe": "file(chain_mail_iron_recipe.json)"
-
 				},
 				"chain_mail_steel": {
 					"recipe": "file(chain_mail_steel_recipe.json)"
-
 				},
 				"runic_bronze_comb": {
 					"recipe": "file(runic_bronze_comb_recipe.json)"
-
 				},
 				"runic_iron_comb": {
 					"recipe": "file(runic_iron_comb_recipe.json)"
-
 				},
 				"runic_steel_comb": {
 					"recipe": "file(runic_steel_comb_recipe.json)"
-
 				},
 				"iron_round_shield": {
 					"recipe": "file(iron_round_shield_recipe.json)"
-
+				},
+				"einherjar_axe_offhand_steel": {
+					"recipe": "file(einherjar_axe_offhand_steel_recipe.json)"
 				},
 				"mixintypes": {
 					"bronze_shield": "remove",
@@ -179,7 +168,8 @@
 					"iron_mail": "remove",
 					"bronze_circlet": "remove",
 					"iron_circlet": "remove",
-					"steel_circlet": "remove"
+					"steel_circlet": "remove",
+					"steel_shield": "remove"
 				}
 			}
 		}

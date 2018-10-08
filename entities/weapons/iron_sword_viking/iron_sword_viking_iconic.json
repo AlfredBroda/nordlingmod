@@ -14,7 +14,7 @@
       "stonehearth:catalog": {
          "display_name": "i18n(nordlingmod:entities.weapons.iron_sword_viking.iron_sword_viking_iconic.display_name)",
          "description": "i18n(nordlingmod:entities.weapons.iron_sword_viking.iron_sword_viking_iconic.description)",
-         "icon": "file(iron_sword_viking.png)",
+         "icon": "/nordlings/entities/weapons/iron_sword_viking/iron_sword_viking.png",
          "is_item": true,
          "category": "weapons"
       }

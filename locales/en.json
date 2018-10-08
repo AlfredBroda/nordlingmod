@@ -382,6 +382,20 @@
          "throwing_axe_iron": {
             "display_name": "Throwing Axe",
             "description": "A light axe for throwing!"
+         },
+         "einherjar_axe_steel": {
+            "display_name": "Steel Einherjar Axe",
+            "description": "To be Wielded by the strongest, once Ragnarok comes.",
+            "einherjar_axe_steel_iconic": {
+               "display_name": "Steel Einherjar Axe",
+               "description": "Suitable for a Hero of Ragnarok"
+            }
+         },
+         "ruler_sword_nordlings": {
+            "ruler_sword_nordlings_iconic": {
+               "display_name": "Jarl's Sword",
+               "description": "A Sword Belonging to a Jarl"
+            }
          }
       },
       "armor": {
@@ -520,6 +534,10 @@
          "runes_slowing_projectile": {
             "display_name": "Thorn-Rune Amulet",
             "description": "An Amulet for your skirmisher, causing his weapons to slow"
+         },
+         "einherjar_axe_offhand_steel": {
+            "display_name": "Steel Einherjar Axe",
+            "description": "Fit to be wielded by a hero."
          }
       },
       "decoration": {
@@ -1225,6 +1243,16 @@
                "recipe_name": "Throwing Axe",
                "description": "A Throwin Axe, used by a Skirmisher",
                "flavor": "\"Catch!\""
+            },
+            "einherjar_axe_offhand_steel_recipe": {
+               "recipe_name": "Steel Einherjar Axe",
+               "flavor": "It has tiny runes reading: \"heavy as the flow of time, and cuts just as deep\"",
+               "description": "Wielded by an Einherjar, it bring any attack to a halt."
+            },
+            "einherjar_axe_steel_recipe": {
+               "recipe_name": "Steel Einherjar Axe",
+               "description": "For Fighting the really big fights.",
+               "flavor": "\"My scales are Shields, my teeth are likes sword, my wings the hurricane, but even i can get slain by this dragons bane\" -Unnamed dragon"
             }
          },
          "blacksmith_workbench_nordlings": {
@@ -1496,6 +1524,10 @@
             "display_name": "Jarl",
             "description": "A Nordling King of old",
             "requirements": "Notsurewhatshouldbehere"
+         },
+         "ruler_sword_nordlings": {
+            "display_name": "Jarl's Sword",
+            "description": "A Jarl's Sword"
          }
       },
       "archer": {

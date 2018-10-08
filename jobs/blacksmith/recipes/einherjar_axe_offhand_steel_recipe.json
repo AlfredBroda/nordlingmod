@@ -1,0 +1,34 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 20,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.einherjar_axe_offhand_steel_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.einherjar_axe_offhand_steel_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.einherjar_axe_offhand_steel_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/armor/einherjar_axe_offhand_steel/einherjar_axe_offhand_steel.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:gold_ingot",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "uri": "nordlingmod:leather_strip",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:einherjar_axe_offhand_steel"
+      }
+   ]
+}

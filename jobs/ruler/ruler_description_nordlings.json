@@ -13,7 +13,7 @@
    "abilities": "file(ruler_abilities)",
    "equipment": {
       "torso": "file(ruler_outfit_nordlings)",
-      "mainhand": "file(ruler_sword)"
+      "mainhand": "file(ruler_sword_nordlings)"
    },
    "roles": "footman_job cloth_wearer leather_wearer mail_wearer plate_wearer melee_combat combat",
    "promotion_activity_name": "promote_ruler",
