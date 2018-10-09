@@ -24,7 +24,7 @@
    ],
    "produces": [
       {
-         "item": "nordlingmod:einherjar_axe_offhand_talisman"
+         "item": "nordlingmod:einherjar_talisman"
       }
    ]
 }
