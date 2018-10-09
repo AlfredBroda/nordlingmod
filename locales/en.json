@@ -396,6 +396,14 @@
                "display_name": "Jarl's Sword",
                "description": "A Sword Belonging to a Jarl"
             }
+         },
+         "einherjar_sword_steel": {
+            "einherjar_sword_steel_iconic": {
+               "display_name": "Einherjar Sword",
+               "description": "A heavy blade, used by Einherjar."
+            },
+            "display_name": "Einherjar Sword",
+            "description": "A heavy blade, used by the Einherjar"
          }
       },
       "armor": {
@@ -1245,7 +1253,7 @@
                "flavor": "\"Catch!\""
             },
             "einherjar_axe_offhand_steel_recipe": {
-               "recipe_name": "Steel Einherjar Axe",
+               "recipe_name": "Steel Einherjar Axe (offhand)",
                "flavor": "It has tiny runes reading: \"heavy as the flow of time, and cuts just as deep\"",
                "description": "Wielded by an Einherjar, it bring any attack to a halt."
             },
@@ -1253,6 +1261,11 @@
                "recipe_name": "Steel Einherjar Axe",
                "description": "For Fighting the really big fights.",
                "flavor": "\"My scales are Shields, my teeth are likes sword, my wings the hurricane, but even i can get slain by this dragons bane\" -Unnamed dragon"
+            },
+            "einherjar_sword_steel_recipe": {
+               "flavor": "\"I never did know where \"sword\" ended and \"wall of sharp steel\" starts..-Narfi the mad blacksmith",
+               "recipe_name": "Einherjar's Sword",
+               "description": "A huge blade, made for an Einherjar"
             }
          },
          "blacksmith_workbench_nordlings": {

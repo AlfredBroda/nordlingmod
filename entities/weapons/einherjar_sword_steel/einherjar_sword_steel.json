@@ -5,12 +5,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(short_sword_equipped.qb)"
+               "file(einherjar_sword_steel_equipped.qb)"
             ]
          }
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(short_sword_iconic.json)"
+         "iconic_form": "file(einherjar_sword_steel_iconic.json)"
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
@@ -46,6 +46,14 @@
             "cooldown": 0,
             "priority": 0,
             "aggro_multiplier": 3.0
+         },
+         {
+            "name": "combat_1h_thrust",
+            "effect": "combat_1h_thrust",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0,
+            "aggro_multiplier": 3.0
          }
       ],
       "stonehearth:combat:melee_defenses": [
@@ -69,9 +77,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.weapons.short_sword.display_name)",
-         "description": "i18n(stonehearth:entities.weapons.short_sword.description)",
-         "icon": "file(short_sword.png)",
+         "display_name": "i18n(nordlingmod:entities.weapons.einherjar_sword_steel.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.einherjar_sword_steel.description)",
+         "icon": "file(einherjar_sword_steel.png)",
          "category": "weapons",
          "material_tags": "short melee_weapon crafted stockpile_weapon"
       }
