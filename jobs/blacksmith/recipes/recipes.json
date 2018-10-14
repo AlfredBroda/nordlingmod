@@ -132,7 +132,8 @@
             "mixintypes": {
                "bronze_mace": "remove",
                "iron_pike": "remove",
-               "long_sword": "remove"
+               "long_sword": "remove",
+			   "short_sword": "remove"
             }
          }
       },

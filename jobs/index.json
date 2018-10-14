@@ -48,9 +48,6 @@
       },
 	  "stonehearth:jobs:worker": {
          "description": "nordlingmod:jobs:worker"
-      },
-	  "nordlingmod:jobs:ruler": {
-         "description": "nordlingmod:jobs:ruler_nordlings"
-		}
+      }
    }
 }

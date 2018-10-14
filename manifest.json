@@ -188,14 +188,7 @@
       "shrine_to_freya": "file(entities/decoration/shrine_to_freya/shrine_to_freya.json)",
       "shrine_to_freya_blessed": "file(entities/decoration/shrine_to_freya/shrine_to_freya_blessed.json)",
       "shrine_to_freya_fully_grown": "file(entities/decoration/shrine_to_freya/shrine_to_freya_fully_grown.json)",
-      "firewood": "file(entities/refined/firewood/firewood.json)",
-      "jobs:ruler": "file(jobs/ruler/ruler_description.json)",
-      "jobs:ruler_na": "file(jobs/ruler/ruler_description_na.json)",
-      "jobs:ruler_rc": "file(jobs/ruler/ruler_description_rc.json)",
-      "jobs:ruler_nordlings": "file(jobs/ruler/ruler_description_nordlings.json)",
-      "ruler_sword": "file(jobs/ruler/ruler_sword/ruler_sword.json)",
-      "ruler_sword_nordlings": "file(jobs/ruler/ruler_sword_nordlings/ruler_sword_nordlings.json)",
-      "ruler_talisman": "file(jobs/ruler/ruler_talisman/ruler_talisman.json)"
+      "firewood": "file(entities/refined/firewood/firewood.json)"
    },
    "mixintos": {
       "stonehearth/data/gm/campaigns/amberstone/arcs/trigger/discovery/encounters/12_heirbloom/12_heirbloom_unlock.json": "nordlingmoddata/gm/campaigns/amberstone/arcs/trigger/discovery/encounters/12_heirbloom/12_heirbloom_unlock.json",
@@ -224,10 +217,7 @@
       "stonehearth/jobs/weaver/weaver_workbench/weaver_workbench.json": "nordlingmod/jobs/weaver/weaver_workbench_nordlings/weaver_workbench_nordlings_enable.json",
       "stonehearth/jobs/cook/cook_workbench/cook_workbench.json": "nordlingmod/jobs/cook/cook_workbench_nordlings/cook_workbench_nordlings_enable.json",
       "stonehearth/data/effects/firepit_effect/firepit_effect.json": "nordlingmod/data/effects/firepit_effect/firepit_smoke_effect.json",
-      "stonehearth/data/effects/firepit_effect/green_firepit_effect.json": "nordlingmod/data/effects/firepit_effect/firepit_smoke_effect.json",
-      "northern_alliance/jobs/index.json": "file(jobs/index_na.json)",
-      "rayyas_children/jobs/index.json": "file(jobs/index_rc.json)",
-      "stonehearth/jobs/index.json": "file(jobs/index_ac.json)"
+      "stonehearth/data/effects/firepit_effect/green_firepit_effect.json": "nordlingmod/data/effects/firepit_effect/firepit_smoke_effect.json"
    },
    "overrides": {
       "stonehearth/services/server/job/job_info_controller.lua": "nordlingmod/services/server/job/job_info_controller.lua",
@@ -238,7 +228,5 @@
    "components": {
       "firepit": "file(components/firepit/firepit_component.lua)"
    },
-   "controllers": {
-      "class:ruler": "file(jobs/ruler/ruler.lua)"
-   }
+   "controllers": {}
 }
