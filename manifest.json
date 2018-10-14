@@ -153,25 +153,17 @@
       "legendary_axe": "file(entities/weapons/legendary_axe/legendary_axe.json)",
       "legendary_axe_head": "file(entities/refined/legendary_axe_head/legendary_axe_head.json)",
       "legendary_axe_haft": "file(entities/refined/legendary_axe_haft/legendary_axe_haft.json)",
-      "rune_stone": "file(entities/decoration/rune_stone/rune_stone.json)",
-      "fireplace": "file(entities/decoration/fireplace/fireplace.json)",
-      "fireplace_big": "file(entities/decoration/fireplace_big/fireplace_big.json)",
+      "rune_stone": "file(entities/decoration/rune_stone/rune_stone.json)", 
       "comfy_fur_bed": "file(entities/furniture/comfy_fur_bed/comfy_fur_bed.json)",
       "ornate_comfy_fur_bed": "file(entities/furniture/ornate_comfy_fur_bed/ornate_comfy_fur_bed.json)",
       "comfy_fur_bed_stone": "file(entities/furniture/comfy_fur_bed_stone/comfy_fur_bed_stone.json)",
       "wooden_chair_fur": "file(entities/furniture/wooden_chair_fur/wooden_chair_fur.json)",
       "map_table": "file(entities/furniture/map_table/map_table.json)",
       "wooden_chair_nordlings": "file(entities/furniture/wooden_chair_nordlings/wooden_chair_nordlings.json)",
-      "hotspring_chair": "file(entities/furniture/hotspring_chair/hotspring_chair.json)",
       "hotspring_steam_generator": "file(entities/furniture/hotspring_steam_generator/hotspring_steam_generator.json)",
       "hotspring_steam": "file(data/effects/hotspring_steam/hotspring_steam_effect.json)",
       "steam_cubemitter": "file(data/horde/particles/steam/steam.cubemitter.json)",
       "decorative_wall_dragon": "file(entities/decoration/decorative_wall_dragon/decorative_wall_dragon.json)",
-      "charcoal": "file(entities/resources/coal/lump_of_charcoal/lump_of_charcoal.json)",
-      "charcoal_mound": "file(entities/furniture/charcoal_mound/charcoal_mound_phase_1/charcoal_mound_phase_1.json)",
-      "charcoal_mound_phase_2": "file(entities/furniture/charcoal_mound/charcoal_mound_phase_2/charcoal_mound_phase_2.json)",
-      "charcoal_mound_phase_3": "file(entities/furniture/charcoal_mound/charcoal_mound_phase_3/charcoal_mound_phase_3.json)",
-      "charcoal_mound_phase_4": "file(entities/furniture/charcoal_mound/charcoal_mound_phase_4/charcoal_mound_phase_4.json)",
       "landmark_blocks": "file(data/terrain/landmark_blocks.json)",
       "decorative_wall_shield": "file(entities/decoration/decorative_wall_shield/decorative_wall_shield.json)",
       "shield_mounting": "/nordlingmod/entities/decoration/shield_mounting/shield_mounting.json",
@@ -188,7 +180,7 @@
       "shrine_to_freya": "file(entities/decoration/shrine_to_freya/shrine_to_freya.json)",
       "shrine_to_freya_blessed": "file(entities/decoration/shrine_to_freya/shrine_to_freya_blessed.json)",
       "shrine_to_freya_fully_grown": "file(entities/decoration/shrine_to_freya/shrine_to_freya_fully_grown.json)",
-      "firewood": "file(entities/refined/firewood/firewood.json)"
+
    },
    "mixintos": {
       "stonehearth/data/gm/campaigns/amberstone/arcs/trigger/discovery/encounters/12_heirbloom/12_heirbloom_unlock.json": "nordlingmoddata/gm/campaigns/amberstone/arcs/trigger/discovery/encounters/12_heirbloom/12_heirbloom_unlock.json",
@@ -215,9 +207,7 @@
       "stonehearth/jobs/carpenter/carpenter_toolbench/carpenter_toolbench.json": "nordlingmod/jobs/carpenter/carpenter_toolbench_nordlings/carpenter_toolbench_nordlings_enable.json",
       "stonehearth/jobs/carpenter/recipes/recipes.json": "nordlingmod/jobs/carpenter/recipes/recipes_all.json",
       "stonehearth/jobs/weaver/weaver_workbench/weaver_workbench.json": "nordlingmod/jobs/weaver/weaver_workbench_nordlings/weaver_workbench_nordlings_enable.json",
-      "stonehearth/jobs/cook/cook_workbench/cook_workbench.json": "nordlingmod/jobs/cook/cook_workbench_nordlings/cook_workbench_nordlings_enable.json",
-      "stonehearth/data/effects/firepit_effect/firepit_effect.json": "nordlingmod/data/effects/firepit_effect/firepit_smoke_effect.json",
-      "stonehearth/data/effects/firepit_effect/green_firepit_effect.json": "nordlingmod/data/effects/firepit_effect/firepit_smoke_effect.json"
+      "stonehearth/jobs/cook/cook_workbench/cook_workbench.json": "nordlingmod/jobs/cook/cook_workbench_nordlings/cook_workbench_nordlings_enable.json"
    },
    "overrides": {
       "stonehearth/services/server/job/job_info_controller.lua": "nordlingmod/services/server/job/job_info_controller.lua",
