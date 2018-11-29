@@ -38,3 +38,47 @@ function JobService:get_job_info(player_id, job_id)
 end
   log:error("Monkey Patched Job Service")
 --e:get_component("stonehearth:job"):level_up()
+
+local JobInfo = require 'stonehearth.services.server.job.job_info_controller'
+local old_manually_unlock_crop = JobInfo.manually_unlock_crop
+function JobInfo:manually_unlock_crop(crop_key, ignore_missing)
+    local kingdom = stonehearth.player:get_kingdom(self._sv.player_id)
+    if kingdom == "nordlingmod:kingdoms:nordlings" then
+        if self._sv.alias ~= 'stonehearth:jobs:worker' then
+            radiant.verify(false, "Attempting to manually unlock crop %s when job %s does not have crops!", crop_key, self._sv.alias)
+            return false
+        end
+    else
+        if self._sv.alias ~= 'stonehearth:jobs:farmer' then
+            radiant.verify(false, "Attempting to manually unlock crop %s when job %s does not have crops!", crop_key, self._sv.alias)
+            return false
+        end
+    end
+   local found_crop = false
+
+   local crop_list = radiant.resources.load_json('stonehearth:farmer:all_crops').crops
+   for crop_key, crop_data in pairs(crop_list) do
+         if crop_data then
+            found_crop = true
+            break
+         end
+      if found_crop then
+         break
+      end
+   end
+   if not found_crop then
+      if not ignore_missing then
+         radiant.verify(false, "Attempting to manually unlock crop %s when job %s does not have such a crop!", crop_key, self._sv.alias)
+      end
+      return false
+   end
+
+   local already_unlocked = self._sv.manually_unlocked[crop_key]
+   if already_unlocked then
+      return false
+   end
+
+   self._sv.manually_unlocked[crop_key] = true
+   self.__saved_variables:mark_changed()
+   return true
+end
