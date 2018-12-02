@@ -230,6 +230,7 @@
       "stonehearth/jobs/index.json": "file(jobs/index_ac.json)"
    },
    "overrides": {
+      "stonehearth/services/server/job/job_info_controller.lua": "nordlingmod/services/server/job/job_info_controller.lua",
       "stonehearth/data/rigs/entities/humans/animations/male/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/animations/male/combat_1h_thrust.json",
       "stonehearth/data/rigs/entities/humans/animations/female/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/animations/female/combat_1h_thrust.json",
       "stonehearth/data/rigs/entities/humans/effects/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/effects/combat_1h_thrust.json"

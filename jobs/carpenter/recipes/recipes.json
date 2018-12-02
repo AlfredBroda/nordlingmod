@@ -25,12 +25,14 @@
                "recipe" : "file(training_roundshield_recipe.json)"
             
 			},
-            "wooden_round_shield" :	{
+            "wooden_round_shield" : 
+			{
                "recipe" : "file(wooden_round_shield_recipe.json)"
+            
 			},
 			"mixintypes": {
                  "wooden_shield": "remove"
-            }			
+              }			
         }
     },
 	"building_parts": {
@@ -56,6 +58,9 @@
             },
 			"wooden_chair_nordlings": {
                "recipe": "file(wooden_chair_nordlings_recipe.json)"
+            },
+			"charcoal_mound": {
+               "recipe": "file(charcoal_mound_recipe.json)"
             },
 			"mixintypes": {
                  "wooden_chair": "remove"
