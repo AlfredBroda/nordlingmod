@@ -17,7 +17,8 @@
       "cloth_wearer",
       "leather_wearer",
       "mail_wearer",
-      "melee_combat combat"
+      "melee_combat",
+      "combat"
    ],
    "promotion_activity_name": "promote_footman",
    "task_groups": [
