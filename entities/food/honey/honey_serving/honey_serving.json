@@ -2,9 +2,9 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-		"render_info": {
+      "render_info": {
          "scale": 0.045
-		 },
+      },
       "model_variants": {
          "default": {
             "models": [
@@ -27,14 +27,18 @@
          },
          "quality": 3
       }
-},
-"stonehearth:catalog": {
-	"display_name": "i18n(nordlingmod:entities.food.honey.honey_serving.display_name)",
-	"description": "i18n(nordlingmod:entities.food.honey.honey_serving.description)",
-	"icon": "file(honey_serving.png)",
-	"is_item": true,
-	"category": "food",
-	"material_tags": "food honey_serving vegetarian",
-	"subject_override": "nordlingmod:food:honey:honey"
-}
+   },
+   "stonehearth:catalog": {
+      "display_name": "i18n(nordlingmod:entities.food.honey.honey_serving.display_name)",
+      "description": "i18n(nordlingmod:entities.food.honey.honey_serving.description)",
+      "icon": "file(honey_serving.png)",
+      "is_item": true,
+      "category": "food",
+      "material_tags": [
+         "food",
+         "honey_serving",
+         "vegetarian"
+      ],
+      "subject_override": "nordlingmod:food:honey:honey"
+   }
 }

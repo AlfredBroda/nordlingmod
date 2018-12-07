@@ -23,7 +23,12 @@
          "description": "i18n(nordlingmod:entities.decoration.shrine_to_thor.shrine_to_thor_ghost.description)",
          "icon": "file(shrine_to_thor.png)",
          "category": "decoration",
-         "material_tags": "stone crafted decoration stockpile_decoration"
+         "material_tags": [
+            "stone",
+            "crafted",
+            "decoration",
+            "stockpile_decoration"
+         ]
       }
    }
 }

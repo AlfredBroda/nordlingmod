@@ -57,7 +57,12 @@
          "description": "i18n(nordlingmod:entities.weapons.steel_axe_2h.description)",
          "icon": "file(steel_axe_2h.png)",
          "category": "weapons",
-         "material_tags": "metal melee_weapon crafted stockpile_weapon"
+         "material_tags": [
+            "metal",
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon"
+         ]
       }
    }
 }

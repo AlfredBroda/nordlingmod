@@ -20,7 +20,9 @@
          "description": "i18n(nordlingmod:jobs.carpenter.carpenter_toolbench_nordlings.carpenter_toolbench_ghost.description)",
          "icon": "file(carpenter_toolbench_nordlings.png)",
          "category": "workshops",
-         "material_tags": "tool stockpile_tool"
+         "material_tags": [
+            "tool stockpile_tool"
+         ]
       }
    }
 }

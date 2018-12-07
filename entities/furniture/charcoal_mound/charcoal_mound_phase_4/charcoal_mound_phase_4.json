@@ -49,7 +49,9 @@
          "display_name": "i18n(nordlingmod:entities.furniture.charcoal_mound.charcoal_mound_phase_4.display_name)",
          "description": "i18n(nordlingmod:entities.furniture.charcoal_mound.charcoal_mound_phase_4.description)",
          "icon": "file(charcoal_mound_phase_4.png)",
-         "material_tags": "stockpile_plant",
+         "material_tags": [
+            "stockpile_plant"
+         ],
          "category": "plants"
       },
       "stonehearth:net_worth": {

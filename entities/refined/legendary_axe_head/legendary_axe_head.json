@@ -32,7 +32,12 @@
          "icon": "file(legendary_axe_head.png)",
          "is_item": true,
          "category": "refined",
-         "material_tags": "iron resource refined_iron stockpile_refined_blacksmith"
+         "material_tags": [
+            "iron",
+            "resource",
+            "refined_iron",
+            "stockpile_refined_blacksmith"
+         ]
       }
    }
 }

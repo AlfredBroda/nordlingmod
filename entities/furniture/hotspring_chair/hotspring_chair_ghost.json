@@ -19,7 +19,13 @@
          "description": "i18n(nordlingmod:entities.furniture.hotspring_chair.hotspring_chair_ghost.description)",
          "icon": "file(hotspring_chair.png)",
          "category": "furniture",
-         "material_tags": "stone furniture crafted chair stockpile_furniture"
+         "material_tags": [
+            "stone",
+            "furniture",
+            "crafted",
+            "chair",
+            "stockpile_furniture"
+         ]
       }
    }
 }

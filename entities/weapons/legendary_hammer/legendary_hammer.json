@@ -19,7 +19,7 @@
          "slot": "mainhand",
          "additional_equipment": {
             "stonehearth:armor:offhand_placeholder": true,
-			"nordlingmod:weapon_belt_hanger": true
+            "nordlingmod:weapon_belt_hanger": true
          },
          "render_type": "attach_to_bone",
          "postures": [
@@ -34,13 +34,13 @@
    },
    "entity_data": {
       "stonehearth:buffs": {
-		   "inflictable_debuffs": {
-			   "infection": {
+         "inflictable_debuffs": {
+            "infection": {
                "uri": "nordlingmod:legendary_hammer_debuff",
                "chance": 0.5
             }
-		}
-	  },
+         }
+      },
       "stonehearth:combat:weapon_data": {
          "base_damage": 40,
          "reach": 1.5
@@ -68,7 +68,12 @@
          "description": "i18n(nordlingmod:entities.weapons.legendary_hammer.description)",
          "icon": "file(legendary_hammer.png)",
          "category": "weapons",
-         "material_tags": "metal melee_weapon crafted stockpile_weapon"
+         "material_tags": [
+            "metal",
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon"
+         ]
       }
    }
 }

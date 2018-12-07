@@ -25,7 +25,13 @@
          "description": "i18n(nordlingmod:entities.decoration.fireplace.fireplace_ghost.description)",
          "icon": "file(fireplace.png)",
          "category": "decoration",
-         "material_tags": "fireplace light stone light_source stockpile_decoration"
+         "material_tags": [
+            "fireplace",
+            "light",
+            "stone",
+            "light_source",
+            "stockpile_decoration"
+         ]
       }
    }
 }

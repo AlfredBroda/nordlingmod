@@ -33,7 +33,9 @@
          "icon": "file(shepherd_crook.png)",
          "is_item": true,
          "category": "tools",
-         "material_tags": "stockpile_tool"
+         "material_tags": [
+            "stockpile_tool"
+         ]
       }
    }
 }

@@ -20,7 +20,9 @@
          "description": "i18n(nordlingmod:jobs.cook.cook_workbench_nordlings.cook_workbench_nordlings_ghost.description)",
          "icon": "file(cook_workbench_nordlings.png)",
          "category": "workshops",
-         "material_tags": "stockpile_tool"
+         "material_tags": [
+            "stockpile_tool"
+         ]
       }
    }
 }

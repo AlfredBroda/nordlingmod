@@ -23,7 +23,9 @@
          "description": "i18n(nordlingmod:jobs.blacksmith.blacksmith_workbench_nordlings.blacksmith_workbench_nordlings_ghost.description)",
          "icon": "file(blacksmith_workbench_nordlings.png)",
          "category": "workshops",
-         "material_tags": "stockpile_tool"
+         "material_tags": [
+            "stockpile_tool"
+         ]
       }
    }
 }

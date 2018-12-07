@@ -65,7 +65,13 @@
          "description": "i18n(nordlingmod:entities.armor.runes_fire_projectile.description)",
          "icon": "file(runes_fire_projectile.png)",
          "category": "armor",
-         "material_tags": "leather armor light_armor quiver stockpile_equipment"
+         "material_tags": [
+            "leather",
+            "armor",
+            "light_armor",
+            "quiver",
+            "stockpile_equipment"
+         ]
       }
    }
 }

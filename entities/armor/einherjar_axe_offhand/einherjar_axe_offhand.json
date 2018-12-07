@@ -52,7 +52,11 @@
          "description": "i18n(nordlingmod:entities.weapons.einherjar_axe.description)",
          "icon": "file(einherjar_axe_offhand.png)",
          "category": "armor",
-         "material_tags": "metal armor heavy_armor"
+         "material_tags": [
+            "metal",
+            "armor",
+            "heavy_armor"
+         ]
       }
    }
 }

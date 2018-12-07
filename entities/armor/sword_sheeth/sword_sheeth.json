@@ -42,7 +42,12 @@
          "description": "i18n(nordlingmod:entities.armor.sword_sheeth.description)",
          "icon": "file(sword_sheeth.png)",
          "category": "armor",
-         "material_tags": "leather armor light_armor stockpile_equipment"
+         "material_tags": [
+            "leather",
+            "armor",
+            "light_armor",
+            "stockpile_equipment"
+         ]
       }
    }
 }

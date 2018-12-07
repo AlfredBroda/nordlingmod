@@ -19,7 +19,13 @@
          "description": "i18n(nordlingmod:entities.furniture.wooden_chair_fur.wooden_chair_fur_ghost.description)",
          "icon": "file(wooden_chair_fur.png)",
          "category": "furniture",
-         "material_tags": "wood furniture crafted chair stockpile_furniture"
+         "material_tags": [
+            "wood",
+            "furniture",
+            "crafted",
+            "chair",
+            "stockpile_furniture"
+         ]
       }
    }
 }

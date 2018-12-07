@@ -108,7 +108,10 @@
          "display_name": "i18n(nordlingmod:entities.crops.cabbage_crop.display_name)",
          "description": "i18n(nordlingmod:entities.crops.cabbage_crop.description)",
          "icon": "file(icon.png)",
-         "material_tags": "crop cabbage"
+         "material_tags": [
+            "crop",
+            "cabbage"
+         ]
       },
       "stonehearth:appeal": {
          "appeal": 1

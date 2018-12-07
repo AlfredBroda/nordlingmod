@@ -47,7 +47,9 @@
          "description": "i18n(stonehearth:jobs.shepherd.shepherd_crook.description)",
          "icon": "file(shepherd_crook.png)",
          "category": "tools",
-         "material_tags": "tool"
+         "material_tags": [
+            "tool"
+         ]
       }
    }
 }

@@ -27,7 +27,11 @@
          "icon": "file(lump_of_charcoal.png)",
          "is_item": true,
          "category": "resources",
-         "material_tags": "stockpile_ore coal resource"
+         "material_tags": [
+            "stockpile_ore",
+            "coal",
+            "resource"
+         ]
       },
       "stonehearth:appeal": {
          "appeal": -1

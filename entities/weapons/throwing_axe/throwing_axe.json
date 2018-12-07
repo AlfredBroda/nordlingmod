@@ -55,7 +55,10 @@
          "description": "i18n(nordlingmod:entities.weapons.throwing_axe.description)",
          "icon": "file(throwing_axe.png)",
          "category": "weapons",
-         "material_tags": "iron ranged_weapon"
+         "material_tags": [
+            "iron",
+            "ranged_weapon"
+         ]
       }
    }
 }

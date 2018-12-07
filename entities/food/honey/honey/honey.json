@@ -2,10 +2,10 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-		"render_info": {
+      "render_info": {
          "scale": 0.08
-		 },
-		"model_variants": {
+      },
+      "model_variants": {
          "default": {
             "models": [
                "file(honey.qb)"
@@ -13,16 +13,16 @@
          }
       },
       "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0.00 }
+         "model_origin": { "x": 0, "y": 0, "z": 0.0 }
       },
       "stonehearth:stacks": {
          "max_stacks": 4
       }
    },
    "entity_data": {
-		"stonehearth:food_container": {
-			"effect": "fiddle",
-			"food": "nordlingmod:food:honey:honey_serving"
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "nordlingmod:food:honey:honey_serving"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 15,
@@ -40,7 +40,13 @@
          "icon": "file(honey.png)",
          "is_item": true,
          "category": "food",
-         "material_tags": "food_container prepared_food honey stockpile_prepared_food vegetarian"
+         "material_tags": [
+            "food_container",
+            "prepared_food",
+            "honey",
+            "stockpile_prepared_food",
+            "vegetarian"
+         ]
       },
       "stonehearth:appeal": {
          "appeal": 1

@@ -19,7 +19,11 @@
          "description": "i18n(nordlingmod:entities.furniture.map_table.map_table_ghost.description)",
          "icon": "file(map_table.png)",
          "category": "furniture",
-         "material_tags": "furniture crafted stockpile_furniture"
+         "material_tags": [
+            "furniture",
+            "crafted",
+            "stockpile_furniture"
+         ]
       }
    }
 }

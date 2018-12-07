@@ -32,7 +32,12 @@
          "description": "i18n(nordlingmod:entities.furniture.ornate_comfy_fur_bed.ornate_comfy_fur_bed_ghost.description)",
          "icon": "file(ornate_comfy_fur_bed.png)",
          "category": "furniture",
-         "material_tags": "wood furniture crafted stockpile_furniture"
+         "material_tags": [
+            "wood",
+            "furniture",
+            "crafted",
+            "stockpile_furniture"
+         ]
       }
    }
 }

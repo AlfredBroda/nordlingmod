@@ -27,7 +27,10 @@
       "stonehearth:catalog": {
          "display_name": "i18n(nordlingmod:entities.food.mead.mead_serving.display_name)",
          "description": "",
-         "material_tags": "food vegetarian",
+         "material_tags": [
+            "food",
+            "vegetarian"
+         ],
          "subject_override": "nordlingmod:food:mead:mead"
       }
    }

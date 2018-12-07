@@ -48,7 +48,12 @@
          "description": "i18n(nordlingmod:entities.armor.leather_armour.description)",
          "icon": "file(leather_armour.png)",
          "category": "armor",
-         "material_tags": "armor light_armor leather stockpile_equipment"
+         "material_tags": [
+            "armor",
+            "light_armor",
+            "leather",
+            "stockpile_equipment"
+         ]
       }
    }
 }

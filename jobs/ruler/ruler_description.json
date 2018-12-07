@@ -15,7 +15,15 @@
       "torso": "file(ruler_outfit_ac)",
       "mainhand": "file(ruler_sword)"
    },
-   "roles": "footman_job cloth_wearer leather_wearer mail_wearer plate_wearer melee_combat combat",
+   "roles": [
+      "footman_job",
+      "cloth_wearer",
+      "leather_wearer",
+      "mail_wearer",
+      "plate_wearer",
+      "melee_combat",
+      "combat"
+   ],
    "promotion_activity_name": "promote_ruler",
    "task_groups": [
       "stonehearth:task_groups:common_tasks",

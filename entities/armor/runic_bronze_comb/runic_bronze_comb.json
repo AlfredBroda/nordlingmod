@@ -49,7 +49,11 @@
          "description": "i18n(nordlingmod:entities.armor.runic_bronze_comb.description)",
          "icon": "file(runic_bronze_comb.png)",
          "category": "armor",
-         "material_tags": "bronze armor light_armor stockpile_equipment"
+         "material_tags": [
+            "bronze armor",
+            "light_armor",
+            "stockpile_equipment"
+         ]
       }
    }
 }

@@ -61,7 +61,9 @@
          "description": "i18n(nordlingmod:jobs.ruler.ruler_sword_nordlings.description)",
          "icon": "file(ruler_sword_nordlings.png)",
          "category": "weapons",
-         "material_tags": "melee_weapon"
+         "material_tags": [
+            "melee_weapon"
+         ]
       }
    }
 }

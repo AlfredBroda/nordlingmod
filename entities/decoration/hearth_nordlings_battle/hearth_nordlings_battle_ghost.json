@@ -22,7 +22,12 @@
          "description": "i18n(nordlingmod:entities.decoration.firepit_hearth.firepit_hearth_ghost.description)",
          "icon": "file(hearth_nordlings_battle.png)",
          "category": "decoration",
-         "material_tags": "firepit light light_source stockpile_decoration"
+         "material_tags": [
+            "firepit",
+            "light",
+            "light_source",
+            "stockpile_decoration"
+         ]
       }
    }
 }

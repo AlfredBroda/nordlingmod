@@ -73,7 +73,12 @@
          "description": "i18n(nordlingmod:entities.weapons.einherjar_axe_steel.description)",
          "icon": "file(einherjar_axe_steel.png)",
          "category": "weapons",
-         "material_tags": "long melee_weapon crafted stockpile_weapon"
+         "material_tags": [
+            "long",
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon"
+         ]
       }
    }
 }

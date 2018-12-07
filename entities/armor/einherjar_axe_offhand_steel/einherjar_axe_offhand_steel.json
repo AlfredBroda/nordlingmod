@@ -55,7 +55,12 @@
          "description": "i18n(nordlingmod:entities.armor.einherjar_axe_offhand_steel.description)",
          "icon": "file(einherjar_axe_offhand_steel.png)",
          "category": "armor",
-         "material_tags": "metal armor heavy_armor stockpile_equipment"
+         "material_tags": [
+            "metal",
+            "armor",
+            "heavy_armor",
+            "stockpile_equipment"
+         ]
       }
    }
 }

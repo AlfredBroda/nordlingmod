@@ -41,13 +41,13 @@
             "cooldown": 0,
             "priority": 0
          },
-		 {
-			"name": "combat_1h_thrust",
-			"effect": "combat_1h_thrust",
-			"active_frame": 16,
-			"cooldown": 0,
-			"priority": 0,
-		 }
+         {
+            "name": "combat_1h_thrust",
+            "effect": "combat_1h_thrust",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0
+         }
       ],
       "stonehearth:net_worth": {
          "value_in_gold": 0,
@@ -61,7 +61,9 @@
          "description": "i18n(nordlingmod:jobs.ruler.ruler_sword.description)",
          "icon": "file(ruler_sword.png)",
          "category": "weapons",
-         "material_tags": "melee_weapon"
+         "material_tags": [
+            "melee_weapon"
+         ]
       }
    }
 }

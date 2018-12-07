@@ -5,19 +5,19 @@
       "model_variants": {
          "default": {
             "models": [
-			"file(wooden_round_shield_empty.qb)",
-			{
-			"type": "one_of", 
-			"items": [
-               "file(wooden_round_shield.qb)",
-			   "file(wooden_round_shield_2.qb)",
-			   "file(wooden_round_shield_3.qb)",
-			   "file(wooden_round_shield_4.qb)",
-			   "file(wooden_round_shield_5.qb)"
-			   ]
-			   }
+               "file(wooden_round_shield_empty.qb)",
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(wooden_round_shield.qb)",
+                     "file(wooden_round_shield_2.qb)",
+                     "file(wooden_round_shield_3.qb)",
+                     "file(wooden_round_shield_4.qb)",
+                     "file(wooden_round_shield_5.qb)"
+                  ]
+               }
             ]
-         },
+         }
       },
       "stonehearth:entity_forms": {
          "iconic_form": "file(wooden_round_shield_iconic.json)"
@@ -64,7 +64,13 @@
          "description": "i18n(nordlingmod:entities.armor.wooden_round_shield.description)",
          "icon": "file(wooden_round_shield.png)",
          "category": "armor",
-         "material_tags": "wood armor light_armor stockpile_equipment shield"
+         "material_tags": [
+            "wood",
+            "armor",
+            "light_armor",
+            "stockpile_equipment",
+            "shield"
+         ]
       }
    }
 }

@@ -48,7 +48,12 @@
          "description": "i18n(nordlingmod:entities.armor.runic_steel_comb.description)",
          "icon": "file(runic_steel_comb.png)",
          "category": "armor",
-         "material_tags": "steel armor light_armor stockpile_equipment"
+         "material_tags": [
+            "steel",
+            "armor",
+            "light_armor",
+            "stockpile_equipment"
+         ]
       }
    }
 }

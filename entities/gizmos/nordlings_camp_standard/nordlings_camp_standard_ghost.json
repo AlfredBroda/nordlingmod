@@ -20,7 +20,12 @@
          "description": "i18n(nordlingmod:entities.gizmos.nordlings_camp_standard.nordlings_camp_standard_ghost.description)",
          "icon": "file(nordlings_camp_standard.png)",
          "category": "decoration",
-         "material_tags": "clay cloth decoration stockpile_decoration"
+         "material_tags": [
+            "clay",
+            "cloth",
+            "decoration",
+            "stockpile_decoration"
+         ]
       }
    }
 }

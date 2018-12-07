@@ -14,7 +14,7 @@
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
-		 "additional_equipment": {
+         "additional_equipment": {
             "nordlingmod:weapon_back_hanger": true
          },
          "render_type": "attach_to_bone",
@@ -56,7 +56,11 @@
          "description": "i18n(nordlingmod:entities.weapons.iron_spear.description)",
          "icon": "file(iron_spear.png)",
          "category": "weapons",
-         "material_tags": "melee_weapon crafted stockpile_weapon"
+         "material_tags": [
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon"
+         ]
       }
    }
 }

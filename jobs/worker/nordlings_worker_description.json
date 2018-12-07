@@ -10,15 +10,18 @@
       "stonehearth:task_groups:farming"
    ],
    "abilities": "/nordlingmod/jobs/worker/worker_abilities/worker_abilities.json",
-   "roles": "worker_job farmer_job",
+   "roles": [
+      "worker_job",
+      "farmer_job"
+   ],
    "icon": "file(images/icon.png)",
    "promotion_activity_name": "promote_farmer",
    "xp_rewards": {
       "base_exp_per_harvest": 4,
       "stonehearth:pumpkin_crop": 10,
       "stonehearth:corn_crop": 30,
-	  "nordlingmod:crops:cabbage_crop": 30,
-	  "nordlingmod:crops:beans_crop": 10,
+      "nordlingmod:crops:cabbage_crop": 30,
+      "nordlingmod:crops:beans_crop": 10,
       "stonehearth:crops:tester_crop": 120,
       "stonehearth:crops:tester_crop_2": 120
    },

@@ -53,7 +53,11 @@
          "description": "i18n(nordlingmod:entities.weapons.steel_spear.description)",
          "icon": "file(steel_spear.png)",
          "category": "weapons",
-         "material_tags": "melee_weapon crafted stockpile_weapon"
+         "material_tags": [
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon"
+         ]
       }
    }
 }

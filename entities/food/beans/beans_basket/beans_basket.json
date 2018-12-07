@@ -43,7 +43,14 @@
          "icon": "file(beans_basket.png)",
          "is_item": true,
          "category": "food",
-         "material_tags": "food_container raw_food vegetable vegetarian carrot stockpile_raw_food",
+         "material_tags": [
+            "food_container",
+            "raw_food",
+            "vegetable",
+            "vegetarian",
+            "carrot",
+            "stockpile_raw_food"
+         ],
          "subject_override": "nordlingmod:crops:beans_crop"
       },
       "stonehearth:appeal": {

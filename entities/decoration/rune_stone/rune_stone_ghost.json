@@ -25,7 +25,12 @@
          "description": "i18n(nordlingmod:entities.decoration.rune_stone.description)",
          "icon": "file(rune_stone.png)",
          "category": "furniture",
-         "material_tags": "wood furniture crafted stockpile_furniture"
+         "material_tags": [
+            "wood",
+            "furniture",
+            "crafted",
+            "stockpile_furniture"
+         ]
       }
    }
 }

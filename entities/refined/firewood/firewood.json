@@ -33,7 +33,11 @@
          "icon": "file(firewood.png)",
          "is_item": true,
          "category": "resources",
-         "material_tags": "stockpile_fuel fuel resource"
+         "material_tags": [
+            "stockpile_fuel",
+            "fuel",
+            "resource"
+         ]
       },
       "stonehearth:appeal": {
          "appeal": 1

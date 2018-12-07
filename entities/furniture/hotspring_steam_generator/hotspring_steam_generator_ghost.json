@@ -19,7 +19,13 @@
          "description": "i18n(nordlingmod:entities.furniture.hotspring_steam_generator.hotspring_steam_generator_ghost.description)",
          "icon": "file(hotspring_steam_generator.png)",
          "category": "furniture",
-         "material_tags": "stone furniture crafted steam_generator stockpile_furniture"
+         "material_tags": [
+            "stone",
+            "furniture",
+            "crafted",
+            "steam_generator",
+            "stockpile_furniture"
+         ]
       }
    }
 }

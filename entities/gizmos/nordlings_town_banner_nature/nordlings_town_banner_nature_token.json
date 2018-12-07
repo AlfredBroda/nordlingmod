@@ -10,11 +10,7 @@
          }
       },
       "mob": {
-         "model_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-         }
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
       },
       "stonehearth:town_bonus_granter": {
          "town_bonus_uri": "stonehearth:town_bonus:vitality"
@@ -37,7 +33,12 @@
          "description": "i18n(nordlingmod:entities.gizmos.nordlings_town_banner_nature.nordlings_town_banner_nature_token_iconic.description)",
          "icon": "file(nordlings_town_banner_nature.png)",
          "category": "trophy",
-         "material_tags": "wood cloth decoration stockpile_decoration"
+         "material_tags": [
+            "wood",
+            "cloth",
+            "decoration",
+            "stockpile_decoration"
+         ]
       }
    }
 }

@@ -110,7 +110,10 @@
          "display_name": "i18n(nordlingmod:entities.crops.white_carrot_crop.display_name)",
          "description": "i18n(nordlingmod:entities.crops.white_carrot_crop.description)",
          "icon": "file(icon.png)",
-         "material_tags": "crop carrot"
+         "material_tags": [
+            "crop",
+            "carrot"
+         ]
       },
       "stonehearth:appeal": {
          "appeal": 1

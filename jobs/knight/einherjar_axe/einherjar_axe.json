@@ -69,7 +69,11 @@
          "description": "i18n(nordlingmod:entities.weapons.einherjar_axe.description)",
          "icon": "file(einherjar_axe.png)",
          "category": "weapons",
-         "material_tags": "metal melee_weapon crafted"
+         "material_tags": [
+            "metal",
+            "melee_weapon",
+            "crafted"
+         ]
       }
    }
 }

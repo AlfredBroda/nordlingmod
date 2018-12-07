@@ -23,7 +23,12 @@
          "description": "i18n(nordlingmod:entities.decoration.shrine_to_odin.shrine_to_odin_ghost.description)",
          "icon": "file(shrine_to_odin.png)",
          "category": "decoration",
-         "material_tags": "stone crafted decoration stockpile_decoration"
+         "material_tags": [
+            "stone",
+            "crafted",
+            "decoration",
+            "stockpile_decoration"
+         ]
       }
    }
 }

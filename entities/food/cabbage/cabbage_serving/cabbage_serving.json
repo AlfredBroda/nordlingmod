@@ -27,7 +27,10 @@
       "stonehearth:catalog": {
          "display_name": "i18n(nordlingmod:entities.plants.cabbage.cabbage_serving.display_name)",
          "description": "i18n(nordlingmod:entities.plants.cabbage.cabbage_serving.description)",
-         "material_tags": "food vegetarian",
+         "material_tags": [
+            "food",
+            "vegetarian"
+         ],
          "subject_override": "nordlingmod:crops:cabbage_crop"
       }
    }

@@ -81,7 +81,12 @@
          "description": "i18n(nordlingmod:entities.weapons.einherjar_sword_steel.description)",
          "icon": "file(einherjar_sword_steel.png)",
          "category": "weapons",
-         "material_tags": "short melee_weapon crafted stockpile_weapon"
+         "material_tags": [
+            "short",
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon"
+         ]
       }
    }
 }

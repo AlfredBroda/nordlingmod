@@ -23,7 +23,12 @@
          "description": "i18n(nordlingmod:entities.decoration.hearth_nordlings_trade.hearth_nordlings_trade.description)",
          "icon": "file(hearth_nordlings_trade.png)",
          "category": "decoration",
-         "material_tags": "light_source stone crafted stockpile_decoration"
+         "material_tags": [
+            "light_source",
+            "stone",
+            "crafted",
+            "stockpile_decoration"
+         ]
       }
    }
 }

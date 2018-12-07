@@ -23,7 +23,12 @@
          "description": "i18n(nordlingmod:entities.decoration.hearth_stump.hearth_stump_ghost.description)",
          "icon": "file(hearth_nordlings_happyness.png)",
          "category": "decoration",
-         "material_tags": "light_source stone crafted stockpile_decoration"
+         "material_tags": [
+            "light_source",
+            "stone",
+            "crafted",
+            "stockpile_decoration"
+         ]
       }
    }
 }

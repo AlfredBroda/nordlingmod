@@ -23,7 +23,12 @@
          "description": "i18n(nordlingmod:entities.furniture.comfy_fur_bed_stone.comfy_fur_bed_stone_ghost.description)",
          "icon": "file(comfy_fur_bed_stone.png)",
          "category": "furniture",
-         "material_tags": "stone furniture crafted stockpile_furniture"
+         "material_tags": [
+            "stone",
+            "furniture",
+            "crafted",
+            "stockpile_furniture"
+         ]
       }
    }
 }

@@ -25,7 +25,7 @@
          "render_type": "merge_with_model",
          "slot": "helmet",
          "ilevel": 4,
-		 "required_job_level": 4,
+         "required_job_level": 4,
          "roles": "melee_combat",
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
@@ -49,7 +49,11 @@
          "description": "i18n(nordlingmod:entities.armor.runic_iron_comb.description)",
          "icon": "file(runic_iron_comb.png)",
          "category": "armor",
-         "material_tags": "iron armor light_armor stockpile_equipment"
+         "material_tags": [
+            "iron armor",
+            "light_armor",
+            "stockpile_equipment"
+         ]
       }
    }
 }

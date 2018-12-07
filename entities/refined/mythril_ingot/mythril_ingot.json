@@ -27,11 +27,17 @@
       "stonehearth:catalog": {
          "display_name": "i18n(nordlingmod:entities.refined.mythril_ingot.display_name)",
          "description": "i18n(nordlingmod:entities.refined.mythril_ingot.description)",
-		 "flavor": "i18n(nordlingmod:entities.resources.mythril_ore.flavor)",
+         "flavor": "i18n(nordlingmod:entities.resources.mythril_ore.flavor)",
          "icon": "file(mythril_ingot.png)",
          "is_item": true,
          "category": "refined",
-         "material_tags": "stockpile_refined_ore mythril ingot resource stockpile_refined_craftable"
+         "material_tags": [
+            "stockpile_refined_ore",
+            "mythril",
+            "ingot",
+            "resource",
+            "stockpile_refined_craftable"
+         ]
       },
       "stonehearth:appeal": {
          "appeal": 12

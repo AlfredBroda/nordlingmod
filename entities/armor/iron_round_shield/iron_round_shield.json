@@ -5,19 +5,19 @@
       "model_variants": {
          "default": {
             "models": [
-			"file(iron_round_shield_empty.qb)",
-			{
-			"type": "one_of", 
-			"items": [
-               "file(iron_round_shield.qb)",
-			   "file(iron_round_shield_2.qb)",
-			   "file(iron_round_shield_3.qb)",
-			   "file(iron_round_shield_4.qb)",
-			   "file(iron_round_shield_5.qb)"
-			   ]
-			   }
+               "file(iron_round_shield_empty.qb)",
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(iron_round_shield.qb)",
+                     "file(iron_round_shield_2.qb)",
+                     "file(iron_round_shield_3.qb)",
+                     "file(iron_round_shield_4.qb)",
+                     "file(iron_round_shield_5.qb)"
+                  ]
+               }
             ]
-         },
+         }
       },
       "stonehearth:entity_forms": {
          "iconic_form": "file(iron_round_shield_iconic.json)"
@@ -64,7 +64,12 @@
          "description": "i18n(nordlingmod:entities.armor.iron_round_shield.description)",
          "icon": "file(iron_round_shield.png)",
          "category": "armor",
-         "material_tags": "iron armor light_armor stockpile_equipment"
+         "material_tags": [
+            "iron",
+            "armor",
+            "light_armor",
+            "stockpile_equipment"
+         ]
       }
    }
 }

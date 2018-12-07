@@ -48,7 +48,11 @@
          "description": "i18n(nordlingmod:jobs.worker.worker_outfit_fancy.description)",
          "icon": "file(worker_outfit_fancy.png)",
          "category": "armor",
-         "material_tags": "cloth worker_outfit stockpile_equipment"
+         "material_tags": [
+            "cloth",
+            "worker_outfit",
+            "stockpile_equipment"
+         ]
       }
    }
 }

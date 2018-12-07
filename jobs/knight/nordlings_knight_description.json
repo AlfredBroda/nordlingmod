@@ -17,7 +17,15 @@
       "offhand": "nordlingmod:einherjar_axe_offhand",
       "mainhand": "nordlingmod:einherjar_axe"
    },
-   "roles": "knight_job cloth_wearer leather_wearer mail_wearer plate_wearer melee_combat combat",
+   "roles": [
+      "knight_job",
+      "cloth_wearer",
+      "leather_wearer",
+      "mail_wearer",
+      "plate_wearer",
+      "melee_combat",
+      "combat"
+   ],
    "promotion_activity_name": "promote_knight",
    "task_groups": [
       "stonehearth:task_groups:common_tasks",

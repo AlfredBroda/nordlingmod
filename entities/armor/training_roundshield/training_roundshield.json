@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-			"file(training_roundshield.qb)"
+               "file(training_roundshield.qb)"
             ]
          }
       },
@@ -54,7 +54,13 @@
          "description": "i18n(nordlingmod:entities.armor.training_roundshield.description)",
          "icon": "file(training_roundshield.png)",
          "category": "armor",
-         "material_tags": "wood armor light_armor stockpile_equipment shield"
+         "material_tags": [
+            "wood",
+            "armor",
+            "light_armor",
+            "stockpile_equipment",
+            "shield"
+         ]
       }
    }
 }
