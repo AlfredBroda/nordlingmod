@@ -14,7 +14,7 @@
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
-		 "additional_equipment": {
+         "additional_equipment": {
             "nordlingmod:weapon_back_hanger": true
          },
          "render_type": "attach_to_bone",
@@ -39,7 +39,7 @@
             "active_frame": 16,
             "cooldown": 0,
             "priority": 0
-         }		 
+         }
       ],
       "stonehearth:net_worth": {
          "value_in_gold": 14,
@@ -56,7 +56,12 @@
          "description": "i18n(greeklingmod:entities.weapons.stone_spear.description)",
          "icon": "file(stone_spear.png)",
          "category": "weapons",
-         "material_tags": "stone melee_weapon crafted stockpile_weapon"
+         "material_tags": [
+            "stone",
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon"
+         ]
       }
    }
 }

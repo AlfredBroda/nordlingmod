@@ -1523,11 +1523,14 @@
          "ruler_description": {
             "display_name": "Lord",
             "description": "A Lord, to lead your people",
-            "requirements": "Proof of the Right to Rule"
+            "requirements": "Proof of the Right to Rule",
+            "level_6_data": {
+               "perk_000_name": "Greater Strenght"
+            }
          },
          "ruler_description_na": {
-            "display_name": "Warchief",
-            "description": "A Warchief to Lead your people."
+            "display_name": "Chieftain",
+            "description": "A Chieftain to Lead your people."
          },
          "ruler_description_rc": {
             "display_name": "Sultan",
@@ -1541,6 +1544,82 @@
          "ruler_sword_nordlings": {
             "display_name": "Jarl's Sword",
             "description": "A Jarl's Sword"
+         },
+         "ac": {
+            "ruler_description": {
+               "level_1_data": {
+                  "perk_000_description": "Your Lord knows that all combats may have mortal consequences, and attacks with renewed determination."
+               },
+               "level_2_data": {
+                  "perk_000_description": "Your Lord charges into battle with speed"
+               },
+               "level_3_data": {
+                  "perk_000_description": "Your Lord boosts courage of everyone around"
+               },
+               "level_5_data": {
+                  "perk_000_description": "A slashing strike that deals damage to up to 4 enemies around your Lord"
+               },
+               "level_6_data": {
+                  "perk_000_description": "Your Lord inspires those around him to fight harder (strenght buff)"
+               }
+            }
+         },
+         "na": {
+            "ruler_description": {
+               "level_1_data": {
+                  "perk_000_description": "Your Chieftain knows that all combats may have mortal consequences, and attacks with renewed determination."
+               },
+               "level_2_data": {
+                  "perk_000_description": "Your Chieftain charges into battle with speed"
+               },
+               "level_3_data": {
+                  "perk_000_description": "Your Chieftain boosts courage of everyone around"
+               },
+               "level_5_data": {
+                  "perk_000_description": "A slashing strike that deals damage to up to 4 enemies around your Chieftain"
+               },
+               "level_6_data": {
+                  "perk_000_description": "Your Chieftain inspires those around him to fight harder (strenght buff)"
+               }
+            }
+         },
+         "nordlings": {
+            "ruler_description": {
+               "level_1_data": {
+                  "perk_000_description": "Your Jarl knows that all combats may have mortal consequences, and attacks with renewed determination."
+               },
+               "level_2_data": {
+                  "perk_000_description": "Your Jarl charges into battle with speed"
+               },
+               "level_3_data": {
+                  "perk_000_description": "Your Jarl boosts the courage of everyone around"
+               },
+               "level_5_data": {
+                  "perk_000_description": "A slashing strike that deals damage to up to 4 enemies around your Jarl"
+               },
+               "level_6_data": {
+                  "perk_000_description": "Your Jarl leads from the front, inspiring those around him to fight harder (strenght buff)"
+               }
+            }
+         },
+         "rc": {
+            "ruler_description": {
+               "level_1_data": {
+                  "perk_000_description": "Your Sultan knows that all combats may have mortal consequences, and attacks with renewed determination."
+               },
+               "level_2_data": {
+                  "perk_000_description": "Your Sultan charges into battle with speed"
+               },
+               "level_3_data": {
+                  "perk_000_description": "Your Sultan boosts courage of everyone around"
+               },
+               "level_5_data": {
+                  "perk_000_description": "A slashing strike that deals damage to up to 4 enemies around your Sultan"
+               },
+               "level_6_data": {
+                  "perk_000_description": "Your Sultan inspires those around him to fight harder (strenght buff)"
+               }
+            }
          }
       },
       "archer": {
