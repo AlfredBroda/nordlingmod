@@ -130,10 +130,25 @@
                "recipe": "file(einherjar_sword_steel_recipe.json)"
             },
             "mixintypes": {
-               "bronze_mace": "remove",
-               "iron_pike": "remove",
-               "long_sword": "remove",
-			   "short_sword": "remove"
+				"bronze_mace": "remove",
+				"iron_pike": "remove",
+				"long_sword": "remove",
+				"short_sword": "remove",
+				"bronze_axe": "remove",
+				"bronze_sword": "remove",
+				"iron_battle_axe": "remove",
+				"iron_sword": "remove",
+				"iron_short_sword": "remove",
+				"steel_mace": "remove",
+				"iron_axe": "remove",
+				"steel_axe": "remove",
+				"bronze_hatchet": "remove",
+				"iron_hatchet": "remove",
+				"steel_dagger": "remove",
+				"steel_lance": "remove",
+				"silver_halberd": "remove",
+				"silver_short_sword": "remove",
+				"silver_mace" : "remove"
             }
          }
       },

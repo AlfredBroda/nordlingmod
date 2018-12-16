@@ -1,0 +1,6 @@
+{
+"mixintos": {
+	"nordlingmod/jobs/carpenter/recipes/recipes.json" : "nordlingmod/jobs/carpenter/recipes/recipes_ace_compatabillity.json",
+	"nordlingmod/jobs/carpenter/recipes/recipes_all.json" : "nordlingmod/jobs/carpenter/recipes/recipes_ace_compatabillity.json"
+}
+}

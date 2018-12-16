@@ -189,6 +189,7 @@
       "shrine_to_freya_blessed": "file(entities/decoration/shrine_to_freya/shrine_to_freya_blessed.json)",
       "shrine_to_freya_fully_grown": "file(entities/decoration/shrine_to_freya/shrine_to_freya_fully_grown.json)",
       "firewood": "file(entities/refined/firewood/firewood.json)",
+	  "nordling_tent" : "file(entities/furniture/nordling_tent/nordling_tent.json)",
       "jobs:ruler": "file(jobs/ruler/ruler_description.json)",
       "jobs:ruler_na": "file(jobs/ruler/ruler_description_na.json)",
       "jobs:ruler_rc": "file(jobs/ruler/ruler_description_rc.json)",
@@ -228,16 +229,16 @@
       "northern_alliance/jobs/index.json": "file(jobs/index_na.json)",
       "rayyas_children/jobs/index.json": "file(jobs/index_rc.json)",
       "stonehearth/jobs/index.json": "file(jobs/index_ac.json)",
-	  "stonehearth/data/loadouts/loadouts.json": "file(data/loadouts/noble_deed.json)"
+	  "stonehearth/data/loadouts/loadouts.json": "file(data/loadouts/noble_deed.json)",
+	  "nordlingmod/jobs/blacksmith/recipes/recipes.json" : "stonehearth_ace/jobs/blacksmith/jobs/recipes/recipes.json",
+	  "stonehearth_ace/manifest.json" : "nordlingmod/manifest_ace.json"
    },
    "overrides": {
       "stonehearth/data/rigs/entities/humans/animations/male/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/animations/male/combat_1h_thrust.json",
       "stonehearth/data/rigs/entities/humans/animations/female/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/animations/female/combat_1h_thrust.json",
       "stonehearth/data/rigs/entities/humans/effects/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/effects/combat_1h_thrust.json"
    },
-   "components": {
-      "firepit": "file(components/firepit/firepit_component.lua)"
-   },
+   "components": {},
    "controllers": {
       "class:ruler": "file(jobs/ruler/ruler.lua)"
    }
