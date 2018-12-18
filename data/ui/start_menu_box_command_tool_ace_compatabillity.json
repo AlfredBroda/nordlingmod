@@ -1,0 +1,12 @@
+{
+   "place_menu": {
+	  "items": {
+         "box_move": {
+            "icon": "/nordlingmod/data/ui/box_selection_move_menu.png"
+         },
+         "box_undeploy": {
+            "icon": "/nordlingmod/data/ui/box_selection_undeploy_menu.png"
+         }
+      }
+   }
+}

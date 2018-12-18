@@ -1,12 +1,5 @@
 {
 	"craftable_recipes" : {
-		"furniture": {
-			"recipes" : {
-				"mixintypes": {
-					"charcoal_mound": "remove"
-				}
-			}	
-		},
 		"utility": {
 			"recipes": {
 				"mixintypes": {

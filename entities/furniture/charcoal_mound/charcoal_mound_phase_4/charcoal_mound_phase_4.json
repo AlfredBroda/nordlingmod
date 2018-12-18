@@ -19,8 +19,8 @@
       "destination": {
          "region": [
             {
-               "min": { "x": -2, "y": 0, "z": -2 },
-               "max": { "x": 2, "y": 1, "z": 2 }
+               "min": { "x": 0, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 5, "z": 1 }
             }
          ],
          "adjacency_flags": [
@@ -30,8 +30,8 @@
       "region_collision_shape": {
          "region": [
             {
-               "min": { "x": -2, "y": 0, "z": -2 },
-               "max": { "x": 2, "y": 5, "z": 2 }
+               "min": { "x": -1, "y": 0, "z": -2 },
+               "max": { "x": 3, "y": 5, "z": 2 }
             }
          ]
       },

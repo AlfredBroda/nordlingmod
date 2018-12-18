@@ -230,6 +230,7 @@
       "rayyas_children/jobs/index.json": "file(jobs/index_rc.json)",
       "stonehearth/jobs/index.json": "file(jobs/index_ac.json)",
 	  "stonehearth/data/loadouts/loadouts.json": "file(data/loadouts/noble_deed.json)",
+	  "northern_alliance/data/loadouts/loadouts.json": "file(data/loadouts/noble_deed_na.json)",
 	  "nordlingmod/jobs/blacksmith/recipes/recipes.json" : "stonehearth_ace/jobs/blacksmith/jobs/recipes/recipes.json",
 	  "stonehearth_ace/manifest.json" : "nordlingmod/manifest_ace.json"
    },

@@ -1,0 +1,11 @@
+{
+	"craftable_recipes" : {
+		"refined": {
+			"mixintypes": {
+				"charcoal" : "remove",
+				"bulk_charcoal" : "remove"
+			}
+		}
+	}
+		
+}
