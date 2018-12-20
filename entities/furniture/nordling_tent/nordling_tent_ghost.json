@@ -15,7 +15,8 @@
          }
       },
       "render_info": {
-         "scale": 0.22
+         "scale": 0.22,
+		 "animation_table": "/nordlingmod/data/rigs/entities/furniture/nordling_tent/nordling_tent.json"
       },
       "mob": {
          "model_origin": { "x": 0, "y": 0, "z": 0 },
