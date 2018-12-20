@@ -1,13 +1,7 @@
 {
-   "type": "recipe",
-   "effort": 40,
-   "work_units": 25,
-   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.steel_ingot_recipe.recipe_name)",
-   "description": "i18n(stonehearth:jobs.blacksmith.recipes.steel_ingot_recipe.description)",
-   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.steel_ingot_recipe.flavor)",
-   "portrait": "/stonehearth/entities/refined/steel_ingot/steel_ingot.png",
-   "workshop": "stonehearth:blacksmith:forge",
-   "level_requirement": 4,
+	"mixintypes": {
+	  "ingredients": "override"
+   },
    "ingredients": [
       {
          "uri": "stonehearth:refined:iron_ingot",
@@ -16,11 +10,6 @@
       {
          "material": "coal resource",
          "count": 2
-      }
-   ],
-   "produces": [
-      {
-         "item": "stonehearth:refined:steel_ingot"
       }
    ]
 }

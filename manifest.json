@@ -232,7 +232,14 @@
 	  "stonehearth/data/loadouts/loadouts.json": "file(data/loadouts/noble_deed.json)",
 	  "northern_alliance/data/loadouts/loadouts.json": "file(data/loadouts/noble_deed_na.json)",
 	  "nordlingmod/jobs/blacksmith/recipes/recipes.json" : "stonehearth_ace/jobs/blacksmith/jobs/recipes/recipes.json",
-	  "stonehearth_ace/manifest.json" : "nordlingmod/manifest_ace.json"
+	  "stonehearth_ace/manifest.json" : "nordlingmod/manifest_ace.json",
+	  "stonehearth/jobs/blacksmith/recipes/bronze_ingot_recipe.json": "file(jobs/blacksmith/recipes/bronze_ingot_recipe.json)",
+      "stonehearth/jobs/blacksmith/recipes/copper_ingot_recipe.json": "file(jobs/blacksmith/recipes/copper_ingot_recipe.json)",
+      "stonehearth/jobs/blacksmith/recipes/tin_ingot_recipe.json": "file(jobs/blacksmith/recipes/tin_ingot_recipe.json)",
+      "stonehearth/jobs/blacksmith/recipes/iron_ingot_recipe.json": "file(jobs/blacksmith/recipes/iron_ingot_recipe.json)",
+      "stonehearth/jobs/blacksmith/recipes/steel_ingot_recipe.json": "file(jobs/blacksmith/recipes/steel_ingot_recipe.json)",
+      "stonehearth/jobs/blacksmith/recipes/silver_ingot_recipe.json": "file(jobs/blacksmith/recipes/silver_ingot_recipe.json)",
+      "stonehearth/jobs/blacksmith/recipes/gold_ingot_recipe.json": "file(jobs/blacksmith/recipes/gold_ingot_recipe.json)"
    },
    "overrides": {
       "stonehearth/data/rigs/entities/humans/animations/male/combat_1h_thrust.json": "nordlingmod/data/rigs/entities/humans/animations/male/combat_1h_thrust.json",
