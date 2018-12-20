@@ -33,6 +33,9 @@
       },
       "stonehearth:ownable_object": {
          "ownership_type": "bed"
+      },
+	  "effect_list": {
+         "default": "/nordlingmod/data/rigs/entities/furniture/nordling_tent/effects/idle.json"
       }
    },
    "entity_data": {
