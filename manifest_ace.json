@@ -3,6 +3,6 @@
 	"nordlingmod/jobs/carpenter/recipes/recipes.json" : "nordlingmod/jobs/carpenter/recipes/recipes_ace_compatabillity.json",
 	"nordlingmod/jobs/carpenter/recipes/recipes_all.json" : "nordlingmod/jobs/carpenter/recipes/recipes_ace_compatabillity.json",
 	"nordlingmod/entities/furniture/charcoal_mound/charcoal_mound_phase_4/charcoal_mound_phase_4.json" : "nordlingmod/entities/furniture/charcoal_mound/charcoal_mound_phase_4/charcoal_mound_ace.json",
-	"stonehearth_ace/jobs/blacksmith/recipes/recipes.json" : "nordlingmod/jobs/blacksmith/recipes/recipes_ace_compatabillity.json"
+	"nordlingmod/jobs/blacksmith/recipes/recipes.json" : "nordlingmod/jobs/blacksmith/recipes/recipes_ace_compatabillity.json"
 }
 }
