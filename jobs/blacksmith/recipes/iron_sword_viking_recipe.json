@@ -6,7 +6,7 @@
    "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.iron_sword_viking.flavor)",
    "portrait": "/nordlingmod/entities/weapons/iron_sword_viking/iron_sword_viking.png",
    "workshop": "nordlingmod:blacksmith_workbench_nordlings",
-   "level_requirement": 4,
+   "level_requirement": 3,
    "ingredients": [
       {
          "uri": "stonehearth:refined:iron_ingot",
