@@ -6,7 +6,7 @@
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.mythril_ingot.description)",
    "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.mythril_ingot.flavor)",
    "portrait": "/nordlingmod/entities/refined/mythril_ingot/mythril_ingot.png",
-   "workshop": "stonehearth:blacksmith:forge",
+   "workshop": "nordlingmod:blacksmith_forge_nordlings",
    "level_requirement": 6,
    "ingredients": [
       {

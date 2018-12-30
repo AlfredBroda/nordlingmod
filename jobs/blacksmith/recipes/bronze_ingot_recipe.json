@@ -2,6 +2,7 @@
 	"mixintypes": {
 	  "ingredients": "override"
    },
+	 "workshop": "nordlingmod:blacksmith_forge_nordlings",
    "ingredients": [
       {
          "uri": "stonehearth:refined:copper_ingot",
