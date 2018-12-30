@@ -5,7 +5,7 @@
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.steel_sword_viking.description)",
    "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.steel_sword_viking.flavor)",
    "portrait": "/nordlingmod/entities/weapons/steel_sword_viking/steel_sword_viking.png",
-   "workshop": "stonehearth:blacksmith:workbench",
+   "workshop": "nordlingmod:blacksmith_workbench_nordlings",
    "level_requirement": 4,
    "ingredients": [
       {

@@ -6,7 +6,7 @@
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_axe_head.description)",
    "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_axe_head.flavor)",
    "portrait": "/nordlingmod/entities/refined/legendary_axe_head/legendary_axe_head.png",
-   "workshop": "stonehearth:blacksmith:workbench",
+   "workshop": "nordlingmod:blacksmith_workbench_nordlings",
    "level_requirement": 6,
    "manual_unlock": true,
    "ingredients": [

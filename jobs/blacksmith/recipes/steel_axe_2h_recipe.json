@@ -6,7 +6,7 @@
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.steel_axe_2h_recipe.description)",
    "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.steel_axe_2h_recipe.flavor)",
    "portrait": "/nordlingmod/entities/weapons/steel_axe_2h/steel_axe_2h.png",
-   "workshop": "stonehearth:blacksmith:workbench",
+   "workshop": "nordlingmod:blacksmith_workbench_nordlings",
    "level_requirement": 3,
    "ingredients": [
       {

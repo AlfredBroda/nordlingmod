@@ -6,7 +6,7 @@
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.runic_bronze_comb.description)",
    "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.runic_bronze_comb.flavor)",
    "portrait": "/nordlingmod/entities/armor/runic_bronze_comb/runic_bronze_comb.png",
-   "workshop": "stonehearth:blacksmith:workbench",
+   "workshop": "nordlingmod:blacksmith_workbench_nordlings",
    "level_requirement": 3,
    "ingredients": [
       {

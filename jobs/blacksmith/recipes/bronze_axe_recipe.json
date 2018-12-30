@@ -6,7 +6,7 @@
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.bronze_axe.description)",
    "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.bronze_axe.flavor)",
    "portrait": "/nordlingmod/entities/weapons/bronze_axe/bronze_axe.png",
-   "workshop": "stonehearth:blacksmith:workbench",
+   "workshop": "nordlingmod:blacksmith_workbench_nordlings",
    "level_requirement": 1,
    "ingredients": [
       {

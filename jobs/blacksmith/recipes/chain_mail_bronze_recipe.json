@@ -6,7 +6,7 @@
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.chain_mail_bronze.description)",
    "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.chain_mail_bronze.flavor)",
    "portrait": "/nordlingmod/entities/armor/chain_mail_bronze/chain_mail_bronze.png",
-   "workshop": "stonehearth:blacksmith:workbench",
+   "workshop": "nordlingmod:blacksmith_workbench_nordlings",
    "level_requirement": 3,
    "ingredients": [
       {

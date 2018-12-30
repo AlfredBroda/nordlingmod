@@ -1,0 +1,8 @@
+{
+   "type": "recipe",
+   "mixins": "stonehearth/jobs/blacksmith/recipes/golem_pick_recipe.json",
+   "workshop": "nordlingmod:blacksmith_workbench_nordlings",
+   "mixintypes": {
+	  "produces": "override"
+   }
+}

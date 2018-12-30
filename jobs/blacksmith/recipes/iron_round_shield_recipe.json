@@ -5,7 +5,7 @@
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.iron_round_shield.description)",
    "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.iron_round_shield.flavor)",
    "portrait": "/nordlingmod/entities/armor/iron_round_shield/iron_round_shield.png",
-   "workshop": "stonehearth:blacksmith:workbench",
+   "workshop": "nordlingmod:blacksmith_workbench_nordlings",
    "level_requirement": 2,
    "ingredients": [
       	  {
@@ -16,7 +16,7 @@
          "uri": "stonehearth:refined:iron_ingot",
          "count": 1
       }
-	  
+
    ],
    "produces": [
       {

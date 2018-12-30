@@ -6,7 +6,7 @@
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.throwing_axe.description)",
    "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.throwing_axe.flavor)",
    "portrait": "/nordlingmod/entities/weapons/throwing_axe/throwing_axe.png",
-   "workshop": "stonehearth:blacksmith:workbench",
+   "workshop": "nordlingmod:blacksmith_workbench_nordlings",
    "level_requirement": 3,
    "ingredients": [
       {

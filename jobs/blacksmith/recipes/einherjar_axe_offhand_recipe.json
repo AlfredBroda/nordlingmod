@@ -6,7 +6,7 @@
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.einherjar_axe_offhand_talisman.description)",
    "flavor"     : "i18n(nordlingmod:jobs.blacksmith.recipes.einherjar_axe_offhand_talisman.flavor)",
    "portrait": "/nordlingmod/entities/armor/einherjar_axe_offhand/einherjar_axe_offhand.png",
-   "workshop": "stonehearth:blacksmith:workbench",
+   "workshop": "nordlingmod:blacksmith_workbench_nordlings",
    "level_requirement": 2,
    "ingredients": [
       {

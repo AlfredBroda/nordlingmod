@@ -6,7 +6,7 @@
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_hammer_haft.description)",
    "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_hammer_haft.flavor)",
    "portrait": "/nordlingmod/entities/refined/legendary_hammer_haft/legendary_hammer_haft.png",
-   "workshop": "stonehearth:blacksmith:workbench",
+   "workshop": "nordlingmod:blacksmith_workbench_nordlings",
    "level_requirement": 6,
    "manual_unlock": true,
    "ingredients": [

@@ -6,7 +6,7 @@
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.iron_spear.description)",
    "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.iron_spear.flavor)",
    "portrait": "/nordlingmod/entities/weapons/iron_spear/iron_spear.png",
-   "workshop": "stonehearth:blacksmith:workbench",
+   "workshop": "nordlingmod:blacksmith_workbench_nordlings",
    "level_requirement": 3,
    "ingredients": [
       {

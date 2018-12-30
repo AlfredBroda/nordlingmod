@@ -4,12 +4,12 @@
          "ordinal": 1,
          "name": "i18n(stonehearth:jobs.blacksmith.recipes.workbenches_name)",
          "recipes": {
-			"blacksmith_workbench_nordlings": {
-               "recipe": "file(blacksmith_workbench_nordlings_recipe.json)"
-            },
-            "blacksmith_forge_nordlings": {
-               "recipe": "file(blacksmith_forge_nordlings_recipe.json)"
-            }
+			        "blacksmith_workbench_nordlings": {
+                "recipe": "file(blacksmith_workbench_nordlings_recipe.json)"
+              },
+              "blacksmith_forge_nordlings": {
+                "recipe": "file(blacksmith_forge_nordlings_recipe.json)"
+              }
          }
       },
       "legendary": {
@@ -41,19 +41,19 @@
          "name": "i18n(stonehearth:jobs.blacksmith.recipes.tools_name)",
          "recipes": {
             "carpenter_saw": {
-               "recipe": "stonehearth/jobs/blacksmith/recipes/carpenter_saw_recipe.json"
+               "recipe": "file(carpenter_saw_recipe.json)"
             },
-			"einherjar_axe_offhand": {
+			      "einherjar_axe_offhand": {
                "recipe": "file(einherjar_axe_offhand_recipe.json)"
             },
             "throwing_axe": {
                "recipe": "file(throwing_axe_recipe.json)"
             },
             "engineer_wrench": {
-               "recipe": "stonehearth/jobs/blacksmith/recipes/engineer_wrench_recipe.json"
+               "recipe": "file(engineer_wrench_recipe.json)"
             },
             "golem_pick": {
-               "recipe": "stonehearth/jobs/blacksmith/recipes/golem_pick_recipe.json"
+               "recipe": "file(golem_pick_recipe.json)"
             }
          }
       },
@@ -62,16 +62,16 @@
          "name": "i18n(stonehearth:jobs.blacksmith.recipes.storage_name)",
          "recipes": {
             "input_bin_iron": {
-               "recipe": "stonehearth/jobs/blacksmith/recipes/input_bin_iron_recipe.json"
+               "recipe": "file(input_bin_iron_recipe.json)"
             },
             "input_table_ground_iron": {
-               "recipe": "stonehearth/jobs/blacksmith/recipes/input_table_ground_iron_recipe.json"
+               "recipe": "file(input_table_ground_iron_recipe.json)"
             },
             "vault": {
-               "recipe": "stonehearth/jobs/blacksmith/recipes/vault_recipe.json"
+               "recipe": "file(vault_recipe.json)"
             },
             "input_corner_ground_iron": {
-               "recipe": "stonehearth/jobs/blacksmith/recipes/input_corner_ground_iron_recipe.json"
+               "recipe": "file(input_corner_ground_iron_recipe.json)"
             }
          }
       },
@@ -176,10 +176,10 @@
                "recipe": "file(einherjar_axe_offhand_steel_recipe.json)"
             },
             "silver_mail": {
-               "recipe": "stonehearth/jobs/blacksmith/recipes/silver_mail_recipe.json"
+               "recipe": "file(silver_mail_recipe.json)"
             },
             "silver_helmet": {
-               "recipe": "stonehearth/jobs/blacksmith/recipes/silver_helmet_recipe.json"
+               "recipe": "file(silver_helmet_recipe.json)"
             }
 		},
       "building_parts": {
@@ -187,7 +187,7 @@
          "name": "i18n(stonehearth:jobs.blacksmith.recipes.construction_name)",
          "recipes": {
             "fence_gate_iron": {
-               "recipe": "stonehearth/jobs/blacksmith/recipes/fence_gate_iron_recipe.json"
+               "recipe": "file(fence_gate_iron_recipe.json)"
             },
             "door_blacksmith": {
                "recipe": "stonehearth/jobs/blacksmith/recipes/door_blacksmith_recipe.json"

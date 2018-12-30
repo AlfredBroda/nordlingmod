@@ -6,7 +6,7 @@
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.einherjar_axe_steel_recipe.description)",
    "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.einherjar_axe_steel_recipe.flavor)",
    "portrait": "/nordlingmod/entities/weapons/einherjar_axe_steel/einherjar_axe_steel.png",
-   "workshop": "stonehearth:blacksmith:workbench",
+   "workshop": "nordlingmod:blacksmith_workbench_nordlings",
    "level_requirement": 6,
    "ingredients": [
       {

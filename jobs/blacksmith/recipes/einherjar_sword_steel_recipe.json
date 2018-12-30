@@ -6,7 +6,7 @@
    "description": "i18n(nordlingmod:jobs.blacksmith.recipes.einherjar_sword_steel_recipe.description)",
    "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.einherjar_sword_steel_recipe.flavor)",
    "portrait": "/nordlingmod/entities/weapons/einherjar_sword_steel/einherjar_sword_steel.png",
-   "workshop": "stonehearth:blacksmith:workbench",
+   "workshop": "nordlingmod:blacksmith_workbench_nordlings",
    "level_requirement": 4,
    "ingredients": [
       {
