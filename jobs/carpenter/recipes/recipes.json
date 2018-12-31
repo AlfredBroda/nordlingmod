@@ -1,79 +1,79 @@
 {
-   "mixins": "/stonehearth/jobs/carpenter/recipes/recipes.json",
-   "craftable_recipes" : {
-      "workbenches": {
-		"recipes": {
-			"carpenter_workbench_nordlings": {
-               "recipe": "file(carpenter_workbench_nordlings_recipe.json)"
-            },
-            "carpenter_toolbench_nordlings": {
-               "recipe": "file(carpenter_toolbench_nordlings_recipe.json)"
-            },
-			"mixintypes": {
-				"carpenter_workbench": "remove",
-				"carpenter_toolbench": "remove"
-			}
-		}
-	  },
-	  "armor" : {
-         "recipes" : {
-			"runic_wooden_comb" : {
-               "recipe" : "file(runic_wooden_comb_recipe.json)"
-			},
-            "training_roundshield" : {
-               "recipe" : "file(training_roundshield_recipe.json)"
-			},
-            "wooden_round_shield" : {
-               "recipe" : "file(wooden_round_shield_recipe.json)"
-			},
-			"mixintypes": {
-                 "wooden_shield": "remove"
-              }			
+  "mixins": "/stonehearth/jobs/carpenter/recipes/recipes.json",
+  "craftable_recipes": {
+    "workbenches": {
+      "recipes": {
+        "carpenter_workbench_nordlings": {
+          "recipe": "file(carpenter_workbench_nordlings_recipe.json)"
+        },
+        "carpenter_toolbench_nordlings": {
+          "recipe": "file(carpenter_toolbench_nordlings_recipe.json)"
+        },
+        "mixintypes": {
+          "carpenter_workbench": "remove",
+          "carpenter_toolbench": "remove"
         }
+      }
     },
-	"building_parts": {
-		"recipes": {
-			"decorative_wall_shield": {
-               "recipe": "file(decorative_wall_shield_recipe.json)"
-            },
-			"decorative_wall_dragon": {
-               "recipe": "file(decorative_wall_dragon_recipe.json)"
-            }
-		}
-	},
-	"furniture": {
-		"recipes" : {
-			"comfy_fur_bed": {
-               "recipe": "file(comfy_fur_bed_recipe.json)"
-            },
-			"ornate_comfy_fur_bed": {
-               "recipe": "file(ornate_comfy_fur_bed_recipe.json)"
-            },
-			"wooden_chair_fur": {
-               "recipe": "file(wooden_chair_fur_recipe.json)"
-            },
-			"wooden_chair_nordlings": {
-               "recipe": "file(wooden_chair_nordlings_recipe.json)"
-            },
-			"charcoal_mound": {
-               "recipe": "file(charcoal_mound_recipe.json)"
-            },
-			"mixintypes": {
-                 "wooden_chair": "remove"
-            }
-		}	
-   },
-   "tools": {
-		"recipes" : {
-			 "shepherd_crook_nordlings": {
-               "recipe": "file(shepherd_crook_recipe.json)"
-            },
-			"mixintypes": {
-                 "shepherd_crook": 		"remove",
-				 "hoe": 				"remove",
-				 "archer_bow":			"remove"
-            }
-			}
-   }
-}
+    "armor": {
+      "recipes": {
+        "runic_wooden_comb": {
+          "recipe": "file(runic_wooden_comb_recipe.json)"
+        },
+        "training_roundshield": {
+          "recipe": "file(training_roundshield_recipe.json)"
+        },
+        "wooden_round_shield": {
+          "recipe": "file(wooden_round_shield_recipe.json)"
+        },
+        "mixintypes": {
+          "wooden_shield": "remove"
+        }
+      }
+    },
+    "building_parts": {
+      "recipes": {
+        "decorative_wall_shield": {
+          "recipe": "file(decorative_wall_shield_recipe.json)"
+        },
+        "decorative_wall_dragon": {
+          "recipe": "file(decorative_wall_dragon_recipe.json)"
+        }
+      }
+    },
+    "furniture": {
+      "recipes": {
+        "comfy_fur_bed": {
+          "recipe": "file(comfy_fur_bed_recipe.json)"
+        },
+        "ornate_comfy_fur_bed": {
+          "recipe": "file(ornate_comfy_fur_bed_recipe.json)"
+        },
+        "wooden_chair_fur": {
+          "recipe": "file(wooden_chair_fur_recipe.json)"
+        },
+        "wooden_chair_nordlings": {
+          "recipe": "file(wooden_chair_nordlings_recipe.json)"
+        },
+        "charcoal_mound": {
+          "recipe": "file(charcoal_mound_recipe.json)"
+        },
+        "mixintypes": {
+          "wooden_chair": "remove"
+        }
+      }
+    },
+    "tools": {
+      "recipes": {
+        "shepherd_crook_nordlings": {
+          "recipe": "file(shepherd_crook_recipe.json)"
+        },
+        "mixintypes": {
+          "shepherd_crook": "remove",
+          "hoe": "remove",
+          "archer_bow": "remove"
+        }
+      }
+    }
+  }
 }

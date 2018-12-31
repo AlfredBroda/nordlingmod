@@ -351,6 +351,18 @@
             "display_name": "Throwing Axe",
             "description": "A light axe for throwing"
          },
+         "bronze_throwing_spear": {
+            "display_name": "Bronze Throwing Spear",
+            "description": "A bronze Spear for throwing",
+            "bronze_spear_iconic": {
+               "display_name": "Bronze Throwing Spear",
+               "description": "A bronze Spear for throwing"
+            }
+         },
+         "bronze_throwing_spear_projectile": {
+            "display_name": "Throwing Spear",
+            "description": "A spear for throwing"
+         },
          "ruler_sword_ac": {
             "display_name": "King's Sword",
             "description": "Promotes a hearthling into a King",
@@ -1251,6 +1263,11 @@
                "recipe_name": "Throwing Axe",
                "description": "A Throwin Axe, used by a Skirmisher",
                "flavor": "\"Catch!\""
+            },
+            "bronze_throwing_spear": {
+               "description": "A bronze tipped Throwing Spear",
+               "flavor": "A bronze spear for throwing - more powerful than an axe, but heavier as well.",
+               "recipe_name": "Bronze Throwing Spear"
             },
             "einherjar_axe_offhand_steel_recipe": {
                "recipe_name": "Steel Einherjar Axe (offhand)",

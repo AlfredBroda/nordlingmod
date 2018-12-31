@@ -124,6 +124,9 @@
             "bronze_spear": {
                "recipe": "file(bronze_spear_recipe.json)"
             },
+            "bronze_throwing_spear": {
+               "recipe": "file(bronze_throwing_spear_recipe.json)"
+            },
             "iron_spear": {
                "recipe": "file(iron_spear_recipe.json)"
             },

@@ -3,7 +3,7 @@
    "mixins": "stonehearth:jobs:blacksmith",
     "equipment": {
 		"torso": "file(blacksmith_outfit)"
-	},	  
+	},
    "crafter": {
       "recipe_list": "/nordlingmod/jobs/blacksmith/recipes/recipes.json"
    }

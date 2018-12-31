@@ -5,12 +5,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(throwing_axe_equipped.qb)"
+               "file(../bronze_spear/bronze_spear_equipped.qb)"
             ]
          }
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(throwing_axe_iconic.json)"
+         "iconic_form": "file(../bronze_spear/bronze_spear_iconic.json)"
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
@@ -19,17 +19,18 @@
             "stonehearth:combat",
             "stonehearth:patrol"
          ],
-         "ilevel": 25,
+         "ilevel": 26,
+         "roles": "archer_job",
          "no_drop": true
       }
    },
    "entity_data": {
       "stonehearth:combat:weapon_data": {
-         "base_damage": 25,
-         "base_ranged_damage": 25,
-         "range": 30,
-         "projectile_speed": 50,
-         "projectile_uri": "nordlingmod:throwing_axe_projectile"
+         "base_damage": 28,
+         "base_ranged_damage": 28,
+         "range": 25,
+         "projectile_speed": 30,
+         "projectile_uri": "nordlingmod:bronze_throwing_spear_projectile"
       },
       "stonehearth:combat:ranged_attacks": [
          {
@@ -51,9 +52,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(nordlingmod:entities.weapons.throwing_axe.display_name)",
-         "description": "i18n(nordlingmod:entities.weapons.throwing_axe.description)",
-         "icon": "file(throwing_axe.png)",
+        "display_name": "i18n(nordlingmod:entities.weapons.bronze_throwing_spear.display_name)",
+        "description": "i18n(nordlingmod:entities.weapons.bronze_throwing_spear.description)",
+         "icon": "file(../bronze_spear/bronze_spear.png)",
          "category": "weapons",
          "material_tags": [
             "iron",

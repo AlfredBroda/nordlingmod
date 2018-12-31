@@ -7,8 +7,8 @@
       "recipe_key": [
          "signage_decoration:shrine_to_thor",
          "signage_decoration:roadside_shrine",
-		 "signage_decoration:shrine_to_odin"
-      ],	  
+		     "signage_decoration:shrine_to_odin"
+      ],
       "bulletin_title": "i18n(stonehearth:data.gm.campaigns.town_progression.unlock_shrine_recipes.bulletin_title)"
    }
 }
